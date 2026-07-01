@@ -84,9 +84,10 @@
 
   $('#results-lead').innerHTML =
     `Indicators compared plot by plot, strategies trade by trade, against ` +
-    `TradingView's own output. The headline counts use the full corpus denominators; ` +
-    `compared-subset details stay visible as context. Each script's full detail ` +
-    `is in <a href="#scripts">The Corpus</a> below.`;
+    `TradingView's own output. The headline counts are over the scripts that ` +
+    `produce a comparable numeric reference; a plot PyneCore fails to reproduce ` +
+    `counts as a divergence, never as "no reference". Corpus coverage and each ` +
+    `script's full detail are in <a href="#scripts">The Corpus</a> below.`;
 
   // Donut
   const segs = [
@@ -117,7 +118,7 @@
   const thresholdLabel = pct(D.verification_threshold || 0.99, 0);
 
   // Indicator metrics
-  $('#metric-plot').textContent = `${D.indicators.plot_verified} / ${D.indicators.total}`;
+  $('#metric-plot').textContent = `${D.indicators.plot_verified} / ${D.indicators.compared}`;
   $('#metric-plot-list').innerHTML = [
     ['Comparable plot references', `${D.indicators.compared} / ${D.indicators.total}`],
     [`Compared plots >=${thresholdLabel}`, `${D.indicators.plot_verified} / ${D.indicators.compared}`],
@@ -129,7 +130,7 @@
     .join('');
 
   // Strategy metrics
-  $('#metric-trades').textContent = `${D.strategies.trade_timing_verified} / ${D.strategies.n}`;
+  $('#metric-trades').textContent = `${D.strategies.trade_timing_verified} / ${D.strategies.compared}`;
   $('#metric-trades-list').innerHTML = [
     ['Trade references available', `${D.strategies.compared} / ${D.strategies.n}`],
     [`Entry+exit timing >=${thresholdLabel}`, `${D.strategies.trade_timing_verified} / ${D.strategies.compared}`],
