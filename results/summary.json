@@ -1,0 +1,176 @@
+{
+  "generated_at": "2026-06-30",
+  "symbol": "BINANCE:BTCUSDT",
+  "timeframe": "30",
+  "tolerances": {
+    "abs_tol": 1e-08,
+    "rel_tol": 1e-05,
+    "profit_pct_tol": 0.1
+  },
+  "counts": {
+    "total": 38,
+    "indicators": 19,
+    "strategies": 19,
+    "compiled": 38,
+    "compile_fail": 0,
+    "tv_ok": 38,
+    "pyne_ok": 38,
+    "trade_divergence": 0
+  },
+  "compile_rate": 1.0,
+  "run_rate": 1.0,
+  "indicators": {
+    "n_with_plots_compared": 13,
+    "plot_match_pct": {
+      "median": 0.99998,
+      "mean": 0.9997177692307692,
+      "min": 0.996474,
+      "max": 1.0,
+      "n": 13,
+      "p25": 0.99998,
+      "p75": 1.0
+    },
+    "nrmse_range_med": {
+      "median": 0.0,
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "n": 13,
+      "p25": 0.0,
+      "p75": 0.0
+    },
+    "pearson_min": {
+      "median": 1.0,
+      "mean": 0.9997447692307693,
+      "min": 0.996682,
+      "max": 1.0,
+      "n": 13,
+      "p25": 1.0,
+      "p75": 1.0
+    },
+    "fully_matching_scripts": 6,
+    "match_pct_histogram": {
+      "1.0": 6,
+      "0.99-1.0": 7,
+      "0.9-0.99": 0,
+      "<0.9": 0
+    }
+  },
+  "strategies": {
+    "n": 19,
+    "entry_match_pct": {
+      "median": 1.0,
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "n": 19,
+      "p25": 1.0,
+      "p75": 1.0
+    },
+    "exit_match_pct": {
+      "median": 1.0,
+      "mean": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "n": 19,
+      "p25": 1.0,
+      "p75": 1.0
+    },
+    "net_profit_match_rate": 1.0,
+    "net_profit_pct_match_rate": 1.0,
+    "trade_count_exact_match": 19
+  },
+  "top_compile_errors": [],
+  "worst_plot_scripts": [
+    {
+      "id": "PUB;ZGFHCMyX9M60JbFJrfsgxUjGrUYtSlLg",
+      "name": "QQE MOD",
+      "plot_match_pct": 0.996474,
+      "worst_col": "Secondary QQE Trend Line"
+    },
+    {
+      "id": "PUB;3f3d9ba4bd5644f9a3f3d0d68326e736",
+      "name": "Solution Zigma - Fibonacci Impulse",
+      "plot_match_pct": 0.999505,
+      "worst_col": "Zigma Bull impulse"
+    },
+    {
+      "id": "PUB;19e48adf5cf9498a9589c5839b0106c1",
+      "name": "Moving Average Band Strategy",
+      "plot_match_pct": 0.999895,
+      "worst_col": "Long TP"
+    },
+    {
+      "id": "PUB;97xDaOdATRk86n6GcHQWebnIoVIzjD8e",
+      "name": "Nick Rypock Trailing Reverse (NRTR)",
+      "plot_match_pct": 0.999961,
+      "worst_col": ""
+    },
+    {
+      "id": "PUB;ZytqOjqg7LTtinPoslFgHUVp4BE0tgdZ",
+      "name": "SSL Hybrid",
+      "plot_match_pct": 0.999976,
+      "worst_col": "SSL2"
+    },
+    {
+      "id": "PUB;8143a07641de4d43be04c81f85649473",
+      "name": "Fibonacci Trend [ChartPrime]",
+      "plot_match_pct": 0.99998,
+      "worst_col": "Plot"
+    },
+    {
+      "id": "PUB;nlyrgnVJ8Zrisan2g01Sfv5x9RBKvpPL",
+      "name": "SuperTrend",
+      "plot_match_pct": 0.99998,
+      "worst_col": ""
+    },
+    {
+      "id": "PUB;47728a39dfea457aa07a603d40fbfa37",
+      "name": "SuperTrend + Relative Volume (Kernel Optimized)",
+      "plot_match_pct": 0.99998,
+      "worst_col": "Body Middle"
+    },
+    {
+      "id": "PUB;04a9de6fcdeb4a34b6c82bf53358fdae",
+      "name": "Volumatic Variable Index Dynamic Average [BigBeluga]",
+      "plot_match_pct": 0.99998,
+      "worst_col": "Plot 0"
+    },
+    {
+      "id": "PUB;89cd79617968408bba9fad999e30d7f4",
+      "name": "Trendline Breaks with Multi Fibonacci Supertrend Strategy",
+      "plot_match_pct": 0.99999,
+      "worst_col": "Average Supertrend"
+    },
+    {
+      "id": "PUB;f3d01f07c7b04d449fc0d72dd2854b15",
+      "name": "Day Trading Booster by DGT",
+      "plot_match_pct": 1.0,
+      "worst_col": "Moving Average #1"
+    },
+    {
+      "id": "PUB;1d610cc4055240a1a01743b225c58ccf",
+      "name": "Deviation Trend Profile [BigBeluga]",
+      "plot_match_pct": 1.0,
+      "worst_col": "Plot"
+    },
+    {
+      "id": "PUB;xhevX7JPlDxkaET3spCluX1AocxhFBc0",
+      "name": "HalfTrend",
+      "plot_match_pct": 1.0,
+      "worst_col": "HalfTrend"
+    },
+    {
+      "id": "PUB;1fc29950178c42a1a88f52a18161dd53",
+      "name": "Precision Sniper [WillyAlgoTrader]",
+      "plot_match_pct": 1.0,
+      "worst_col": "EMA Fast"
+    },
+    {
+      "id": "PUB;0f80bcf05d544d4c98fde06faab1c976",
+      "name": "Self-Aware Trend System [WillyAlgoTrader]",
+      "plot_match_pct": 1.0,
+      "worst_col": "SuperTrend"
+    }
+  ]
+}

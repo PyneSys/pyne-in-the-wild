@@ -1,0 +1,27 @@
+# Downloaded Pine sources are NOT redistributed (only the manifest is public)
+/corpus/indicators/*.pine
+/corpus/strategies/*.pine
+
+# Quarantined sources (rejected by TradingView's own runtime.error). Same rule:
+# the quarantine manifest is public, the .pine bodies are not.
+/corpus/quarantine/indicators/*.pine
+/corpus/quarantine/strategies/*.pine
+
+# Downloaded + compiled Pine libraries a script imports. Same rule as scripts:
+# the lib manifest is public, the .pine/.py bodies and resolution cache are not.
+/corpus/libs/lib/
+/corpus/libs/.resolved/
+
+# Per-kind processing log + no-trade review queue (paging offset, seen ids, outcomes)
+/corpus/.state/
+
+# Cached TradingView reference per script (plots + trades) — derived from the
+# scripts, not redistributed; the comparison reuses it across PyneCore reruns
+/corpus/data/
+
+# Raw per-script comparison run artifacts (PyneCore output + detail json)
+/results/runs/
+
+# LLM
+MEMORY.md
+CLAUSE.md
