@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01",
+  "generated_at": "2026-07-04",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "tolerances": {
@@ -8,13 +8,13 @@
     "profit_pct_tol": 0.1
   },
   "counts": {
-    "total": 48,
+    "total": 56,
     "indicators": 29,
-    "strategies": 19,
-    "compiled": 48,
+    "strategies": 27,
+    "compiled": 56,
     "compile_fail": 0,
-    "tv_ok": 47,
-    "pyne_ok": 48,
+    "tv_ok": 55,
+    "pyne_ok": 56,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
@@ -23,11 +23,11 @@
     "n_with_plots_compared": 22,
     "plot_match_pct": {
       "median": 1.0,
-      "mean": 0.9998255909090908,
-      "min": 0.996401,
+      "mean": 0.9998370454545454,
+      "min": 0.996453,
       "max": 1.0,
       "n": 22,
-      "p25": 0.99998,
+      "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
@@ -41,136 +41,136 @@
     },
     "pearson_min": {
       "median": 1.0,
-      "mean": 0.9998491818181818,
-      "min": 0.996682,
+      "mean": 0.9998514545454547,
+      "min": 0.996732,
       "max": 1.0,
       "n": 22,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 12,
+    "fully_matching_scripts": 20,
     "match_pct_histogram": {
-      "1.0": 12,
-      "0.99-1.0": 10,
+      "1.0": 20,
+      "0.99-1.0": 2,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 19,
+    "n": 27,
     "entry_match_pct": {
       "median": 1.0,
-      "mean": 1.0,
-      "min": 1.0,
+      "mean": 0.9693935555555555,
+      "min": 0.173626,
       "max": 1.0,
-      "n": 19,
+      "n": 27,
       "p25": 1.0,
       "p75": 1.0
     },
     "exit_match_pct": {
       "median": 1.0,
-      "mean": 1.0,
-      "min": 1.0,
+      "mean": 0.9710215555555556,
+      "min": 0.217582,
       "max": 1.0,
-      "n": 19,
+      "n": 27,
       "p25": 1.0,
       "p75": 1.0
     },
-    "net_profit_match_rate": 1.0,
-    "net_profit_pct_match_rate": 1.0,
-    "trade_count_exact_match": 19
+    "net_profit_match_rate": 0.9629629629629629,
+    "net_profit_pct_match_rate": 0.9629629629629629,
+    "trade_count_exact_match": 25
   },
   "top_compile_errors": [],
   "worst_plot_scripts": [
     {
+      "id": "PUB;9f89cd8bc5114f679286c5884e5ae938",
+      "name": "Order Block Volumatic FVG Strategy",
+      "plot_match_pct": 0.995708,
+      "worst_col": "Candidate Bear mitigation (%)"
+    },
+    {
       "id": "PUB;ZGFHCMyX9M60JbFJrfsgxUjGrUYtSlLg",
       "name": "QQE MOD",
-      "plot_match_pct": 0.996401,
+      "plot_match_pct": 0.996453,
       "worst_col": "Secondary QQE Trend Line"
     },
     {
       "id": "PUB;c5150782cf534904996d58386f951456",
       "name": "TrendMaster Pro 2.3 with Alerts",
-      "plot_match_pct": 0.997446,
-      "worst_col": "Short SL"
+      "plot_match_pct": 0.997441,
+      "worst_col": "Long SL"
     },
     {
       "id": "PUB;3f3d9ba4bd5644f9a3f3d0d68326e736",
       "name": "Solution Zigma - Fibonacci Impulse",
-      "plot_match_pct": 0.999505,
+      "plot_match_pct": 0.999543,
       "worst_col": "Zigma Bull impulse"
     },
     {
-      "id": "PUB;19e48adf5cf9498a9589c5839b0106c1",
-      "name": "Moving Average Band Strategy",
-      "plot_match_pct": 0.999895,
-      "worst_col": "Long TP"
-    },
-    {
-      "id": "PUB;97xDaOdATRk86n6GcHQWebnIoVIzjD8e",
-      "name": "Nick Rypock Trailing Reverse (NRTR)",
-      "plot_match_pct": 0.999961,
-      "worst_col": ""
+      "id": "PUB;f3d01f07c7b04d449fc0d72dd2854b15",
+      "name": "Day Trading Booster by DGT",
+      "plot_match_pct": 0.999962,
+      "worst_col": "Moving Average #2"
     },
     {
       "id": "PUB;92a018ea21ef4b9886e810a7fea6968d",
       "name": "Buy Sell Signal",
-      "plot_match_pct": 0.999962,
-      "worst_col": "Slow EMA"
-    },
-    {
-      "id": "PUB;cfca07f0a2f3477fb331e22737f72562",
-      "name": "Volume Order Blocks [BigBeluga]",
-      "plot_match_pct": 0.999962,
-      "worst_col": " 0"
-    },
-    {
-      "id": "PUB;ZytqOjqg7LTtinPoslFgHUVp4BE0tgdZ",
-      "name": "SSL Hybrid",
-      "plot_match_pct": 0.999976,
-      "worst_col": "SSL2"
-    },
-    {
-      "id": "PUB;8143a07641de4d43be04c81f85649473",
-      "name": "Fibonacci Trend [ChartPrime]",
-      "plot_match_pct": 0.99998,
-      "worst_col": "Plot"
-    },
-    {
-      "id": "PUB;nlyrgnVJ8Zrisan2g01Sfv5x9RBKvpPL",
-      "name": "SuperTrend",
-      "plot_match_pct": 0.99998,
-      "worst_col": ""
-    },
-    {
-      "id": "PUB;47728a39dfea457aa07a603d40fbfa37",
-      "name": "SuperTrend + Relative Volume (Kernel Optimized)",
-      "plot_match_pct": 0.99998,
-      "worst_col": "Body Middle"
-    },
-    {
-      "id": "PUB;04a9de6fcdeb4a34b6c82bf53358fdae",
-      "name": "Volumatic Variable Index Dynamic Average [BigBeluga]",
-      "plot_match_pct": 0.99998,
-      "worst_col": "Plot 0"
-    },
-    {
-      "id": "PUB;dad326b624514b14aa513fce0b1dd803",
-      "name": "Moving Average Shift [ChartPrime]",
-      "plot_match_pct": 0.999981,
-      "worst_col": "Plot"
-    },
-    {
-      "id": "PUB;89cd79617968408bba9fad999e30d7f4",
-      "name": "Trendline Breaks with Multi Fibonacci Supertrend Strategy",
-      "plot_match_pct": 0.99999,
-      "worst_col": "Average Supertrend"
+      "plot_match_pct": 1.0,
+      "worst_col": "Fast EMA"
     },
     {
       "id": "PUB;31190855aaa049d58746900abf6f0cea",
       "name": "Change in State of Delivery CISD [AlgoAlpha]",
       "plot_match_pct": 1.0,
       "worst_col": "Swing High"
+    },
+    {
+      "id": "PUB;1d610cc4055240a1a01743b225c58ccf",
+      "name": "Deviation Trend Profile [BigBeluga]",
+      "plot_match_pct": 1.0,
+      "worst_col": "Plot"
+    },
+    {
+      "id": "PUB;smOGfR6p3nRIFHGkaKqbV9wWl8bFcUmA",
+      "name": "Fibonacci Extension / Retracement / Pivot Points by DGT",
+      "plot_match_pct": 1.0,
+      "worst_col": "Exhaustion Bar"
+    },
+    {
+      "id": "PUB;8143a07641de4d43be04c81f85649473",
+      "name": "Fibonacci Trend [ChartPrime]",
+      "plot_match_pct": 1.0,
+      "worst_col": "Trend"
+    },
+    {
+      "id": "PUB;xhevX7JPlDxkaET3spCluX1AocxhFBc0",
+      "name": "HalfTrend",
+      "plot_match_pct": 1.0,
+      "worst_col": "HalfTrend"
+    },
+    {
+      "id": "PUB;bab4ed662c7348e78341110edaffaacb",
+      "name": "Market Shift Levels [ChartPrime]",
+      "plot_match_pct": 1.0,
+      "worst_col": "Market Shift Levels"
+    },
+    {
+      "id": "PUB;dad326b624514b14aa513fce0b1dd803",
+      "name": "Moving Average Shift [ChartPrime]",
+      "plot_match_pct": 1.0,
+      "worst_col": "SMA-based MA"
+    },
+    {
+      "id": "PUB;97xDaOdATRk86n6GcHQWebnIoVIzjD8e",
+      "name": "Nick Rypock Trailing Reverse (NRTR)",
+      "plot_match_pct": 1.0,
+      "worst_col": "Long Stop"
+    },
+    {
+      "id": "PUB;1fc29950178c42a1a88f52a18161dd53",
+      "name": "Precision Sniper [WillyAlgoTrader]",
+      "plot_match_pct": 1.0,
+      "worst_col": "EMA Fast"
     }
   ]
 }
