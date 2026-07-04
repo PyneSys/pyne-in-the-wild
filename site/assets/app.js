@@ -82,12 +82,7 @@
 
   /* ---------- results section ---------- */
 
-  $('#results-lead').innerHTML =
-    `Indicators compared plot by plot, strategies trade by trade, against ` +
-    `TradingView's own output. The headline counts are over the scripts that ` +
-    `produce a comparable numeric reference; a plot PyneCore fails to reproduce ` +
-    `counts as a divergence, never as "no reference". Corpus coverage and each ` +
-    `script's full detail are in <a href="#scripts">The Corpus</a> below.`;
+  // #results-lead is static prose, rendered straight into index.html.
 
   // Donut
   const segs = [
