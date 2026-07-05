@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04",
+  "generated_at": "2026-07-05",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "tolerances": {
@@ -8,25 +8,25 @@
     "profit_pct_tol": 0.1
   },
   "counts": {
-    "total": 56,
-    "indicators": 29,
+    "total": 66,
+    "indicators": 39,
     "strategies": 27,
-    "compiled": 56,
+    "compiled": 66,
     "compile_fail": 0,
-    "tv_ok": 55,
-    "pyne_ok": 56,
+    "tv_ok": 65,
+    "pyne_ok": 66,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 22,
+    "n_with_plots_compared": 30,
     "plot_match_pct": {
       "median": 1.0,
-      "mean": 0.9998370454545454,
+      "mean": 0.9998799666666667,
       "min": 0.996453,
       "max": 1.0,
-      "n": 22,
+      "n": 30,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -35,23 +35,23 @@
       "mean": 0.0,
       "min": 0.0,
       "max": 0.0,
-      "n": 22,
+      "n": 30,
       "p25": 0.0,
       "p75": 0.0
     },
     "pearson_min": {
       "median": 1.0,
-      "mean": 0.9998514545454547,
+      "mean": 0.9998910666666667,
       "min": 0.996732,
       "max": 1.0,
-      "n": 22,
+      "n": 30,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 20,
+    "fully_matching_scripts": 27,
     "match_pct_histogram": {
-      "1.0": 20,
-      "0.99-1.0": 2,
+      "1.0": 27,
+      "0.99-1.0": 3,
       "0.9-0.99": 0,
       "<0.9": 0
     }
@@ -113,6 +113,12 @@
       "worst_col": "Moving Average #2"
     },
     {
+      "id": "PUB;84da7a14bfe64823a1246e4d5b0f7c80",
+      "name": "CVD - Cumulative Volume Delta (Chart)",
+      "plot_match_pct": 0.999984,
+      "worst_col": "CVD before this bar"
+    },
+    {
       "id": "PUB;92a018ea21ef4b9886e810a7fea6968d",
       "name": "Buy Sell Signal",
       "plot_match_pct": 1.0,
@@ -143,34 +149,28 @@
       "worst_col": "Trend"
     },
     {
+      "id": "PUB;091bb46c2b8b45718c46b487a8fa46ac",
+      "name": "HEMA Trend Levels [AlgoAlpha]",
+      "plot_match_pct": 1.0,
+      "worst_col": "Top HEMA"
+    },
+    {
       "id": "PUB;xhevX7JPlDxkaET3spCluX1AocxhFBc0",
       "name": "HalfTrend",
       "plot_match_pct": 1.0,
       "worst_col": "HalfTrend"
     },
     {
+      "id": "PUB;e253a5781ec44fa1bc2a0976504bb9b5",
+      "name": "Liquidity Grabs | Flux Charts",
+      "plot_match_pct": 1.0,
+      "worst_col": "Buyside Liq Grab Small"
+    },
+    {
       "id": "PUB;bab4ed662c7348e78341110edaffaacb",
       "name": "Market Shift Levels [ChartPrime]",
       "plot_match_pct": 1.0,
       "worst_col": "Market Shift Levels"
-    },
-    {
-      "id": "PUB;dad326b624514b14aa513fce0b1dd803",
-      "name": "Moving Average Shift [ChartPrime]",
-      "plot_match_pct": 1.0,
-      "worst_col": "SMA-based MA"
-    },
-    {
-      "id": "PUB;97xDaOdATRk86n6GcHQWebnIoVIzjD8e",
-      "name": "Nick Rypock Trailing Reverse (NRTR)",
-      "plot_match_pct": 1.0,
-      "worst_col": "Long Stop"
-    },
-    {
-      "id": "PUB;1fc29950178c42a1a88f52a18161dd53",
-      "name": "Precision Sniper [WillyAlgoTrader]",
-      "plot_match_pct": 1.0,
-      "worst_col": "EMA Fast"
     }
   ]
 }

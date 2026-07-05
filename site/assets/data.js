@@ -1,5 +1,5 @@
 window.WILD_DATA = {
-  "generated_at": "2026-07-04",
+  "generated_at": "2026-07-05",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe_min": 30,
   "verification_threshold": 0.99,
@@ -9,40 +9,40 @@ window.WILD_DATA = {
     "profit_pct_tol": 0.1
   },
   "totals": {
-    "total": 56,
-    "indicators": 29,
+    "total": 66,
+    "indicators": 39,
     "strategies": 27,
-    "compiled": 56,
+    "compiled": 66,
     "compile_fail": 0,
-    "tv_ok": 55,
-    "pyne_ok": 56,
+    "tv_ok": 65,
+    "pyne_ok": 66,
     "trade_divergence": 0,
     "compile_rate": 1.0,
     "run_rate": 1.0,
     "run_success_rate": 1.0,
-    "measurable_scripts": 50,
-    "tv_comparable": 68,
-    "tv_fidelity_verified": 68,
+    "measurable_scripts": 58,
+    "tv_comparable": 76,
+    "tv_fidelity_verified": 76,
     "tv_fidelity_rate": 1.0,
-    "plot_outputs": 42,
+    "plot_outputs": 50,
     "trade_outputs": 26,
-    "average_match_rate": 0.9998398088235295,
-    "average_match_count": 68,
+    "average_match_rate": 0.9998564605263158,
+    "average_match_count": 76,
     "trades_compared": 15885,
-    "bars_run": 1468860,
-    "verified": 48,
+    "bars_run": 1732779,
+    "verified": 56,
     "divergent": 0,
     "repaint": 2,
-    "runs": 6,
+    "runs": 8,
     "failed": 0
   },
   "indicators": {
-    "total": 29,
-    "compared": 22,
-    "plot_verified": 22,
-    "plot_exact": 20,
+    "total": 39,
+    "compared": 30,
+    "plot_verified": 30,
+    "plot_exact": 27,
     "plot_match_median": 1.0,
-    "plot_match_mean": 0.9998370454545454,
+    "plot_match_mean": 0.9998799666666667,
     "plot_match_min": 0.996453,
     "pearson_min": 0.996732
   },
@@ -1121,6 +1121,337 @@ window.WILD_DATA = {
         "cols": 1,
         "match_pct": 1.0,
         "worst_col": "Market Shift Levels",
+        "pearson_min": 1.0
+      }
+    },
+    {
+      "id": "PUB;20572cf632f4435b9eb2a5551b4f5768",
+      "kind": "indicator",
+      "name": "Market Structure Dashboard | Flux Charts",
+      "author": "fluxchart",
+      "license": "MPL-2.0",
+      "version": "2",
+      "likes": 8649,
+      "tv_url": "https://www.tradingview.com/script/vXui7vrm/",
+      "sha256": "776a7a72d0b785de22f8b049488d9e2ef099401c7d7aae7a37d51809950db899",
+      "status": "ok",
+      "level": "runs",
+      "bars": 26387,
+      "run_sec": 15.047,
+      "ms_per_bar": 0.5703,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-04T17:00:00+00:00",
+        "bars": 26387,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "D",
+            "from": "2025-01-01T00:00:00+00:00",
+            "to": "2026-07-04T00:00:00+00:00",
+            "bars": 550
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "W",
+            "from": "2025-01-06T00:00:00+00:00",
+            "to": "2026-06-29T00:00:00+00:00",
+            "bars": 78
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "M",
+            "from": "2025-01-01T00:00:00+00:00",
+            "to": "2026-07-01T00:00:00+00:00",
+            "bars": 34
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "60",
+            "from": "2025-01-01T00:00:00+00:00",
+            "to": "2026-07-04T17:00:00+00:00",
+            "bars": 13194
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "240",
+            "from": "2025-01-01T00:00:00+00:00",
+            "to": "2026-07-04T16:00:00+00:00",
+            "bars": 3299
+          }
+        ]
+      }
+    },
+    {
+      "id": "PUB;b96fdd470dac47d1a227d8aae88bdbb4",
+      "kind": "indicator",
+      "name": "Volume SuperTrend AI (Expo)",
+      "author": "Zeiierman",
+      "license": "CC",
+      "version": "2",
+      "likes": 8496,
+      "tv_url": "https://www.tradingview.com/script/eTgP2ymK/",
+      "sha256": "539c15a9ef3c5161e71e8996f768f7570e0f4506b4c77ceba720b7f09124d347",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26388,
+      "run_sec": 2.214,
+      "ms_per_bar": 0.0839,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-04T17:30:00+00:00",
+        "bars": 26388
+      },
+      "plot": {
+        "cols": 8,
+        "match_pct": 1.0,
+        "worst_col": "Volume Super Trend AI",
+        "pearson_min": 1.0
+      }
+    },
+    {
+      "id": "PUB;e253a5781ec44fa1bc2a0976504bb9b5",
+      "kind": "indicator",
+      "name": "Liquidity Grabs | Flux Charts",
+      "author": "fluxchart",
+      "license": "MPL-2.0",
+      "version": "2",
+      "likes": 8411,
+      "tv_url": "https://www.tradingview.com/script/ZxHyWlMd/",
+      "sha256": "090507d8884cf3ba6b7c0d05d0a26ff313e5e175cd0ed0c1b17cf99f21bf4acf",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26388,
+      "run_sec": 1.421,
+      "ms_per_bar": 0.0539,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-04T17:30:00+00:00",
+        "bars": 26388
+      },
+      "plot": {
+        "cols": 6,
+        "match_pct": 1.0,
+        "worst_col": "Buyside Liq Grab Small",
+        "pearson_min": 1.0
+      }
+    },
+    {
+      "id": "PUB;IyhtPoGIPyhxhxX2J48GfYxxKX1WKE5B",
+      "kind": "indicator",
+      "name": "Parabolic SAR",
+      "author": "everget",
+      "license": "GPL",
+      "version": "6",
+      "likes": 8167,
+      "tv_url": "https://www.tradingview.com/script/MddD4giy/",
+      "sha256": "eccc009203a6388a5efa1f63467a5b8a64dab9351655b45e521a4f697d6da4ef",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26388,
+      "run_sec": 0.807,
+      "ms_per_bar": 0.0306,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-04T17:30:00+00:00",
+        "bars": 26388
+      },
+      "plot": {
+        "cols": 2,
+        "match_pct": 1.0,
+        "worst_col": "PSAR",
+        "pearson_min": 1.0
+      }
+    },
+    {
+      "id": "PUB;ccc1c01351094ad0b42e46e285b501d5",
+      "kind": "indicator",
+      "name": "Ultimate Opening Range Breakout [LuxAlgo]",
+      "author": "LuxAlgo",
+      "license": "CC",
+      "version": "1",
+      "likes": 7995,
+      "tv_url": "https://www.tradingview.com/script/G4aoqFUF/",
+      "sha256": "65caa0037c6a67dfc8c6ac22cefae2e63010c4257957d40f644eab85c445d1fc",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26388,
+      "run_sec": 3.084,
+      "ms_per_bar": 0.1169,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-04T17:30:00+00:00",
+        "bars": 26388
+      },
+      "plot": {
+        "cols": 10,
+        "match_pct": 1.0,
+        "worst_col": "OR High",
+        "pearson_min": 1.0
+      }
+    },
+    {
+      "id": "PUB;f2a1a82b1a4741e0a217433d9cc9398f",
+      "kind": "indicator",
+      "name": "Smart Money Breakout Signals [AlgoAlpha]",
+      "author": "AlgoAlpha",
+      "license": "MPL-2.0",
+      "version": "2",
+      "likes": 7958,
+      "tv_url": "https://www.tradingview.com/script/IV6eZF3w/",
+      "sha256": "4b741287458c4a449e575522ac227a46459b92dc58f9dc89d2a1b0775d9f218e",
+      "status": "ok",
+      "level": "runs",
+      "bars": 26388,
+      "run_sec": 0.742,
+      "ms_per_bar": 0.0281,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-04T17:30:00+00:00",
+        "bars": 26388
+      }
+    },
+    {
+      "id": "PUB;84da7a14bfe64823a1246e4d5b0f7c80",
+      "kind": "indicator",
+      "name": "CVD - Cumulative Volume Delta (Chart)",
+      "author": "TradingView",
+      "license": "MPL-2.0",
+      "version": "3",
+      "likes": 7840,
+      "tv_url": "https://www.tradingview.com/script/hFcy7CIq/",
+      "sha256": "98bdc5ef9c21c2bc71325a1f88ebb8a463f271c4656f814aebb94ca63d285192",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26429,
+      "run_sec": 25.89,
+      "ms_per_bar": 0.9796,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-05T14:00:00+00:00",
+        "bars": 26429,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "30",
+            "from": "2025-01-01T00:00:00+00:00",
+            "to": "2026-07-05T14:00:00+00:00",
+            "bars": 26429
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "1",
+            "from": "2026-04-27T04:17:00+00:00",
+            "to": "2026-07-05T14:29:00+00:00",
+            "bars": 99973
+          }
+        ]
+      },
+      "plot": {
+        "cols": 20,
+        "match_pct": 0.999984,
+        "worst_col": "CVD before this bar",
+        "pearson_min": 1.0
+      }
+    },
+    {
+      "id": "PUB;091bb46c2b8b45718c46b487a8fa46ac",
+      "kind": "indicator",
+      "name": "HEMA Trend Levels [AlgoAlpha]",
+      "author": "AlgoAlpha",
+      "license": "MPL-2.0",
+      "version": "3",
+      "likes": 7698,
+      "tv_url": "https://www.tradingview.com/script/WClHCU5Q/",
+      "sha256": "a57fe9e16b6f1e310ac82ae24e19901288e2b2c69767fc225df3bd4e07fb861c",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26387,
+      "run_sec": 1.07,
+      "ms_per_bar": 0.0406,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-04T17:00:00+00:00",
+        "bars": 26387
+      },
+      "plot": {
+        "cols": 6,
+        "match_pct": 1.0,
+        "worst_col": "Top HEMA",
+        "pearson_min": 1.0
+      }
+    },
+    {
+      "id": "PUB;d7963fa132134e1faf23f3856e963b99",
+      "kind": "indicator",
+      "name": "Momentum Shift [Bigbeluga]",
+      "author": "BigBeluga",
+      "license": "CC",
+      "version": "1",
+      "likes": 7523,
+      "tv_url": "https://www.tradingview.com/script/frV6xCiE/",
+      "sha256": "462f46b3c58faf7b696c841f2b823d52655638f3e5fd38a4080f9d162f587b16",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26388,
+      "run_sec": 1.94,
+      "ms_per_bar": 0.0735,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-04T17:30:00+00:00",
+        "bars": 26388
+      },
+      "plot": {
+        "cols": 2,
+        "match_pct": 1.0,
+        "worst_col": "Plot",
+        "pearson_min": 1.0
+      }
+    },
+    {
+      "id": "PUB;c1afbad74e454904b0943f1bb287362d",
+      "kind": "indicator",
+      "name": "Multitimeframe Fair Value Gap – FVG (Zeiierman)",
+      "author": "Zeiierman",
+      "license": "CC",
+      "version": "1",
+      "likes": 7366,
+      "tv_url": "https://www.tradingview.com/script/5jS51RsP/",
+      "sha256": "773f381e5266d9059f9753941825554da8f8e5b973f1dd6a151b6286b60913ba",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26388,
+      "run_sec": 11.079,
+      "ms_per_bar": 0.4198,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-04T17:30:00+00:00",
+        "bars": 26388
+      },
+      "plot": {
+        "cols": 2,
+        "match_pct": 1.0,
+        "worst_col": "FVG Trend Filter",
         "pearson_min": 1.0
       }
     },
