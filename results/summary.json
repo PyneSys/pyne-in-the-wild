@@ -8,25 +8,25 @@
     "profit_pct_tol": 0.1
   },
   "counts": {
-    "total": 74,
-    "indicators": 39,
+    "total": 84,
+    "indicators": 49,
     "strategies": 35,
-    "compiled": 74,
+    "compiled": 84,
     "compile_fail": 0,
-    "tv_ok": 73,
-    "pyne_ok": 74,
+    "tv_ok": 83,
+    "pyne_ok": 84,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 30,
+    "n_with_plots_compared": 40,
     "plot_match_pct": {
       "median": 1.0,
-      "mean": 0.9998799666666667,
+      "mean": 0.9999099749999999,
       "min": 0.996453,
       "max": 1.0,
-      "n": 30,
+      "n": 40,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -35,22 +35,22 @@
       "mean": 0.0,
       "min": 0.0,
       "max": 0.0,
-      "n": 30,
+      "n": 39,
       "p25": 0.0,
       "p75": 0.0
     },
     "pearson_min": {
       "median": 1.0,
-      "mean": 0.9998910666666667,
+      "mean": 0.9999162051282051,
       "min": 0.996732,
       "max": 1.0,
-      "n": 30,
+      "n": 39,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 27,
+    "fully_matching_scripts": 37,
     "match_pct_histogram": {
-      "1.0": 27,
+      "1.0": 37,
       "0.99-1.0": 3,
       "0.9-0.99": 0,
       "<0.9": 0
@@ -119,6 +119,12 @@
       "worst_col": "CVD before this bar"
     },
     {
+      "id": "PUB;87158567b731451c8a1347f953921ab7",
+      "name": "Adaptive Trend Flow [QuantAlgo]",
+      "plot_match_pct": 1.0,
+      "worst_col": "Plot"
+    },
+    {
       "id": "PUB;92a018ea21ef4b9886e810a7fea6968d",
       "name": "Buy Sell Signal",
       "plot_match_pct": 1.0,
@@ -143,6 +149,12 @@
       "worst_col": "Exhaustion Bar"
     },
     {
+      "id": "PUB;b479566fb5794c7ca3b8158bacb6f5b7",
+      "name": "Fibonacci Time-Price Zones",
+      "plot_match_pct": 1.0,
+      "worst_col": "B Price"
+    },
+    {
       "id": "PUB;8143a07641de4d43be04c81f85649473",
       "name": "Fibonacci Trend [ChartPrime]",
       "plot_match_pct": 1.0,
@@ -159,18 +171,6 @@
       "name": "HalfTrend",
       "plot_match_pct": 1.0,
       "worst_col": "HalfTrend"
-    },
-    {
-      "id": "PUB;e253a5781ec44fa1bc2a0976504bb9b5",
-      "name": "Liquidity Grabs | Flux Charts",
-      "plot_match_pct": 1.0,
-      "worst_col": "Buyside Liq Grab Small"
-    },
-    {
-      "id": "PUB;bab4ed662c7348e78341110edaffaacb",
-      "name": "Market Shift Levels [ChartPrime]",
-      "plot_match_pct": 1.0,
-      "worst_col": "Market Shift Levels"
     }
   ]
 }

@@ -410,12 +410,79 @@
   const gridCount = $('#grid-count');
   const gridEmpty = $('#grid-empty');
 
+  const ALL_LEVELS = ['verified', 'divergent', 'repaint', 'data_limited', 'runs', 'failed'];
+  const ALL_KINDS = ['all', 'indicator', 'strategy'];
+  const SORT_KEYS = ['name', 'kind', 'level', 'plotmatch', 'tvmatch', 'net', 'bars'];
+
   let activeKind = 'all';
-  const activeLevels = new Set(['verified', 'divergent', 'repaint', 'data_limited', 'runs', 'failed']);
+  const activeLevels = new Set(ALL_LEVELS);
   let query = '';
   let page = 1;
   let sortKey = null; // null => natural (popularity) order from the manifest
   let sortDir = 1;
+
+  // Persist the table's filter/search/sort choices so a page refresh keeps them —
+  // e.g. narrowing to just the failing scripts survives a reload. Guarded against a
+  // missing/blocked localStorage and against stale values from an older data shape.
+  const STORE_KEY = 'pyne-wild-filters-v1';
+
+  function saveState() {
+    try {
+      localStorage.setItem(
+        STORE_KEY,
+        JSON.stringify({
+          kind: activeKind,
+          levels: [...activeLevels],
+          query,
+          sortKey,
+          sortDir,
+        })
+      );
+    } catch (e) {
+      /* storage unavailable (private mode, quota) — filters just won't persist */
+    }
+  }
+
+  function restoreState() {
+    let saved;
+    try {
+      saved = JSON.parse(localStorage.getItem(STORE_KEY) || 'null');
+    } catch (e) {
+      return;
+    }
+    if (!saved || typeof saved !== 'object') return;
+
+    if (ALL_KINDS.includes(saved.kind)) activeKind = saved.kind;
+
+    if (Array.isArray(saved.levels)) {
+      const levels = saved.levels.filter((l) => ALL_LEVELS.includes(l));
+      // An empty saved set would hide every row on load with no visible cause; fall
+      // back to showing all rather than stranding the user on a blank table.
+      if (levels.length) {
+        activeLevels.clear();
+        levels.forEach((l) => activeLevels.add(l));
+      }
+    }
+
+    if (typeof saved.query === 'string') query = saved.query;
+
+    if (saved.sortKey === null || SORT_KEYS.includes(saved.sortKey)) sortKey = saved.sortKey;
+    if (saved.sortDir === 1 || saved.sortDir === -1) sortDir = saved.sortDir;
+  }
+
+  // Reflect the restored state onto the filter controls before the first render.
+  function syncControls() {
+    document.querySelectorAll('#filter-kind .filter-btn').forEach((b) => {
+      b.classList.toggle('active', b.dataset.kind === activeKind);
+    });
+    document.querySelectorAll('#filter-level .chip').forEach((c) => {
+      c.classList.toggle('active', activeLevels.has(c.dataset.level));
+    });
+    $('#search-box').value = query;
+  }
+
+  restoreState();
+  syncControls();
 
   // First click on a header sorts in this direction; the next click flips it,
   // the third returns to the natural order.
@@ -560,6 +627,7 @@
       sortKey = null; // third click clears the sort
     }
     page = 1;
+    saveState();
     renderTable();
   });
 
@@ -584,6 +652,7 @@
       btn.classList.add('active');
       activeKind = btn.dataset.kind;
       page = 1;
+      saveState();
       renderTable();
     });
   });
@@ -599,6 +668,7 @@
         chip.classList.add('active');
       }
       page = 1;
+      saveState();
       renderTable();
     });
   });
@@ -606,6 +676,7 @@
   $('#search-box').addEventListener('input', (ev) => {
     query = ev.target.value;
     page = 1;
+    saveState();
     renderTable();
   });
 
