@@ -89,6 +89,7 @@
     { id: 'seg-verified', n: D.totals.verified, label: 'Matches TradingView', color: 'var(--primary)' },
     { id: 'seg-divergent', n: D.totals.divergent || 0, label: 'Diverges from TradingView', color: 'var(--amber)' },
     { id: 'seg-repaint', n: D.totals.repaint || 0, label: 'Repaints on TradingView', color: 'var(--violet)' },
+    { id: 'seg-data_limited', n: D.totals.data_limited || 0, label: 'Data-limited (unavailable feed)', color: 'var(--slate)' },
     { id: 'seg-runs', n: D.totals.runs, label: 'Runs (no reference output)', color: 'var(--secondary)' },
     { id: 'seg-failed', n: D.totals.failed, label: 'Run failed', color: 'var(--red)' },
   ];
@@ -175,6 +176,7 @@
     verified: ['status-verified', 'Verified'],
     divergent: ['status-divergent', 'Divergent'],
     repaint: ['status-repaint', 'Repaint'],
+    data_limited: ['status-data_limited', 'Data-limited'],
     runs: ['status-runs', 'Runs'],
     failed: ['status-failed', 'Failed'],
   };
@@ -183,6 +185,7 @@
     verified: "Verified — output matched TradingView's own reference, bar by bar and trade by trade.",
     divergent: "Divergent — ran and was compared against TradingView's reference, but the output differs beyond tolerance. Shown as-is, never rounded up to verified.",
     repaint: "Repaint — the script repaints on TradingView: request.security leaks a not-yet-closed higher-timeframe bar, so TradingView's own plot uses future data. PyneCore stays causal and refuses to leak, so it can never match this bar-for-bar. Never supported, by design.",
+    data_limited: "Data-limited — the script needs a data source PyneCore does not have (tick-level order-flow via request.footprint). It runs, with the missing feed reported as na, but can never match TradingView. Excluded from the accuracy score, by design.",
     runs: 'Runs — compiled and ran over real market data without errors, but no comparable TradingView reference was available to verify against.',
     failed: 'Failed — the script did not compile or run. Reported as-is, never hidden.',
   };
@@ -285,6 +288,14 @@
         `data. PyneCore stays causal and will not leak, so it can never match this bar-for-bar. ` +
         `Realigned to TradingView's ${s.repaint.shift}-bar lookahead it matches ${rm}. ` +
         `Never supported, by design.</p>`;
+    }
+    if (s.data_limited) {
+      html +=
+        `<p class="sc-data_limited">Data-limited — this script calls ` +
+        `<code>request.footprint()</code>, whose tick-level order-flow (buy/sell aggressor) ` +
+        `data TradingView derives from bid/ask ticks. PyneCore only has OHLCV bars, so the ` +
+        `footprint is reported as <code>na</code> and the script falls back to price action. ` +
+        `It runs, but can never match TradingView here — excluded from the accuracy score, by design.</p>`;
     }
 
     const acc = [];
@@ -400,7 +411,7 @@
   const gridEmpty = $('#grid-empty');
 
   let activeKind = 'all';
-  const activeLevels = new Set(['verified', 'divergent', 'repaint', 'runs', 'failed']);
+  const activeLevels = new Set(['verified', 'divergent', 'repaint', 'data_limited', 'runs', 'failed']);
   let query = '';
   let page = 1;
   let sortKey = null; // null => natural (popularity) order from the manifest
@@ -411,7 +422,7 @@
   const SORT_DEFAULT_DIR = {
     name: 1, kind: 1, level: 1, plotmatch: -1, tvmatch: -1, net: -1, bars: -1,
   };
-  const LEVEL_RANK = { verified: 0, divergent: 1, repaint: 2, runs: 3, failed: 4 };
+  const LEVEL_RANK = { verified: 0, divergent: 1, repaint: 2, data_limited: 3, runs: 4, failed: 5 };
 
   function sortValue(s, key) {
     switch (key) {

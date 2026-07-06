@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05",
+  "generated_at": "2026-07-06",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "tolerances": {
@@ -8,13 +8,13 @@
     "profit_pct_tol": 0.1
   },
   "counts": {
-    "total": 66,
+    "total": 74,
     "indicators": 39,
-    "strategies": 27,
-    "compiled": 66,
+    "strategies": 35,
+    "compiled": 74,
     "compile_fail": 0,
-    "tv_ok": 65,
-    "pyne_ok": 66,
+    "tv_ok": 73,
+    "pyne_ok": 74,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
@@ -57,28 +57,28 @@
     }
   },
   "strategies": {
-    "n": 27,
+    "n": 35,
     "entry_match_pct": {
       "median": 1.0,
-      "mean": 0.9693935555555555,
-      "min": 0.173626,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
-      "n": 27,
+      "n": 33,
       "p25": 1.0,
       "p75": 1.0
     },
     "exit_match_pct": {
       "median": 1.0,
-      "mean": 0.9710215555555556,
-      "min": 0.217582,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
-      "n": 27,
+      "n": 33,
       "p25": 1.0,
       "p75": 1.0
     },
-    "net_profit_match_rate": 0.9629629629629629,
-    "net_profit_pct_match_rate": 0.9629629629629629,
-    "trade_count_exact_match": 25
+    "net_profit_match_rate": 1.0,
+    "net_profit_pct_match_rate": 1.0,
+    "trade_count_exact_match": 33
   },
   "top_compile_errors": [],
   "worst_plot_scripts": [

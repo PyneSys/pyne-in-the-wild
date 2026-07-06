@@ -42,6 +42,7 @@
   --red: #F23548;
   --amber: #E8830C;
   --violet: #7C4DFF;
+  --slate: #64748B;
   --yellow: #FED64D;
   --dark: #212121;
   --light: #F5F5F5;
@@ -471,6 +472,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--dark); }
 #seg-verified { stroke: var(--primary); }
 #seg-divergent { stroke: var(--amber); }
 #seg-repaint { stroke: var(--violet); }
+#seg-data_limited { stroke: var(--slate); }
 #seg-runs { stroke: var(--secondary); }
 #seg-failed { stroke: var(--red); }
 
@@ -914,6 +916,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--dark); }
 .chip-verified.active { border-color: var(--primary); color: var(--primary-dark); background: rgba(76, 175, 80, 0.1); }
 .chip-divergent.active { border-color: var(--amber); color: #b06f00; background: rgba(232, 131, 12, 0.08); }
 .chip-repaint.active { border-color: var(--violet); color: #5b35d6; background: rgba(124, 77, 255, 0.08); }
+.chip-data_limited.active { border-color: var(--slate); color: #475569; background: rgba(100, 116, 139, 0.1); }
 .chip-runs.active { border-color: var(--secondary); color: #1565C0; background: rgba(33, 150, 243, 0.08); }
 .chip-failed.active { border-color: var(--red); color: #c62828; background: rgba(242, 53, 72, 0.07); }
 
@@ -1120,6 +1123,9 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--dark); }
 .script-row.level-repaint > td { opacity: 0.38; }
 .script-row.level-repaint:hover { background: rgba(124, 77, 255, 0.025); }
 .script-row.level-repaint.open { background: rgba(124, 77, 255, 0.04); }
+.script-row.level-data_limited > td { opacity: 0.5; }
+.script-row.level-data_limited:hover { background: rgba(100, 116, 139, 0.03); }
+.script-row.level-data_limited.open { background: rgba(100, 116, 139, 0.05); }
 
 .cell-name { min-width: 220px; }
 .cell-name .row-link {
@@ -1215,6 +1221,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--dark); }
 .status-verified { background: var(--primary); color: #fff; }
 .status-divergent { background: rgba(232, 131, 12, 0.14); color: #b06f00; }
 .status-repaint { background: rgba(124, 77, 255, 0.13); color: #5b35d6; }
+.status-data_limited { background: rgba(100, 116, 139, 0.14); color: #475569; }
 .status-runs { background: rgba(33, 150, 243, 0.12); color: #1565C0; }
 .status-failed { background: rgba(242, 53, 72, 0.1); color: #c62828; }
 
@@ -1319,6 +1326,19 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--dark); }
 }
 .sc-repaint code {
   background: rgba(124, 77, 255, 0.12);
+  padding: 0.05em 0.35em;
+  border-radius: 4px;
+}
+.sc-data_limited {
+  font-size: 0.86rem;
+  color: #475569;
+  background: rgba(100, 116, 139, 0.07);
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 0.8rem;
+  margin: 0.4rem 0 0.9rem;
+}
+.sc-data_limited code {
+  background: rgba(100, 116, 139, 0.12);
   padding: 0.05em 0.35em;
   border-radius: 4px;
 }
