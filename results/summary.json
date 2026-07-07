@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06",
+  "generated_at": "2026-07-07",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "tolerances": {
@@ -8,13 +8,13 @@
     "profit_pct_tol": 0.1
   },
   "counts": {
-    "total": 84,
+    "total": 92,
     "indicators": 49,
-    "strategies": 35,
-    "compiled": 84,
+    "strategies": 43,
+    "compiled": 92,
     "compile_fail": 0,
-    "tv_ok": 83,
-    "pyne_ok": 84,
+    "tv_ok": 91,
+    "pyne_ok": 92,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
@@ -57,28 +57,37 @@
     }
   },
   "strategies": {
-    "n": 35,
+    "n": 43,
     "entry_match_pct": {
       "median": 1.0,
-      "mean": 1.0,
-      "min": 1.0,
+      "mean": 0.9999829756097561,
+      "min": 0.999302,
       "max": 1.0,
-      "n": 33,
+      "n": 41,
       "p25": 1.0,
       "p75": 1.0
     },
     "exit_match_pct": {
       "median": 1.0,
-      "mean": 1.0,
-      "min": 1.0,
+      "mean": 0.9999858292682927,
+      "min": 0.999419,
       "max": 1.0,
-      "n": 33,
+      "n": 41,
+      "p25": 1.0,
+      "p75": 1.0
+    },
+    "trade_match_pct": {
+      "median": 1.0,
+      "mean": 0.9999546585365853,
+      "min": 0.998141,
+      "max": 1.0,
+      "n": 41,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
-    "net_profit_pct_match_rate": 1.0,
-    "trade_count_exact_match": 33
+    "net_profit_pct_match_rate": 0.975609756097561,
+    "trade_count_exact_match": 40
   },
   "top_compile_errors": [],
   "worst_plot_scripts": [
@@ -93,12 +102,6 @@
       "name": "QQE MOD",
       "plot_match_pct": 0.996453,
       "worst_col": "Secondary QQE Trend Line"
-    },
-    {
-      "id": "PUB;c5150782cf534904996d58386f951456",
-      "name": "TrendMaster Pro 2.3 with Alerts",
-      "plot_match_pct": 0.997441,
-      "worst_col": "Long SL"
     },
     {
       "id": "PUB;3f3d9ba4bd5644f9a3f3d0d68326e736",
@@ -171,6 +174,12 @@
       "name": "HalfTrend",
       "plot_match_pct": 1.0,
       "worst_col": "HalfTrend"
+    },
+    {
+      "id": "PUB;WvWdhArzmm2x97mJFkWyG9SMvGxDHMRR",
+      "name": "Linear Regression Channel / Curve / Slope by DGT",
+      "plot_match_pct": 1.0,
+      "worst_col": "LRC"
     }
   ]
 }
