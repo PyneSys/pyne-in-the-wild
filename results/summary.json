@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07",
+  "generated_at": "2026-07-08",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "tolerances": {
@@ -8,50 +8,50 @@
     "profit_pct_tol": 0.1
   },
   "counts": {
-    "total": 92,
-    "indicators": 49,
+    "total": 102,
+    "indicators": 59,
     "strategies": 43,
-    "compiled": 92,
+    "compiled": 102,
     "compile_fail": 0,
-    "tv_ok": 91,
-    "pyne_ok": 92,
+    "tv_ok": 99,
+    "pyne_ok": 102,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 40,
+    "n_with_plots_compared": 48,
     "plot_match_pct": {
       "median": 1.0,
-      "mean": 0.9999099749999999,
+      "mean": 0.9999233125,
       "min": 0.996453,
       "max": 1.0,
-      "n": 40,
+      "n": 48,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 0.0,
+      "mean": 5.76595744680851e-06,
       "min": 0.0,
-      "max": 0.0,
-      "n": 39,
+      "max": 0.000271,
+      "n": 47,
       "p25": 0.0,
       "p75": 0.0
     },
     "pearson_min": {
       "median": 1.0,
-      "mean": 0.9999162051282051,
+      "mean": 0.9999302127659575,
       "min": 0.996732,
       "max": 1.0,
-      "n": 39,
+      "n": 47,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 37,
+    "fully_matching_scripts": 43,
     "match_pct_histogram": {
-      "1.0": 37,
-      "0.99-1.0": 3,
+      "1.0": 43,
+      "0.99-1.0": 5,
       "0.9-0.99": 0,
       "<0.9": 0
     }
@@ -110,16 +110,34 @@
       "worst_col": "Zigma Bull impulse"
     },
     {
+      "id": "PUB;7a639b049f0d493fbe5a5ca996e8fff5",
+      "name": "Comprehensive Trading Toolkit [BigBeluga]",
+      "plot_match_pct": 0.999952,
+      "worst_col": "Regular Bullish"
+    },
+    {
       "id": "PUB;f3d01f07c7b04d449fc0d72dd2854b15",
       "name": "Day Trading Booster by DGT",
       "plot_match_pct": 0.999962,
       "worst_col": "Moving Average #2"
     },
     {
+      "id": "PUB;eNbFyHDmTIdGB7PEd6YGhJno5zhtmJdM",
+      "name": "Technical Ratings",
+      "plot_match_pct": 0.999968,
+      "worst_col": "Oscillators"
+    },
+    {
       "id": "PUB;84da7a14bfe64823a1246e4d5b0f7c80",
       "name": "CVD - Cumulative Volume Delta (Chart)",
       "plot_match_pct": 0.999984,
       "worst_col": "CVD before this bar"
+    },
+    {
+      "id": "PUB;42af0c00136b444b918a15e6cb30e896",
+      "name": "%R Trend Exhaustion [upslidedown]",
+      "plot_match_pct": 1.0,
+      "worst_col": "Fast Period %R"
     },
     {
       "id": "PUB;87158567b731451c8a1347f953921ab7",
@@ -140,6 +158,12 @@
       "worst_col": "Swing High"
     },
     {
+      "id": "PUB;07fdb6893496402da7ae8c21da9ac862",
+      "name": "Consolidation Range with Signals (Zeiierman)",
+      "plot_match_pct": 1.0,
+      "worst_col": "Trend"
+    },
+    {
       "id": "PUB;1d610cc4055240a1a01743b225c58ccf",
       "name": "Deviation Trend Profile [BigBeluga]",
       "plot_match_pct": 1.0,
@@ -156,30 +180,6 @@
       "name": "Fibonacci Time-Price Zones",
       "plot_match_pct": 1.0,
       "worst_col": "B Price"
-    },
-    {
-      "id": "PUB;8143a07641de4d43be04c81f85649473",
-      "name": "Fibonacci Trend [ChartPrime]",
-      "plot_match_pct": 1.0,
-      "worst_col": "Trend"
-    },
-    {
-      "id": "PUB;091bb46c2b8b45718c46b487a8fa46ac",
-      "name": "HEMA Trend Levels [AlgoAlpha]",
-      "plot_match_pct": 1.0,
-      "worst_col": "Top HEMA"
-    },
-    {
-      "id": "PUB;xhevX7JPlDxkaET3spCluX1AocxhFBc0",
-      "name": "HalfTrend",
-      "plot_match_pct": 1.0,
-      "worst_col": "HalfTrend"
-    },
-    {
-      "id": "PUB;WvWdhArzmm2x97mJFkWyG9SMvGxDHMRR",
-      "name": "Linear Regression Channel / Curve / Slope by DGT",
-      "plot_match_pct": 1.0,
-      "worst_col": "LRC"
     }
   ]
 }
