@@ -8,13 +8,13 @@
     "profit_pct_tol": 0.1
   },
   "counts": {
-    "total": 102,
+    "total": 112,
     "indicators": 59,
-    "strategies": 43,
-    "compiled": 102,
+    "strategies": 53,
+    "compiled": 112,
     "compile_fail": 0,
-    "tv_ok": 99,
-    "pyne_ok": 102,
+    "tv_ok": 109,
+    "pyne_ok": 112,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
@@ -57,37 +57,37 @@
     }
   },
   "strategies": {
-    "n": 43,
+    "n": 53,
     "entry_match_pct": {
       "median": 1.0,
-      "mean": 0.9999829756097561,
-      "min": 0.999302,
+      "mean": 0.9999931568627451,
+      "min": 0.999651,
       "max": 1.0,
-      "n": 41,
+      "n": 51,
       "p25": 1.0,
       "p75": 1.0
     },
     "exit_match_pct": {
       "median": 1.0,
-      "mean": 0.9999858292682927,
-      "min": 0.999419,
+      "mean": 0.9999931568627451,
+      "min": 0.999651,
       "max": 1.0,
-      "n": 41,
+      "n": 51,
       "p25": 1.0,
       "p75": 1.0
     },
     "trade_match_pct": {
       "median": 1.0,
-      "mean": 0.9999546585365853,
-      "min": 0.998141,
+      "mean": 0.9999772156862745,
+      "min": 0.998838,
       "max": 1.0,
-      "n": 41,
+      "n": 51,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
-    "net_profit_pct_match_rate": 0.975609756097561,
-    "trade_count_exact_match": 40
+    "net_profit_pct_match_rate": 1.0,
+    "trade_count_exact_match": 50
   },
   "top_compile_errors": [],
   "worst_plot_scripts": [
