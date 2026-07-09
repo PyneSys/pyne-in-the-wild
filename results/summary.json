@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08",
+  "generated_at": "2026-07-09",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "tolerances": {
@@ -8,86 +8,86 @@
     "profit_pct_tol": 0.1
   },
   "counts": {
-    "total": 112,
+    "total": 122,
     "indicators": 59,
-    "strategies": 53,
-    "compiled": 112,
+    "strategies": 63,
+    "compiled": 122,
     "compile_fail": 0,
-    "tv_ok": 109,
-    "pyne_ok": 112,
+    "tv_ok": 119,
+    "pyne_ok": 122,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 48,
+    "n_with_plots_compared": 49,
     "plot_match_pct": {
       "median": 1.0,
-      "mean": 0.9999233125,
+      "mean": 0.9999256530612246,
       "min": 0.996453,
       "max": 1.0,
-      "n": 48,
+      "n": 49,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 5.76595744680851e-06,
+      "mean": 5.645833333333333e-06,
       "min": 0.0,
       "max": 0.000271,
-      "n": 47,
+      "n": 48,
       "p25": 0.0,
       "p75": 0.0
     },
     "pearson_min": {
       "median": 1.0,
-      "mean": 0.9999302127659575,
+      "mean": 0.9999316666666668,
       "min": 0.996732,
       "max": 1.0,
-      "n": 47,
+      "n": 48,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 43,
+    "fully_matching_scripts": 45,
     "match_pct_histogram": {
-      "1.0": 43,
-      "0.99-1.0": 5,
+      "1.0": 45,
+      "0.99-1.0": 4,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 53,
+    "n": 63,
     "entry_match_pct": {
       "median": 1.0,
-      "mean": 0.9999931568627451,
+      "mean": 0.9999943709677419,
       "min": 0.999651,
       "max": 1.0,
-      "n": 51,
+      "n": 62,
       "p25": 1.0,
       "p75": 1.0
     },
     "exit_match_pct": {
       "median": 1.0,
-      "mean": 0.9999931568627451,
+      "mean": 0.9999943709677419,
       "min": 0.999651,
       "max": 1.0,
-      "n": 51,
+      "n": 62,
       "p25": 1.0,
       "p75": 1.0
     },
     "trade_match_pct": {
       "median": 1.0,
-      "mean": 0.9999772156862745,
+      "mean": 0.9999812580645161,
       "min": 0.998838,
       "max": 1.0,
-      "n": 51,
+      "n": 62,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_pct_match_rate": 1.0,
-    "trade_count_exact_match": 50
+    "trade_count_exact_match": 61
   },
   "top_compile_errors": [],
   "worst_plot_scripts": [
@@ -114,12 +114,6 @@
       "name": "Comprehensive Trading Toolkit [BigBeluga]",
       "plot_match_pct": 0.999952,
       "worst_col": "Regular Bullish"
-    },
-    {
-      "id": "PUB;f3d01f07c7b04d449fc0d72dd2854b15",
-      "name": "Day Trading Booster by DGT",
-      "plot_match_pct": 0.999962,
-      "worst_col": "Moving Average #2"
     },
     {
       "id": "PUB;eNbFyHDmTIdGB7PEd6YGhJno5zhtmJdM",
@@ -162,6 +156,12 @@
       "name": "Consolidation Range with Signals (Zeiierman)",
       "plot_match_pct": 1.0,
       "worst_col": "Trend"
+    },
+    {
+      "id": "PUB;f3d01f07c7b04d449fc0d72dd2854b15",
+      "name": "Day Trading Booster by DGT",
+      "plot_match_pct": 1.0,
+      "worst_col": "Moving Average #1"
     },
     {
       "id": "PUB;1d610cc4055240a1a01743b225c58ccf",

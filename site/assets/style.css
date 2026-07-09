@@ -977,6 +977,10 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--dark); }
   transition: all 0.2s ease;
   font-variant-numeric: tabular-nums;
 }
+/* Prerendered static pages use <a class="page-btn"> so crawlers can follow the
+   pager; match the <button> box so the hydrated <button> pager swaps in without a
+   visual shift. */
+a.page-btn { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; }
 .page-btn:hover:not(:disabled):not(.active) { border-color: var(--primary); color: var(--primary-dark); }
 .page-btn.active {
   background: var(--primary);

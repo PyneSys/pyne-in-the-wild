@@ -1,5 +1,5 @@
 window.WILD_DATA = {
-  "generated_at": "2026-07-08",
+  "generated_at": "2026-07-09",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe_min": 30,
   "verification_threshold": 0.99,
@@ -9,54 +9,54 @@ window.WILD_DATA = {
     "profit_pct_tol": 0.1
   },
   "totals": {
-    "total": 112,
+    "total": 122,
     "indicators": 59,
-    "strategies": 53,
-    "compiled": 112,
+    "strategies": 63,
+    "compiled": 122,
     "compile_fail": 0,
-    "tv_ok": 109,
-    "pyne_ok": 112,
+    "tv_ok": 119,
+    "pyne_ok": 122,
     "trade_divergence": 0,
     "compile_rate": 1.0,
     "run_rate": 1.0,
     "run_success_rate": 1.0,
-    "measurable_scripts": 102,
-    "tv_comparable": 140,
-    "tv_fidelity_verified": 140,
+    "measurable_scripts": 112,
+    "tv_comparable": 161,
+    "tv_fidelity_verified": 161,
     "tv_fidelity_rate": 1.0,
-    "plot_outputs": 89,
-    "trade_outputs": 51,
-    "average_match_rate": 0.9999314857142857,
-    "average_match_count": 140,
-    "trades_compared": 41281,
-    "bars_run": 2951585,
-    "verified": 99,
+    "plot_outputs": 99,
+    "trade_outputs": 62,
+    "average_match_rate": 0.9999406583850932,
+    "average_match_count": 161,
+    "trades_compared": 47315,
+    "bars_run": 3217060,
+    "verified": 111,
     "divergent": 0,
-    "repaint": 2,
+    "repaint": 0,
     "data_limited": 1,
     "runs": 10,
     "failed": 0
   },
   "indicators": {
     "total": 59,
-    "compared": 48,
-    "plot_verified": 48,
-    "plot_exact": 43,
+    "compared": 49,
+    "plot_verified": 49,
+    "plot_exact": 45,
     "plot_match_median": 1.0,
-    "plot_match_mean": 0.9999233125,
+    "plot_match_mean": 0.9999256530612246,
     "plot_match_min": 0.996453,
     "pearson_min": 0.996732
   },
   "strategies": {
-    "n": 53,
-    "compared": 51,
-    "trade_timing_verified": 51,
-    "verified": 51,
+    "n": 63,
+    "compared": 62,
+    "trade_timing_verified": 62,
+    "verified": 62,
     "entry_match_median": 1.0,
-    "entry_match_mean": 0.9999931568627451,
+    "entry_match_mean": 0.9999943709677419,
     "exit_match_median": 1.0,
-    "exit_match_mean": 0.9999931568627451,
-    "trade_count_exact_match": 50,
+    "exit_match_mean": 0.9999943709677419,
+    "trade_count_exact_match": 61,
     "net_profit_match_rate": 1.0
   },
   "scripts": [
@@ -298,8 +298,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 26283,
-      "run_sec": 3.348,
-      "ms_per_bar": 0.1274,
+      "run_sec": 3.328,
+      "ms_per_bar": 0.1266,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -466,266 +466,262 @@ window.WILD_DATA = {
       "tv_url": "https://www.tradingview.com/script/lG8KoR4f/",
       "sha256": "2c10623719e52be97890b4264e316ceb858022d4fee47bae73d9768c1a31dab5",
       "status": "ok",
-      "level": "repaint",
-      "bars": 26283,
-      "run_sec": 91.326,
-      "ms_per_bar": 3.4747,
+      "level": "verified",
+      "bars": 26633,
+      "run_sec": 96.824,
+      "ms_per_bar": 3.6355,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
         "from": "2025-01-01T00:00:00+00:00",
-        "to": "2026-07-02T13:00:00+00:00",
-        "bars": 26283,
+        "to": "2026-07-09T20:00:00+00:00",
+        "bars": 26633,
         "security": [
           {
             "symbol": "ECONOMICS:USCBBS",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
+            "from": "2024-12-25T00:00:00+00:00",
             "to": "2026-07-02T00:00:00+00:00",
-            "bars": 134
+            "bars": 135
           },
           {
             "symbol": "FRED:RRPONTSYD",
             "timeframe": "D",
-            "from": "2025-01-02T00:00:00+00:00",
-            "to": "2026-07-01T00:00:00+00:00",
-            "bars": 546
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 555
           },
           {
             "symbol": "FRED:WTREGEN",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-06-24T00:00:00+00:00",
-            "bars": 78
+            "from": "2024-12-25T00:00:00+00:00",
+            "to": "2026-07-01T00:00:00+00:00",
+            "bars": 80
           },
           {
             "symbol": "ECONOMICS:EUCBBS * FX_IDC:EURUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:CNCBBS * FX_IDC:CNYUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:JPCBBS * FX_IDC:JPYUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:GBCBBS * FX_IDC:GBPUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:CACBBS * FX_IDC:CADUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:AUCBBS * FX_IDC:AUDUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:INCBBS * FX_IDC:INRUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:CHCBBS * FX_IDC:CHFUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:RUCBBS * FX_IDC:RUBUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:BRCBBS * FX_IDC:BRLUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:KRCBBS * FX_IDC:KRWUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:NZCBBS * FX_IDC:NZDUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:SECBBS * FX_IDC:SEKUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-08T00:00:00+00:00",
+            "bars": 555
           },
           {
             "symbol": "ECONOMICS:MYCBBS * FX_IDC:MYRUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:USM2",
             "timeframe": "D",
-            "from": "2025-01-31T00:00:00+00:00",
+            "from": "2024-12-31T00:00:00+00:00",
             "to": "2026-04-30T00:00:00+00:00",
-            "bars": 29
+            "bars": 30
           },
           {
             "symbol": "ECONOMICS:EUM2 * FX_IDC:EURUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:CNM2 * FX_IDC:CNYUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:JPM2 * FX_IDC:JPYUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:GBM2 * FX_IDC:GBPUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:CAM2 * FX_IDC:CADUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:AUM3 * FX_IDC:AUDUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:INM2 * FX_IDC:INRUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:CHM2 * FX_IDC:CHFUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:RUM2 * FX_IDC:RUBUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:BRM2 * FX_IDC:BRLUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:KRM2 * FX_IDC:KRWUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:MXM2 * FX_IDC:MXNUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:IDM2 * FX_IDC:IDRUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:ZAM2 * FX_IDC:ZARUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:MYM2 * FX_IDC:MYRUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 556
           },
           {
             "symbol": "ECONOMICS:SEM2 * FX_IDC:SEKUSD",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "from": "2024-12-31T00:00:00+00:00",
+            "to": "2026-07-08T00:00:00+00:00",
+            "bars": 555
           }
         ]
       },
       "plot": {
         "cols": 1,
-        "match_pct": 0.289885,
+        "match_pct": 1.0,
         "worst_col": "GLI Line",
-        "pearson_min": 0.998251
-      },
-      "repaint": {
-        "shift": 47,
-        "match_pct": 0.994999
+        "pearson_min": 1.0
       }
     },
     {
@@ -770,36 +766,36 @@ window.WILD_DATA = {
       "sha256": "48bd77eccefa0d3873d77b840bf969f33afc98cc9f844638a2bf9451b20fcf02",
       "status": "ok",
       "level": "verified",
-      "bars": 26285,
-      "run_sec": 33.511,
-      "ms_per_bar": 1.2749,
+      "bars": 26283,
+      "run_sec": 31.239,
+      "ms_per_bar": 1.1886,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
         "from": "2025-01-01T00:00:00+00:00",
-        "to": "2026-07-02T14:00:00+00:00",
-        "bars": 26285,
+        "to": "2026-07-02T13:00:00+00:00",
+        "bars": 26283,
         "security": [
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
+            "from": "2019-07-12T00:00:00+00:00",
             "to": "2026-07-02T00:00:00+00:00",
-            "bars": 548
+            "bars": 2548
           },
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "1",
-            "from": "2026-04-24T03:20:00+00:00",
-            "to": "2026-07-02T14:00:00+00:00",
-            "bars": 100001
+            "from": "2026-04-24T02:21:00+00:00",
+            "to": "2026-07-02T13:29:00+00:00",
+            "bars": 100029
           }
         ]
       },
       "plot": {
         "cols": 2,
-        "match_pct": 0.999962,
-        "worst_col": "Moving Average #2",
+        "match_pct": 1.0,
+        "worst_col": "Moving Average #1",
         "pearson_min": 1.0
       }
     },
@@ -1152,8 +1148,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "runs",
       "bars": 26387,
-      "run_sec": 15.883,
-      "ms_per_bar": 0.6019,
+      "run_sec": 15.844,
+      "ms_per_bar": 0.6005,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1164,37 +1160,37 @@ window.WILD_DATA = {
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
+            "from": "2019-07-12T00:00:00+00:00",
             "to": "2026-07-04T00:00:00+00:00",
-            "bars": 550
+            "bars": 2550
           },
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "W",
-            "from": "2025-01-06T00:00:00+00:00",
+            "from": "2017-08-14T00:00:00+00:00",
             "to": "2026-06-29T00:00:00+00:00",
-            "bars": 78
+            "bars": 464
           },
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "M",
-            "from": "2025-01-01T00:00:00+00:00",
+            "from": "2017-08-01T00:00:00+00:00",
             "to": "2026-07-01T00:00:00+00:00",
-            "bars": 34
+            "bars": 292
           },
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "60",
-            "from": "2025-01-01T00:00:00+00:00",
+            "from": "2024-10-09T16:00:00+00:00",
             "to": "2026-07-04T17:00:00+00:00",
-            "bars": 13194
+            "bars": 15194
           },
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "240",
-            "from": "2025-01-01T00:00:00+00:00",
+            "from": "2024-02-02T16:00:00+00:00",
             "to": "2026-07-04T16:00:00+00:00",
-            "bars": 3299
+            "bars": 5299
           }
         ]
       },
@@ -1489,8 +1485,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 26388,
-      "run_sec": 11.079,
-      "ms_per_bar": 0.4198,
+      "run_sec": 9.55,
+      "ms_per_bar": 0.3619,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2052,43 +2048,43 @@ window.WILD_DATA = {
       "sha256": "b44136ce3ca1f6e2646079eb2c2d8c2d0b427f2fa508b2bb459103e25de291dd",
       "status": "ok",
       "level": "runs",
-      "bars": 26531,
-      "run_sec": 6.586,
+      "bars": 26608,
+      "run_sec": 6.989,
       "ms_per_bar": null,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
         "from": "2025-01-01T00:00:00+00:00",
-        "to": "2026-07-07T17:00:00+00:00",
-        "bars": 26531,
+        "to": "2026-07-09T07:30:00+00:00",
+        "bars": 26608,
         "security": [
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "W",
-            "from": "2025-01-06T00:00:00+00:00",
+            "from": "2017-08-14T00:00:00+00:00",
             "to": "2026-07-06T00:00:00+00:00",
-            "bars": 79
+            "bars": 465
           },
           {
             "symbol": "SP:SPX",
             "timeframe": "D",
-            "from": "2025-01-02T14:30:00+00:00",
-            "to": "2026-07-07T13:30:00+00:00",
-            "bars": 553
+            "from": "2019-07-12T13:30:00+00:00",
+            "to": "2026-07-08T13:30:00+00:00",
+            "bars": 2559
           },
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
-            "to": "2026-07-07T00:00:00+00:00",
-            "bars": 553
+            "from": "2019-07-12T00:00:00+00:00",
+            "to": "2026-07-09T00:00:00+00:00",
+            "bars": 2555
           },
           {
             "symbol": "SPY",
             "timeframe": "D",
-            "from": "2025-01-02T14:30:00+00:00",
-            "to": "2026-07-07T13:30:00+00:00",
-            "bars": 553
+            "from": "2019-07-12T13:30:00+00:00",
+            "to": "2026-07-08T13:30:00+00:00",
+            "bars": 2559
           }
         ]
       }
@@ -2106,8 +2102,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 26282,
-      "run_sec": 4.995,
-      "ms_per_bar": 0.1901,
+      "run_sec": 4.124,
+      "ms_per_bar": 0.1569,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2118,9 +2114,9 @@ window.WILD_DATA = {
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "1W",
-            "from": "2025-01-06T00:00:00+00:00",
+            "from": "2017-08-14T00:00:00+00:00",
             "to": "2026-06-29T00:00:00+00:00",
-            "bars": 78
+            "bars": 464
           }
         ]
       },
@@ -3201,10 +3197,10 @@ window.WILD_DATA = {
       "tv_url": "https://www.tradingview.com/script/tSoUhlM9/",
       "sha256": "983f114a0bd75aa01b1f2d10666712ed5b47f5156545558a34e22e1fa2941b8b",
       "status": "ok",
-      "level": "repaint",
+      "level": "verified",
       "bars": 26243,
-      "run_sec": 3.166,
-      "ms_per_bar": 0.1207,
+      "run_sec": 2.702,
+      "ms_per_bar": 0.1029,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3215,32 +3211,28 @@ window.WILD_DATA = {
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
+            "from": "2019-07-12T00:00:00+00:00",
             "to": "2026-07-01T00:00:00+00:00",
-            "bars": 547
+            "bars": 2547
           }
         ]
       },
       "plot": {
         "cols": 7,
-        "match_pct": 0.021742,
-        "worst_col": "Prev Low",
-        "pearson_min": 0.992639
-      },
-      "repaint": {
-        "shift": 47,
-        "match_pct": 1.0
+        "match_pct": 1.0,
+        "worst_col": "Prev High",
+        "pearson_min": 1.0
       },
       "trades": {
         "tv": 455,
-        "pc": 378,
-        "trade_match_pct": 0.116484,
-        "entry_match_pct": 0.173626,
-        "exit_match_pct": 0.217582,
-        "extra_entries": 299,
+        "pc": 455,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
         "tv_net_profit": -164468.6,
-        "pc_net_profit": -370716.38,
-        "net_profit_match": false
+        "pc_net_profit": -164468.59,
+        "net_profit_match": true
       },
       "crossover": true
     },
@@ -3388,7 +3380,7 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "data_limited",
       "bars": 26420,
-      "run_sec": 176.168,
+      "run_sec": 151.554,
       "ms_per_bar": null,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
@@ -3400,30 +3392,30 @@ window.WILD_DATA = {
           {
             "symbol": "SPY",
             "timeframe": "30",
-            "from": "2025-01-02T14:30:00+00:00",
-            "to": "2026-07-02T19:30:00+00:00",
-            "bars": 26219
+            "from": "2024-11-20T14:30:00+00:00",
+            "to": "2026-07-05T09:30:00+00:00",
+            "bars": 28407
           },
           {
             "symbol": "ES1!",
             "timeframe": "30",
-            "from": "2025-01-01T23:00:00+00:00",
-            "to": "2026-07-03T16:30:00+00:00",
-            "bars": 26292
+            "from": "2024-11-20T08:00:00+00:00",
+            "to": "2026-07-05T09:30:00+00:00",
+            "bars": 28420
           },
           {
             "symbol": "QQQ",
             "timeframe": "30",
-            "from": "2025-01-02T14:30:00+00:00",
-            "to": "2026-07-02T19:30:00+00:00",
-            "bars": 26219
+            "from": "2024-11-20T14:30:00+00:00",
+            "to": "2026-07-05T09:30:00+00:00",
+            "bars": 28407
           },
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "D",
-            "from": "2025-01-01T00:00:00+00:00",
+            "from": "2019-07-12T00:00:00+00:00",
             "to": "2026-07-05T00:00:00+00:00",
-            "bars": 551
+            "bars": 2551
           },
           {
             "symbol": "BINANCE:BTCUSDT",
@@ -3442,43 +3434,43 @@ window.WILD_DATA = {
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "60",
-            "from": "2025-01-01T00:00:00+00:00",
+            "from": "2024-10-09T16:00:00+00:00",
             "to": "2026-07-05T09:00:00+00:00",
-            "bars": 13210
+            "bars": 15210
           },
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "240",
-            "from": "2025-01-01T00:00:00+00:00",
+            "from": "2024-02-02T16:00:00+00:00",
             "to": "2026-07-05T08:00:00+00:00",
-            "bars": 3303
+            "bars": 5303
           },
           {
             "symbol": "USI:TICK",
             "timeframe": "30",
-            "from": "2025-01-02T14:30:00+00:00",
-            "to": "2026-07-02T19:30:00+00:00",
-            "bars": 26219
+            "from": "2024-11-20T14:30:00+00:00",
+            "to": "2026-07-05T09:30:00+00:00",
+            "bars": 28407
           },
           {
             "symbol": "CBOE:VIX",
             "timeframe": "30",
-            "from": "2025-01-02T08:15:00+00:00",
-            "to": "2026-07-02T20:00:00+00:00",
-            "bars": 52452
+            "from": "2024-11-20T08:15:00+00:00",
+            "to": "2026-07-05T09:30:00+00:00",
+            "bars": 56826
           }
         ]
       },
       "data_limited": "request.footprint() — tick-level order-flow data (buy/sell aggressor split) unavailable in PyneCore",
       "trades": {
         "tv": 349,
-        "pc": 335,
-        "trade_match_pct": 0.891117,
-        "entry_match_pct": 0.936963,
-        "exit_match_pct": 0.911175,
-        "extra_entries": 8,
+        "pc": 333,
+        "trade_match_pct": 0.888252,
+        "entry_match_pct": 0.934097,
+        "exit_match_pct": 0.908309,
+        "extra_entries": 7,
         "tv_net_profit": 3391.885,
-        "pc_net_profit": 15082.02,
+        "pc_net_profit": 10580.23,
         "net_profit_match": false
       }
     },
@@ -4458,6 +4450,440 @@ window.WILD_DATA = {
         "extra_entries": 0,
         "tv_net_profit": 8678.04,
         "pc_net_profit": 8671.72,
+        "net_profit_match": true
+      },
+      "crossover": true
+    },
+    {
+      "id": "PUB;a9bce057833c40c3ad542a51ec53132e",
+      "kind": "strategy",
+      "name": "ThinkTech AI Signals",
+      "author": "Theonealgo",
+      "license": "none",
+      "version": "1",
+      "likes": 667,
+      "tv_url": "https://www.tradingview.com/script/xJJYblbA/",
+      "sha256": "7fab41f89d43a8351862481567467b9b87af2b4111f88caa15bf914ca27ea006",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26575,
+      "run_sec": 1.287,
+      "ms_per_bar": 0.0484,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-08T15:00:00+00:00",
+        "bars": 26575
+      },
+      "plot": {
+        "cols": 4,
+        "match_pct": 1.0,
+        "worst_col": "Liquidity Base (Support)",
+        "pearson_min": 1.0
+      },
+      "trades": {
+        "tv": 1621,
+        "pc": 1621,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -4567.849,
+        "pc_net_profit": -4567.8489,
+        "net_profit_match": true
+      },
+      "crossover": true
+    },
+    {
+      "id": "PUB;4345af4701df455f89d3efa885595f7e",
+      "kind": "strategy",
+      "name": "LANZ Strategy 4.0 [Backtest]",
+      "author": "rau_u_lanz",
+      "license": "none",
+      "version": "1",
+      "likes": 665,
+      "tv_url": "https://www.tradingview.com/script/8Q2g9IW1/",
+      "sha256": "1436f327407c47e7860ee92e956081661b4e12dece039ca3cf5acd2c3e272d3f",
+      "status": "ok",
+      "level": "verified",
+      "bars": 25874,
+      "run_sec": 0.735,
+      "ms_per_bar": null,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-06-24T00:30:00+00:00",
+        "bars": 25874
+      },
+      "trades": {
+        "tv": 47,
+        "pc": 47,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": 1100.3477,
+        "pc_net_profit": 1100.3476,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;d2fd783ded2f451c999dee876ff57623",
+      "kind": "strategy",
+      "name": "Trend Trader-Remastered Strategy",
+      "author": "aybarsm",
+      "license": "MPL-2.0",
+      "version": "2",
+      "likes": 661,
+      "tv_url": "https://www.tradingview.com/script/En4PabIp/",
+      "sha256": "f5cf8054014b914cac4ac1849ef0cdf8fea7eb62e5456d0969011fec80445c4f",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26576,
+      "run_sec": 4.198,
+      "ms_per_bar": 0.158,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-08T15:30:00+00:00",
+        "bars": 26576
+      },
+      "plot": {
+        "cols": 3,
+        "match_pct": 1.0,
+        "worst_col": "Lagging PSAR",
+        "pearson_min": 1.0
+      },
+      "trades": {
+        "tv": 1938,
+        "pc": 1938,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -207.09189,
+        "pc_net_profit": -206.81651,
+        "net_profit_match": true
+      },
+      "crossover": true
+    },
+    {
+      "id": "PUB;57c657fed44c4cdb9ab493956f37ddbb",
+      "kind": "strategy",
+      "name": "EMA Slope - RSI Oscillator Strategy",
+      "author": "xvelox_",
+      "license": "none",
+      "version": "5",
+      "likes": 658,
+      "tv_url": "https://www.tradingview.com/script/RNxThUtE/",
+      "sha256": "ef779506d305069da16f81b53cbcb85018a6bc7fb156dd9dfa00d93dafcc96ca",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26575,
+      "run_sec": 2.387,
+      "ms_per_bar": 0.0898,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-08T15:00:00+00:00",
+        "bars": 26575
+      },
+      "plot": {
+        "cols": 4,
+        "match_pct": 1.0,
+        "worst_col": "Diff MA",
+        "pearson_min": 1.0
+      },
+      "trades": {
+        "tv": 279,
+        "pc": 279,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -3323.536,
+        "pc_net_profit": -3323.5359,
+        "net_profit_match": true
+      },
+      "crossover": true
+    },
+    {
+      "id": "PUB;04da620e890c46e5a5d976b8886c596e",
+      "kind": "strategy",
+      "name": "Long-Only Opening Range Breakout (ORB) with Pivot Points",
+      "author": "VolumeVigilante",
+      "license": "MPL-2.0",
+      "version": "3",
+      "likes": 652,
+      "tv_url": "https://www.tradingview.com/script/6kDE9bLA/",
+      "sha256": "af6e86240a7cc6cfbf5275524b3a8b7e724eaa0e05aed06a2ac6ae69fc7d5d5a",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26575,
+      "run_sec": 3.146,
+      "ms_per_bar": 0.1184,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-08T15:00:00+00:00",
+        "bars": 26575,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "D",
+            "from": "2019-07-12T00:00:00+00:00",
+            "to": "2026-07-08T00:00:00+00:00",
+            "bars": 2554
+          }
+        ]
+      },
+      "plot": {
+        "cols": 12,
+        "match_pct": 1.0,
+        "worst_col": "R1",
+        "pearson_min": 1.0
+      },
+      "trades": {
+        "tv": 544,
+        "pc": 544,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -3653.2837,
+        "pc_net_profit": -3653.2836,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;07b589b8c6db4d30b1fb2ee49c8d7676",
+      "kind": "strategy",
+      "name": "Tristan's Multi-Indicator Reversal Strategy",
+      "author": "OhRayOhRay",
+      "license": "MPL-2.0",
+      "version": "2",
+      "likes": 649,
+      "tv_url": "https://www.tradingview.com/script/1wc9v4rw/",
+      "sha256": "626fae28e3ce0dbb999d0c051878aca80bc8699b223d9d421b1c25e6d7a7f231",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26575,
+      "run_sec": 1.97,
+      "ms_per_bar": 0.0741,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-08T15:00:00+00:00",
+        "bars": 26575
+      },
+      "trades": {
+        "tv": 458,
+        "pc": 458,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -8824.461,
+        "pc_net_profit": -8824.4609,
+        "net_profit_match": true
+      },
+      "crossover": true
+    },
+    {
+      "id": "PUB;99f259d6c6cd40bcbd24b4efb48e7765",
+      "kind": "strategy",
+      "name": "Bollinger Bands Mean Reversion using RSI [Krishna Peri]",
+      "author": "thechadyogi",
+      "license": "none",
+      "version": "1",
+      "likes": 644,
+      "tv_url": "https://www.tradingview.com/script/XRPeqEdA/",
+      "sha256": "ebd8429d17661f49e43f0091c1b2866e5bbd447c582ea80b243aee33fe4c4cb0",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26575,
+      "run_sec": 0.829,
+      "ms_per_bar": 0.0312,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-08T15:00:00+00:00",
+        "bars": 26575
+      },
+      "plot": {
+        "cols": 3,
+        "match_pct": 1.0,
+        "worst_col": "Middle BB",
+        "pearson_min": 1.0
+      },
+      "trades": {
+        "tv": 635,
+        "pc": 635,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -21432.31,
+        "pc_net_profit": -21432.31,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;d09481f52e7e4fe896e4f7fc0164e6b2",
+      "kind": "strategy",
+      "name": "KALKI TFXBOT",
+      "author": "KalkiTrader007",
+      "license": "none",
+      "version": "1",
+      "likes": 639,
+      "tv_url": "https://www.tradingview.com/script/gFMT7BUb/",
+      "sha256": "8e896dbbb755ece71a0bb60d7744c4409019cc43cb6454b7eefe32b4d09ec576",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26575,
+      "run_sec": 1.046,
+      "ms_per_bar": 0.0394,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-08T15:00:00+00:00",
+        "bars": 26575
+      },
+      "plot": {
+        "cols": 2,
+        "match_pct": 1.0,
+        "worst_col": "Liquidity Floor",
+        "pearson_min": 1.0
+      },
+      "trades": {
+        "tv": 353,
+        "pc": 353,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": 16434.28,
+        "pc_net_profit": 16434.28,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;c3f5469e3309498bb5c9f72a611cac62",
+      "kind": "strategy",
+      "name": "Two-Bar Fib Retrace Strategy [Futures]",
+      "author": "UkesTrades",
+      "license": "none",
+      "version": "1",
+      "likes": 632,
+      "tv_url": "https://www.tradingview.com/script/NP615SiK/",
+      "sha256": "12ac406ba8492ad776abf933400a258902d7d0d75b4f22ec95362d678074f3f6",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26575,
+      "run_sec": 5.035,
+      "ms_per_bar": 0.1895,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-08T15:00:00+00:00",
+        "bars": 26575,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "W",
+            "from": "2017-08-14T00:00:00+00:00",
+            "to": "2026-07-06T00:00:00+00:00",
+            "bars": 465
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "D",
+            "from": "2019-07-12T00:00:00+00:00",
+            "to": "2026-07-08T00:00:00+00:00",
+            "bars": 2554
+          }
+        ]
+      },
+      "plot": {
+        "cols": 1,
+        "match_pct": 1.0,
+        "worst_col": "VWAP",
+        "pearson_min": 1.0
+      },
+      "trades": {
+        "tv": 158,
+        "pc": 158,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": 9124.017,
+        "pc_net_profit": 9124.0164,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;6c34907eba564a7e9ec5742eed59ebb3",
+      "kind": "strategy",
+      "name": "RSI + MACD Multi-Timeframe Strategy",
+      "author": "RWCS_LTD",
+      "license": "MPL-2.0",
+      "version": "1",
+      "likes": 626,
+      "tv_url": "https://www.tradingview.com/script/Epqb0L8C/",
+      "sha256": "6d489331a334f274e783d32edfcb7c0fcb8ca101cf9b97d0d07640cf33dba304",
+      "status": "ok",
+      "level": "verified",
+      "bars": 26575,
+      "run_sec": 2.033,
+      "ms_per_bar": 0.0765,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-07-08T15:00:00+00:00",
+        "bars": 26575,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "1D",
+            "from": "2019-07-12T00:00:00+00:00",
+            "to": "2026-07-08T00:00:00+00:00",
+            "bars": 2554
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "240",
+            "from": "2024-02-02T16:00:00+00:00",
+            "to": "2026-07-08T12:00:00+00:00",
+            "bars": 5322
+          }
+        ]
+      },
+      "plot": {
+        "cols": 3,
+        "match_pct": 1.0,
+        "worst_col": "RSI (1D)",
+        "pearson_min": 1.0
+      },
+      "trades": {
+        "tv": 1,
+        "pc": 1,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": 140588.2,
+        "pc_net_profit": 140588.2,
         "net_profit_match": true
       },
       "crossover": true
