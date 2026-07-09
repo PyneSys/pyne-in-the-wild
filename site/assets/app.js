@@ -187,8 +187,10 @@
   // The static prerender emits one HTML file per page (/, /scripts/page-N.html);
   // when a search visitor lands on page N, start the client render on that same
   // page so the prerendered rows are the ones shown — no jump to page 1.
+  // Cloudflare Pages serves clean URLs (/scripts/page-N, redirecting the .html
+  // form to it), so the extension must be optional here.
   function initialPage() {
-    const m = location.pathname.match(/\/scripts\/page-(\d+)\.html$/);
+    const m = location.pathname.match(/\/scripts\/page-(\d+)(?:\.html)?\/?$/);
     return m ? Math.max(1, parseInt(m[1], 10)) : 1;
   }
 
