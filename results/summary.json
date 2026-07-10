@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09",
+  "generated_at": "2026-07-10",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "tolerances": {
@@ -8,13 +8,13 @@
     "profit_pct_tol": 0.1
   },
   "counts": {
-    "total": 122,
+    "total": 126,
     "indicators": 59,
-    "strategies": 63,
-    "compiled": 122,
+    "strategies": 67,
+    "compiled": 126,
     "compile_fail": 0,
-    "tv_ok": 119,
-    "pyne_ok": 122,
+    "tv_ok": 123,
+    "pyne_ok": 126,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
@@ -57,37 +57,37 @@
     }
   },
   "strategies": {
-    "n": 63,
+    "n": 67,
     "entry_match_pct": {
       "median": 1.0,
-      "mean": 0.9999943709677419,
+      "mean": 0.9999947121212122,
       "min": 0.999651,
       "max": 1.0,
-      "n": 62,
+      "n": 66,
       "p25": 1.0,
       "p75": 1.0
     },
     "exit_match_pct": {
       "median": 1.0,
-      "mean": 0.9999943709677419,
+      "mean": 0.9999947121212122,
       "min": 0.999651,
       "max": 1.0,
-      "n": 62,
+      "n": 66,
       "p25": 1.0,
       "p75": 1.0
     },
     "trade_match_pct": {
       "median": 1.0,
-      "mean": 0.9999812580645161,
+      "mean": 0.999982393939394,
       "min": 0.998838,
       "max": 1.0,
-      "n": 62,
+      "n": 66,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_pct_match_rate": 1.0,
-    "trade_count_exact_match": 61
+    "trade_count_exact_match": 65
   },
   "top_compile_errors": [],
   "worst_plot_scripts": [
@@ -102,12 +102,6 @@
       "name": "QQE MOD",
       "plot_match_pct": 0.996453,
       "worst_col": "Secondary QQE Trend Line"
-    },
-    {
-      "id": "PUB;3f3d9ba4bd5644f9a3f3d0d68326e736",
-      "name": "Solution Zigma - Fibonacci Impulse",
-      "plot_match_pct": 0.999543,
-      "worst_col": "Zigma Bull impulse"
     },
     {
       "id": "PUB;7a639b049f0d493fbe5a5ca996e8fff5",
@@ -180,6 +174,12 @@
       "name": "Fibonacci Time-Price Zones",
       "plot_match_pct": 1.0,
       "worst_col": "B Price"
+    },
+    {
+      "id": "PUB;8143a07641de4d43be04c81f85649473",
+      "name": "Fibonacci Trend [ChartPrime]",
+      "plot_match_pct": 1.0,
+      "worst_col": "Trend"
     }
   ]
 }
