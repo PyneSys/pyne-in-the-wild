@@ -37,19 +37,17 @@
       failed: 'Failed — the script did not compile or run. Reported as-is, never hidden.',
     };
 
-    // Informational tag, orthogonal to the status. ta.crossover / ta.crossunder
-    // decide direction from a raw float comparison; at an exact tie the branch
-    // TradingView takes is rounding noise, not a real signal — so a bar or two of
-    // divergence on such a script can be that coin-flip, not a PyneCore error.
-    const crossoverDesc =
-      'Uses ta.crossover / ta.crossunder — the trade direction turns on a raw ' +
-      'floating-point comparison of two series. When those values are equal to the ' +
-      'last bit, the direction TradingView picks is rounding noise, not a real ' +
-      'signal, so a bar or two of divergence here can be that coin-flip rather than ' +
-      'a PyneCore error.';
-    const crossoverTag = (s) =>
-      s.crossover
-        ? `<span class="row-tag tag-crossover" title="${crossoverDesc}">cross</span>`
+    // Informational tag, orthogonal to the status. Shown ONLY where individual
+    // trades were actually dropped: ta.crossover / ta.crossunder decide a
+    // direction with a raw > between two floats, and where every series those
+    // comparisons read agrees with TradingView below the instrument's mintick,
+    // the two sides can land on opposite sides of a difference the market cannot
+    // quote. Those trades are excluded from both sides; the measured figures stay
+    // on the row's detail panel.
+    const subTickTag = (s) =>
+      s.sub_tick
+        ? `<span class="row-tag tag-sub_tick" title="${s.sub_tick.reason}">` +
+          `${s.sub_tick.trades} excluded</span>`
         : '';
 
     const kindShort = { indicator: 'IND', strategy: 'STR' };
@@ -73,11 +71,25 @@
     // Trade match: whole-trade agreement vs TradingView (entry AND exit paired,
     // surplus Pyne trades penalised), for strategies with trades. NOT the one-sided
     // entry recall, which reads 100% even when Pyne takes trades TV never did.
+    // Where sub-tick decisions were excluded the headline is the adjusted figure —
+    // that is what excluding them means — and the measured one is spelled out in
+    // the detail panel next to it.
+    function tradeMatchNum(s) {
+      if (!s.trades || !(s.trades.tv > 0)) return null;
+      return s.trades.trade_match_pct_adj != null
+        ? s.trades.trade_match_pct_adj
+        : s.trades.trade_match_pct;
+    }
+
     function tradeMatch(s) {
-      if (s.trades && s.trades.tv > 0) {
-        return { num: s.trades.trade_match_pct, text: matchPct(s.trades.trade_match_pct, 2) };
-      }
-      return { num: null, text: dash };
+      const num = tradeMatchNum(s);
+      return num == null ? { num: null, text: dash } : { num, text: matchPct(num, 2) };
+    }
+
+    function netProfitOk(s) {
+      return s.trades.net_profit_match_adj != null
+        ? s.trades.net_profit_match_adj
+        : s.trades.net_profit_match;
     }
 
     // Plot match: per-bar plot agreement vs TradingView, for any script that plots.
@@ -100,7 +112,9 @@
     function tradesCountSub(s) {
       if (!s.trades) return '';
       const t = s.trades;
-      const mism = t.pc !== t.tv ? ' mismatch' : '';
+      // The counts stay as measured; only the "these disagree" styling is dropped
+      // when the whole difference is trades excluded as sub-tick decisions.
+      const mism = t.pc !== t.tv && !t.excluded ? ' mismatch' : '';
       const label = `${fmt(t.tv)} TradingView trades, ${fmt(t.pc)} Pyne trades`;
       return (
         `<span class="match-sub" aria-label="${label}">` +
@@ -120,7 +134,7 @@
 
     function netCell(s) {
       if (!s.trades || s.trades.tv === 0) return '<span class="muted">—</span>';
-      return s.trades.net_profit_match
+      return netProfitOk(s)
         ? '<span class="net-ok" role="img" aria-label="Net profit matches">&#10003;</span>'
         : '<span class="net-bad" role="img" aria-label="Net profit differs">&#10007;</span>';
     }
@@ -161,6 +175,16 @@
           `footprint is reported as <code>na</code> and the script falls back to price action. ` +
           `It runs, but can never match TradingView here — excluded from the accuracy score, by design.</p>`;
       }
+      if (s.sub_tick) {
+        html +=
+          `<p class="sc-sub_tick">Sub-tick decisions excluded — the direction here turns on ` +
+          `<code>ta.crossover</code> / <code>ta.crossunder</code>, a raw <code>&gt;</code> ` +
+          `between two floats. ${s.sub_tick.reason}. There is nothing to reconcile: the ` +
+          `comparison carries no tolerance, and what it turned on is smaller than the instrument ` +
+          `can quote. Those trades are dropped from both sides' trade count and net profit; every ` +
+          `measured figure is kept below, unchanged. The adjusted profit is deliberately neither ` +
+          `engine's own result — it is the net over the trades still compared.</p>`;
+      }
 
       const acc = [];
       if (s.trades) {
@@ -169,16 +193,35 @@
           acc.push(['Trades in window', '0 (none on this symbol)', '']);
         } else {
           const verMin = D.verification_threshold != null ? D.verification_threshold : 0.99;
-          acc.push(['Trades compared', `${fmt(t.tv)} TV / ${fmt(t.pc)} Pyne`, t.pc === t.tv ? 'good' : 'bad']);
-          acc.push(['Whole-trade match', matchPct(t.trade_match_pct, 2), t.trade_match_pct >= verMin ? 'good' : 'bad']);
+          acc.push(['Trades compared', `${fmt(t.tv)} TV / ${fmt(t.pc)} Pyne`,
+            t.pc === t.tv || t.excluded ? 'good' : 'bad']);
+          if (t.excluded) acc.push(['Sub-tick decisions excluded', countLabel(t.excluded, 'trade', 'trades'), '']);
+          // What the engines measured comes first, always; the adjusted figure only
+          // ever sits beside it, never in place of it.
+          acc.push([t.excluded ? 'Whole-trade match, measured' : 'Whole-trade match',
+            matchPct(t.trade_match_pct, 2),
+            t.trade_match_pct >= verMin && !t.excluded ? 'good' : '']);
+          if (t.excluded) {
+            acc.push(['Whole-trade match, after exclusions', matchPct(t.trade_match_pct_adj, 2),
+              t.trade_match_pct_adj >= verMin ? 'good' : 'bad']);
+          }
           acc.push(['Entry timing match', pct(t.entry_match_pct, 2), t.entry_match_pct === 1 ? 'good' : '']);
           acc.push(['Exit timing match', pct(t.exit_match_pct, 2), t.exit_match_pct === 1 ? 'good' : '']);
-          if (t.extra_entries > 0) acc.push(['Extra Pyne entries', String(t.extra_entries), 'bad']);
+          if (t.extra_entries > 0) {
+            acc.push(['Extra Pyne entries', String(t.extra_entries), t.excluded ? '' : 'bad']);
+          }
           acc.push([
-            'Net profit (TV / Pyne)',
-            `${fmt(Math.round(t.tv_net_profit))} / ${fmt(Math.round(t.pc_net_profit))} USDT`,
-            t.net_profit_match ? 'good' : 'bad',
+            t.excluded ? 'Net profit, measured (TV / Pyne)' : 'Net profit (TV / Pyne)',
+            `${fmt(Math.round(t.tv_net_profit))} / ${fmt(Math.round(t.pc_net_profit))}`,
+            t.net_profit_match && !t.excluded ? 'good' : '',
           ]);
+          if (t.excluded) {
+            acc.push([
+              'Net profit, after exclusions',
+              `${fmt(Math.round(t.tv_net_profit_adj))} / ${fmt(Math.round(t.pc_net_profit_adj))}`,
+              t.net_profit_match_adj ? 'good' : 'bad',
+            ]);
+          }
         }
       }
       if (s.plot) {
@@ -250,7 +293,7 @@
             `<a class="row-link" href="${s.tv_url}" target="_blank" rel="noopener">${s.name}<span class="ext" aria-hidden="true">&#8599;</span></a>` +
             `<span class="row-meta">` +
               `<span class="row-author">by ${s.author}${lic}</span>` +
-              crossoverTag(s) +
+              subTickTag(s) +
               `<span class="row-likes" aria-label="${fmt(s.likes)} likes"><svg class="ic-thumb" viewBox="0 0 24 24" aria-hidden="true"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z"/></svg> ${fmt(s.likes)}</span>` +
             `</span>` +
           `</td>` +

@@ -1,93 +1,139 @@
 {
-  "generated_at": "2026-07-10",
+  "generated_at": "2026-07-28",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
+  "instruments": [
+    {
+      "symbol": "BINANCE:BTCUSDT",
+      "timeframe": "30",
+      "scripts": 126
+    },
+    {
+      "symbol": "BINANCE:BTCUSDT",
+      "timeframe": "240",
+      "scripts": 1
+    },
+    {
+      "symbol": "BINANCE:DOGEUSDT",
+      "timeframe": "30",
+      "scripts": 1
+    },
+    {
+      "symbol": "BINANCE:ETHUSDT",
+      "timeframe": "60",
+      "scripts": 1
+    },
+    {
+      "symbol": "BYBIT:WIFUSDT.P",
+      "timeframe": "5",
+      "scripts": 1
+    },
+    {
+      "symbol": "CAPITALCOM:EURUSD",
+      "timeframe": "30",
+      "scripts": 1
+    },
+    {
+      "symbol": "CRYPTO:BTCUSD",
+      "timeframe": "30",
+      "scripts": 1
+    },
+    {
+      "symbol": "NASDAQ:AAPL",
+      "timeframe": "5",
+      "scripts": 1
+    }
+  ],
   "tolerances": {
     "abs_tol": 1e-08,
     "rel_tol": 1e-05,
     "profit_pct_tol": 0.1
   },
   "counts": {
-    "total": 126,
-    "indicators": 59,
-    "strategies": 67,
-    "compiled": 126,
+    "total": 133,
+    "indicators": 60,
+    "strategies": 73,
+    "compiled": 133,
     "compile_fail": 0,
-    "tv_ok": 123,
-    "pyne_ok": 126,
+    "tv_ok": 130,
+    "pyne_ok": 133,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 49,
+    "n_with_plots_compared": 51,
     "plot_match_pct": {
       "median": 1.0,
-      "mean": 0.9999256530612246,
+      "mean": 0.9999144117647059,
       "min": 0.996453,
       "max": 1.0,
-      "n": 49,
+      "n": 51,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 5.645833333333333e-06,
+      "mean": 5.42e-06,
       "min": 0.0,
       "max": 0.000271,
-      "n": 48,
+      "n": 50,
       "p25": 0.0,
       "p75": 0.0
     },
     "pearson_min": {
       "median": 1.0,
-      "mean": 0.9999316666666668,
+      "mean": 0.99992436,
       "min": 0.996732,
       "max": 1.0,
-      "n": 48,
+      "n": 50,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 45,
+    "fully_matching_scripts": 46,
     "match_pct_histogram": {
-      "1.0": 45,
-      "0.99-1.0": 4,
+      "1.0": 46,
+      "0.99-1.0": 5,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 67,
+    "n": 73,
     "entry_match_pct": {
       "median": 1.0,
-      "mean": 0.9999947121212122,
-      "min": 0.999651,
+      "mean": 0.9999632222222223,
+      "min": 0.997701,
       "max": 1.0,
-      "n": 66,
+      "n": 72,
       "p25": 1.0,
       "p75": 1.0
     },
     "exit_match_pct": {
       "median": 1.0,
-      "mean": 0.9999947121212122,
-      "min": 0.999651,
+      "mean": 0.9999791944444445,
+      "min": 0.998851,
       "max": 1.0,
-      "n": 66,
+      "n": 72,
       "p25": 1.0,
       "p75": 1.0
     },
     "trade_match_pct": {
       "median": 1.0,
-      "mean": 0.999982393939394,
+      "mean": 0.9999838611111111,
       "min": 0.998838,
       "max": 1.0,
-      "n": 66,
+      "n": 72,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_pct_match_rate": 1.0,
-    "trade_count_exact_match": 65
+    "trade_count_exact_match": 71,
+    "sub_tick_excluded": {
+      "scripts": 1,
+      "trades": 3
+    }
   },
   "top_compile_errors": [],
   "worst_plot_scripts": [
@@ -102,6 +148,18 @@
       "name": "QQE MOD",
       "plot_match_pct": 0.996453,
       "worst_col": "Secondary QQE Trend Line"
+    },
+    {
+      "id": "PUB;1f0519dd185c43769823a780c52510a5",
+      "name": "SSL HYBRID Advanced",
+      "plot_match_pct": 0.999278,
+      "worst_col": "ADX Cross"
+    },
+    {
+      "id": "PUB;zKG3qTtkset9N08RU9DY7GYo87faVuv0",
+      "name": "[STRATEGY][RS]Open Session Breakout Trader",
+      "plot_match_pct": 0.999541,
+      "worst_col": "Trade Open Price Line"
     },
     {
       "id": "PUB;7a639b049f0d493fbe5a5ca996e8fff5",
@@ -143,7 +201,7 @@
       "id": "PUB;31190855aaa049d58746900abf6f0cea",
       "name": "Change in State of Delivery CISD [AlgoAlpha]",
       "plot_match_pct": 1.0,
-      "worst_col": "Swing High"
+      "worst_col": "Bearish CISD with Liquidity Sweep"
     },
     {
       "id": "PUB;07fdb6893496402da7ae8c21da9ac862",
@@ -164,22 +222,10 @@
       "worst_col": "Plot"
     },
     {
-      "id": "PUB;smOGfR6p3nRIFHGkaKqbV9wWl8bFcUmA",
-      "name": "Fibonacci Extension / Retracement / Pivot Points by DGT",
+      "id": "PUB;WokerspHYCae8NdAwae4mYE2rTOAOsWD",
+      "name": "Elliott Wave Oscillator Signals by DGT",
       "plot_match_pct": 1.0,
-      "worst_col": "Exhaustion Bar"
-    },
-    {
-      "id": "PUB;b479566fb5794c7ca3b8158bacb6f5b7",
-      "name": "Fibonacci Time-Price Zones",
-      "plot_match_pct": 1.0,
-      "worst_col": "B Price"
-    },
-    {
-      "id": "PUB;8143a07641de4d43be04c81f85649473",
-      "name": "Fibonacci Trend [ChartPrime]",
-      "plot_match_pct": 1.0,
-      "worst_col": "Trend"
+      "worst_col": "Strong Long"
     }
   ]
 }

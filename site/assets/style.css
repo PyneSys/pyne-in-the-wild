@@ -44,6 +44,7 @@
   --violet: #7C4DFF;
   --slate: #64748B;
   --yellow: #FED64D;
+  --teal: #0D9488;
   --dark: #212121;
   --light: #F5F5F5;
   --medium: #E0E0E0;
@@ -1243,7 +1244,9 @@ a.page-btn { display: inline-flex; align-items: center; justify-content: center;
   vertical-align: 0.08em;
   cursor: help;
 }
-.tag-crossover { background: rgba(100, 116, 139, 0.14); color: #475569; }
+/* Own hue: the six level colours are taken, and slate would read as the
+   data_limited status this tag can sit next to. */
+.tag-sub_tick { background: rgba(13, 148, 136, 0.14); color: #0B6F66; }
 .table-note {
   margin: 0.9rem 0 0;
   padding: 0.7rem 0.95rem;
@@ -1376,6 +1379,19 @@ a.page-btn { display: inline-flex; align-items: center; justify-content: center;
 }
 .sc-data_limited code {
   background: rgba(100, 116, 139, 0.12);
+  padding: 0.05em 0.35em;
+  border-radius: 4px;
+}
+.sc-sub_tick {
+  font-size: 0.86rem;
+  color: #0B6F66;
+  background: rgba(13, 148, 136, 0.07);
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 0.8rem;
+  margin: 0.4rem 0 0.9rem;
+}
+.sc-sub_tick code {
+  background: rgba(13, 148, 136, 0.12);
   padding: 0.05em 0.35em;
   border-radius: 4px;
 }

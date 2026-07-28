@@ -133,6 +133,9 @@
     ['Fully verified strategy outputs', `${D.strategies.verified} / ${D.strategies.n}`],
     ['Trades compared in total', fmt(D.totals.trades_compared)],
     ['Exact trade-count matches', `${D.strategies.trade_count_exact_match} / ${D.strategies.compared}`],
+    ...(D.totals.sub_tick_excluded_trades
+      ? [['Trades excluded as sub-tick decisions', `${D.totals.sub_tick_excluded_trades} of ${fmt(D.totals.trades_compared)}`]]
+      : []),
     ['Net profit within tolerance', `${Math.round(D.strategies.net_profit_match_rate * D.strategies.compared)} / ${D.strategies.compared}`],
     ['Mean entry/exit timing match', `${pct(D.strategies.entry_match_mean, 1)} / ${pct(D.strategies.exit_match_mean, 1)}`],
   ]
@@ -144,6 +147,7 @@
   $('#method-params').innerHTML = [
     `<span class="k">symbol</span>      = ${D.symbol}`,
     `<span class="k">timeframe</span>   = ${D.timeframe_min} min`,
+    ...(D.own_market_scripts ? [`<span class="k">exceptions</span>  = ${D.own_market_scripts} scripts on their own market`] : []),
     `<span class="k">bars</span>        = 25,000+ per script`,
     `<span class="k">abs_tol</span>     = ${D.tolerances.abs_tol}`,
     `<span class="k">rel_tol</span>     = ${D.tolerances.rel_tol}`,
@@ -278,7 +282,10 @@
       case 'level': return LEVEL_RANK[s.level];
       case 'plotmatch': return plotMatch(s).num;
       case 'tvmatch': return tradeMatch(s).num;
-      case 'net': return s.trades && s.trades.tv > 0 ? (s.trades.net_profit_match ? 1 : 0) : null;
+      case 'net': return s.trades && s.trades.tv > 0
+        ? ((s.trades.net_profit_match_adj != null ? s.trades.net_profit_match_adj
+                                                  : s.trades.net_profit_match) ? 1 : 0)
+        : null;
       case 'bars': return s.bars != null ? s.bars : null;
       default: return null;
     }
