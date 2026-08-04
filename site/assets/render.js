@@ -32,9 +32,65 @@
       verified: "Verified — output matched TradingView's own reference, bar by bar and trade by trade.",
       divergent: "Divergent — ran and was compared against TradingView's reference, but the output differs beyond tolerance. Shown as-is, never rounded up to verified.",
       repaint: "Repaint — the script repaints on TradingView: request.security leaks a not-yet-closed higher-timeframe bar, so TradingView's own plot uses future data. PyneCore stays causal and refuses to leak, so it can never match this bar-for-bar. Never supported, by design.",
-      data_limited: "Data-limited — the script needs a data source PyneCore does not have (tick-level order-flow via request.footprint). It runs, with the missing feed reported as na, but can never match TradingView. Excluded from the accuracy score, by design.",
+      data_limited: "Data-limited — the script needs a data source this comparison does not have (tick-level order-flow via request.footprint). It runs, with the missing feed reported as na, but can never match TradingView here. Excluded from the accuracy score, by design.",
       runs: 'Runs — compiled and ran over real market data without errors, but no comparable TradingView reference was available to verify against.',
       failed: 'Failed — the script did not compile or run. Reported as-is, never hidden.',
+    };
+
+    // Numerical fidelity: not WHETHER the outputs agree but HOW CLOSELY, on the
+    // only scale a double has. "Matches TradingView" is a claim people are
+    // entitled to disbelieve; "27,613 bars, the same double every time" is one
+    // they can check.
+    // It is the top of the Verified rung, not a second dimension — a tier is only
+    // ever measured for a script that already matched — so it rides under the
+    // status badge in the same cell instead of in a column of its own.
+    // Only the two tiers that SAY something beyond the status badge. A script that
+    // merely agrees within the published band gets no tier line: "it matches within
+    // tolerance" is exactly what the Verified status already means, and repeating
+    // it under the badge would be noise dressed as information.
+    const fidelity = {
+      exact: ['fid-exact', 'bit-exact'],
+      libm: ['fid-libm', 'libm'],
+    };
+
+    const fidelityDesc = {
+      exact:
+        // Typographic quotes on purpose: this string is emitted inside a title="..."
+        // attribute, where a straight quote would close the attribute early and
+        // truncate the tooltip.
+        'Bit-exact — on every compared bar PyneCore produced the identical IEEE-754 ' +
+        'double TradingView did. Not “close enough”: the same 64 bits.',
+      libm:
+        'libm — the values differ only in the last bits of the mantissa, and the ' +
+        'script reaches a transcendental function (log, exp, pow, the trig family). ' +
+        'IEEE-754 requires + - * / and sqrt to be correctly rounded and requires ' +
+        'nothing of those, so CPython\'s C library and TradingView\'s JVM may both be ' +
+        'right and still land a few representable values apart. Named, not hidden.',
+    };
+
+    const fidelitySub = (s) => {
+      const f = fidelity[s.fidelity];
+      if (!f) return '';
+      const ulp = s.plot && s.plot.max_ulp != null && s.plot.max_ulp > 0
+        ? ` Worst distance: ${fmt(s.plot.max_ulp)} representable value${s.plot.max_ulp === 1 ? '' : 's'}.`
+        : '';
+      const via = s.transcendentals && s.transcendentals.length
+        ? ` Via ${s.transcendentals.join(', ')}.`
+        : '';
+      return `<span class="fid-sub ${f[0]}" title="${fidelityDesc[s.fidelity]}${ulp}${via}">${f[1]}</span>`;
+    };
+
+    // The status cell: the verdict, plus the tier it was reached at when one was
+    // measured. Two lines, one column — the tier can never contradict the badge
+    // above it, so a reader has one thing to read, not two to reconcile.
+    const statusCell = (s) => {
+      const [badgeCls, badgeText] = badge[s.level];
+      return (
+        `<span class="status-stack">` +
+          `<span class="status-badge ${badgeCls}" title="${statusDesc[s.level]}">${badgeText}</span>` +
+          fidelitySub(s) +
+        `</span>`
+      );
     };
 
     // Informational tag, orthogonal to the status. Shown ONLY where individual
@@ -171,9 +227,10 @@
         html +=
           `<p class="sc-data_limited">Data-limited — this script calls ` +
           `<code>request.footprint()</code>, whose tick-level order-flow (buy/sell aggressor) ` +
-          `data TradingView derives from bid/ask ticks. PyneCore only has OHLCV bars, so the ` +
-          `footprint is reported as <code>na</code> and the script falls back to price action. ` +
-          `It runs, but can never match TradingView here — excluded from the accuracy score, by design.</p>`;
+          `data TradingView derives from bid/ask ticks. This comparison runs on frozen OHLCV bars ` +
+          `and no such feed is part of it, so the footprint is reported as <code>na</code> and the ` +
+          `script falls back to price action. It runs, but can never match TradingView here — ` +
+          `excluded from the accuracy score, by design.</p>`;
       }
       if (s.sub_tick) {
         html +=
@@ -226,6 +283,39 @@
       }
       if (s.plot) {
         if (s.plot.cols != null) acc.push(['Plots compared', String(s.plot.cols), '']);
+        // The lattice figures, spelled out. These are what the fidelity badge is
+        // derived from, so the badge is never something a reader has to take on
+        // trust — the numbers behind it sit right here.
+        if (s.plot.bars_numeric) {
+          acc.push(['Plotted values compared', fmt(s.plot.bars_numeric), '']);
+        }
+        if (s.plot.exact_pct != null) {
+          acc.push(['Identical to the bit', matchPct(s.plot.exact_pct, 3),
+            s.plot.exact_pct === 1 ? 'good' : '']);
+        }
+        if (s.plot.max_ulp != null) {
+          acc.push([
+            'Worst distance',
+            s.plot.max_ulp === 0
+              ? 'same double'
+              : `${fmt(s.plot.max_ulp)} representable value${s.plot.max_ulp === 1 ? '' : 's'}` +
+                (s.plot.max_abs ? ` (${s.plot.max_abs.toExponential(2)} absolute)` : ''),
+            s.plot.max_ulp === 0 ? 'good' : '',
+          ]);
+        }
+        // Split out on purpose: a value that is off and a bar one side plots while
+        // the other does not fail for unrelated reasons, and a single percentage
+        // cannot say which happened.
+        if (s.plot.na_struct_mismatch) {
+          acc.push(['Bars plotted by one side only', fmt(s.plot.na_struct_mismatch), 'bad']);
+          if (s.plot.num_match_pct != null) {
+            acc.push(['Match on values alone', matchPct(s.plot.num_match_pct, 3),
+              s.plot.num_match_pct === 1 ? 'good' : '']);
+          }
+        }
+        if (s.transcendentals && s.transcendentals.length) {
+          acc.push(['Transcendentals on the path', s.transcendentals.join(', '), '']);
+        }
         if (s.plot.pearson_min != null) acc.push(['Pearson correlation (min)', s.plot.pearson_min.toFixed(6), 'good']);
         if (s.plot.worst_col) acc.push(['Worst-matching plot', s.plot.worst_col, '']);
       }
@@ -282,7 +372,6 @@
     }
 
     function renderRow(s) {
-      const [badgeCls, badgeText] = badge[s.level];
       const pm = plotMatch(s);
       const tm = tradeMatch(s);
       const lic = s.license && s.license !== 'none' ? ` &middot; ${s.license}` : '';
@@ -290,7 +379,7 @@
       return (
         `<tr class="script-row level-${s.level}">` +
           `<td class="cell-name">` +
-            `<a class="row-link" href="${s.tv_url}" target="_blank" rel="noopener">${s.name}<span class="ext" aria-hidden="true">&#8599;</span></a>` +
+            `<span class="row-title">${s.name}</span>` +
             `<span class="row-meta">` +
               `<span class="row-author">by ${s.author}${lic}</span>` +
               subTickTag(s) +
@@ -298,7 +387,7 @@
             `</span>` +
           `</td>` +
           `<td class="th-center"><span class="kind-chip kind-${s.kind}" title="${kindDesc[s.kind]}">${kindShort[s.kind]}</span></td>` +
-          `<td class="th-center"><span class="status-badge ${badgeCls}" title="${statusDesc[s.level]}">${badgeText}</span></td>` +
+          `<td class="th-center">${statusCell(s)}</td>` +
           `<td class="th-num">${matchCell(pm, plotCountSub(s))}</td>` +
           `<td class="th-num">${matchCell(tm, tradesCountSub(s))}</td>` +
           `<td class="th-center">${netCell(s)}</td>` +

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28",
+  "generated_at": "2026-08-04",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
@@ -45,9 +45,23 @@
     }
   ],
   "tolerances": {
-    "abs_tol": 1e-08,
-    "rel_tol": 1e-05,
+    "rel_tol": 1e-09,
+    "scale_floor": 1e-09,
+    "ulp_limit": 64,
     "profit_pct_tol": 0.1
+  },
+  "fidelity": {
+    "scripts": {
+      "exact": 103,
+      "libm": 4,
+      "band": 8,
+      "compared": 115
+    },
+    "bars_compared": 14136359,
+    "bars_exact": 14082044,
+    "bars_exact_rate": 0.9961577800903331,
+    "max_ulp": 65536.0,
+    "ulp_limit": 64
   },
   "counts": {
     "total": 133,
@@ -62,38 +76,38 @@
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 51,
+    "n_with_plots_compared": 52,
     "plot_match_pct": {
       "median": 1.0,
-      "mean": 0.9999144117647059,
-      "min": 0.996453,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
-      "n": 51,
+      "n": 52,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 5.42e-06,
+      "mean": 5.4044666666666665e-18,
       "min": 0.0,
-      "max": 0.000271,
-      "n": 50,
+      "max": 2.753e-16,
+      "n": 51,
       "p25": 0.0,
       "p75": 0.0
     },
     "pearson_min": {
       "median": 1.0,
-      "mean": 0.99992436,
-      "min": 0.996732,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
-      "n": 50,
+      "n": 51,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 46,
+    "fully_matching_scripts": 52,
     "match_pct_histogram": {
-      "1.0": 46,
-      "0.99-1.0": 5,
+      "1.0": 52,
+      "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
@@ -102,8 +116,8 @@
     "n": 73,
     "entry_match_pct": {
       "median": 1.0,
-      "mean": 0.9999632222222223,
-      "min": 0.997701,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
       "n": 72,
       "p25": 1.0,
@@ -111,8 +125,8 @@
     },
     "exit_match_pct": {
       "median": 1.0,
-      "mean": 0.9999791944444445,
-      "min": 0.998851,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
       "n": 72,
       "p25": 1.0,
@@ -120,8 +134,8 @@
     },
     "trade_match_pct": {
       "median": 1.0,
-      "mean": 0.9999838611111111,
-      "min": 0.998838,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
       "n": 72,
       "p25": 1.0,
@@ -129,56 +143,14 @@
     },
     "net_profit_match_rate": 1.0,
     "net_profit_pct_match_rate": 1.0,
-    "trade_count_exact_match": 71,
+    "trade_count_exact_match": 72,
     "sub_tick_excluded": {
-      "scripts": 1,
-      "trades": 3
+      "scripts": 0,
+      "trades": 0
     }
   },
   "top_compile_errors": [],
   "worst_plot_scripts": [
-    {
-      "id": "PUB;9f89cd8bc5114f679286c5884e5ae938",
-      "name": "Order Block Volumatic FVG Strategy",
-      "plot_match_pct": 0.995708,
-      "worst_col": "Candidate Bear mitigation (%)"
-    },
-    {
-      "id": "PUB;ZGFHCMyX9M60JbFJrfsgxUjGrUYtSlLg",
-      "name": "QQE MOD",
-      "plot_match_pct": 0.996453,
-      "worst_col": "Secondary QQE Trend Line"
-    },
-    {
-      "id": "PUB;1f0519dd185c43769823a780c52510a5",
-      "name": "SSL HYBRID Advanced",
-      "plot_match_pct": 0.999278,
-      "worst_col": "ADX Cross"
-    },
-    {
-      "id": "PUB;zKG3qTtkset9N08RU9DY7GYo87faVuv0",
-      "name": "[STRATEGY][RS]Open Session Breakout Trader",
-      "plot_match_pct": 0.999541,
-      "worst_col": "Trade Open Price Line"
-    },
-    {
-      "id": "PUB;7a639b049f0d493fbe5a5ca996e8fff5",
-      "name": "Comprehensive Trading Toolkit [BigBeluga]",
-      "plot_match_pct": 0.999952,
-      "worst_col": "Regular Bullish"
-    },
-    {
-      "id": "PUB;eNbFyHDmTIdGB7PEd6YGhJno5zhtmJdM",
-      "name": "Technical Ratings",
-      "plot_match_pct": 0.999968,
-      "worst_col": "Oscillators"
-    },
-    {
-      "id": "PUB;84da7a14bfe64823a1246e4d5b0f7c80",
-      "name": "CVD - Cumulative Volume Delta (Chart)",
-      "plot_match_pct": 0.999984,
-      "worst_col": "CVD before this bar"
-    },
     {
       "id": "PUB;42af0c00136b444b918a15e6cb30e896",
       "name": "%R Trend Exhaustion [upslidedown]",
@@ -198,10 +170,22 @@
       "worst_col": "Fast EMA"
     },
     {
+      "id": "PUB;84da7a14bfe64823a1246e4d5b0f7c80",
+      "name": "CVD - Cumulative Volume Delta (Chart)",
+      "plot_match_pct": 1.0,
+      "worst_col": "Volume delta for the bar"
+    },
+    {
       "id": "PUB;31190855aaa049d58746900abf6f0cea",
       "name": "Change in State of Delivery CISD [AlgoAlpha]",
       "plot_match_pct": 1.0,
       "worst_col": "Bearish CISD with Liquidity Sweep"
+    },
+    {
+      "id": "PUB;7a639b049f0d493fbe5a5ca996e8fff5",
+      "name": "Comprehensive Trading Toolkit [BigBeluga]",
+      "plot_match_pct": 1.0,
+      "worst_col": "Plot"
     },
     {
       "id": "PUB;07fdb6893496402da7ae8c21da9ac862",
@@ -226,6 +210,36 @@
       "name": "Elliott Wave Oscillator Signals by DGT",
       "plot_match_pct": 1.0,
       "worst_col": "Strong Long"
+    },
+    {
+      "id": "PUB;smOGfR6p3nRIFHGkaKqbV9wWl8bFcUmA",
+      "name": "Fibonacci Extension / Retracement / Pivot Points by DGT",
+      "plot_match_pct": 1.0,
+      "worst_col": "Exhaustion Bar"
+    },
+    {
+      "id": "PUB;b479566fb5794c7ca3b8158bacb6f5b7",
+      "name": "Fibonacci Time-Price Zones",
+      "plot_match_pct": 1.0,
+      "worst_col": "B Price"
+    },
+    {
+      "id": "PUB;8143a07641de4d43be04c81f85649473",
+      "name": "Fibonacci Trend [ChartPrime]",
+      "plot_match_pct": 1.0,
+      "worst_col": "Trend"
+    },
+    {
+      "id": "PUB;1b7ae64e245e4b56aa0dbfe4ed5ec48a",
+      "name": "Global Liquidity Index",
+      "plot_match_pct": 1.0,
+      "worst_col": "GLI Line"
+    },
+    {
+      "id": "PUB;091bb46c2b8b45718c46b487a8fa46ac",
+      "name": "HEMA Trend Levels [AlgoAlpha]",
+      "plot_match_pct": 1.0,
+      "worst_col": "Top HEMA"
     }
   ]
 }

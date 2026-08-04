@@ -29,11 +29,11 @@
     tv_fidelity_pct: Math.round(D.totals.tv_fidelity_rate * 100),
     run_success_pct: Math.round(D.totals.run_success_rate * 100),
     tv_comparable: D.totals.tv_comparable,
-    average_match_pct: floorPct(D.totals.average_match_rate, 2),
+    average_match_pct: floorPct(D.totals.average_match_rate, 3),
   };
 
   // Counters that carry decimals; everything else animates as a whole number.
-  const SNAPSHOT_DECIMALS = { average_match_pct: 2 };
+  const SNAPSHOT_DECIMALS = { average_match_pct: 3 };
 
   function animateCount(el, target, decimals = 0) {
     const duration = 1300;
@@ -184,9 +184,14 @@
   const gridCount = $('#grid-count');
   const gridEmpty = $('#grid-empty');
 
-  const ALL_LEVELS = ['verified', 'divergent', 'repaint', 'data_limited', 'runs', 'failed'];
+  // Filter tiers, not raw levels: bit-exact is the one fidelity tier worth a chip
+  // of its own (it is the headline claim). libm stays under Verified, where the
+  // status cell already puts it.
+  const ALL_TIERS = ['exact', 'verified', 'divergent', 'repaint', 'data_limited', 'runs', 'failed'];
   const ALL_KINDS = ['all', 'indicator', 'strategy'];
   const SORT_KEYS = ['name', 'kind', 'level', 'plotmatch', 'tvmatch', 'net', 'bars'];
+
+  const chipTier = (s) => (s.level === 'verified' && s.fidelity === 'exact' ? 'exact' : s.level);
 
   // The static prerender emits one HTML file per page (/, /scripts/page-N.html);
   // when a search visitor lands on page N, start the client render on that same
@@ -199,7 +204,7 @@
   }
 
   let activeKind = 'all';
-  const activeLevels = new Set(ALL_LEVELS);
+  const activeTiers = new Set(ALL_TIERS);
   let query = '';
   let page = initialPage();
   let sortKey = null; // null => natural (popularity) order from the manifest
@@ -208,7 +213,9 @@
   // Persist the table's filter/search/sort choices so a page refresh keeps them —
   // e.g. narrowing to just the failing scripts survives a reload. Guarded against a
   // missing/blocked localStorage and against stale values from an older data shape.
-  const STORE_KEY = 'pyne-wild-filters-v1';
+  // v2: the level set became a tier set (bit-exact split out of verified), so a v1
+  // value would silently hide every bit-exact row on the next visit.
+  const STORE_KEY = 'pyne-wild-filters-v2';
 
   function saveState() {
     try {
@@ -216,7 +223,7 @@
         STORE_KEY,
         JSON.stringify({
           kind: activeKind,
-          levels: [...activeLevels],
+          tiers: [...activeTiers],
           query,
           sortKey,
           sortDir,
@@ -238,13 +245,13 @@
 
     if (ALL_KINDS.includes(saved.kind)) activeKind = saved.kind;
 
-    if (Array.isArray(saved.levels)) {
-      const levels = saved.levels.filter((l) => ALL_LEVELS.includes(l));
+    if (Array.isArray(saved.tiers)) {
+      const tiers = saved.tiers.filter((t) => ALL_TIERS.includes(t));
       // An empty saved set would hide every row on load with no visible cause; fall
       // back to showing all rather than stranding the user on a blank table.
-      if (levels.length) {
-        activeLevels.clear();
-        levels.forEach((l) => activeLevels.add(l));
+      if (tiers.length) {
+        activeTiers.clear();
+        tiers.forEach((t) => activeTiers.add(t));
       }
     }
 
@@ -260,7 +267,7 @@
       b.classList.toggle('active', b.dataset.kind === activeKind);
     });
     document.querySelectorAll('#filter-level .chip').forEach((c) => {
-      c.classList.toggle('active', activeLevels.has(c.dataset.level));
+      c.classList.toggle('active', activeTiers.has(c.dataset.level));
     });
     $('#search-box').value = query;
   }
@@ -273,13 +280,21 @@
   const SORT_DEFAULT_DIR = {
     name: 1, kind: 1, level: 1, plotmatch: -1, tvmatch: -1, net: -1, bars: -1,
   };
-  const LEVEL_RANK = { verified: 0, divergent: 1, repaint: 2, data_limited: 3, runs: 4, failed: 5 };
+  // One ladder, tightest agreement first: the fidelity tiers are the top two rungs
+  // of Verified, not a separate scale, so the status column sorts through them.
+  const LEVEL_RANK = {
+    exact: 0, libm: 1, verified: 2, divergent: 3, repaint: 4, data_limited: 5, runs: 6, failed: 7,
+  };
+  const rankTier = (s) =>
+    (s.level === 'verified' && (s.fidelity === 'exact' || s.fidelity === 'libm')
+      ? s.fidelity
+      : s.level);
 
   function sortValue(s, key) {
     switch (key) {
       case 'name': return s.name.toLowerCase();
       case 'kind': return s.kind;
-      case 'level': return LEVEL_RANK[s.level];
+      case 'level': return LEVEL_RANK[rankTier(s)];
       case 'plotmatch': return plotMatch(s).num;
       case 'tvmatch': return tradeMatch(s).num;
       case 'net': return s.trades && s.trades.tv > 0
@@ -308,7 +323,7 @@
     const q = query.trim().toLowerCase();
     const list = D.scripts.filter((s) => {
       if (activeKind !== 'all' && s.kind !== activeKind) return false;
-      if (!activeLevels.has(s.level)) return false;
+      if (!activeTiers.has(chipTier(s))) return false;
       if (q && !(s.name.toLowerCase().includes(q) || s.author.toLowerCase().includes(q))) return false;
       return true;
     });
@@ -364,7 +379,7 @@
     const prerendered = tbody.getAttribute('data-prerendered-page');
     const canAdopt =
       firstRender && prerendered != null && Number(prerendered) === page &&
-      !sortKey && !query && activeKind === 'all' && activeLevels.size === ALL_LEVELS.length;
+      !sortKey && !query && activeKind === 'all' && activeTiers.size === ALL_TIERS.length;
     if (!canAdopt) {
       tbody.innerHTML = slice.map(renderRow).join('');
     }
@@ -421,7 +436,7 @@
 
   // The caret <button> handles keyboard activation natively; its click bubbles here.
   tbody.addEventListener('click', (ev) => {
-    if (ev.target.closest('a')) return; // let the TradingView link work
+    if (ev.target.closest('a')) return; // let links inside the details work
     const row = ev.target.closest('.script-row');
     if (row) toggleRow(row);
   });
@@ -447,12 +462,12 @@
 
   document.querySelectorAll('#filter-level .chip').forEach((chip) => {
     chip.addEventListener('click', () => {
-      const level = chip.dataset.level;
-      if (activeLevels.has(level)) {
-        activeLevels.delete(level);
+      const tier = chip.dataset.level;
+      if (activeTiers.has(tier)) {
+        activeTiers.delete(tier);
         chip.classList.remove('active');
       } else {
-        activeLevels.add(level);
+        activeTiers.add(tier);
         chip.classList.add('active');
       }
       page = 1;
