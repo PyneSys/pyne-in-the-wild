@@ -1225,6 +1225,27 @@ a.page-btn { display: inline-flex; align-items: center; justify-content: center;
 .kind-indicator { background: rgba(33, 150, 243, 0.1); color: #1565C0; }
 .kind-strategy { background: rgba(254, 214, 77, 0.25); color: #8a6d00; }
 
+/* Pine language version, beside the type chip. Outlined rather than filled so it
+   reads as a qualifier of the type, not a second verdict; the pre-v6 variant is
+   tinted because those rows put the converter under test as well as the runtime. */
+.pine-chip {
+  display: inline-block;
+  margin-left: 0.35rem;
+  font-size: 0.66rem;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  padding: 0.14rem 0.36rem;
+  border: 1px solid var(--medium);
+  border-radius: var(--radius-sm);
+  color: var(--text-light);
+  cursor: help;
+}
+.pine-converted {
+  border-color: rgba(124, 77, 255, 0.35);
+  background: rgba(124, 77, 255, 0.08);
+  color: #5b35c7;
+}
+
 /* Verdict on top, the tier it was reached at underneath — one column, and the
    second line can only ever refine the badge above it. */
 .status-stack {

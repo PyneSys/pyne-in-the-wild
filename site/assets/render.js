@@ -112,6 +112,24 @@
       strategy: 'Strategy — a backtest, verified trade by trade.',
     };
 
+    // The Pine language version the author wrote the script in. It rides beside the
+    // type chip because it says what was put under test: a pre-v6 script is
+    // converted to v6 by PyneComp's own converter and then measured against
+    // TradingView running the ORIGINAL source, so its row verifies the conversion
+    // as well as the runtime.
+    const pineVersionDesc = (v) =>
+      v >= 6
+        ? 'Written in Pine v6 — compiled as-is.'
+        : `Written in Pine v${v} — PyneComp converted it to v6 before compiling, ` +
+          `while TradingView ran the original v${v} source. The agreement on this ` +
+          'row therefore verifies the conversion too, not just the runtime.';
+
+    const pineVersionChip = (s) =>
+      s.pine_version == null
+        ? ''
+        : `<span class="pine-chip${s.pine_version >= 6 ? '' : ' pine-converted'}"` +
+          ` title="${pineVersionDesc(s.pine_version)}">v${s.pine_version}</span>`;
+
     const fmtDate = (iso) => (iso ? iso.slice(0, 16).replace('T', ' ') : '—');
 
     const dash = '<span class="muted">—</span>';
@@ -353,10 +371,16 @@
         });
       }
 
-      const src = [
-        ['Version', `v${s.version}`, ''],
-        ['License', s.license && s.license !== 'none' ? s.license : 'unspecified', ''],
-      ];
+      // "Version" alone is ambiguous now that two of them matter: the Pine language
+      // the script is written in, and the author's own revision number.
+      const src = [];
+      if (s.pine_version != null) {
+        src.push(['Pine version', s.pine_version >= 6
+          ? `v${s.pine_version}`
+          : `v${s.pine_version}, converted to v6 by PyneComp`, '']);
+      }
+      src.push(['Script revision', `v${s.version}`, '']);
+      src.push(['License', s.license && s.license !== 'none' ? s.license : 'unspecified', '']);
 
       const cols = [];
       if (acc.length) cols.push(`<div class="detail-block"><h4>Accuracy</h4>${facts(acc)}</div>`);
@@ -386,7 +410,7 @@
               `<span class="row-likes" aria-label="${fmt(s.likes)} likes"><svg class="ic-thumb" viewBox="0 0 24 24" aria-hidden="true"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z"/></svg> ${fmt(s.likes)}</span>` +
             `</span>` +
           `</td>` +
-          `<td class="th-center"><span class="kind-chip kind-${s.kind}" title="${kindDesc[s.kind]}">${kindShort[s.kind]}</span></td>` +
+          `<td class="th-center"><span class="kind-chip kind-${s.kind}" title="${kindDesc[s.kind]}">${kindShort[s.kind]}</span>${pineVersionChip(s)}</td>` +
           `<td class="th-center">${statusCell(s)}</td>` +
           `<td class="th-num">${matchCell(pm, plotCountSub(s))}</td>` +
           `<td class="th-num">${matchCell(tm, tradesCountSub(s))}</td>` +
