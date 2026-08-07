@@ -61,9 +61,14 @@
   <div class="container snapshot-inner">
     <div class="snapshot-stats" id="snapshot-stats">
       <div class="snapshot-stat">
+        <span class="snapshot-stat-value" data-count="total">133</span>
+        <span class="snapshot-stat-label">published scripts</span>
+        <span class="snapshot-stat-note">open-source Pine v6 corpus</span>
+      </div>
+      <div class="snapshot-stat">
         <span class="snapshot-stat-value" data-count="tv_comparable">187</span>
         <span class="snapshot-stat-label">TV-comparable outputs</span>
-        <span class="snapshot-stat-note"><span data-count="total">133</span> published scripts</span>
+        <span class="snapshot-stat-note" id="snapshot-output-note">115 plot + 72 trade outputs</span>
       </div>
       <div class="snapshot-stat">
         <span class="snapshot-stat-value"><span data-count="tv_fidelity_pct">100</span>%</span>
@@ -71,13 +76,9 @@
         <span class="snapshot-stat-note" id="snapshot-fidelity-note">187/187 comparable outputs verified</span>
       </div>
       <div class="snapshot-stat">
-        <span class="snapshot-stat-value"><span data-count="run_success_pct">100</span>%</span>
-        <span class="snapshot-stat-label">run success</span>
-      </div>
-      <div class="snapshot-stat">
-        <span class="snapshot-stat-value"><span data-count="average_match_pct">100.000</span>%</span>
-        <span class="snapshot-stat-label">average match</span>
-        <span class="snapshot-stat-note" id="snapshot-match-note">115 plot + 72 trade match values</span>
+        <span class="snapshot-stat-value"><span data-count="bit_exact_pct">99.615</span>%</span>
+        <span class="snapshot-stat-label">bit-exact values</span>
+        <span class="snapshot-stat-note" id="snapshot-exact-note">All remaining values matched within published tolerance</span>
       </div>
     </div>
   </div>

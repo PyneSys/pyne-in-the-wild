@@ -15,10 +15,8 @@
 
   /* ---------- snapshot counters ---------- */
 
-  // Average match is the genuine mean of the per-output match percentages, so it
-  // must read as that real figure floored to 2 decimals — never rounded UP to a
-  // clean 100% it has not actually reached (99.99% stays 99.99%). The other
-  // snapshot figures are whole-number counts or exact count ratios (48/48, 38/38).
+  // Fidelity percentages are floored, never rounded up to a cleaner claim than
+  // the measured data supports.
   const floorPct = (rate, digits = 2) => {
     const f = 10 ** digits;
     return Math.floor(rate * 100 * f) / f;
@@ -26,14 +24,13 @@
 
   const snapshotValues = {
     total: D.totals.total,
-    tv_fidelity_pct: Math.round(D.totals.tv_fidelity_rate * 100),
-    run_success_pct: Math.round(D.totals.run_success_rate * 100),
     tv_comparable: D.totals.tv_comparable,
-    average_match_pct: floorPct(D.totals.average_match_rate, 3),
+    tv_fidelity_pct: floorPct(D.totals.tv_fidelity_rate, 0),
+    bit_exact_pct: floorPct(D.fidelity.bars_exact_rate, 3),
   };
 
   // Counters that carry decimals; everything else animates as a whole number.
-  const SNAPSHOT_DECIMALS = { average_match_pct: 3 };
+  const SNAPSHOT_DECIMALS = { bit_exact_pct: 3 };
 
   function animateCount(el, target, decimals = 0) {
     const duration = 1300;
@@ -59,10 +56,14 @@
   });
   snapshotSeen.observe($('#snapshot-stats'));
 
+  $('#snapshot-output-note').textContent =
+    `${D.totals.plot_outputs} plot + ${D.totals.trade_outputs} trade outputs`;
   $('#snapshot-fidelity-note').textContent =
     `${D.totals.tv_fidelity_verified}/${D.totals.tv_comparable} comparable outputs verified`;
-  $('#snapshot-match-note').textContent =
-    `${D.totals.plot_outputs} plot + ${D.totals.trade_outputs} trade match values`;
+  $('#snapshot-exact-note').textContent =
+    D.totals.tv_fidelity_verified === D.totals.tv_comparable
+      ? 'All remaining values matched within published tolerance'
+      : `${fmt(D.fidelity.bars_exact)} / ${fmt(D.fidelity.bars_compared)} plotted values`;
 
   $('#report-provenance').innerHTML =
     `Generated <strong>${D.generated_at}</strong> &middot; ` +
