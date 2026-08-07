@@ -140,7 +140,7 @@
             <text x="60" y="56" class="donut-num" id="donut-num">143</text>
             <text x="60" y="72" class="donut-cap">scripts</text>
           </svg>
-          <ul class="donut-legend" id="donut-legend"><!--b:donut_legend--><li><span class="legend-swatch" style="background:var(--primary)"></span><span class="n">134</span><span class="legend-label">Matches TradingView</span></li><li><span class="legend-swatch" style="background:var(--amber)"></span><span class="n">0</span><span class="legend-label">Diverges from TradingView</span></li><li><span class="legend-swatch" style="background:var(--violet)"></span><span class="n">0</span><span class="legend-label">Repaints on TradingView</span></li><li><span class="legend-swatch" style="background:var(--slate)"></span><span class="n">1</span><span class="legend-label">Data-limited (unavailable feed)</span></li><li><span class="legend-swatch" style="background:var(--secondary)"></span><span class="n">8</span><span class="legend-label">Runs (no reference output)</span></li><li><span class="legend-swatch" style="background:var(--red)"></span><span class="n">0</span><span class="legend-label">Run failed</span></li><!--/b:donut_legend--></ul>
+          <ul class="donut-legend" id="donut-legend"><!--b:donut_legend--><li><span class="legend-swatch" style="background:var(--primary)"></span><span class="n">134</span><span class="legend-label">Matches TradingView</span></li><li><span class="legend-swatch" style="background:var(--amber)"></span><span class="n">0</span><span class="legend-label">Diverges from TradingView</span></li><li><span class="legend-swatch" style="background:var(--slate)"></span><span class="n">1</span><span class="legend-label">Data-limited (unavailable feed)</span></li><li><span class="legend-swatch" style="background:var(--secondary)"></span><span class="n">8</span><span class="legend-label">Runs (no reference output)</span></li><li><span class="legend-swatch" style="background:var(--red)"></span><span class="n">0</span><span class="legend-label">Run failed</span></li><!--/b:donut_legend--></ul>
         </div>
       </div>
       <div class="card metric-card">
@@ -273,22 +273,20 @@
       </div>
       <input type="search" class="search-box" id="search-box"
              placeholder="Search by name or author&hellip;" autocomplete="off">
-      <div class="filter-group" id="filter-level">
+      <div class="filter-group" id="filter-level"><!--b:filter_chips-->
         <button class="chip chip-exact active" data-level="exact"
                 title="Bit-exact — verified, and on every compared bar PyneCore produced the identical IEEE-754 double TradingView did. Not &quot;close enough&quot;: the same 64 bits.">Bit-exact</button>
         <button class="chip chip-verified active" data-level="verified"
                 title="Verified — output matched TradingView's own reference, bar by bar and trade by trade, without being identical to the bit (the libm tier, agreement within the published band, or a strategy verified on its trades alone).">Verified</button>
         <button class="chip chip-divergent active" data-level="divergent"
                 title="Divergent — ran and was compared against TradingView's reference, but the output differs beyond tolerance.">Divergent</button>
-        <button class="chip chip-repaint active" data-level="repaint"
-                title="Repaint — the script repaints on TradingView (request.security leaks a not-yet-closed higher-timeframe bar). PyneCore stays causal and cannot match it bar-for-bar. Never supported, by design.">Repaint</button>
         <button class="chip chip-data_limited active" data-level="data_limited"
                 title="Data-limited — the script needs a data source this comparison does not have (tick-level order-flow / request.footprint). It runs, with the missing feed reported as na, but can never match TradingView here. Excluded from the accuracy score, by design.">Data-limited</button>
         <button class="chip chip-runs active" data-level="runs"
                 title="Runs — compiled and ran over real market data without errors, but no comparable TradingView reference was available to verify against.">Runs</button>
         <button class="chip chip-failed active" data-level="failed"
                 title="Failed — the script did not compile or run. Reported as-is, never hidden.">Failed</button>
-      </div>
+      <!--/b:filter_chips--></div>
     </div>
     <p class="grid-count" id="grid-count"></p>
     <div class="table-wrap">

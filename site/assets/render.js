@@ -22,7 +22,7 @@
     const badge = {
       verified: ['status-verified', 'Verified'],
       divergent: ['status-divergent', 'Divergent'],
-      repaint: ['status-repaint', 'Repaint'],
+      repaint: ['status-repaint', 'Lookahead'],
       data_limited: ['status-data_limited', 'Data-limited'],
       runs: ['status-runs', 'Runs'],
       failed: ['status-failed', 'Failed'],
@@ -31,7 +31,7 @@
     const statusDesc = {
       verified: "Verified — output matched TradingView's own reference, bar by bar and trade by trade.",
       divergent: "Divergent — ran and was compared against TradingView's reference, but the output differs beyond tolerance. Shown as-is, never rounded up to verified.",
-      repaint: "Repaint — the script repaints on TradingView: request.security leaks a not-yet-closed higher-timeframe bar, so TradingView's own plot uses future data. PyneCore stays causal and refuses to leak, so it can never match this bar-for-bar. Never supported, by design.",
+      repaint: "Lookahead — TradingView's own output leads this run by a whole higher-timeframe period, and realigned to that lead the two agree. The shape is a request.security call reading a higher-timeframe bar that had not closed yet. Held apart from the accuracy score and treated as open: a lag on the PyneCore side leaves the identical trace, and the shift alone does not separate the two.",
       data_limited: "Data-limited — the script needs a data source this comparison does not have (tick-level order-flow via request.footprint). It runs, with the missing feed reported as na, but can never match TradingView here. Excluded from the accuracy score, by design.",
       runs: 'Runs — compiled and ran over real market data without errors, but no comparable TradingView reference was available to verify against.',
       failed: 'Failed — the script did not compile or run. Reported as-is, never hidden.',
@@ -235,11 +235,12 @@
       if (s.repaint) {
         const rm = s.repaint.match_pct != null ? pct(s.repaint.match_pct, 2) : dash;
         html +=
-          `<p class="sc-repaint">Repaints on TradingView — its <code>request.security</code> call ` +
-          `surfaces a not-yet-closed higher-timeframe bar, so TradingView's own plot uses future ` +
-          `data. PyneCore stays causal and will not leak, so it can never match this bar-for-bar. ` +
-          `Realigned to TradingView's ${s.repaint.shift}-bar lookahead it matches ${rm}. ` +
-          `Never supported, by design.</p>`;
+          `<p class="sc-repaint">Higher-timeframe lookahead — TradingView's own output leads this ` +
+          `run by ${s.repaint.shift} bars, about one full period of the timeframe its ` +
+          `<code>request.security</code> call asks for; realigned to that lead the two match ${rm}. ` +
+          `The shape is TradingView reading a bar that had not closed yet — but a lag on the ` +
+          `PyneCore side leaves the identical trace, and the shift alone does not separate the two, ` +
+          `so this entry is held apart from the accuracy score and treated as open.</p>`;
       }
       if (s.data_limited) {
         html +=

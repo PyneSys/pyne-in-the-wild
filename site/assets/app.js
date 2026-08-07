@@ -85,14 +85,18 @@
 
   // #results-lead is static prose, rendered straight into index.html.
 
+  // Tiers that only ever account for scripts held out of the accuracy score, so
+  // they are shown only while the corpus actually has one (see the legend below).
+  const EXCLUSION_TIERS = ['repaint', 'data_limited'];
+
   // Donut
   const segs = [
-    { id: 'seg-verified', n: D.totals.verified, label: 'Matches TradingView', color: 'var(--primary)' },
-    { id: 'seg-divergent', n: D.totals.divergent || 0, label: 'Diverges from TradingView', color: 'var(--amber)' },
-    { id: 'seg-repaint', n: D.totals.repaint || 0, label: 'Repaints on TradingView', color: 'var(--violet)' },
-    { id: 'seg-data_limited', n: D.totals.data_limited || 0, label: 'Data-limited (unavailable feed)', color: 'var(--slate)' },
-    { id: 'seg-runs', n: D.totals.runs, label: 'Runs (no reference output)', color: 'var(--secondary)' },
-    { id: 'seg-failed', n: D.totals.failed, label: 'Run failed', color: 'var(--red)' },
+    { tier: 'verified', id: 'seg-verified', n: D.totals.verified, label: 'Matches TradingView', color: 'var(--primary)' },
+    { tier: 'divergent', id: 'seg-divergent', n: D.totals.divergent || 0, label: 'Diverges from TradingView', color: 'var(--amber)' },
+    { tier: 'repaint', id: 'seg-repaint', n: D.totals.repaint || 0, label: 'Higher-timeframe lookahead', color: 'var(--violet)' },
+    { tier: 'data_limited', id: 'seg-data_limited', n: D.totals.data_limited || 0, label: 'Data-limited (unavailable feed)', color: 'var(--slate)' },
+    { tier: 'runs', id: 'seg-runs', n: D.totals.runs, label: 'Runs (no reference output)', color: 'var(--secondary)' },
+    { tier: 'failed', id: 'seg-failed', n: D.totals.failed, label: 'Run failed', color: 'var(--red)' },
   ];
   const circumference = 2 * Math.PI * 50;
   let offset = 0;
@@ -104,7 +108,14 @@
     offset += frac * circumference;
   });
   $('#donut-num').textContent = String(D.totals.total);
+  // The two exclusion buckets exist only to account for scripts held out of the
+  // accuracy score; with none in the corpus there is nothing for them to explain,
+  // so they leave the legend (and the filter bar, which build_site_data.py emits
+  // the same way). The ladder tiers always show, zero included — a zero on
+  // Divergent or Failed is itself a published result. The arcs stay in the loop
+  // above: a zero-count segment draws nothing and shifts no offset.
   $('#donut-legend').innerHTML = segs
+    .filter((s) => !EXCLUSION_TIERS.includes(s.tier) || s.n)
     .map(
       (s) =>
         `<li><span class="legend-swatch" style="background:${s.color}"></span>` +
