@@ -8,7 +8,8 @@ window.WILD_DATA = {
     "rel_tol": 1e-09,
     "scale_floor": 1e-09,
     "ulp_limit": 64,
-    "profit_pct_tol": 0.1
+    "net_profit_rel_tol": 0.02,
+    "net_profit_abs_tol": 1.0
   },
   "fidelity": {
     "scripts": {
@@ -1773,8 +1774,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28020,
-      "run_sec": 1.32,
-      "ms_per_bar": 0.0471,
+      "run_sec": 1.303,
+      "ms_per_bar": 0.0465,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
