@@ -1197,6 +1197,14 @@ a.page-btn { display: inline-flex; align-items: center; justify-content: center;
 .muted { color: var(--text-light); }
 .net-ok { color: var(--primary-dark); font-weight: 700; }
 .net-bad { color: #c62828; font-weight: 700; }
+.net-stack {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.12rem;
+  line-height: 1.25;
+  white-space: nowrap;
+}
 
 .th-caret { width: 2.25rem; text-align: center; }
 .caret-btn {

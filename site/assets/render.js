@@ -166,6 +166,21 @@
         : s.trades.net_profit_match;
     }
 
+    function netProfitRatio(s) {
+      const t = s.trades;
+      const adjusted = t.net_profit_match_adj != null;
+      const tv = adjusted ? t.tv_net_profit_adj : t.tv_net_profit;
+      const pc = adjusted ? t.pc_net_profit_adj : t.pc_net_profit;
+      if (!Number.isFinite(tv) || !Number.isFinite(pc) || tv === 0) return null;
+      return pc / tv;
+    }
+
+    function netProfitRatioText(s) {
+      const ratio = netProfitRatio(s);
+      if (ratio == null) return dash;
+      return `${(ratio * 100).toFixed(3)}% of TV`;
+    }
+
     // Plot match: per-bar plot agreement vs TradingView, for any script that plots.
     function plotMatch(s) {
       if (s.plot && s.plot.match_pct != null) {
@@ -208,9 +223,15 @@
 
     function netCell(s) {
       if (!s.trades || s.trades.tv === 0) return '<span class="muted">—</span>';
-      return netProfitOk(s)
+      const verdict = netProfitOk(s)
         ? '<span class="net-ok" role="img" aria-label="Net profit matches">&#10003;</span>'
         : '<span class="net-bad" role="img" aria-label="Net profit differs">&#10007;</span>';
+      return (
+        '<span class="net-stack">' +
+          verdict +
+          `<span class="match-sub">${netProfitRatioText(s)}</span>` +
+        '</span>'
+      );
     }
 
     function facts(rows) {
