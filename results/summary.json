@@ -141,8 +141,17 @@
       "p25": 1.0,
       "p75": 1.0
     },
+    "qty_match_pct": {
+      "median": 1.0,
+      "mean": 0.9981141000000001,
+      "min": 0.981141,
+      "max": 1.0,
+      "n": 10,
+      "p25": 1.0,
+      "p75": 1.0
+    },
     "net_profit_match_rate": 1.0,
-    "net_profit_pct_match_rate": 0.9878048780487805,
+    "net_profit_pct_match_rate": 1.0,
     "trade_count_exact_match": 82,
     "sub_tick_excluded": {
       "scripts": 0,

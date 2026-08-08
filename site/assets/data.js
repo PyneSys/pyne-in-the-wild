@@ -891,8 +891,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28016,
-      "run_sec": 2.112,
-      "ms_per_bar": 0.0754,
+      "run_sec": 2.213,
+      "ms_per_bar": 0.079,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -921,7 +921,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -2668.805,
-        "pc_net_profit": -2667.987957,
+        "pc_net_profit": -2668.804952,
         "net_profit_match": true
       }
     },
@@ -1773,8 +1773,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28020,
-      "run_sec": 1.254,
-      "ms_per_bar": 0.0447,
+      "run_sec": 1.32,
+      "ms_per_bar": 0.0471,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1790,7 +1790,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -19719.244,
-        "pc_net_profit": -19774.056745,
+        "pc_net_profit": -19719.243946,
         "net_profit_match": true
       }
     },
@@ -1956,8 +1956,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28028,
-      "run_sec": 1.743,
-      "ms_per_bar": 0.0622,
+      "run_sec": 1.739,
+      "ms_per_bar": 0.0621,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1986,7 +1986,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": 86090.766,
-        "pc_net_profit": 85878.36,
+        "pc_net_profit": 86090.766273,
         "net_profit_match": true
       }
     },
@@ -2324,8 +2324,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28010,
-      "run_sec": 2.284,
-      "ms_per_bar": 0.0815,
+      "run_sec": 2.41,
+      "ms_per_bar": 0.086,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2341,7 +2341,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": 39.94652,
-        "pc_net_profit": 39.945814,
+        "pc_net_profit": 39.946523,
         "net_profit_match": true
       }
     },
@@ -4820,8 +4820,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 22593,
-      "run_sec": 1.104,
-      "ms_per_bar": 0.0489,
+      "run_sec": 1.147,
+      "ms_per_bar": 0.0508,
       "data": {
         "symbol": "BINANCE:ETHUSDT",
         "timeframe": "60",
@@ -4850,7 +4850,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -2872.3735,
-        "pc_net_profit": -2870.09,
+        "pc_net_profit": -2872.373551,
         "net_profit_match": true
       }
     },
@@ -5104,8 +5104,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 5.161,
-      "ms_per_bar": 0.1869,
+      "run_sec": 5.197,
+      "ms_per_bar": 0.1882,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -5149,7 +5149,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": 191.97725,
-        "pc_net_profit": 191.886764,
+        "pc_net_profit": 191.977251,
         "net_profit_match": true
       }
     },
@@ -5263,7 +5263,7 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "data_limited",
       "bars": 27583,
-      "run_sec": 156.496,
+      "run_sec": 154.223,
       "ms_per_bar": null,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
@@ -5353,7 +5353,7 @@ window.WILD_DATA = {
         "exit_match_pct": 0.886792,
         "extra_entries": 7,
         "tv_net_profit": -60.18572,
-        "pc_net_profit": 7969.48,
+        "pc_net_profit": 7959.708125,
         "net_profit_match": false
       }
     },
@@ -5904,8 +5904,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27616,
-      "run_sec": 46.489,
-      "ms_per_bar": 1.6834,
+      "run_sec": 46.278,
+      "ms_per_bar": 1.6758,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -5934,7 +5934,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -1771.6337,
-        "pc_net_profit": -1770.56,
+        "pc_net_profit": -1771.63368,
         "net_profit_match": true
       }
     },
@@ -6000,8 +6000,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27618,
-      "run_sec": 2.835,
-      "ms_per_bar": 0.1026,
+      "run_sec": 2.643,
+      "ms_per_bar": 0.0957,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6030,7 +6030,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": 447.34863,
-        "pc_net_profit": 447.489839,
+        "pc_net_profit": 447.348632,
         "net_profit_match": true
       }
     },
@@ -6686,8 +6686,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27618,
-      "run_sec": 4.544,
-      "ms_per_bar": 0.1645,
+      "run_sec": 4.623,
+      "ms_per_bar": 0.1674,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6716,7 +6716,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -253.32555,
-        "pc_net_profit": -253.438732,
+        "pc_net_profit": -253.265165,
         "net_profit_match": true
       }
     },
@@ -7114,8 +7114,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27618,
-      "run_sec": 1.646,
-      "ms_per_bar": 0.0596,
+      "run_sec": 1.655,
+      "ms_per_bar": 0.0599,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7144,7 +7144,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": 1054.8276,
-        "pc_net_profit": 1054.663784,
+        "pc_net_profit": 1054.827673,
         "net_profit_match": true
       }
     },
