@@ -178,7 +178,7 @@
     function netProfitRatioText(s) {
       const ratio = netProfitRatio(s);
       if (ratio == null) return dash;
-      return `${(ratio * 100).toFixed(3)}% of TV`;
+      return `${(ratio * 100).toFixed(3)}%`;
     }
 
     // Plot match: per-bar plot agreement vs TradingView, for any script that plots.
