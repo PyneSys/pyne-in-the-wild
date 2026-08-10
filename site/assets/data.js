@@ -13,56 +13,56 @@ window.WILD_DATA = {
   },
   "fidelity": {
     "scripts": {
-      "exact": 126,
+      "exact": 133,
       "libm": 3,
-      "band": 12,
-      "compared": 141
+      "band": 13,
+      "compared": 149
     },
-    "bars_compared": 16758606,
-    "bars_exact": 16704085,
-    "bars_exact_rate": 0.9967466864487416,
-    "max_ulp": 65536.0,
+    "bars_compared": 19791887,
+    "bars_exact": 19736535,
+    "bars_exact_rate": 0.9972032985030684,
+    "max_ulp": 8.80453727150932e+18,
     "ulp_limit": 64
   },
   "totals": {
-    "total": 163,
-    "indicators": 75,
+    "total": 173,
+    "indicators": 85,
     "strategies": 88,
-    "compiled": 163,
+    "compiled": 173,
     "compile_fail": 0,
-    "tv_ok": 160,
-    "pyne_ok": 163,
+    "tv_ok": 169,
+    "pyne_ok": 173,
     "trade_divergence": 0,
     "compile_rate": 1.0,
     "run_rate": 1.0,
     "run_success_rate": 1.0,
-    "measurable_scripts": 154,
-    "tv_comparable": 228,
-    "tv_fidelity_verified": 228,
+    "measurable_scripts": 162,
+    "tv_comparable": 236,
+    "tv_fidelity_verified": 236,
     "tv_fidelity_rate": 1.0,
-    "plot_outputs": 141,
+    "plot_outputs": 149,
     "trade_outputs": 87,
-    "average_match_rate": 1.0,
-    "average_match_count": 228,
+    "average_match_rate": 0.9999997584745762,
+    "average_match_count": 236,
     "trades_compared": 69938,
     "sub_tick_excluded_trades": 0,
     "sub_tick_excluded_scripts": 0,
-    "bars_run": 4477351,
-    "verified": 153,
+    "bars_run": 4758782,
+    "verified": 161,
     "divergent": 0,
     "repaint": 0,
     "data_limited": 1,
-    "runs": 9,
+    "runs": 11,
     "failed": 0
   },
   "indicators": {
-    "total": 75,
-    "compared": 66,
-    "plot_verified": 66,
-    "plot_exact": 66,
+    "total": 85,
+    "compared": 74,
+    "plot_verified": 74,
+    "plot_exact": 73,
     "plot_match_median": 1.0,
-    "plot_match_mean": 1.0,
-    "plot_match_min": 1.0,
+    "plot_match_mean": 0.9999992297297298,
+    "plot_match_min": 0.999943,
     "pearson_min": 1.0
   },
   "strategies": {
@@ -92,8 +92,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28016,
-      "run_sec": 1.097,
-      "ms_per_bar": 0.0391,
+      "run_sec": 1.12,
+      "ms_per_bar": 0.04,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -110,7 +110,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -129,8 +129,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28016,
-      "run_sec": 1.221,
-      "ms_per_bar": 0.0436,
+      "run_sec": 1.258,
+      "ms_per_bar": 0.0449,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -147,7 +147,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -166,8 +166,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28016,
-      "run_sec": 0.993,
-      "ms_per_bar": 0.0354,
+      "run_sec": 1.005,
+      "ms_per_bar": 0.0359,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -184,7 +184,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -203,8 +203,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28016,
-      "run_sec": 0.967,
-      "ms_per_bar": 0.0345,
+      "run_sec": 0.953,
+      "ms_per_bar": 0.034,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -221,7 +221,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -240,8 +240,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28016,
-      "run_sec": 1.084,
-      "ms_per_bar": 0.0387,
+      "run_sec": 1.113,
+      "ms_per_bar": 0.0397,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -258,7 +258,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -277,8 +277,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28029,
-      "run_sec": 2.653,
-      "ms_per_bar": 0.0947,
+      "run_sec": 2.326,
+      "ms_per_bar": 0.083,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -295,7 +295,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -314,8 +314,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28029,
-      "run_sec": 1.898,
-      "ms_per_bar": 0.0677,
+      "run_sec": 1.964,
+      "ms_per_bar": 0.0701,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -332,7 +332,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -351,8 +351,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28029,
-      "run_sec": 1.442,
-      "ms_per_bar": 0.0514,
+      "run_sec": 1.548,
+      "ms_per_bar": 0.0552,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -369,7 +369,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -388,8 +388,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28029,
-      "run_sec": 1.64,
-      "ms_per_bar": 0.0585,
+      "run_sec": 1.764,
+      "ms_per_bar": 0.0629,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -406,7 +406,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -425,8 +425,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "runs",
       "bars": 28029,
-      "run_sec": 0.92,
-      "ms_per_bar": 0.0328,
+      "run_sec": 0.922,
+      "ms_per_bar": 0.0329,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -449,8 +449,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28124,
-      "run_sec": 15.609,
-      "ms_per_bar": 0.555,
+      "run_sec": 16.212,
+      "ms_per_bar": 0.5764,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -467,7 +467,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.997396,
-        "max_ulp": 1,
+        "max_ulp": "1",
         "max_abs": 1.455e-11
       },
       "fidelity": "libm",
@@ -492,8 +492,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28124,
-      "run_sec": 5.338,
-      "ms_per_bar": 0.1898,
+      "run_sec": 5.681,
+      "ms_per_bar": 0.202,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -510,7 +510,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -529,8 +529,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28126,
-      "run_sec": 4.391,
-      "ms_per_bar": 0.1561,
+      "run_sec": 4.533,
+      "ms_per_bar": 0.1612,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -547,7 +547,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.99975,
-        "max_ulp": 1,
+        "max_ulp": "1",
         "max_abs": 7.276e-12
       },
       "fidelity": "band"
@@ -566,8 +566,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28124,
-      "run_sec": 1.294,
-      "ms_per_bar": 0.046,
+      "run_sec": 1.376,
+      "ms_per_bar": 0.0489,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -584,7 +584,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -603,8 +603,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28124,
-      "run_sec": 1.192,
-      "ms_per_bar": 0.0424,
+      "run_sec": 1.297,
+      "ms_per_bar": 0.0461,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -621,7 +621,81 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
+        "max_abs": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;1025",
+      "kind": "indicator",
+      "name": "Madrid Moving Average Ribbon",
+      "author": "Madrid",
+      "license": "none",
+      "version": "2",
+      "pine_version": 4,
+      "likes": 28161,
+      "tv_url": "https://www.tradingview.com/script/1JKqmEKy/",
+      "sha256": "8b620851d2d79abedfc5b21b6fb81289194c10f2d94444dbdf56a56f595e9c64",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28143,
+      "run_sec": 2.238,
+      "ms_per_bar": 0.0795,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T07:00:00+00:00",
+        "bars": 28143
+      },
+      "plot": {
+        "cols": 18,
+        "match_pct": 1.0,
+        "worst_col": "MMA05",
+        "pearson_min": 1.0,
+        "bars_numeric": 505737,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_ulp": "0",
+        "max_abs": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;0f06a7f8e33f4596aa09f01e1bd44324",
+      "kind": "indicator",
+      "name": "Super OrderBlock / FVG / BoS Tools by makuchaku & eFe",
+      "author": "makuchaku",
+      "license": "MPL-2.0",
+      "version": "6",
+      "pine_version": 5,
+      "likes": 27442,
+      "tv_url": "https://www.tradingview.com/script/aZACDmTC/",
+      "sha256": "c8c38a0d0367ac94412c9428c43c4395e05707e026494ebfc338e006eff115de",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28143,
+      "run_sec": 2.363,
+      "ms_per_bar": 0.084,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T07:00:00+00:00",
+        "bars": 28143
+      },
+      "plot": {
+        "cols": 8,
+        "match_pct": 1.0,
+        "worst_col": "Pivot Top",
+        "pearson_min": 1.0,
+        "bars_numeric": 225138,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -640,8 +714,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28015,
-      "run_sec": 1.697,
-      "ms_per_bar": 0.0606,
+      "run_sec": 1.68,
+      "ms_per_bar": 0.06,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -658,7 +732,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -675,6 +749,307 @@ window.WILD_DATA = {
       }
     },
     {
+      "id": "PUB;ff639e15f24646fbaf19ae22ac663140",
+      "kind": "indicator",
+      "name": "Fair Value Gap [LuxAlgo]",
+      "author": "LuxAlgo",
+      "license": "CC",
+      "version": "4",
+      "pine_version": 5,
+      "likes": 24363,
+      "tv_url": "https://www.tradingview.com/script/jWY4Uiez/",
+      "sha256": "0c844884dca450281e79c4a2ac8adedc423b6024cb7f2476c3332169f7688875",
+      "status": "ok",
+      "level": "runs",
+      "bars": 28143,
+      "run_sec": 1.6,
+      "ms_per_bar": 0.0569,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T07:00:00+00:00",
+        "bars": 28143
+      }
+    },
+    {
+      "id": "PUB;uA35GeckoTA2EfgI63SD2WCSmca4njxp",
+      "kind": "indicator",
+      "name": "VuManChu Cipher B + Divergences",
+      "author": "vumanchu",
+      "license": "none",
+      "version": "17",
+      "pine_version": 4,
+      "likes": 24179,
+      "tv_url": "https://www.tradingview.com/script/Msm4SjwI/",
+      "sha256": "6d372e03a0856e3fa757e60aeb22d276cf63922b6160c1526b77616664eaf767",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28143,
+      "run_sec": 38.922,
+      "ms_per_bar": 1.383,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T07:00:00+00:00",
+        "bars": 28143,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "720",
+            "from": "2017-08-17T00:00:00+00:00",
+            "to": "2026-08-10T00:00:00+00:00",
+            "bars": 6560
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "240",
+            "from": "2017-08-17T04:00:00+00:00",
+            "to": "2026-08-10T04:00:00+00:00",
+            "bars": 19664
+          }
+        ]
+      },
+      "plot": {
+        "cols": 34,
+        "match_pct": 0.999943,
+        "worst_col": "Stoch K",
+        "pearson_min": 1.0,
+        "bars_numeric": 383026,
+        "num_match_pct": 0.999943,
+        "na_struct_mismatch": 0,
+        "exact_pct": 0.99783,
+        "max_ulp": "8804537271509319680",
+        "max_abs": 2.227e-11
+      },
+      "fidelity": "band",
+      "transcendentals": [
+        "log"
+      ]
+    },
+    {
+      "id": "PUB;e41b7abd03224b3fb9cf6394c0846ec1",
+      "kind": "indicator",
+      "name": "Price Action Smart Money Concepts [BigBeluga]",
+      "author": "BigBeluga",
+      "license": "MPL-2.0",
+      "version": "2",
+      "pine_version": 5,
+      "likes": 23846,
+      "tv_url": "https://www.tradingview.com/script/jvNJYfbL/",
+      "sha256": "4f77a2fff49c5e9e498cfd87b793f80a067e85ef5a21aa962e4141d0d0feab53",
+      "status": "ok",
+      "level": "runs",
+      "bars": 28144,
+      "run_sec": 1.78,
+      "ms_per_bar": 0.0632,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T07:30:00+00:00",
+        "bars": 28144
+      }
+    },
+    {
+      "id": "PUB;tAMed007BRbJ7g7QbaMNgynd1CGusK5b",
+      "kind": "indicator",
+      "name": "Hull Suite",
+      "author": "InSilico",
+      "license": "none",
+      "version": "10",
+      "pine_version": 4,
+      "likes": 21794,
+      "tv_url": "https://www.tradingview.com/script/hg92pFwS/",
+      "sha256": "37bd210b34f3672c9c263336844d2658b17b8c180785d8fa63e65ef102fbbe77",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28143,
+      "run_sec": 2.614,
+      "ms_per_bar": 0.0929,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T07:00:00+00:00",
+        "bars": 28143,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "240",
+            "from": "2017-08-17T04:00:00+00:00",
+            "to": "2026-08-10T04:00:00+00:00",
+            "bars": 19664
+          }
+        ]
+      },
+      "plot": {
+        "cols": 2,
+        "match_pct": 1.0,
+        "worst_col": "MHULL",
+        "pearson_min": 1.0,
+        "bars_numeric": 56164,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_ulp": "0",
+        "max_abs": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;NBOLc1UjIKuxR1GvpdezORPeqIhY7FpU",
+      "kind": "indicator",
+      "name": "Optimized Trend Tracker",
+      "author": "KivancOzbilgic",
+      "license": "MPL-2.0",
+      "version": "3",
+      "pine_version": 4,
+      "likes": 21463,
+      "tv_url": "https://www.tradingview.com/script/zVhoDQME/",
+      "sha256": "cbaebc770fe94387e3fa30579ae0035fdffbb9fe83b0b9de7ca9bbe99096b889",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28143,
+      "run_sec": 2.112,
+      "ms_per_bar": 0.075,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T07:00:00+00:00",
+        "bars": 28143
+      },
+      "plot": {
+        "cols": 9,
+        "match_pct": 1.0,
+        "worst_col": "Support Line",
+        "pearson_min": 1.0,
+        "bars_numeric": 85270,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_ulp": "0",
+        "max_abs": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;XnU5RtE4HZzxp4s1anV1LICs5CNFGPqj",
+      "kind": "indicator",
+      "name": "Scalping PullBack Tool R1 by JustUncleL",
+      "author": "JustUncleL",
+      "license": "none",
+      "version": "4",
+      "pine_version": 4,
+      "likes": 21356,
+      "tv_url": "https://www.tradingview.com/script/n1co3drh/",
+      "sha256": "cf47502f977e5b5e6c9998f7d1bf70c1588c3d2021666b08a1fd7be37a7dea9e",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28143,
+      "run_sec": 6.667,
+      "ms_per_bar": 0.2369,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T07:00:00+00:00",
+        "bars": 28143
+      },
+      "plot": {
+        "cols": 13,
+        "match_pct": 1.0,
+        "worst_col": "High PAC EMA",
+        "pearson_min": 1.0,
+        "bars_numeric": 197002,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_ulp": "0",
+        "max_abs": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;TFpVVPsMEJV84zM8wHIBQVCZ79v6beC8",
+      "kind": "indicator",
+      "name": "Volume Profile Free Ultra SLI (100 Levels Value Area VWAP) - RRB",
+      "author": "RagingRocketBull",
+      "license": "none",
+      "version": "3",
+      "pine_version": 4,
+      "likes": 20379,
+      "tv_url": "https://www.tradingview.com/script/W5N54CeR/",
+      "sha256": "973d9fce785e05aa7ff3f4685d6f26c185b7711791d54873baf37ac8c375f8cd",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28143,
+      "run_sec": 9.744,
+      "ms_per_bar": 0.3462,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T07:00:00+00:00",
+        "bars": 28143
+      },
+      "plot": {
+        "cols": 59,
+        "match_pct": 1.0,
+        "worst_col": "Volume 1",
+        "pearson_min": null,
+        "bars_numeric": 1463436,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_ulp": "0",
+        "max_abs": 0.0
+      },
+      "fidelity": "exact",
+      "transcendentals": [
+        "log10"
+      ]
+    },
+    {
+      "id": "PUB;bJJwSZT5xjKcB1DSFtN3hXQfdb4sEoAu",
+      "kind": "indicator",
+      "name": "Turtle Trade Channels Indicator TUTCI",
+      "author": "KivancOzbilgic",
+      "license": "none",
+      "version": "3",
+      "pine_version": 4,
+      "likes": 19599,
+      "tv_url": "https://www.tradingview.com/script/pB5nv16J/",
+      "sha256": "cb2f265e82de6e32489717615f94e0c5cf6ea125196ae41648f2dae9856d18fe",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28143,
+      "run_sec": 1.716,
+      "ms_per_bar": 0.061,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T07:00:00+00:00",
+        "bars": 28143
+      },
+      "plot": {
+        "cols": 12,
+        "match_pct": 1.0,
+        "worst_col": "Upper",
+        "pearson_min": 1.0,
+        "bars_numeric": 117508,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_ulp": "0",
+        "max_abs": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
       "id": "PUB;3d8b91f226af41dfa36df2db1c21ae80",
       "kind": "indicator",
       "name": "Volume Profile, Pivot Anchored by DGT",
@@ -688,8 +1063,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "runs",
       "bars": 27614,
-      "run_sec": 1.956,
-      "ms_per_bar": 0.0708,
+      "run_sec": 2.523,
+      "ms_per_bar": 0.0914,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -712,8 +1087,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28015,
-      "run_sec": 97.44,
-      "ms_per_bar": 3.4781,
+      "run_sec": 106.747,
+      "ms_per_bar": 3.8104,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -872,7 +1247,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -902,8 +1277,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 1.335,
-      "ms_per_bar": 0.0483,
+      "run_sec": 1.802,
+      "ms_per_bar": 0.0652,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -920,7 +1295,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -939,8 +1314,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 4.235,
-      "ms_per_bar": 0.1534,
+      "run_sec": 6.31,
+      "ms_per_bar": 0.2285,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -957,7 +1332,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -982,8 +1357,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 12.356,
-      "ms_per_bar": 0.4475,
+      "run_sec": 16.767,
+      "ms_per_bar": 0.6072,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1000,7 +1375,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -1019,8 +1394,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "runs",
       "bars": 27613,
-      "run_sec": 6.629,
-      "ms_per_bar": 0.2401,
+      "run_sec": 7.534,
+      "ms_per_bar": 0.2728,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1043,8 +1418,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 5.26,
-      "ms_per_bar": 0.1905,
+      "run_sec": 7.252,
+      "ms_per_bar": 0.2626,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1061,7 +1436,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -1083,8 +1458,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28016,
-      "run_sec": 2.303,
-      "ms_per_bar": 0.0822,
+      "run_sec": 1.978,
+      "ms_per_bar": 0.0706,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1101,7 +1476,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -1131,8 +1506,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28016,
-      "run_sec": 1.984,
-      "ms_per_bar": 0.0708,
+      "run_sec": 2.001,
+      "ms_per_bar": 0.0714,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1149,7 +1524,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -1179,8 +1554,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 20208,
-      "run_sec": 0.9,
-      "ms_per_bar": 0.0445,
+      "run_sec": 1.047,
+      "ms_per_bar": 0.0518,
       "data": {
         "symbol": "NASDAQ:AAPL",
         "timeframe": "5",
@@ -1197,7 +1572,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -1216,8 +1591,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28016,
-      "run_sec": 1.16,
-      "ms_per_bar": 0.0414,
+      "run_sec": 1.236,
+      "ms_per_bar": 0.0441,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1234,7 +1609,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -1264,8 +1639,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 9.773,
-      "ms_per_bar": 0.3539,
+      "run_sec": 13.487,
+      "ms_per_bar": 0.4884,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1282,7 +1657,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -1301,8 +1676,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 1.361,
-      "ms_per_bar": 0.0493,
+      "run_sec": 1.816,
+      "ms_per_bar": 0.0658,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1319,7 +1694,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -1338,8 +1713,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 3.74,
-      "ms_per_bar": 0.1354,
+      "run_sec": 5.273,
+      "ms_per_bar": 0.191,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1356,7 +1731,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -1375,8 +1750,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 1.267,
-      "ms_per_bar": 0.0459,
+      "run_sec": 1.431,
+      "ms_per_bar": 0.0518,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1393,7 +1768,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -1412,8 +1787,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 0.936,
-      "ms_per_bar": 0.0339,
+      "run_sec": 0.975,
+      "ms_per_bar": 0.0353,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1430,7 +1805,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -1449,8 +1824,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 1.108,
-      "ms_per_bar": 0.0401,
+      "run_sec": 1.132,
+      "ms_per_bar": 0.041,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1467,7 +1842,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -1486,8 +1861,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "runs",
       "bars": 27614,
-      "run_sec": 1.15,
-      "ms_per_bar": 0.0416,
+      "run_sec": 1.262,
+      "ms_per_bar": 0.0457,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1510,8 +1885,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 2.296,
-      "ms_per_bar": 0.0831,
+      "run_sec": 2.436,
+      "ms_per_bar": 0.0882,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1528,7 +1903,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -1547,8 +1922,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27621,
-      "run_sec": 75.476,
-      "ms_per_bar": 2.7326,
+      "run_sec": 83.536,
+      "ms_per_bar": 3.0244,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1805,7 +2180,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.970457,
-        "max_ulp": 2,
+        "max_ulp": "2",
         "max_abs": 5.684e-14
       },
       "fidelity": "libm",
@@ -1827,8 +2202,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 1.105,
-      "ms_per_bar": 0.04,
+      "run_sec": 1.123,
+      "ms_per_bar": 0.0407,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1845,7 +2220,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -1864,8 +2239,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 103.419,
-      "ms_per_bar": 3.745,
+      "run_sec": 119.194,
+      "ms_per_bar": 4.3163,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1898,7 +2273,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -1917,8 +2292,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28028,
-      "run_sec": 1.572,
-      "ms_per_bar": 0.0561,
+      "run_sec": 1.561,
+      "ms_per_bar": 0.0557,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -1935,7 +2310,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -1965,8 +2340,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28020,
-      "run_sec": 1.392,
-      "ms_per_bar": 0.0497,
+      "run_sec": 1.445,
+      "ms_per_bar": 0.0516,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2000,8 +2375,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 7.764,
-      "ms_per_bar": 0.2812,
+      "run_sec": 7.946,
+      "ms_per_bar": 0.2877,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2018,7 +2393,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -2043,7 +2418,7 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27846,
-      "run_sec": 4.154,
+      "run_sec": 4.422,
       "ms_per_bar": null,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
@@ -2087,8 +2462,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "runs",
       "bars": 27615,
-      "run_sec": 0.575,
-      "ms_per_bar": 0.2877,
+      "run_sec": 0.612,
+      "ms_per_bar": 0.3061,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2111,8 +2486,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 1.182,
-      "ms_per_bar": 0.0428,
+      "run_sec": 1.298,
+      "ms_per_bar": 0.047,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2129,7 +2504,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -2148,8 +2523,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28028,
-      "run_sec": 1.804,
-      "ms_per_bar": 0.0644,
+      "run_sec": 1.936,
+      "ms_per_bar": 0.0691,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2166,7 +2541,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -2196,8 +2571,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 0.861,
-      "ms_per_bar": 0.0312,
+      "run_sec": 0.889,
+      "ms_per_bar": 0.0322,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2214,7 +2589,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -2233,8 +2608,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 1.762,
-      "ms_per_bar": 0.0638,
+      "run_sec": 2.017,
+      "ms_per_bar": 0.073,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2251,7 +2626,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -2270,8 +2645,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 1.805,
-      "ms_per_bar": 0.0654,
+      "run_sec": 2.01,
+      "ms_per_bar": 0.0728,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2288,7 +2663,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -2307,8 +2682,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 1.634,
-      "ms_per_bar": 0.0592,
+      "run_sec": 1.862,
+      "ms_per_bar": 0.0674,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2325,7 +2700,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -2344,8 +2719,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 1.2,
-      "ms_per_bar": 0.0434,
+      "run_sec": 1.428,
+      "ms_per_bar": 0.0517,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2362,7 +2737,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -2381,8 +2756,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "runs",
       "bars": 27615,
-      "run_sec": 5.208,
-      "ms_per_bar": 0.1886,
+      "run_sec": 6.335,
+      "ms_per_bar": 0.2294,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2405,8 +2780,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 1.57,
-      "ms_per_bar": 0.0569,
+      "run_sec": 1.738,
+      "ms_per_bar": 0.063,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2423,7 +2798,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -2442,8 +2817,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 1.303,
-      "ms_per_bar": 0.0472,
+      "run_sec": 1.443,
+      "ms_per_bar": 0.0523,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2460,7 +2835,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -2479,8 +2854,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 1.115,
-      "ms_per_bar": 0.0404,
+      "run_sec": 1.227,
+      "ms_per_bar": 0.0444,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2497,7 +2872,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -2516,8 +2891,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28010,
-      "run_sec": 2.419,
-      "ms_per_bar": 0.0863,
+      "run_sec": 2.614,
+      "ms_per_bar": 0.0933,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2551,8 +2926,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "runs",
       "bars": 27615,
-      "run_sec": 16.647,
-      "ms_per_bar": 0.6028,
+      "run_sec": 19.038,
+      "ms_per_bar": 0.6894,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2612,8 +2987,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28123,
-      "run_sec": 2.535,
-      "ms_per_bar": 0.0902,
+      "run_sec": 2.582,
+      "ms_per_bar": 0.0918,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2630,7 +3005,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -2660,8 +3035,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 2.572,
-      "ms_per_bar": 0.0931,
+      "run_sec": 2.752,
+      "ms_per_bar": 0.0996,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2678,7 +3053,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.999969,
-        "max_ulp": 4,
+        "max_ulp": "4",
         "max_abs": 2.91e-11
       },
       "fidelity": "band"
@@ -2697,8 +3072,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28125,
-      "run_sec": 3.574,
-      "ms_per_bar": 0.1271,
+      "run_sec": 3.721,
+      "ms_per_bar": 0.1323,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2715,7 +3090,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -2745,8 +3120,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27616,
-      "run_sec": 0.962,
-      "ms_per_bar": 0.0348,
+      "run_sec": 1.04,
+      "ms_per_bar": 0.0377,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2763,7 +3138,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -2782,8 +3157,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 0.845,
-      "ms_per_bar": 0.0306,
+      "run_sec": 0.906,
+      "ms_per_bar": 0.0328,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2800,7 +3175,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -2819,8 +3194,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 2.67,
-      "ms_per_bar": 0.0967,
+      "run_sec": 2.629,
+      "ms_per_bar": 0.0952,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2837,7 +3212,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -2856,8 +3231,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 1.029,
-      "ms_per_bar": 0.0373,
+      "run_sec": 1.173,
+      "ms_per_bar": 0.0425,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2874,7 +3249,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -2893,8 +3268,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 23.651,
-      "ms_per_bar": 0.8565,
+      "run_sec": 26.989,
+      "ms_per_bar": 0.9773,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2927,7 +3302,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.969155,
-        "max_ulp": 65536,
+        "max_ulp": "65536",
         "max_abs": 1.819e-12
       },
       "fidelity": "band",
@@ -2952,8 +3327,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 1.186,
-      "ms_per_bar": 0.0429,
+      "run_sec": 1.256,
+      "ms_per_bar": 0.0455,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2970,7 +3345,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -2989,8 +3364,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28123,
-      "run_sec": 3.74,
-      "ms_per_bar": 0.1332,
+      "run_sec": 3.902,
+      "ms_per_bar": 0.139,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3024,8 +3399,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 32401,
-      "run_sec": 3.245,
-      "ms_per_bar": 0.1002,
+      "run_sec": 3.488,
+      "ms_per_bar": 0.1076,
       "data": {
         "symbol": "CAPITALCOM:EURUSD",
         "timeframe": "30",
@@ -3042,7 +3417,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.999182,
-        "max_ulp": 40,
+        "max_ulp": "40",
         "max_abs": 2.842e-14
       },
       "fidelity": "band",
@@ -3072,8 +3447,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27616,
-      "run_sec": 2.678,
-      "ms_per_bar": 0.097,
+      "run_sec": 2.872,
+      "ms_per_bar": 0.104,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3090,7 +3465,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -3109,8 +3484,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 5.992,
-      "ms_per_bar": 0.217,
+      "run_sec": 6.31,
+      "ms_per_bar": 0.2285,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3127,7 +3502,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -3146,8 +3521,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27616,
-      "run_sec": 6.783,
-      "ms_per_bar": 0.2456,
+      "run_sec": 7.225,
+      "ms_per_bar": 0.2616,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3164,7 +3539,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -3187,8 +3562,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 1.685,
-      "ms_per_bar": 0.061,
+      "run_sec": 1.787,
+      "ms_per_bar": 0.0647,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3205,7 +3580,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -3224,8 +3599,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 8.831,
-      "ms_per_bar": 0.3198,
+      "run_sec": 10.038,
+      "ms_per_bar": 0.3635,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3251,7 +3626,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -3276,8 +3651,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 1.071,
-      "ms_per_bar": 0.0388,
+      "run_sec": 1.179,
+      "ms_per_bar": 0.0427,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3294,7 +3669,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -3313,8 +3688,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 3.107,
-      "ms_per_bar": 0.1125,
+      "run_sec": 3.401,
+      "ms_per_bar": 0.1232,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3331,7 +3706,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -3350,8 +3725,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 6.481,
-      "ms_per_bar": 0.2347,
+      "run_sec": 6.986,
+      "ms_per_bar": 0.2529,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3368,7 +3743,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.830175,
-        "max_ulp": 1514,
+        "max_ulp": "1514",
         "max_abs": 1.577e-08
       },
       "fidelity": "band"
@@ -3387,8 +3762,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 25.185,
-      "ms_per_bar": 0.9119,
+      "run_sec": 28.697,
+      "ms_per_bar": 1.0391,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3405,7 +3780,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -3427,8 +3802,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28123,
-      "run_sec": 0.87,
-      "ms_per_bar": 0.031,
+      "run_sec": 0.879,
+      "ms_per_bar": 0.0313,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3445,7 +3820,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -3475,8 +3850,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27618,
-      "run_sec": 3.382,
-      "ms_per_bar": 2.2549,
+      "run_sec": 3.466,
+      "ms_per_bar": 2.3105,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3493,7 +3868,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -3512,8 +3887,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 3.288,
-      "ms_per_bar": 0.1191,
+      "run_sec": 3.355,
+      "ms_per_bar": 0.1215,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3530,7 +3905,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -3549,8 +3924,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 2.829,
-      "ms_per_bar": 0.1024,
+      "run_sec": 3.07,
+      "ms_per_bar": 0.1112,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3567,7 +3942,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -3590,8 +3965,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 8.005,
-      "ms_per_bar": 0.2899,
+      "run_sec": 8.46,
+      "ms_per_bar": 0.3063,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3608,7 +3983,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -3633,8 +4008,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 1.511,
-      "ms_per_bar": 0.0547,
+      "run_sec": 1.576,
+      "ms_per_bar": 0.0571,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3651,7 +4026,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -3670,8 +4045,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 2.15,
-      "ms_per_bar": 0.0779,
+      "run_sec": 2.259,
+      "ms_per_bar": 0.0818,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3688,7 +4063,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -3707,8 +4082,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 11.542,
-      "ms_per_bar": 0.4179,
+      "run_sec": 12.267,
+      "ms_per_bar": 0.4442,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3725,7 +4100,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -3750,8 +4125,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 7.659,
-      "ms_per_bar": 0.2773,
+      "run_sec": 8.246,
+      "ms_per_bar": 0.2986,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3768,7 +4143,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -3791,8 +4166,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 2.24,
-      "ms_per_bar": 0.0811,
+      "run_sec": 2.255,
+      "ms_per_bar": 0.0816,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3809,7 +4184,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -3831,8 +4206,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 1.469,
-      "ms_per_bar": 0.0532,
+      "run_sec": 1.476,
+      "ms_per_bar": 0.0534,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3849,7 +4224,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -3868,8 +4243,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 2.336,
-      "ms_per_bar": 0.0846,
+      "run_sec": 2.39,
+      "ms_per_bar": 0.0866,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3886,7 +4261,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact"
@@ -3905,8 +4280,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "runs",
       "bars": 27618,
-      "run_sec": 0.722,
-      "ms_per_bar": 0.0262,
+      "run_sec": 0.718,
+      "ms_per_bar": 0.026,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -3929,7 +4304,7 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "runs",
       "bars": 27618,
-      "run_sec": 9.835,
+      "run_sec": 9.974,
       "ms_per_bar": null,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
@@ -3983,8 +4358,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27612,
-      "run_sec": 4.473,
-      "ms_per_bar": 0.162,
+      "run_sec": 5.334,
+      "ms_per_bar": 0.1932,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4010,7 +4385,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.994701,
-        "max_ulp": 3,
+        "max_ulp": "3",
         "max_abs": 4.366e-11
       },
       "fidelity": "band",
@@ -4040,8 +4415,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27612,
-      "run_sec": 29.892,
-      "ms_per_bar": 1.0826,
+      "run_sec": 32.191,
+      "ms_per_bar": 1.1658,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4058,7 +4433,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.994737,
-        "max_ulp": 1,
+        "max_ulp": "1",
         "max_abs": 1.455e-11
       },
       "fidelity": "libm",
@@ -4095,8 +4470,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 21.799,
-      "ms_per_bar": 0.7895,
+      "run_sec": 22.638,
+      "ms_per_bar": 0.8198,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4136,7 +4511,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -4166,8 +4541,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27612,
-      "run_sec": 7.811,
-      "ms_per_bar": 0.2829,
+      "run_sec": 7.631,
+      "ms_per_bar": 0.2764,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4184,7 +4559,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -4214,8 +4589,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27612,
-      "run_sec": 2.415,
-      "ms_per_bar": 0.0875,
+      "run_sec": 2.499,
+      "ms_per_bar": 0.0905,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4232,7 +4607,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -4262,8 +4637,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 32088,
-      "run_sec": 3.882,
-      "ms_per_bar": 0.121,
+      "run_sec": 3.904,
+      "ms_per_bar": 0.1217,
       "data": {
         "symbol": "CAPITALCOM:EURUSD",
         "timeframe": "30",
@@ -4289,7 +4664,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -4319,7 +4694,7 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27593,
-      "run_sec": 1.161,
+      "run_sec": 1.256,
       "ms_per_bar": null,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
@@ -4354,8 +4729,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27612,
-      "run_sec": 28.344,
-      "ms_per_bar": 1.0265,
+      "run_sec": 35.56,
+      "ms_per_bar": 1.2879,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4381,7 +4756,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -4417,8 +4792,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27612,
-      "run_sec": 7.876,
-      "ms_per_bar": 0.2853,
+      "run_sec": 7.975,
+      "ms_per_bar": 0.2888,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4435,7 +4810,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.972723,
-        "max_ulp": 1,
+        "max_ulp": "1",
         "max_abs": 1.455e-11
       },
       "fidelity": "band",
@@ -4465,8 +4840,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27612,
-      "run_sec": 6.673,
-      "ms_per_bar": 0.2417,
+      "run_sec": 7.092,
+      "ms_per_bar": 0.2569,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4483,7 +4858,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -4513,8 +4888,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 3.003,
-      "ms_per_bar": 0.1088,
+      "run_sec": 2.69,
+      "ms_per_bar": 0.0974,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4531,7 +4906,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -4561,8 +4936,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 26.009,
-      "ms_per_bar": 0.9419,
+      "run_sec": 27.943,
+      "ms_per_bar": 1.012,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4579,7 +4954,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -4612,8 +4987,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 1.554,
-      "ms_per_bar": 0.0563,
+      "run_sec": 1.615,
+      "ms_per_bar": 0.0585,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4630,7 +5005,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -4660,7 +5035,7 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27560,
-      "run_sec": 1.097,
+      "run_sec": 1.125,
       "ms_per_bar": null,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
@@ -4695,8 +5070,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 12.997,
-      "ms_per_bar": 0.4707,
+      "run_sec": 13.827,
+      "ms_per_bar": 0.5007,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4722,7 +5097,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -4758,8 +5133,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27396,
-      "run_sec": 22.328,
-      "ms_per_bar": 0.815,
+      "run_sec": 22.828,
+      "ms_per_bar": 0.8333,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4785,7 +5160,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -4815,8 +5190,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 1.076,
-      "ms_per_bar": 0.039,
+      "run_sec": 1.134,
+      "ms_per_bar": 0.0411,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4833,7 +5208,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -4863,8 +5238,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 29.965,
-      "ms_per_bar": 1.0852,
+      "run_sec": 30.858,
+      "ms_per_bar": 1.1175,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4890,7 +5265,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -4920,8 +5295,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 4.468,
-      "ms_per_bar": 0.1618,
+      "run_sec": 5.068,
+      "ms_per_bar": 0.1835,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4947,7 +5322,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -4977,8 +5352,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 6.663,
-      "ms_per_bar": 0.2413,
+      "run_sec": 7.296,
+      "ms_per_bar": 0.2642,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4995,7 +5370,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.811682,
-        "max_ulp": 1,
+        "max_ulp": "1",
         "max_abs": 1.455e-11
       },
       "fidelity": "band",
@@ -5025,8 +5400,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 2.617,
-      "ms_per_bar": 0.0948,
+      "run_sec": 2.834,
+      "ms_per_bar": 0.1026,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -5043,7 +5418,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -5073,8 +5448,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27616,
-      "run_sec": 2.184,
-      "ms_per_bar": 0.4369,
+      "run_sec": 2.585,
+      "ms_per_bar": 0.5171,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -5091,7 +5466,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -5121,7 +5496,7 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27565,
-      "run_sec": 1.113,
+      "run_sec": 1.305,
       "ms_per_bar": null,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
@@ -5156,8 +5531,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 2.054,
-      "ms_per_bar": 0.0744,
+      "run_sec": 2.375,
+      "ms_per_bar": 0.086,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -5174,7 +5549,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -5204,8 +5579,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 3.182,
-      "ms_per_bar": 0.1152,
+      "run_sec": 3.481,
+      "ms_per_bar": 0.1261,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -5222,7 +5597,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -5252,8 +5627,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 22593,
-      "run_sec": 1.174,
-      "ms_per_bar": 0.052,
+      "run_sec": 1.262,
+      "ms_per_bar": 0.0559,
       "data": {
         "symbol": "BINANCE:ETHUSDT",
         "timeframe": "60",
@@ -5270,7 +5645,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -5300,8 +5675,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 3.359,
-      "ms_per_bar": 0.1216,
+      "run_sec": 3.326,
+      "ms_per_bar": 0.1205,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -5318,7 +5693,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -5348,8 +5723,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 1.427,
-      "ms_per_bar": 0.0517,
+      "run_sec": 1.618,
+      "ms_per_bar": 0.0586,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -5366,7 +5741,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -5396,8 +5771,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 2.988,
-      "ms_per_bar": 0.1082,
+      "run_sec": 3.164,
+      "ms_per_bar": 0.1146,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -5423,7 +5798,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -5453,7 +5828,7 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 9855,
-      "run_sec": 0.485,
+      "run_sec": 0.504,
       "ms_per_bar": null,
       "data": {
         "symbol": "CRYPTO:BTCUSD",
@@ -5488,8 +5863,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 0.931,
-      "ms_per_bar": 0.0337,
+      "run_sec": 0.986,
+      "ms_per_bar": 0.0357,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -5506,7 +5881,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -5536,8 +5911,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 4.841,
-      "ms_per_bar": 0.1753,
+      "run_sec": 5.152,
+      "ms_per_bar": 0.1866,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -5563,7 +5938,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -5599,8 +5974,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 21147,
-      "run_sec": 1.974,
-      "ms_per_bar": 0.0933,
+      "run_sec": 2.141,
+      "ms_per_bar": 0.1012,
       "data": {
         "symbol": "BYBIT:WIFUSDT.P",
         "timeframe": "5",
@@ -5617,7 +5992,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -5647,8 +6022,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 1.717,
-      "ms_per_bar": 0.0622,
+      "run_sec": 1.891,
+      "ms_per_bar": 0.0685,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -5665,7 +6040,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -5695,7 +6070,7 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "data_limited",
       "bars": 27583,
-      "run_sec": 153.431,
+      "run_sec": 115.724,
       "ms_per_bar": null,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
@@ -5803,8 +6178,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 1.747,
-      "ms_per_bar": 0.0633,
+      "run_sec": 1.913,
+      "ms_per_bar": 0.0693,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -5838,8 +6213,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27619,
-      "run_sec": 1.089,
-      "ms_per_bar": 0.0394,
+      "run_sec": 1.201,
+      "ms_per_bar": 0.0435,
       "data": {
         "symbol": "BINANCE:DOGEUSDT",
         "timeframe": "30",
@@ -5856,7 +6231,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -5886,7 +6261,7 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27535,
-      "run_sec": 0.925,
+      "run_sec": 1.001,
       "ms_per_bar": null,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
@@ -5921,8 +6296,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27616,
-      "run_sec": 1.427,
-      "ms_per_bar": 0.0517,
+      "run_sec": 1.522,
+      "ms_per_bar": 0.0551,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -5939,7 +6314,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -5969,8 +6344,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27615,
-      "run_sec": 68.718,
-      "ms_per_bar": 2.4884,
+      "run_sec": 77.171,
+      "ms_per_bar": 2.7945,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6066,7 +6441,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6096,8 +6471,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27616,
-      "run_sec": 1.199,
-      "ms_per_bar": 0.0434,
+      "run_sec": 1.275,
+      "ms_per_bar": 0.0462,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6114,7 +6489,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6144,8 +6519,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 19597,
-      "run_sec": 1.269,
-      "ms_per_bar": 0.0648,
+      "run_sec": 1.345,
+      "ms_per_bar": 0.0686,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "240",
@@ -6162,7 +6537,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6192,8 +6567,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27618,
-      "run_sec": 1.364,
-      "ms_per_bar": 0.0494,
+      "run_sec": 1.514,
+      "ms_per_bar": 0.0548,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6210,7 +6585,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6240,8 +6615,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27616,
-      "run_sec": 2.236,
-      "ms_per_bar": 0.081,
+      "run_sec": 2.305,
+      "ms_per_bar": 0.0835,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6258,7 +6633,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6288,8 +6663,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27616,
-      "run_sec": 1.392,
-      "ms_per_bar": 0.0504,
+      "run_sec": 1.482,
+      "ms_per_bar": 0.0537,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6306,7 +6681,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.995836,
-        "max_ulp": 1,
+        "max_ulp": "1",
         "max_abs": 1.455e-11
       },
       "fidelity": "band",
@@ -6336,8 +6711,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27616,
-      "run_sec": 47.292,
-      "ms_per_bar": 1.7125,
+      "run_sec": 48.557,
+      "ms_per_bar": 1.7583,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6354,7 +6729,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6384,8 +6759,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27489,
-      "run_sec": 0.956,
-      "ms_per_bar": 0.0348,
+      "run_sec": 0.975,
+      "ms_per_bar": 0.0355,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6402,7 +6777,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.979515,
-        "max_ulp": 1,
+        "max_ulp": "1",
         "max_abs": 1.455e-11
       },
       "fidelity": "band",
@@ -6450,7 +6825,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6480,8 +6855,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27616,
-      "run_sec": 1.99,
-      "ms_per_bar": 0.0721,
+      "run_sec": 2.046,
+      "ms_per_bar": 0.0741,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6498,7 +6873,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6528,8 +6903,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 2.107,
-      "ms_per_bar": 0.0763,
+      "run_sec": 2.204,
+      "ms_per_bar": 0.0798,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6546,7 +6921,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6576,8 +6951,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27618,
-      "run_sec": 2.126,
-      "ms_per_bar": 0.077,
+      "run_sec": 2.205,
+      "ms_per_bar": 0.0798,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6594,7 +6969,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6629,8 +7004,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 17.993,
-      "ms_per_bar": 0.6515,
+      "run_sec": 18.355,
+      "ms_per_bar": 0.6646,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6663,7 +7038,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6696,8 +7071,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 1.012,
-      "ms_per_bar": 0.0367,
+      "run_sec": 0.992,
+      "ms_per_bar": 0.0359,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6714,7 +7089,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6744,8 +7119,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 1.319,
-      "ms_per_bar": 0.0478,
+      "run_sec": 1.336,
+      "ms_per_bar": 0.0484,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6762,7 +7137,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6792,8 +7167,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 6.09,
-      "ms_per_bar": 0.2205,
+      "run_sec": 6.184,
+      "ms_per_bar": 0.2239,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6810,7 +7185,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6840,8 +7215,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 1.72,
-      "ms_per_bar": 0.0623,
+      "run_sec": 1.791,
+      "ms_per_bar": 0.0649,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6858,7 +7233,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6888,7 +7263,7 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27592,
-      "run_sec": 0.849,
+      "run_sec": 0.896,
       "ms_per_bar": null,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
@@ -6923,8 +7298,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 13.359,
-      "ms_per_bar": 0.4837,
+      "run_sec": 14.001,
+      "ms_per_bar": 0.507,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6957,7 +7332,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -6987,8 +7362,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 2.666,
-      "ms_per_bar": 0.0965,
+      "run_sec": 2.866,
+      "ms_per_bar": 0.1038,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7005,7 +7380,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -7035,8 +7410,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27618,
-      "run_sec": 1.424,
-      "ms_per_bar": 0.0516,
+      "run_sec": 1.508,
+      "ms_per_bar": 0.0546,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7053,7 +7428,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -7083,7 +7458,7 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27182,
-      "run_sec": 0.755,
+      "run_sec": 0.763,
       "ms_per_bar": null,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
@@ -7118,8 +7493,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27618,
-      "run_sec": 4.702,
-      "ms_per_bar": 0.1703,
+      "run_sec": 5.013,
+      "ms_per_bar": 0.1815,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7136,7 +7511,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -7166,8 +7541,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 2.694,
-      "ms_per_bar": 0.0976,
+      "run_sec": 2.997,
+      "ms_per_bar": 0.1085,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7184,7 +7559,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.962382,
-        "max_ulp": 50300,
+        "max_ulp": "50300",
         "max_abs": 2.7e-13
       },
       "fidelity": "band",
@@ -7217,8 +7592,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 3.697,
-      "ms_per_bar": 0.1339,
+      "run_sec": 3.676,
+      "ms_per_bar": 0.1331,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7244,7 +7619,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.995254,
-        "max_ulp": 2,
+        "max_ulp": "2",
         "max_abs": 2.91e-11
       },
       "fidelity": "band",
@@ -7274,8 +7649,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 2.329,
-      "ms_per_bar": 0.0843,
+      "run_sec": 2.27,
+      "ms_per_bar": 0.0822,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7292,7 +7667,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -7322,8 +7697,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 0.99,
-      "ms_per_bar": 0.0358,
+      "run_sec": 1.011,
+      "ms_per_bar": 0.0366,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7340,7 +7715,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -7370,8 +7745,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 1.216,
-      "ms_per_bar": 0.044,
+      "run_sec": 1.225,
+      "ms_per_bar": 0.0444,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7388,7 +7763,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -7418,8 +7793,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 6.032,
-      "ms_per_bar": 0.2184,
+      "run_sec": 5.126,
+      "ms_per_bar": 0.1856,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7452,7 +7827,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -7482,8 +7857,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27618,
-      "run_sec": 2.448,
-      "ms_per_bar": 0.0887,
+      "run_sec": 2.394,
+      "ms_per_bar": 0.0867,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7516,7 +7891,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -7546,8 +7921,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27618,
-      "run_sec": 1.725,
-      "ms_per_bar": 0.0625,
+      "run_sec": 1.752,
+      "ms_per_bar": 0.0635,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7564,7 +7939,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -7594,8 +7969,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27618,
-      "run_sec": 16.448,
-      "ms_per_bar": 0.5955,
+      "run_sec": 17.003,
+      "ms_per_bar": 0.6157,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7649,7 +8024,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -7679,8 +8054,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27619,
-      "run_sec": 23.167,
-      "ms_per_bar": 0.8388,
+      "run_sec": 23.708,
+      "ms_per_bar": 0.8584,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7741,7 +8116,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",
@@ -7771,8 +8146,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27619,
-      "run_sec": 3.587,
-      "ms_per_bar": 0.1299,
+      "run_sec": 3.535,
+      "ms_per_bar": 0.128,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7789,7 +8164,7 @@ window.WILD_DATA = {
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
-        "max_ulp": 0,
+        "max_ulp": "0",
         "max_abs": 0.0
       },
       "fidelity": "exact",

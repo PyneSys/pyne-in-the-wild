@@ -11,6 +11,20 @@
 (function () {
   'use strict';
 
+  // Script names, authors, licenses, symbols, failure reasons and the source link
+  // are TradingView's text, not ours, and every one of them lands in the page as
+  // markup. They are escaped here, in the one renderer the browser and
+  // tools/prerender.mjs both run, so the static and the hydrated HTML escape
+  // identically and neither can be talked into executing a crafted title.
+  const HTML_ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+  const esc = (v) => String(v == null ? '' : v).replace(/[&<>"']/g, (c) => HTML_ESCAPES[c]);
+
+  // The only shape the manifest's source link may take. Anything else — a
+  // javascript: URL smuggled in through the feed — drops the link entirely
+  // rather than rendering an href nobody vetted.
+  const TV_SCRIPT_URL = /^https:\/\/(?:www\.)?tradingview\.com\/script\/[\w-]+\/?$/;
+  const tvScriptUrl = (u) => (TV_SCRIPT_URL.test(String(u == null ? '' : u)) ? esc(u) : '');
+
   function create(D) {
     const fmt = (n) => n.toLocaleString('en-US');
     const pct = (x, digits = 2) => {
@@ -68,14 +82,20 @@
         'right and still land a few representable values apart. Named, not hidden.',
     };
 
+    // ULP distances run past 2**53, where a JS number stops being the integer that
+    // was measured — 8804537271509319680 reads back as ...320000. They arrive as
+    // decimal strings and are compared and formatted as BigInt, so the figure the
+    // page presents as exact and checkable is the one that was measured.
+    const ulpOf = (s) => (s.plot && s.plot.max_ulp != null ? BigInt(s.plot.max_ulp) : null);
+    const ulpLabel = (n) => `${fmt(n)} representable value${n === 1n ? '' : 's'}`;
+
     const fidelitySub = (s) => {
       const f = fidelity[s.fidelity];
       if (!f) return '';
-      const ulp = s.plot && s.plot.max_ulp != null && s.plot.max_ulp > 0
-        ? ` Worst distance: ${fmt(s.plot.max_ulp)} representable value${s.plot.max_ulp === 1 ? '' : 's'}.`
-        : '';
+      const maxUlp = ulpOf(s);
+      const ulp = maxUlp != null && maxUlp > 0n ? ` Worst distance: ${ulpLabel(maxUlp)}.` : '';
       const via = s.transcendentals && s.transcendentals.length
-        ? ` Via ${s.transcendentals.join(', ')}.`
+        ? ` Via ${esc(s.transcendentals.join(', '))}.`
         : '';
       return `<span class="fid-sub ${f[0]}" title="${fidelityDesc[s.fidelity]}${ulp}${via}">${f[1]}</span>`;
     };
@@ -102,7 +122,7 @@
     // on the row's detail panel.
     const subTickTag = (s) =>
       s.sub_tick
-        ? `<span class="row-tag tag-sub_tick" title="${s.sub_tick.reason}">` +
+        ? `<span class="row-tag tag-sub_tick" title="${esc(s.sub_tick.reason)}">` +
           `${s.sub_tick.trades} excluded</span>`
         : '';
 
@@ -130,7 +150,7 @@
         : `<span class="pine-chip${s.pine_version >= 6 ? '' : ' pine-converted'}"` +
           ` title="${pineVersionDesc(s.pine_version)}">v${s.pine_version}</span>`;
 
-    const fmtDate = (iso) => (iso ? iso.slice(0, 16).replace('T', ' ') : '—');
+    const fmtDate = (iso) => (iso ? esc(String(iso).slice(0, 16).replace('T', ' ')) : '—');
 
     const dash = '<span class="muted">—</span>';
     const matchClass = (num) => (num == null ? '' : num >= 1 ? ' full' : ' partial');
@@ -245,7 +265,7 @@
     function detailBody(s) {
       let html = '';
       if (s.level === 'failed') {
-        html += `<p class="sc-fail">${s.fail_reason}</p>`;
+        html += `<p class="sc-fail">${esc(s.fail_reason)}</p>`;
       }
       if (s.plot && s.plot.match_pct != null) {
         html +=
@@ -276,7 +296,7 @@
         html +=
           `<p class="sc-sub_tick">Sub-tick decisions excluded — the direction here turns on ` +
           `<code>ta.crossover</code> / <code>ta.crossunder</code>, a raw <code>&gt;</code> ` +
-          `between two floats. ${s.sub_tick.reason}. There is nothing to reconcile: the ` +
+          `between two floats. ${esc(s.sub_tick.reason)}. There is nothing to reconcile: the ` +
           `comparison carries no tolerance, and what it turned on is smaller than the instrument ` +
           `can quote. Those trades are dropped from both sides' trade count and net profit; every ` +
           `measured figure is kept below, unchanged. The adjusted profit is deliberately neither ` +
@@ -333,14 +353,15 @@
           acc.push(['Identical to the bit', matchPct(s.plot.exact_pct, 3),
             s.plot.exact_pct === 1 ? 'good' : '']);
         }
-        if (s.plot.max_ulp != null) {
+        const maxUlp = ulpOf(s);
+        if (maxUlp != null) {
           acc.push([
             'Worst distance',
-            s.plot.max_ulp === 0
+            maxUlp === 0n
               ? 'same double'
-              : `${fmt(s.plot.max_ulp)} representable value${s.plot.max_ulp === 1 ? '' : 's'}` +
+              : ulpLabel(maxUlp) +
                 (s.plot.max_abs ? ` (${s.plot.max_abs.toExponential(2)} absolute)` : ''),
-            s.plot.max_ulp === 0 ? 'good' : '',
+            maxUlp === 0n ? 'good' : '',
           ]);
         }
         // Split out on purpose: a value that is off and a bar one side plots while
@@ -354,10 +375,10 @@
           }
         }
         if (s.transcendentals && s.transcendentals.length) {
-          acc.push(['Transcendentals on the path', s.transcendentals.join(', '), '']);
+          acc.push(['Transcendentals on the path', esc(s.transcendentals.join(', ')), '']);
         }
         if (s.plot.pearson_min != null) acc.push(['Pearson correlation (min)', s.plot.pearson_min.toFixed(6), 'good']);
-        if (s.plot.worst_col) acc.push(['Worst-matching plot', s.plot.worst_col, '']);
+        if (s.plot.worst_col) acc.push(['Worst-matching plot', esc(s.plot.worst_col), '']);
       }
       if (!acc.length && !s.trades && s.level === 'runs') {
         acc.push(['Reference output', 'no comparable plots exported', '']);
@@ -378,8 +399,8 @@
 
       const win = [];
       if (s.data) {
-        win.push(['Symbol', s.data.symbol, '']);
-        win.push(['Timeframe', `${s.data.timeframe} min`, '']);
+        win.push(['Symbol', esc(s.data.symbol), '']);
+        win.push(['Timeframe', `${esc(s.data.timeframe)} min`, '']);
         win.push(['From', fmtDate(s.data.from), '']);
         win.push(['To', fmtDate(s.data.to), '']);
         if (s.data.bars != null) win.push(['Bars', s.data.bars.toLocaleString(), '']);
@@ -387,8 +408,8 @@
         // to the TV reference) — shown by timeframe and bar count.
         (s.data.security || []).forEach(c => {
           const cross = c.symbol && c.symbol !== s.data.symbol;
-          const label = cross ? `Security ${c.symbol} @ ${c.timeframe} min`
-                              : `Security @ ${c.timeframe} min`;
+          const label = cross ? `Security ${esc(c.symbol)} @ ${esc(c.timeframe)} min`
+                              : `Security @ ${esc(c.timeframe)} min`;
           win.push([label, c.bars != null ? `${c.bars.toLocaleString()} bars` : '', '']);
         });
       }
@@ -401,17 +422,22 @@
           ? `v${s.pine_version}`
           : `v${s.pine_version}, converted to v6 by PyneComp`, '']);
       }
-      src.push(['Script revision', `v${s.version}`, '']);
-      src.push(['License', s.license && s.license !== 'none' ? s.license : 'unspecified', '']);
+      src.push(['Script revision', `v${esc(s.version)}`, '']);
+      src.push(['License', s.license && s.license !== 'none' ? esc(s.license) : 'unspecified', '']);
 
       const cols = [];
       if (acc.length) cols.push(`<div class="detail-block"><h4>Accuracy</h4>${facts(acc)}</div>`);
       if (run.length) cols.push(`<div class="detail-block"><h4>Run</h4>${facts(run)}</div>`);
       if (win.length) cols.push(`<div class="detail-block"><h4>Data window</h4>${facts(win)}</div>`);
+      const tvUrl = tvScriptUrl(s.tv_url);
       cols.push(
         `<div class="detail-block"><h4>Source</h4>${facts(src)}` +
-        `<p class="detail-sha"><span class="sha-label">SHA-256</span><code>${s.sha256}</code></p>` +
-        `<a class="detail-link" href="${s.tv_url}" target="_blank" rel="noopener">View on TradingView <span aria-hidden="true">&#8599;</span></a></div>`
+        `<p class="detail-sha"><span class="sha-label">SHA-256</span><code>${esc(s.sha256)}</code></p>` +
+        (tvUrl
+          ? `<a class="detail-link" href="${tvUrl}" target="_blank" rel="noopener">` +
+            `View on TradingView <span aria-hidden="true">&#8599;</span></a>`
+          : '') +
+        `</div>`
       );
 
       return html + `<div class="detail-cols">${cols.join('')}</div>`;
@@ -420,14 +446,14 @@
     function renderRow(s) {
       const pm = plotMatch(s);
       const tm = tradeMatch(s);
-      const lic = s.license && s.license !== 'none' ? ` &middot; ${s.license}` : '';
+      const lic = s.license && s.license !== 'none' ? ` &middot; ${esc(s.license)}` : '';
       const bars = s.bars != null ? fmt(s.bars) : dash;
       return (
         `<tr class="script-row level-${s.level}">` +
           `<td class="cell-name">` +
-            `<span class="row-title">${s.name}</span>` +
+            `<span class="row-title">${esc(s.name)}</span>` +
             `<span class="row-meta">` +
-              `<span class="row-author">by ${s.author}${lic}</span>` +
+              `<span class="row-author">by ${esc(s.author)}${lic}</span>` +
               subTickTag(s) +
               `<span class="row-likes" aria-label="${fmt(s.likes)} likes"><svg class="ic-thumb" viewBox="0 0 24 24" aria-hidden="true"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z"/></svg> ${fmt(s.likes)}</span>` +
             `</span>` +

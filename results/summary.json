@@ -6,7 +6,7 @@
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 155
+      "scripts": 165
     },
     {
       "symbol": "CAPITALCOM:EURUSD",
@@ -53,46 +53,46 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 126,
+      "exact": 133,
       "libm": 3,
-      "band": 12,
-      "compared": 141
+      "band": 13,
+      "compared": 149
     },
-    "bars_compared": 16758606,
-    "bars_exact": 16704085,
-    "bars_exact_rate": 0.9967466864487416,
-    "max_ulp": 65536.0,
+    "bars_compared": 19791887,
+    "bars_exact": 19736535,
+    "bars_exact_rate": 0.9972032985030684,
+    "max_ulp": 8.80453727150932e+18,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 163,
-    "indicators": 75,
+    "total": 173,
+    "indicators": 85,
     "strategies": 88,
-    "compiled": 163,
+    "compiled": 173,
     "compile_fail": 0,
-    "tv_ok": 160,
-    "pyne_ok": 163,
+    "tv_ok": 169,
+    "pyne_ok": 173,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 66,
+    "n_with_plots_compared": 74,
     "plot_match_pct": {
       "median": 1.0,
-      "mean": 1.0,
-      "min": 1.0,
+      "mean": 0.9999992297297298,
+      "min": 0.999943,
       "max": 1.0,
-      "n": 66,
+      "n": 74,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 4.5887625000000004e-18,
+      "mean": 4.136349295774648e-18,
       "min": 0.0,
       "max": 2.753e-16,
-      "n": 64,
+      "n": 71,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -101,14 +101,14 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 64,
+      "n": 71,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 66,
+    "fully_matching_scripts": 73,
     "match_pct_histogram": {
-      "1.0": 66,
-      "0.99-1.0": 0,
+      "1.0": 73,
+      "0.99-1.0": 1,
       "0.9-0.99": 0,
       "<0.9": 0
     }
@@ -169,6 +169,12 @@
   },
   "top_compile_errors": [],
   "worst_plot_scripts": [
+    {
+      "id": "PUB;uA35GeckoTA2EfgI63SD2WCSmca4njxp",
+      "name": "VuManChu Cipher B + Divergences",
+      "plot_match_pct": 0.999943,
+      "worst_col": "Stoch K"
+    },
     {
       "id": "PUB;42af0c00136b444b918a15e6cb30e896",
       "name": "%R Trend Exhaustion [upslidedown]",
@@ -252,12 +258,6 @@
       "name": "Fibonacci Extension / Retracement / Pivot Points by DGT",
       "plot_match_pct": 1.0,
       "worst_col": "Exhaustion Bar"
-    },
-    {
-      "id": "PUB;b479566fb5794c7ca3b8158bacb6f5b7",
-      "name": "Fibonacci Time-Price Zones",
-      "plot_match_pct": 1.0,
-      "worst_col": "B Price"
     }
   ]
 }

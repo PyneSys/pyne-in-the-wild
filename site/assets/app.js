@@ -156,18 +156,31 @@
 
   /* ---------- methodology params ---------- */
 
+  // These lines are also prerendered into the page by build_site_data.py, and the
+  // hydrated block has to come out character for character the same or the reader
+  // watches the published tolerances change under them. Both numbers below are
+  // Python reprs there — Python keeps a trailing ".0" where JS drops it — and the
+  // line delay is trimmed the way Python's "%g" trims it.
+  const numRepr = (x) => {
+    const s = String(x);
+    return /[.e]/.test(s) ? s : `${s}.0`;
+  };
+  const lineDelay = (index) =>
+    (0.46 + index * 0.055).toFixed(3).replace(/0+$/, '').replace(/\.$/, '');
+
   $('#method-params').innerHTML = [
     `<span class="k">symbol</span>      = ${D.symbol}`,
     `<span class="k">timeframe</span>   = ${D.timeframe_min} min`,
     ...(D.own_market_scripts ? [`<span class="k">exceptions</span>  = ${D.own_market_scripts} scripts on their own market`] : []),
     `<span class="k">bars</span>        = 25,000+ per script`,
-    `<span class="k">abs_tol</span>     = ${D.tolerances.abs_tol}`,
-    `<span class="k">rel_tol</span>     = ${D.tolerances.rel_tol}`,
-    `<span class="k">profit_tol</span>  = ${D.tolerances.profit_pct_tol}%`,
+    `<span class="k">ulp_limit</span>   = ${D.tolerances.ulp_limit} (libm tier)`,
+    `<span class="k">rel_tol</span>     = ${numRepr(D.tolerances.rel_tol)}`,
+    `<span class="k">scale_floor</span> = ${numRepr(D.tolerances.scale_floor)} x series median`,
+    `<span class="k">net_tol</span>     = ${numRepr(D.tolerances.net_profit_rel_tol * 100)}% of the larger net`,
     `<span class="k">reference</span>   = TradingView export`,
     `<span class="k">sources</span>     = SHA-256 pinned manifest`,
   ]
-    .map((line, index) => `<span class="method-param-line" style="--line-delay: ${0.46 + index * 0.055}s">${line}</span>`)
+    .map((line, index) => `<span class="method-param-line" style="--line-delay: ${lineDelay(index)}s">${line}</span>`)
     .join('');
 
   const methodology = $('#methodology');
