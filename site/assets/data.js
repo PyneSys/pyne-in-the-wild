@@ -21,7 +21,7 @@ window.WILD_DATA = {
     "bars_compared": 22085496,
     "bars_exact": 22026966,
     "bars_exact_rate": 0.9973498444408946,
-    "max_ulp": 8.80453727150932e+18,
+    "max_ulp": 65536.0,
     "ulp_limit": 64
   },
   "totals": {
@@ -42,7 +42,7 @@ window.WILD_DATA = {
     "tv_fidelity_rate": 1.0,
     "plot_outputs": 158,
     "trade_outputs": 87,
-    "average_match_rate": 0.9999997673469387,
+    "average_match_rate": 1.0,
     "average_match_count": 245,
     "trades_compared": 69938,
     "sub_tick_excluded_trades": 0,
@@ -59,10 +59,10 @@ window.WILD_DATA = {
     "total": 95,
     "compared": 83,
     "plot_verified": 83,
-    "plot_exact": 82,
+    "plot_exact": 83,
     "plot_match_median": 1.0,
-    "plot_match_mean": 0.9999993132530121,
-    "plot_match_min": 0.999943,
+    "plot_match_mean": 1.0,
+    "plot_match_min": 1.0,
     "pearson_min": 1.0
   },
   "strategies": {
@@ -786,8 +786,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 28143,
-      "run_sec": 38.922,
-      "ms_per_bar": 1.383,
+      "run_sec": 33.908,
+      "ms_per_bar": 1.2048,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -813,14 +813,14 @@ window.WILD_DATA = {
       },
       "plot": {
         "cols": 34,
-        "match_pct": 0.999943,
-        "worst_col": "Stoch K",
+        "match_pct": 1.0,
+        "worst_col": "Plot",
         "pearson_min": 1.0,
         "bars_numeric": 383026,
-        "num_match_pct": 0.999943,
+        "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 0.99783,
-        "max_ulp": "8804537271509319680",
+        "max_ulp": "11175",
         "max_abs": 2.227e-11
       },
       "fidelity": "band",

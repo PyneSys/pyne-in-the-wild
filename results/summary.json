@@ -61,7 +61,7 @@
     "bars_compared": 22085496,
     "bars_exact": 22026966,
     "bars_exact_rate": 0.9973498444408946,
-    "max_ulp": 8.80453727150932e+18,
+    "max_ulp": 65536.0,
     "ulp_limit": 64
   },
   "counts": {
@@ -80,8 +80,8 @@
     "n_with_plots_compared": 83,
     "plot_match_pct": {
       "median": 1.0,
-      "mean": 0.9999993132530121,
-      "min": 0.999943,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
       "n": 83,
       "p25": 1.0,
@@ -105,10 +105,10 @@
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 82,
+    "fully_matching_scripts": 83,
     "match_pct_histogram": {
-      "1.0": 82,
-      "0.99-1.0": 1,
+      "1.0": 83,
+      "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
@@ -169,12 +169,6 @@
   },
   "top_compile_errors": [],
   "worst_plot_scripts": [
-    {
-      "id": "PUB;uA35GeckoTA2EfgI63SD2WCSmca4njxp",
-      "name": "VuManChu Cipher B + Divergences",
-      "plot_match_pct": 0.999943,
-      "worst_col": "Stoch K"
-    },
     {
       "id": "PUB;42af0c00136b444b918a15e6cb30e896",
       "name": "%R Trend Exhaustion [upslidedown]",
@@ -258,6 +252,12 @@
       "name": "Elliot Wave Oscillator",
       "plot_match_pct": 1.0,
       "worst_col": "Plot"
+    },
+    {
+      "id": "PUB;WokerspHYCae8NdAwae4mYE2rTOAOsWD",
+      "name": "Elliott Wave Oscillator Signals by DGT",
+      "plot_match_pct": 1.0,
+      "worst_col": "Strong Long"
     }
   ]
 }
