@@ -1,5 +1,5 @@
 window.WILD_DATA = {
-  "generated_at": "2026-08-10",
+  "generated_at": "2026-08-11",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe_min": 30,
   "own_market_scripts": 8,
@@ -13,55 +13,55 @@ window.WILD_DATA = {
   },
   "fidelity": {
     "scripts": {
-      "exact": 133,
+      "exact": 141,
       "libm": 3,
-      "band": 13,
-      "compared": 149
+      "band": 14,
+      "compared": 158
     },
-    "bars_compared": 19791887,
-    "bars_exact": 19736535,
-    "bars_exact_rate": 0.9972032985030684,
+    "bars_compared": 22085496,
+    "bars_exact": 22026966,
+    "bars_exact_rate": 0.9973498444408946,
     "max_ulp": 8.80453727150932e+18,
     "ulp_limit": 64
   },
   "totals": {
-    "total": 173,
-    "indicators": 85,
+    "total": 183,
+    "indicators": 95,
     "strategies": 88,
-    "compiled": 173,
+    "compiled": 183,
     "compile_fail": 0,
-    "tv_ok": 169,
-    "pyne_ok": 173,
+    "tv_ok": 178,
+    "pyne_ok": 183,
     "trade_divergence": 0,
     "compile_rate": 1.0,
     "run_rate": 1.0,
     "run_success_rate": 1.0,
-    "measurable_scripts": 162,
-    "tv_comparable": 236,
-    "tv_fidelity_verified": 236,
+    "measurable_scripts": 171,
+    "tv_comparable": 245,
+    "tv_fidelity_verified": 245,
     "tv_fidelity_rate": 1.0,
-    "plot_outputs": 149,
+    "plot_outputs": 158,
     "trade_outputs": 87,
-    "average_match_rate": 0.9999997584745762,
-    "average_match_count": 236,
+    "average_match_rate": 0.9999997673469387,
+    "average_match_count": 245,
     "trades_compared": 69938,
     "sub_tick_excluded_trades": 0,
     "sub_tick_excluded_scripts": 0,
-    "bars_run": 4758782,
-    "verified": 161,
+    "bars_run": 5040504,
+    "verified": 170,
     "divergent": 0,
     "repaint": 0,
     "data_limited": 1,
-    "runs": 11,
+    "runs": 12,
     "failed": 0
   },
   "indicators": {
-    "total": 85,
-    "compared": 74,
-    "plot_verified": 74,
-    "plot_exact": 73,
+    "total": 95,
+    "compared": 83,
+    "plot_verified": 83,
+    "plot_exact": 82,
     "plot_match_median": 1.0,
-    "plot_match_mean": 0.9999992297297298,
+    "plot_match_mean": 0.9999993132530121,
     "plot_match_min": 0.999943,
     "pearson_min": 1.0
   },
@@ -1050,6 +1050,43 @@ window.WILD_DATA = {
       "fidelity": "exact"
     },
     {
+      "id": "PUB;ps6kWkOWqLJPZhvTAj2ORDYjN1ewE9gA",
+      "kind": "indicator",
+      "name": "Profit Maximizer PMax",
+      "author": "KivancOzbilgic",
+      "license": "MPL-2.0",
+      "version": "3",
+      "pine_version": 4,
+      "likes": 19305,
+      "tv_url": "https://www.tradingview.com/script/sU9molfV/",
+      "sha256": "59e63357aae547ee2d01cb2e80d32e33cbb61d8fa83f3a4d8e3aa6c1464fc648",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28172,
+      "run_sec": 1.531,
+      "ms_per_bar": 0.0543,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T21:30:00+00:00",
+        "bars": 28172
+      },
+      "plot": {
+        "cols": 7,
+        "match_pct": 1.0,
+        "worst_col": "Moving Avg Line",
+        "pearson_min": 1.0,
+        "bars_numeric": 84803,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_ulp": "0",
+        "max_abs": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
       "id": "PUB;3d8b91f226af41dfa36df2db1c21ae80",
       "kind": "indicator",
       "name": "Volume Profile, Pivot Anchored by DGT",
@@ -1072,6 +1109,170 @@ window.WILD_DATA = {
         "to": "2026-07-30T06:30:00+00:00",
         "bars": 27614
       }
+    },
+    {
+      "id": "PUB;f9af35aecc5d410a8c5eced2aa5417df",
+      "kind": "indicator",
+      "name": "CM MACD Custom Indicator - Multiple Time Frame - V2",
+      "author": "ChrisMoody",
+      "license": "none",
+      "version": "4",
+      "pine_version": 5,
+      "likes": 17807,
+      "tv_url": "https://www.tradingview.com/script/XFr7xHqZ/",
+      "sha256": "1fbb06f9e43e62d664184d925b8571d39aa955e99295612ba0d0471ee7323409",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28172,
+      "run_sec": 1.718,
+      "ms_per_bar": 0.061,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T21:30:00+00:00",
+        "bars": 28172
+      },
+      "plot": {
+        "cols": 5,
+        "match_pct": 1.0,
+        "worst_col": "Histogram",
+        "pearson_min": 1.0,
+        "bars_numeric": 86599,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_ulp": "0",
+        "max_abs": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;a16471dc85414264a69ccb4121308b9c",
+      "kind": "indicator",
+      "name": "Smart Money Structure | GainzAlgo",
+      "author": "GainzAlgo",
+      "license": "none",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 17657,
+      "tv_url": "https://www.tradingview.com/script/HKBMUhq3/",
+      "sha256": "8fd0eb192f907e71b9823ff0f761ad958f1d48fe740d4e38ee337dbb74eb43f2",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28172,
+      "run_sec": 38.452,
+      "ms_per_bar": 1.3649,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T21:30:00+00:00",
+        "bars": 28172,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "1",
+            "from": "2026-06-02T11:23:00+00:00",
+            "to": "2026-08-10T21:59:00+00:00",
+            "bars": 99997
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "5",
+            "from": "2025-08-28T16:45:00+00:00",
+            "to": "2026-08-10T21:55:00+00:00",
+            "bars": 99999
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "15",
+            "from": "2025-09-08T10:15:00+00:00",
+            "to": "2026-08-10T21:45:00+00:00",
+            "bars": 32303
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "60",
+            "from": "2024-01-01T00:00:00+00:00",
+            "to": "2026-08-10T21:00:00+00:00",
+            "bars": 22870
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "240",
+            "from": "2023-01-01T00:00:00+00:00",
+            "to": "2026-08-10T20:00:00+00:00",
+            "bars": 7908
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "D",
+            "from": "2017-08-17T00:00:00+00:00",
+            "to": "2026-08-10T00:00:00+00:00",
+            "bars": 3281
+          }
+        ]
+      },
+      "plot": {
+        "cols": 4,
+        "match_pct": 1.0,
+        "worst_col": "CHoCH Sell",
+        "pearson_min": 1.0,
+        "bars_numeric": 112471,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_ulp": "0",
+        "max_abs": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;b1702429dc1f4ab0a2cbdf51fd796448",
+      "kind": "indicator",
+      "name": "Volume Delta Candles [LuxAlgo]",
+      "author": "LuxAlgo",
+      "license": "CC",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 17004,
+      "tv_url": "https://www.tradingview.com/script/BdlG9FNZ/",
+      "sha256": "8130417347677d86fe6cdef61e3ca7824b34225ad82a61dc78156c0e2f9c4228",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28172,
+      "run_sec": 3.485,
+      "ms_per_bar": 0.1237,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T21:30:00+00:00",
+        "bars": 28172,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "1",
+            "from": "2026-06-02T11:38:00+00:00",
+            "to": "2026-08-10T21:59:00+00:00",
+            "bars": 99982
+          }
+        ]
+      },
+      "plot": {
+        "cols": 3,
+        "match_pct": 1.0,
+        "worst_col": "Plot 0",
+        "pearson_min": 1.0,
+        "bars_numeric": 6666,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 0.523252,
+        "max_ulp": "3",
+        "max_abs": 9.095e-13
+      },
+      "fidelity": "band"
     },
     {
       "id": "PUB;jN9HBNhynFqGOf4KrVcu2d0TU9g0jvGR",
@@ -1264,6 +1465,80 @@ window.WILD_DATA = {
       }
     },
     {
+      "id": "PUB;XQTKs6HB2yXgpJzqMYoB9or9Q5VREkYA",
+      "kind": "indicator",
+      "name": "Trend Direction Helper (ZigZag and S/R and HH/LL labels)",
+      "author": "Daveatt",
+      "license": "none",
+      "version": "5",
+      "pine_version": 4,
+      "likes": 16283,
+      "tv_url": "https://www.tradingview.com/script/prH14cfo/",
+      "sha256": "35dd612cf33fa844d9806df303b707b0b7f1576b64c88db54a2e6152a67d51a8",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28172,
+      "run_sec": 3.32,
+      "ms_per_bar": 0.1178,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T21:30:00+00:00",
+        "bars": 28172
+      },
+      "plot": {
+        "cols": 12,
+        "match_pct": 1.0,
+        "worst_col": "Plot",
+        "pearson_min": 1.0,
+        "bars_numeric": 223523,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_ulp": "0",
+        "max_abs": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;7357271676064ac79e2d95a9608710cf",
+      "kind": "indicator",
+      "name": "Reversal Signals [LuxAlgo]",
+      "author": "LuxAlgo",
+      "license": "CC",
+      "version": "2",
+      "pine_version": 5,
+      "likes": 16214,
+      "tv_url": "https://www.tradingview.com/script/qTWl7ZOy/",
+      "sha256": "e1ba6edc2137f40f11abae1654bb07ef04008d671af33ad31758adb776ebdec9",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28172,
+      "run_sec": 5.148,
+      "ms_per_bar": 0.1827,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T21:30:00+00:00",
+        "bars": 28172
+      },
+      "plot": {
+        "cols": 64,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 1496387,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_ulp": "0",
+        "max_abs": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
       "id": "PUB;1505",
       "kind": "indicator",
       "name": "[RS]Support and Resistance V0",
@@ -1344,6 +1619,96 @@ window.WILD_DATA = {
       ]
     },
     {
+      "id": "PUB;r4MVRjtjDcVI3sDa8oVxFyQJELap4dgq",
+      "kind": "indicator",
+      "name": "Elliot Wave Oscillator",
+      "author": "koryu",
+      "license": "none",
+      "version": "4",
+      "pine_version": 5,
+      "likes": 15959,
+      "tv_url": "https://www.tradingview.com/script/VNJP71tP/",
+      "sha256": "70f18428c7910b3509d2d18c799a79314b3e98a27a04da8400b7e8e154cfdae2",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28172,
+      "run_sec": 0.618,
+      "ms_per_bar": 0.0219,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T21:30:00+00:00",
+        "bars": 28172
+      },
+      "plot": {
+        "cols": 1,
+        "match_pct": 1.0,
+        "worst_col": "Plot",
+        "pearson_min": 1.0,
+        "bars_numeric": 28138,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_ulp": "0",
+        "max_abs": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;y0Ns0niVTf16Dgnb4tQLbqPYSkDJGsbb",
+      "kind": "indicator",
+      "name": "Hash Ribbons",
+      "author": "capriole_charles",
+      "license": "none",
+      "version": "16",
+      "pine_version": 5,
+      "likes": 15764,
+      "tv_url": "https://www.tradingview.com/script/kT7jIvqv/",
+      "sha256": "2f1b49f4c2dbcbcec13f26b627a3a2c26491bd26ba6b72321180f6bd91a5e065",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28172,
+      "run_sec": 6.102,
+      "ms_per_bar": 0.2166,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T21:30:00+00:00",
+        "bars": 28172,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "D",
+            "from": "2017-08-17T00:00:00+00:00",
+            "to": "2026-08-10T00:00:00+00:00",
+            "bars": 3281
+          },
+          {
+            "symbol": "INTOTHEBLOCK:BTC_HASHRATE",
+            "timeframe": "D",
+            "from": "2009-01-03T00:00:00+00:00",
+            "to": "2025-08-14T00:00:00+00:00",
+            "bars": 6068
+          }
+        ]
+      },
+      "plot": {
+        "cols": 9,
+        "match_pct": 1.0,
+        "worst_col": "HR SMA Long",
+        "pearson_min": 1.0,
+        "bars_numeric": 197204,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_ulp": "0",
+        "max_abs": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
       "id": "PUB;smOGfR6p3nRIFHGkaKqbV9wWl8bFcUmA",
       "kind": "indicator",
       "name": "Fibonacci Extension / Retracement / Pivot Points by DGT",
@@ -1379,6 +1744,104 @@ window.WILD_DATA = {
         "max_abs": 0.0
       },
       "fidelity": "exact"
+    },
+    {
+      "id": "PUB;d7eefaf9a1ea4811bb0cbc0c1d9a7334",
+      "kind": "indicator",
+      "name": "Zero Lag Trend Signals (MTF) [AlgoAlpha]",
+      "author": "AlgoAlpha",
+      "license": "MPL-2.0",
+      "version": "4",
+      "pine_version": 5,
+      "likes": 15663,
+      "tv_url": "https://www.tradingview.com/script/tHK4O1Fi/",
+      "sha256": "2720c5145676c2c96f1e95e1a6af659487a2a3ab734e9f49099830ccd77a2860",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28172,
+      "run_sec": 12.19,
+      "ms_per_bar": 0.4327,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T21:30:00+00:00",
+        "bars": 28172,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "5",
+            "from": "2025-08-28T17:10:00+00:00",
+            "to": "2026-08-10T21:55:00+00:00",
+            "bars": 99994
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "15",
+            "from": "2025-06-01T00:00:00+00:00",
+            "to": "2026-08-10T21:45:00+00:00",
+            "bars": 41848
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "60",
+            "from": "2024-01-01T00:00:00+00:00",
+            "to": "2026-08-10T21:00:00+00:00",
+            "bars": 22870
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "240",
+            "from": "2019-01-01T00:00:00+00:00",
+            "to": "2026-08-10T20:00:00+00:00",
+            "bars": 16669
+          },
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "1D",
+            "from": "2017-08-17T00:00:00+00:00",
+            "to": "2026-08-10T00:00:00+00:00",
+            "bars": 3281
+          }
+        ]
+      },
+      "plot": {
+        "cols": 7,
+        "match_pct": 1.0,
+        "worst_col": "Zero Lag Basis",
+        "pearson_min": 1.0,
+        "bars_numeric": 57818,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_ulp": "0",
+        "max_abs": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;b9cb7df16fe848cf86e443acb35b4a48",
+      "kind": "indicator",
+      "name": "Market Structure CHoCH/BOS (Fractal) [LuxAlgo]",
+      "author": "LuxAlgo",
+      "license": "CC",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 15406,
+      "tv_url": "https://www.tradingview.com/script/ZpHqSrBK/",
+      "sha256": "85b762d87844f56a8075754ab5b0031cd5e8a28d3c280eec6c080dd499015b96",
+      "status": "ok",
+      "level": "runs",
+      "bars": 28174,
+      "run_sec": 0.844,
+      "ms_per_bar": 0.03,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-10T22:30:00+00:00",
+        "bars": 28174
+      }
     },
     {
       "id": "PUB;3KZoMPYziyb4zHtK43htj9OetbgOzDRP",
