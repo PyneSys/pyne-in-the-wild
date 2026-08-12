@@ -6,7 +6,7 @@
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 194
+      "scripts": 202
     },
     {
       "symbol": "CAPITALCOM:EURUSD",
@@ -53,25 +53,25 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 155,
+      "exact": 161,
       "libm": 3,
-      "band": 16,
-      "compared": 174
+      "band": 18,
+      "compared": 182
     },
-    "bars_compared": 23783604,
-    "bars_exact": 23667385,
-    "bars_exact_rate": 0.9951134823805509,
-    "max_ulp": 65536.0,
+    "bars_compared": 25301377,
+    "bars_exact": 25166378,
+    "bars_exact_rate": 0.9946643615483853,
+    "max_ulp": 4.6071824188000174e+18,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 202,
+    "total": 210,
     "indicators": 110,
-    "strategies": 92,
-    "compiled": 202,
+    "strategies": 100,
+    "compiled": 210,
     "compile_fail": 0,
-    "tv_ok": 196,
-    "pyne_ok": 202,
+    "tv_ok": 204,
+    "pyne_ok": 210,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
@@ -114,13 +114,13 @@
     }
   },
   "strategies": {
-    "n": 92,
+    "n": 100,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 91,
+      "n": 99,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -129,7 +129,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 91,
+      "n": 99,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -138,30 +138,30 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 91,
+      "n": 99,
       "p25": 1.0,
       "p75": 1.0
     },
     "qty_match_pct": {
       "median": 1.0,
-      "mean": 0.9770357362637363,
+      "mean": 0.9788914343434344,
       "min": 0.033333,
       "max": 1.0,
-      "n": 91,
+      "n": 99,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
       "median": 1.674e-08,
-      "mean": 0.00035180241243945733,
+      "mean": 0.0003233752546161782,
       "min": 0.0,
       "max": 0.031053,
-      "n": 91,
+      "n": 99,
       "p25": 4.093e-14,
-      "p75": 4.1394999999999994e-08
+      "p75": 3.8155e-08
     },
-    "trade_count_exact_match": 91,
+    "trade_count_exact_match": 99,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -169,6 +169,18 @@
   },
   "top_compile_errors": [],
   "worst_plot_scripts": [
+    {
+      "id": "PUB;3b9db05a48c347ffbeb571b0db5e8dbd",
+      "name": "AI SuperTrend x Pivot Percentile - Strategy [PresentTrading]",
+      "plot_match_pct": 0.945227,
+      "worst_col": "AI Bearish Trend Start"
+    },
+    {
+      "id": "PUB;mR2vfyGjUvIZ1uT6uiAC33hOFzqsZG1B",
+      "name": "VWAP + Fibo Dev Extensions Strategy",
+      "plot_match_pct": 0.994507,
+      "worst_col": "VWAP"
+    },
     {
       "id": "PUB;42af0c00136b444b918a15e6cb30e896",
       "name": "%R Trend Exhaustion [upslidedown]",
@@ -246,18 +258,6 @@
       "name": "Divergence for Many Indicators v4",
       "plot_match_pct": 1.0,
       "worst_col": "Shapes"
-    },
-    {
-      "id": "PUB;r4MVRjtjDcVI3sDa8oVxFyQJELap4dgq",
-      "name": "Elliot Wave Oscillator",
-      "plot_match_pct": 1.0,
-      "worst_col": "Plot"
-    },
-    {
-      "id": "PUB;WokerspHYCae8NdAwae4mYE2rTOAOsWD",
-      "name": "Elliott Wave Oscillator Signals by DGT",
-      "plot_match_pct": 1.0,
-      "worst_col": "Strong Long"
     }
   ]
 }
