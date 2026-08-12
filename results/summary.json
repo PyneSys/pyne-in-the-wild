@@ -6,7 +6,7 @@
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 184
+      "scripts": 194
     },
     {
       "symbol": "CAPITALCOM:EURUSD",
@@ -53,46 +53,46 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 146,
+      "exact": 155,
       "libm": 3,
       "band": 16,
-      "compared": 165
+      "compared": 174
     },
-    "bars_compared": 22739004,
-    "bars_exact": 22622785,
-    "bars_exact_rate": 0.9948890021744137,
+    "bars_compared": 23783604,
+    "bars_exact": 23667385,
+    "bars_exact_rate": 0.9951134823805509,
     "max_ulp": 65536.0,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 192,
-    "indicators": 100,
+    "total": 202,
+    "indicators": 110,
     "strategies": 92,
-    "compiled": 192,
+    "compiled": 202,
     "compile_fail": 0,
-    "tv_ok": 187,
-    "pyne_ok": 192,
+    "tv_ok": 196,
+    "pyne_ok": 202,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 86,
+    "n_with_plots_compared": 95,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 86,
+      "n": 95,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 5.096756626506024e-18,
+      "mean": 4.598160869565217e-18,
       "min": 0.0,
       "max": 2.753e-16,
-      "n": 83,
+      "n": 92,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -101,13 +101,13 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 83,
+      "n": 92,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 86,
+    "fully_matching_scripts": 95,
     "match_pct_histogram": {
-      "1.0": 86,
+      "1.0": 95,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
