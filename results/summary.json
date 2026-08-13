@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-12",
+  "generated_at": "2026-08-13",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 202
+      "scripts": 213
     },
     {
       "symbol": "CAPITALCOM:EURUSD",
@@ -53,46 +53,46 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 161,
+      "exact": 172,
       "libm": 3,
-      "band": 18,
-      "compared": 182
+      "band": 16,
+      "compared": 191
     },
-    "bars_compared": 25301377,
-    "bars_exact": 25166378,
-    "bars_exact_rate": 0.9946643615483853,
-    "max_ulp": 4.6071824188000174e+18,
+    "bars_compared": 26207502,
+    "bars_exact": 26091283,
+    "bars_exact_rate": 0.995565430081814,
+    "max_ulp": 65536.0,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 210,
-    "indicators": 110,
-    "strategies": 100,
-    "compiled": 210,
+    "total": 221,
+    "indicators": 115,
+    "strategies": 106,
+    "compiled": 221,
     "compile_fail": 0,
-    "tv_ok": 204,
-    "pyne_ok": 210,
+    "tv_ok": 215,
+    "pyne_ok": 221,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 95,
+    "n_with_plots_compared": 99,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 95,
+      "n": 99,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 4.598160869565217e-18,
+      "mean": 4.406570833333333e-18,
       "min": 0.0,
       "max": 2.753e-16,
-      "n": 92,
+      "n": 96,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -101,26 +101,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 92,
+      "n": 96,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 95,
+    "fully_matching_scripts": 99,
     "match_pct_histogram": {
-      "1.0": 95,
+      "1.0": 99,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 100,
+    "n": 106,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 99,
+      "n": 105,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -129,7 +129,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 99,
+      "n": 105,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -138,30 +138,30 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 99,
+      "n": 105,
       "p25": 1.0,
       "p75": 1.0
     },
     "qty_match_pct": {
       "median": 1.0,
-      "mean": 0.9788914343434344,
+      "mean": 0.9904023999999999,
       "min": 0.033333,
       "max": 1.0,
-      "n": 99,
+      "n": 105,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.674e-08,
-      "mean": 0.0003233752546161782,
+      "median": 1.717e-08,
+      "mean": 0.0003226026636141186,
       "min": 0.0,
       "max": 0.031053,
-      "n": 99,
-      "p25": 4.093e-14,
-      "p75": 3.8155e-08
+      "n": 105,
+      "p25": 5.348e-14,
+      "p75": 3.189e-08
     },
-    "trade_count_exact_match": 99,
+    "trade_count_exact_match": 105,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -169,18 +169,6 @@
   },
   "top_compile_errors": [],
   "worst_plot_scripts": [
-    {
-      "id": "PUB;3b9db05a48c347ffbeb571b0db5e8dbd",
-      "name": "AI SuperTrend x Pivot Percentile - Strategy [PresentTrading]",
-      "plot_match_pct": 0.945227,
-      "worst_col": "AI Bearish Trend Start"
-    },
-    {
-      "id": "PUB;mR2vfyGjUvIZ1uT6uiAC33hOFzqsZG1B",
-      "name": "VWAP + Fibo Dev Extensions Strategy",
-      "plot_match_pct": 0.994507,
-      "worst_col": "VWAP"
-    },
     {
       "id": "PUB;42af0c00136b444b918a15e6cb30e896",
       "name": "%R Trend Exhaustion [upslidedown]",
@@ -204,6 +192,12 @@
       "name": "AlphaTrend",
       "plot_match_pct": 1.0,
       "worst_col": "Plot"
+    },
+    {
+      "id": "PUB;Flm5lSTnMsbi5IGhuBw8x5QgD9nB5Tvi",
+      "name": "Bollinger Awesome Alert R1 by JustUncleL",
+      "plot_match_pct": 1.0,
+      "worst_col": "Basis Line"
     },
     {
       "id": "PUB;92a018ea21ef4b9886e810a7fea6968d",
@@ -258,6 +252,12 @@
       "name": "Divergence for Many Indicators v4",
       "plot_match_pct": 1.0,
       "worst_col": "Shapes"
+    },
+    {
+      "id": "PUB;r4MVRjtjDcVI3sDa8oVxFyQJELap4dgq",
+      "name": "Elliot Wave Oscillator",
+      "plot_match_pct": 1.0,
+      "worst_col": "Plot"
     }
   ]
 }
