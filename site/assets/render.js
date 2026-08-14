@@ -394,8 +394,8 @@
         run.push(['Secondary-feed bars', fmt(secBars), '']);
         if (s.bars != null) run.push(['Total bars processed', fmt(s.bars + secBars), '']);
       }
-      if (s.run_sec != null) run.push(['Run time', `${s.run_sec.toFixed(2)} s`, '']);
-      if (s.ms_per_bar != null) run.push(['Per-bar time', `${s.ms_per_bar.toFixed(2)} ms/bar (per chart bar)`, '']);
+      if (s.run_sec != null) run.push(['Run time', `${s.run_sec.toFixed(2)} s CPU`, '']);
+      if (s.ms_per_bar != null) run.push(['Per-bar time', `${s.ms_per_bar.toFixed(2)} ms/bar CPU (per chart bar)`, '']);
 
       const win = [];
       if (s.data) {
