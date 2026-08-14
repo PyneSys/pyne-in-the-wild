@@ -1,5 +1,5 @@
 window.WILD_DATA = {
-  "generated_at": "2026-08-13",
+  "generated_at": "2026-08-14",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe_min": 30,
   "own_market_scripts": 8,
@@ -7373,8 +7373,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27614,
-      "run_sec": 4.049,
-      "ms_per_bar": 0.1466,
+      "run_sec": 4.21,
+      "ms_per_bar": 0.1525,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7412,7 +7412,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -6.827791,
-        "pc_net_profit": -6.827791,
+        "pc_net_profit": -6.827797,
         "net_profit_match": true
       }
     },
@@ -7526,8 +7526,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27616,
-      "run_sec": 2.282,
-      "ms_per_bar": 0.4564,
+      "run_sec": 1.724,
+      "ms_per_bar": 0.3447,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -7556,7 +7556,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -9773.481,
-        "pc_net_profit": -9778.689581,
+        "pc_net_profit": -9773.481688,
         "net_profit_match": true
       }
     },
@@ -8519,8 +8519,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27616,
-      "run_sec": 1.144,
-      "ms_per_bar": 0.0414,
+      "run_sec": 1.131,
+      "ms_per_bar": 0.041,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -8549,7 +8549,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -3420570.5,
-        "pc_net_profit": -3420570.48789,
+        "pc_net_profit": -3420570.475284,
         "net_profit_match": true
       }
     },
@@ -8999,8 +8999,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27618,
-      "run_sec": 2.053,
-      "ms_per_bar": 0.0743,
+      "run_sec": 1.983,
+      "ms_per_bar": 0.0718,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -9534,8 +9534,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27618,
-      "run_sec": 4.676,
-      "ms_per_bar": 0.1693,
+      "run_sec": 4.286,
+      "ms_per_bar": 0.1552,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -9564,7 +9564,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -253.32555,
-        "pc_net_profit": -253.265165,
+        "pc_net_profit": -253.329866,
         "net_profit_match": true
       }
     },
@@ -10152,8 +10152,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27619,
-      "run_sec": 3.251,
-      "ms_per_bar": 0.1177,
+      "run_sec": 3.586,
+      "ms_per_bar": 0.1298,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
