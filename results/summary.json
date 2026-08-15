@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-14",
+  "generated_at": "2026-08-15",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 223
+      "scripts": 233
     },
     {
       "symbol": "CAPITALCOM:EURUSD",
@@ -53,46 +53,46 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 180,
+      "exact": 189,
       "libm": 3,
       "band": 17,
-      "compared": 200
+      "compared": 209
     },
-    "bars_compared": 26848237,
-    "bars_exact": 26729234,
-    "bars_exact_rate": 0.9955675674346885,
+    "bars_compared": 27778601,
+    "bars_exact": 27659598,
+    "bars_exact_rate": 0.9957160189600621,
     "max_ulp": 65536.0,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 231,
-    "indicators": 120,
-    "strategies": 111,
-    "compiled": 231,
+    "total": 241,
+    "indicators": 125,
+    "strategies": 116,
+    "compiled": 241,
     "compile_fail": 0,
-    "tv_ok": 225,
-    "pyne_ok": 231,
+    "tv_ok": 235,
+    "pyne_ok": 241,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 104,
+    "n_with_plots_compared": 109,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 104,
+      "n": 109,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 4.188423762376237e-18,
+      "mean": 3.990856603773585e-18,
       "min": 0.0,
       "max": 2.753e-16,
-      "n": 101,
+      "n": 106,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -101,26 +101,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 101,
+      "n": 106,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 104,
+    "fully_matching_scripts": 109,
     "match_pct_histogram": {
-      "1.0": 104,
+      "1.0": 109,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 111,
+    "n": 116,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 110,
+      "n": 115,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -129,7 +129,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 110,
+      "n": 115,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -138,30 +138,30 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 110,
+      "n": 115,
       "p25": 1.0,
       "p75": 1.0
     },
     "qty_match_pct": {
       "median": 1.0,
-      "mean": 0.9998511181818182,
+      "mean": 0.9998575913043478,
       "min": 0.983623,
       "max": 1.0,
-      "n": 110,
+      "n": 115,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.6805e-08,
-      "mean": 0.00030198941002719477,
+      "median": 1.674e-08,
+      "mean": 0.00028886020533039683,
       "min": 0.0,
       "max": 0.031054,
-      "n": 110,
-      "p25": 3.4655000000000005e-14,
-      "p75": 4.17775e-08
+      "n": 115,
+      "p25": 2.355e-14,
+      "p75": 4.1415000000000004e-08
     },
-    "trade_count_exact_match": 110,
+    "trade_count_exact_match": 115,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -182,6 +182,12 @@
       "worst_col": "DI+"
     },
     {
+      "id": "PUB;d48234236f7345c09e3d9017f8c31070",
+      "name": "ATR Stop Loss Finder",
+      "plot_match_pct": 1.0,
+      "worst_col": "ATR Short Stop Loss"
+    },
+    {
       "id": "PUB;87158567b731451c8a1347f953921ab7",
       "name": "Adaptive Trend Flow [QuantAlgo]",
       "plot_match_pct": 1.0,
@@ -192,6 +198,12 @@
       "name": "AlphaTrend",
       "plot_match_pct": 1.0,
       "worst_col": "Plot"
+    },
+    {
+      "id": "PUB;b9kCyBM3xxE7I3Jaq1CdYzhz8BIw6dbI",
+      "name": "Bjorgum SuperScript",
+      "plot_match_pct": 1.0,
+      "worst_col": "T3 Fast"
     },
     {
       "id": "PUB;Flm5lSTnMsbi5IGhuBw8x5QgD9nB5Tvi",
@@ -244,18 +256,6 @@
     {
       "id": "PUB;1d610cc4055240a1a01743b225c58ccf",
       "name": "Deviation Trend Profile [BigBeluga]",
-      "plot_match_pct": 1.0,
-      "worst_col": "Plot"
-    },
-    {
-      "id": "PUB;5xi4DbWeuIQrU0Fx6ZKiI2odDvIW9q2j",
-      "name": "Divergence for Many Indicators v4",
-      "plot_match_pct": 1.0,
-      "worst_col": "Shapes"
-    },
-    {
-      "id": "PUB;r4MVRjtjDcVI3sDa8oVxFyQJELap4dgq",
-      "name": "Elliot Wave Oscillator",
       "plot_match_pct": 1.0,
       "worst_col": "Plot"
     }
