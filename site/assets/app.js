@@ -205,7 +205,8 @@
   const tableWrap = table.closest('.table-wrap');
   const thead = table.querySelector('thead');
   const tbody = $('#script-tbody');
-  const pagination = $('#pagination');
+  // Two pagers — one above the table, one below — kept in sync by renderPagination.
+  const pagers = Array.from(document.querySelectorAll('.pagination'));
   const gridCount = $('#grid-count');
   const gridEmpty = $('#grid-empty');
 
@@ -357,20 +358,19 @@
 
   function renderPagination(total) {
     const last = Math.max(1, Math.ceil(total / PAGE_SIZE));
-    if (last === 1) {
-      pagination.innerHTML = '';
-      return;
+    let html = '';
+    if (last > 1) {
+      html = `<button class="page-btn page-arrow" data-page="${page - 1}" ${page === 1 ? 'disabled' : ''} aria-label="Previous page">&larr;</button>`;
+      pageNumbers(page, last).forEach((n) => {
+        if (n === 'gap') {
+          html += '<span class="page-gap">&hellip;</span>';
+        } else {
+          html += `<button class="page-btn${n === page ? ' active' : ''}" data-page="${n}">${n}</button>`;
+        }
+      });
+      html += `<button class="page-btn page-arrow" data-page="${page + 1}" ${page === last ? 'disabled' : ''} aria-label="Next page">&rarr;</button>`;
     }
-    let html = `<button class="page-btn page-arrow" data-page="${page - 1}" ${page === 1 ? 'disabled' : ''} aria-label="Previous page">&larr;</button>`;
-    pageNumbers(page, last).forEach((n) => {
-      if (n === 'gap') {
-        html += '<span class="page-gap">&hellip;</span>';
-      } else {
-        html += `<button class="page-btn${n === page ? ' active' : ''}" data-page="${n}">${n}</button>`;
-      }
-    });
-    html += `<button class="page-btn page-arrow" data-page="${page + 1}" ${page === last ? 'disabled' : ''} aria-label="Next page">&rarr;</button>`;
-    pagination.innerHTML = html;
+    pagers.forEach((el) => { el.innerHTML = html; });
   }
 
   function updateSortIndicators() {
@@ -466,12 +466,14 @@
     if (row) toggleRow(row);
   });
 
-  pagination.addEventListener('click', (ev) => {
-    const btn = ev.target.closest('.page-btn');
-    if (!btn || btn.disabled) return;
-    page = Number(btn.dataset.page);
-    renderTable();
-    $('#scripts').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  pagers.forEach((pager) => {
+    pager.addEventListener('click', (ev) => {
+      const btn = ev.target.closest('.page-btn');
+      if (!btn || btn.disabled) return;
+      page = Number(btn.dataset.page);
+      renderTable();
+      $('#scripts').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
   });
 
   document.querySelectorAll('#filter-kind .filter-btn').forEach((btn) => {

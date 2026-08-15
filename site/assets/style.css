@@ -973,6 +973,10 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--dark); }
   gap: 0.4rem;
   margin-top: 2.25rem;
 }
+/* Single-page corpora render an empty pager; it must take no vertical space. */
+.pagination:empty { display: none; }
+/* The pager above the table sits right under the count line. */
+.pagination-top { margin: 0 0 1.1rem; }
 
 .page-btn {
   min-width: 38px;
