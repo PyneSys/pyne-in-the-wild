@@ -53,14 +53,14 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 196,
-      "libm": 3,
-      "band": 18,
+      "exact": 203,
+      "libm": 2,
+      "band": 12,
       "compared": 217
     },
-    "bars_compared": 28796426,
-    "bars_exact": 28675749,
-    "bars_exact_rate": 0.995809306335446,
+    "bars_compared": 28811550,
+    "bars_exact": 28721172,
+    "bars_exact_rate": 0.996863133014364,
     "max_ulp": 65536.0,
     "ulp_limit": 64
   },
@@ -154,11 +154,11 @@
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
       "median": 1.674e-08,
-      "mean": 0.0002791524006672394,
+      "mean": 0.0002792196275534349,
       "min": 0.0,
       "max": 0.031054,
       "n": 119,
-      "p25": 2.355e-14,
+      "p25": 2.135e-14,
       "p75": 4.1415000000000004e-08
     },
     "trade_count_exact_match": 119,
