@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-17",
+  "generated_at": "2026-08-18",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 262
+      "scripts": 272
     },
     {
       "symbol": "CAPITALCOM:EURUSD",
@@ -53,74 +53,74 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 216,
-      "libm": 2,
-      "band": 13,
-      "compared": 231
+      "exact": 222,
+      "libm": 3,
+      "band": 15,
+      "compared": 240
     },
-    "bars_compared": 31057423,
-    "bars_exact": 30867594,
-    "bars_exact_rate": 0.9938878058234258,
-    "max_ulp": 726972.0,
+    "bars_compared": 32508996,
+    "bars_exact": 32224201,
+    "bars_exact_rate": 0.9912395018289707,
+    "max_ulp": 4.6071824188000174e+18,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 270,
-    "indicators": 135,
-    "strategies": 135,
-    "compiled": 270,
+    "total": 280,
+    "indicators": 140,
+    "strategies": 140,
+    "compiled": 280,
     "compile_fail": 0,
-    "tv_ok": 264,
-    "pyne_ok": 270,
+    "tv_ok": 274,
+    "pyne_ok": 280,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 116,
+    "n_with_plots_compared": 121,
     "plot_match_pct": {
       "median": 1.0,
-      "mean": 1.0,
-      "min": 1.0,
+      "mean": 0.9999790247933884,
+      "min": 0.997462,
       "max": 1.0,
-      "n": 116,
+      "n": 121,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 3.743635398230089e-18,
+      "mean": 4.070938983050847e-18,
       "min": 0.0,
       "max": 2.753e-16,
-      "n": 113,
+      "n": 118,
       "p25": 0.0,
       "p75": 0.0
     },
     "pearson_min": {
       "median": 1.0,
-      "mean": 1.0,
-      "min": 1.0,
+      "mean": 0.9982396694915254,
+      "min": 0.792281,
       "max": 1.0,
-      "n": 113,
+      "n": 118,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 116,
+    "fully_matching_scripts": 120,
     "match_pct_histogram": {
-      "1.0": 116,
-      "0.99-1.0": 0,
+      "1.0": 120,
+      "0.99-1.0": 1,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 135,
+    "n": 140,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 134,
+      "n": 139,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -129,7 +129,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 134,
+      "n": 139,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -138,30 +138,30 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 134,
+      "n": 139,
       "p25": 1.0,
       "p75": 1.0
     },
     "qty_match_pct": {
       "median": 1.0,
-      "mean": 0.9999629626865671,
+      "mean": 0.9999642949640287,
       "min": 0.995037,
       "max": 1.0,
-      "n": 134,
+      "n": 139,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.4065e-08,
-      "mean": 0.00024934160952830737,
+      "median": 1.427e-08,
+      "mean": 0.00024037308602019213,
       "min": 0.0,
       "max": 0.031053,
-      "n": 134,
-      "p25": 1.33825e-14,
-      "p75": 3.46775e-08
+      "n": 139,
+      "p25": 1.3725e-14,
+      "p75": 3.174e-08
     },
-    "trade_count_exact_match": 134,
+    "trade_count_exact_match": 139,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -169,6 +169,12 @@
   },
   "top_compile_errors": [],
   "worst_plot_scripts": [
+    {
+      "id": "PUB;22ea50dde6a349d0ace8c4640e8a5b9d",
+      "name": "Boom Hunter Pro",
+      "plot_match_pct": 0.997462,
+      "worst_col": "Exit Warning"
+    },
     {
       "id": "PUB;42af0c00136b444b918a15e6cb30e896",
       "name": "%R Trend Exhaustion [upslidedown]",
@@ -252,12 +258,6 @@
       "name": "Day Trading Booster by DGT",
       "plot_match_pct": 1.0,
       "worst_col": "Moving Average #1"
-    },
-    {
-      "id": "PUB;1d610cc4055240a1a01743b225c58ccf",
-      "name": "Deviation Trend Profile [BigBeluga]",
-      "plot_match_pct": 1.0,
-      "worst_col": "Plot"
     }
   ]
 }
