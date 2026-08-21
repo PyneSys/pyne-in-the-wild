@@ -53,9 +53,9 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 228,
-      "libm": 3,
-      "band": 17,
+      "exact": 231,
+      "libm": 2,
+      "band": 15,
       "compared": 248
     },
     "band_scripts": [
@@ -88,10 +88,6 @@
         "max_rel": 5.772e-15
       },
       {
-        "name": "RSI cyclic smoothed v2",
-        "max_rel": 8.938e-16
-      },
-      {
         "name": "Volume Delta Candles [LuxAlgo]",
         "max_rel": 5.439e-16
       },
@@ -120,17 +116,13 @@
         "max_rel": 1.144e-16
       },
       {
-        "name": "Boom Hunter Pro",
-        "max_rel": 0.0
-      },
-      {
         "name": "CVD - Cumulative Volume Delta (Chart)",
         "max_rel": 0.0
       }
     ],
     "bars_compared": 33831050,
-    "bars_exact": 33577688,
-    "bars_exact_rate": 0.992510962562498,
+    "bars_exact": 33636149,
+    "bars_exact_rate": 0.9942389905131529,
     "max_rel": 9.912e-07,
     "ulp_limit": 64
   },
@@ -150,8 +142,8 @@
     "n_with_plots_compared": 125,
     "plot_match_pct": {
       "median": 1.0,
-      "mean": 0.99999996,
-      "min": 0.999995,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
       "n": 125,
       "p25": 1.0,
@@ -159,7 +151,7 @@
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 3.4674655737704918e-18,
+      "mean": 2.4945147540983606e-18,
       "min": 0.0,
       "max": 2.753e-16,
       "n": 122,
@@ -175,10 +167,10 @@
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 124,
+    "fully_matching_scripts": 125,
     "match_pct_histogram": {
-      "1.0": 124,
-      "0.99-1.0": 1,
+      "1.0": 125,
+      "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
@@ -240,12 +232,6 @@
   "top_compile_errors": [],
   "worst_plot_scripts": [
     {
-      "id": "PUB;22ea50dde6a349d0ace8c4640e8a5b9d",
-      "name": "Boom Hunter Pro",
-      "plot_match_pct": 0.999995,
-      "worst_col": "Exit Warning"
-    },
-    {
       "id": "PUB;42af0c00136b444b918a15e6cb30e896",
       "name": "%R Trend Exhaustion [upslidedown]",
       "plot_match_pct": 1.0,
@@ -286,6 +272,12 @@
       "name": "Bollinger Awesome Alert R1 by JustUncleL",
       "plot_match_pct": 1.0,
       "worst_col": "Basis Line"
+    },
+    {
+      "id": "PUB;22ea50dde6a349d0ace8c4640e8a5b9d",
+      "name": "Boom Hunter Pro",
+      "plot_match_pct": 1.0,
+      "worst_col": "Quotient 1"
     },
     {
       "id": "PUB;92a018ea21ef4b9886e810a7fea6968d",
