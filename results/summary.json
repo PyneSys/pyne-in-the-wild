@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20",
+  "generated_at": "2026-08-21",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
@@ -58,10 +58,80 @@
       "band": 17,
       "compared": 248
     },
+    "band_scripts": [
+      {
+        "name": "VuManChu Cipher B + Divergences",
+        "max_rel": 9.912e-07
+      },
+      {
+        "name": "Acrypto - Weighted Strategy",
+        "max_rel": 1.323e-10
+      },
+      {
+        "name": "Easy System 420",
+        "max_rel": 1.014e-11
+      },
+      {
+        "name": "EMA Slope - RSI Oscillator Strategy",
+        "max_rel": 7.549e-12
+      },
+      {
+        "name": "HULLTSIBOT",
+        "max_rel": 4.806e-13
+      },
+      {
+        "name": "Volume Sentiment Breakout Channels [AlgoAlpha]",
+        "max_rel": 1.855e-13
+      },
+      {
+        "name": "TradingView Alerts to MT4 MT5 + dynamic variables NON-REPAINTING",
+        "max_rel": 5.772e-15
+      },
+      {
+        "name": "RSI cyclic smoothed v2",
+        "max_rel": 8.938e-16
+      },
+      {
+        "name": "Volume Delta Candles [LuxAlgo]",
+        "max_rel": 5.439e-16
+      },
+      {
+        "name": "Volume SuperTrend AI (Expo)",
+        "max_rel": 4.502e-16
+      },
+      {
+        "name": "Keltner Channel - Trend Based Strategy",
+        "max_rel": 3.559e-16
+      },
+      {
+        "name": "Long-Only Opening Range Breakout (ORB) with Pivot Points",
+        "max_rel": 2.7e-16
+      },
+      {
+        "name": "Strategy for UT Bot Alerts indicator ",
+        "max_rel": 2.586e-16
+      },
+      {
+        "name": "TradePro's Trading Idea Cipher Divergence EMA Pb Strategy",
+        "max_rel": 1.704e-16
+      },
+      {
+        "name": "SuperTrend AI (Clustering) [LuxAlgo]",
+        "max_rel": 1.144e-16
+      },
+      {
+        "name": "Boom Hunter Pro",
+        "max_rel": 0.0
+      },
+      {
+        "name": "CVD - Cumulative Volume Delta (Chart)",
+        "max_rel": 0.0
+      }
+    ],
     "bars_compared": 33831050,
     "bars_exact": 33577688,
     "bars_exact_rate": 0.992510962562498,
-    "max_ulp": 4.6071824188000174e+18,
+    "max_rel": 9.912e-07,
     "ulp_limit": 64
   },
   "counts": {

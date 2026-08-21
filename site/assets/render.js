@@ -82,22 +82,41 @@
         'right and still land a few representable values apart. Named, not hidden.',
     };
 
-    // ULP distances run past 2**53, where a JS number stops being the integer that
-    // was measured — 8804537271509319680 reads back as ...320000. They arrive as
-    // decimal strings and are compared and formatted as BigInt, so the figure the
-    // page presents as exact and checkable is the one that was measured.
-    const ulpOf = (s) => (s.plot && s.plot.max_ulp != null ? BigInt(s.plot.max_ulp) : null);
-    const ulpLabel = (n) => `${fmt(n)} representable value${n === 1n ? '' : 's'}`;
+    // The worst gap between a PyneCore and a TradingView plotted value, in the form
+    // a reader can hold. Relative error where it is defined (reference above the
+    // series noise floor); on a one-sided near-zero bar — a 0/1 flag TradingView
+    // plots as 0 where PyneCore plots a full unit — the relative form is undefined,
+    // so the absolute gap is named instead. Never the lattice distance, which on
+    // such a bar walks the whole exponent range and reads as ~4.6e18 doubles.
+    const SUP = { '-': '⁻', '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴',
+      '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹' };
+    const sci = (x) => {
+      const [m, e] = x.toExponential(1).split('e');
+      return `${m} × 10${String(Number(e)).replace(/[-\d]/g, (c) => SUP[c])}`;
+    };
+    const worstGap = (s) => {
+      if (!s.plot) return null;
+      const mr = s.plot.max_rel;
+      if (mr != null && mr > 0) {
+        const sig = Math.max(0, Math.floor(-Math.log10(mr)));
+        return { text: `${sci(mr)} relative`, detail: `~${sig} significant figures` };
+      }
+      const ma = s.plot.max_abs;
+      if (ma != null && ma > 0) {
+        return { text: `${ma.toExponential(2)} absolute`, detail: 'reference near zero' };
+      }
+      return null;
+    };
 
     const fidelitySub = (s) => {
       const f = fidelity[s.fidelity];
       if (!f) return '';
-      const maxUlp = ulpOf(s);
-      const ulp = maxUlp != null && maxUlp > 0n ? ` Worst distance: ${ulpLabel(maxUlp)}.` : '';
+      const wg = worstGap(s);
+      const gap = wg ? ` Worst gap: ${wg.text} (${wg.detail}).` : '';
       const via = s.transcendentals && s.transcendentals.length
         ? ` Via ${esc(s.transcendentals.join(', '))}.`
         : '';
-      return `<span class="fid-sub ${f[0]}" title="${fidelityDesc[s.fidelity]}${ulp}${via}">${f[1]}</span>`;
+      return `<span class="fid-sub ${f[0]}" title="${fidelityDesc[s.fidelity]}${gap}${via}">${f[1]}</span>`;
     };
 
     // The status cell: the verdict, plus the tier it was reached at when one was
@@ -353,16 +372,11 @@
           acc.push(['Identical to the bit', matchPct(s.plot.exact_pct, 3),
             s.plot.exact_pct === 1 ? 'good' : '']);
         }
-        const maxUlp = ulpOf(s);
-        if (maxUlp != null) {
-          acc.push([
-            'Worst distance',
-            maxUlp === 0n
-              ? 'same double'
-              : ulpLabel(maxUlp) +
-                (s.plot.max_abs ? ` (${s.plot.max_abs.toExponential(2)} absolute)` : ''),
-            maxUlp === 0n ? 'good' : '',
-          ]);
+        if (s.plot.exact_pct === 1) {
+          acc.push(['Worst gap', 'same double', 'good']);
+        } else {
+          const wg = worstGap(s);
+          if (wg) acc.push(['Worst gap', `${wg.text} (${wg.detail})`, '']);
         }
         // Split out on purpose: a value that is off and a bar one side plots while
         // the other does not fail for unrelated reasons, and a single percentage
