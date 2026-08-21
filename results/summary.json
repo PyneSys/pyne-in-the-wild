@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-18",
+  "generated_at": "2026-08-20",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 272
+      "scripts": 282
     },
     {
       "symbol": "CAPITALCOM:EURUSD",
@@ -53,74 +53,74 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 222,
+      "exact": 228,
       "libm": 3,
-      "band": 15,
-      "compared": 240
+      "band": 17,
+      "compared": 248
     },
-    "bars_compared": 32508996,
-    "bars_exact": 32224201,
-    "bars_exact_rate": 0.9912395018289707,
+    "bars_compared": 33831050,
+    "bars_exact": 33577688,
+    "bars_exact_rate": 0.992510962562498,
     "max_ulp": 4.6071824188000174e+18,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 280,
-    "indicators": 140,
-    "strategies": 140,
-    "compiled": 280,
+    "total": 290,
+    "indicators": 145,
+    "strategies": 145,
+    "compiled": 290,
     "compile_fail": 0,
-    "tv_ok": 274,
-    "pyne_ok": 280,
+    "tv_ok": 283,
+    "pyne_ok": 290,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 121,
+    "n_with_plots_compared": 125,
     "plot_match_pct": {
       "median": 1.0,
-      "mean": 0.9999790247933884,
-      "min": 0.997462,
+      "mean": 0.99999996,
+      "min": 0.999995,
       "max": 1.0,
-      "n": 121,
+      "n": 125,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 4.070938983050847e-18,
+      "mean": 3.4674655737704918e-18,
       "min": 0.0,
       "max": 2.753e-16,
-      "n": 118,
+      "n": 122,
       "p25": 0.0,
       "p75": 0.0
     },
     "pearson_min": {
       "median": 1.0,
-      "mean": 0.9982396694915254,
-      "min": 0.792281,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
-      "n": 118,
+      "n": 122,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 120,
+    "fully_matching_scripts": 124,
     "match_pct_histogram": {
-      "1.0": 120,
+      "1.0": 124,
       "0.99-1.0": 1,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 140,
+    "n": 145,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 139,
+      "n": 142,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -129,7 +129,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 139,
+      "n": 142,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -138,30 +138,30 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 139,
+      "n": 142,
       "p25": 1.0,
       "p75": 1.0
     },
     "qty_match_pct": {
       "median": 1.0,
-      "mean": 0.9999642949640287,
+      "mean": 0.9999650492957747,
       "min": 0.995037,
       "max": 1.0,
-      "n": 139,
+      "n": 142,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.427e-08,
-      "mean": 0.00024037308602019213,
+      "median": 1.4065e-08,
+      "mean": 0.00022118296455500203,
       "min": 0.0,
       "max": 0.031053,
-      "n": 139,
-      "p25": 1.3725e-14,
-      "p75": 3.174e-08
+      "n": 142,
+      "p25": 1.36225e-14,
+      "p75": 3.13975e-08
     },
-    "trade_count_exact_match": 139,
+    "trade_count_exact_match": 142,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -172,7 +172,7 @@
     {
       "id": "PUB;22ea50dde6a349d0ace8c4640e8a5b9d",
       "name": "Boom Hunter Pro",
-      "plot_match_pct": 0.997462,
+      "plot_match_pct": 0.999995,
       "worst_col": "Exit Warning"
     },
     {
