@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-21",
+  "generated_at": "2026-08-22",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 282
+      "scripts": 292
     },
     {
       "symbol": "CAPITALCOM:EURUSD",
@@ -53,10 +53,10 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 231,
+      "exact": 244,
       "libm": 2,
-      "band": 15,
-      "compared": 248
+      "band": 12,
+      "compared": 258
     },
     "band_scripts": [
       {
@@ -65,7 +65,7 @@
       },
       {
         "name": "Acrypto - Weighted Strategy",
-        "max_rel": 1.323e-10
+        "max_rel": 3.933e-11
       },
       {
         "name": "Easy System 420",
@@ -84,6 +84,10 @@
         "max_rel": 1.855e-13
       },
       {
+        "name": "FREE INDICATOR: Laguerre RSI",
+        "max_rel": 2.952e-14
+      },
+      {
         "name": "TradingView Alerts to MT4 MT5 + dynamic variables NON-REPAINTING",
         "max_rel": 5.772e-15
       },
@@ -96,22 +100,6 @@
         "max_rel": 4.502e-16
       },
       {
-        "name": "Keltner Channel - Trend Based Strategy",
-        "max_rel": 3.559e-16
-      },
-      {
-        "name": "Long-Only Opening Range Breakout (ORB) with Pivot Points",
-        "max_rel": 2.7e-16
-      },
-      {
-        "name": "Strategy for UT Bot Alerts indicator ",
-        "max_rel": 2.586e-16
-      },
-      {
-        "name": "TradePro's Trading Idea Cipher Divergence EMA Pb Strategy",
-        "max_rel": 1.704e-16
-      },
-      {
         "name": "SuperTrend AI (Clustering) [LuxAlgo]",
         "max_rel": 1.144e-16
       },
@@ -120,41 +108,41 @@
         "max_rel": 0.0
       }
     ],
-    "bars_compared": 33831050,
-    "bars_exact": 33636149,
-    "bars_exact_rate": 0.9942389905131529,
+    "bars_compared": 34687169,
+    "bars_exact": 34513550,
+    "bars_exact_rate": 0.9949947198054704,
     "max_rel": 9.912e-07,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 290,
-    "indicators": 145,
-    "strategies": 145,
-    "compiled": 290,
+    "total": 300,
+    "indicators": 150,
+    "strategies": 150,
+    "compiled": 300,
     "compile_fail": 0,
-    "tv_ok": 283,
-    "pyne_ok": 290,
+    "tv_ok": 293,
+    "pyne_ok": 300,
     "trade_divergence": 0
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 125,
+    "n_with_plots_compared": 130,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 125,
+      "n": 130,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 2.4945147540983606e-18,
+      "mean": 2.407864566929134e-18,
       "min": 0.0,
       "max": 2.753e-16,
-      "n": 122,
+      "n": 127,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -163,26 +151,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 122,
+      "n": 127,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 125,
+    "fully_matching_scripts": 130,
     "match_pct_histogram": {
-      "1.0": 125,
+      "1.0": 130,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 145,
+    "n": 150,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 142,
+      "n": 147,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -191,7 +179,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 142,
+      "n": 147,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -200,30 +188,30 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 142,
+      "n": 147,
       "p25": 1.0,
       "p75": 1.0
     },
     "qty_match_pct": {
       "median": 1.0,
-      "mean": 0.9999650492957747,
-      "min": 0.995037,
+      "mean": 0.9999966258503401,
+      "min": 0.999504,
       "max": 1.0,
-      "n": 142,
+      "n": 147,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.4065e-08,
-      "mean": 0.00022118296455500203,
+      "median": 1.427e-08,
+      "mean": 0.0002862928735158897,
       "min": 0.0,
       "max": 0.031053,
-      "n": 142,
-      "p25": 1.36225e-14,
-      "p75": 3.13975e-08
+      "n": 147,
+      "p25": 1.4555e-14,
+      "p75": 3.3745e-08
     },
-    "trade_count_exact_match": 142,
+    "trade_count_exact_match": 147,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
