@@ -6,7 +6,7 @@
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 302
+      "scripts": 312
     },
     {
       "symbol": "CAPITALCOM:EURUSD",
@@ -53,10 +53,10 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 252,
+      "exact": 262,
       "libm": 2,
       "band": 12,
-      "compared": 266
+      "compared": 276
     },
     "band_scripts": [
       {
@@ -108,41 +108,41 @@
         "max_rel": 0.0
       }
     ],
-    "bars_compared": 35655936,
-    "bars_exact": 35482317,
-    "bars_exact_rate": 0.9951307125971955,
+    "bars_compared": 36891297,
+    "bars_exact": 36717678,
+    "bars_exact_rate": 0.9952937680667611,
     "max_rel": 9.912e-07,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 310,
-    "indicators": 155,
-    "strategies": 155,
-    "compiled": 310,
+    "total": 320,
+    "indicators": 160,
+    "strategies": 160,
+    "compiled": 320,
     "compile_fail": 0,
-    "tv_ok": 303,
-    "pyne_ok": 310,
+    "tv_ok": 313,
+    "pyne_ok": 320,
     "trade_divergence": 1
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 134,
+    "n_with_plots_compared": 139,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 134,
+      "n": 139,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 2.3343419847328247e-18,
+      "mean": 2.2485205882352944e-18,
       "min": 0.0,
       "max": 2.753e-16,
-      "n": 131,
+      "n": 136,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -151,26 +151,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 131,
+      "n": 136,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 134,
+    "fully_matching_scripts": 139,
     "match_pct_histogram": {
-      "1.0": 134,
+      "1.0": 139,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 155,
+    "n": 160,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 151,
+      "n": 155,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -179,7 +179,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 151,
+      "n": 155,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -188,30 +188,30 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 151,
+      "n": 155,
       "p25": 1.0,
       "p75": 1.0
     },
     "qty_match_pct": {
       "median": 1.0,
-      "mean": 0.9999967152317881,
+      "mean": 0.9999968,
       "min": 0.999504,
       "max": 1.0,
-      "n": 151,
+      "n": 155,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.427e-08,
-      "mean": 0.00027870922282678846,
+      "median": 1.386e-08,
+      "mean": 0.0002715148490250137,
       "min": 0.0,
       "max": 0.031053,
-      "n": 151,
+      "n": 155,
       "p25": 1.3725e-14,
       "p75": 3.174e-08
     },
-    "trade_count_exact_match": 151,
+    "trade_count_exact_match": 156,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -304,10 +304,10 @@
       "worst_col": "Trend"
     },
     {
-      "id": "PUB;f3d01f07c7b04d449fc0d72dd2854b15",
-      "name": "Day Trading Booster by DGT",
+      "id": "PUB;SjItEXn22DwG9wTF4JFIxj0ujE04j6AE",
+      "name": "Consolidation Zones - Live",
       "plot_match_pct": 1.0,
-      "worst_col": "Moving Average #1"
+      "worst_col": "Plot"
     }
   ]
 }
