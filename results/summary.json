@@ -1,12 +1,17 @@
 {
-  "generated_at": "2026-08-22",
+  "generated_at": "2026-08-23",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 312
+      "scripts": 320
+    },
+    {
+      "symbol": "BINANCE:BTCUSDT",
+      "timeframe": "D",
+      "scripts": 2
     },
     {
       "symbol": "CAPITALCOM:EURUSD",
@@ -53,16 +58,12 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 262,
+      "exact": 272,
       "libm": 2,
-      "band": 12,
-      "compared": 276
+      "band": 11,
+      "compared": 285
     },
     "band_scripts": [
-      {
-        "name": "VuManChu Cipher B + Divergences",
-        "max_rel": 9.912e-07
-      },
       {
         "name": "Acrypto - Weighted Strategy",
         "max_rel": 3.933e-11
@@ -108,41 +109,41 @@
         "max_rel": 0.0
       }
     ],
-    "bars_compared": 36891297,
-    "bars_exact": 36717678,
-    "bars_exact_rate": 0.9952937680667611,
-    "max_rel": 9.912e-07,
+    "bars_compared": 37952735,
+    "bars_exact": 37779947,
+    "bars_exact_rate": 0.9954472846291578,
+    "max_rel": 3.933e-11,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 320,
-    "indicators": 160,
-    "strategies": 160,
-    "compiled": 320,
+    "total": 330,
+    "indicators": 165,
+    "strategies": 165,
+    "compiled": 330,
     "compile_fail": 0,
-    "tv_ok": 313,
-    "pyne_ok": 320,
+    "tv_ok": 323,
+    "pyne_ok": 330,
     "trade_divergence": 1
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 139,
+    "n_with_plots_compared": 144,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 139,
+      "n": 144,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 2.2485205882352944e-18,
+      "mean": 2.168785815602837e-18,
       "min": 0.0,
       "max": 2.753e-16,
-      "n": 136,
+      "n": 141,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -151,26 +152,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 136,
+      "n": 141,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 139,
+    "fully_matching_scripts": 144,
     "match_pct_histogram": {
-      "1.0": 139,
+      "1.0": 144,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 160,
+    "n": 165,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 155,
+      "n": 160,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -179,7 +180,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 155,
+      "n": 160,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -188,30 +189,30 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 155,
+      "n": 160,
       "p25": 1.0,
       "p75": 1.0
     },
     "qty_match_pct": {
       "median": 1.0,
-      "mean": 0.9999968,
+      "mean": 0.9999969,
       "min": 0.999504,
       "max": 1.0,
-      "n": 155,
+      "n": 160,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.386e-08,
-      "mean": 0.0002715148490250137,
+      "median": 1.38e-08,
+      "mean": 0.0002752491076806301,
       "min": 0.0,
       "max": 0.031053,
-      "n": 155,
-      "p25": 1.3725e-14,
-      "p75": 3.174e-08
+      "n": 160,
+      "p25": 1.3827500000000002e-14,
+      "p75": 3.2812500000000003e-08
     },
-    "trade_count_exact_match": 156,
+    "trade_count_exact_match": 161,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -248,6 +249,12 @@
       "name": "AlphaTrend",
       "plot_match_pct": 1.0,
       "worst_col": "Plot"
+    },
+    {
+      "id": "PUB;dEplYFWGPqh3bRWyQKIEIzSQAfcm4HH5",
+      "name": "Auto Fib Retracement Alerts",
+      "plot_match_pct": 1.0,
+      "worst_col": "Start"
     },
     {
       "id": "PUB;b9kCyBM3xxE7I3Jaq1CdYzhz8BIw6dbI",
@@ -302,12 +309,6 @@
       "name": "Consolidation Range with Signals (Zeiierman)",
       "plot_match_pct": 1.0,
       "worst_col": "Trend"
-    },
-    {
-      "id": "PUB;SjItEXn22DwG9wTF4JFIxj0ujE04j6AE",
-      "name": "Consolidation Zones - Live",
-      "plot_match_pct": 1.0,
-      "worst_col": "Plot"
     }
   ]
 }
