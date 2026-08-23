@@ -6,7 +6,7 @@
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 330
+      "scripts": 340
     },
     {
       "symbol": "BINANCE:BTCUSDT",
@@ -58,16 +58,12 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 280,
+      "exact": 290,
       "libm": 2,
       "band": 11,
-      "compared": 293
+      "compared": 303
     },
     "band_scripts": [
-      {
-        "name": "Acrypto - Weighted Strategy",
-        "max_rel": 3.933e-11
-      },
       {
         "name": "Easy System 420",
         "max_rel": 1.014e-11
@@ -79,6 +75,10 @@
       {
         "name": "HULLTSIBOT",
         "max_rel": 4.806e-13
+      },
+      {
+        "name": "Acrypto - Weighted Strategy",
+        "max_rel": 4.181e-13
       },
       {
         "name": "Volume Sentiment Breakout Channels [AlgoAlpha]",
@@ -109,41 +109,41 @@
         "max_rel": 0.0
       }
     ],
-    "bars_compared": 39391724,
-    "bars_exact": 39218936,
-    "bars_exact_rate": 0.9956135963990812,
-    "max_rel": 3.933e-11,
+    "bars_compared": 40511604,
+    "bars_exact": 40386877,
+    "bars_exact_rate": 0.9969212031199752,
+    "max_rel": 1.014e-11,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 340,
-    "indicators": 170,
-    "strategies": 170,
-    "compiled": 340,
+    "total": 350,
+    "indicators": 175,
+    "strategies": 175,
+    "compiled": 350,
     "compile_fail": 0,
-    "tv_ok": 333,
-    "pyne_ok": 340,
+    "tv_ok": 343,
+    "pyne_ok": 350,
     "trade_divergence": 1
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 149,
+    "n_with_plots_compared": 154,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 149,
+      "n": 154,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 2.0945123287671236e-18,
+      "mean": 2.02515761589404e-18,
       "min": 0.0,
       "max": 2.753e-16,
-      "n": 146,
+      "n": 151,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -152,26 +152,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 146,
+      "n": 151,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 149,
+    "fully_matching_scripts": 154,
     "match_pct_histogram": {
-      "1.0": 149,
+      "1.0": 154,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 170,
+    "n": 175,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 165,
+      "n": 170,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -180,7 +180,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 165,
+      "n": 170,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -189,30 +189,30 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 165,
+      "n": 170,
       "p25": 1.0,
       "p75": 1.0
     },
     "qty_match_pct": {
       "median": 1.0,
-      "mean": 0.9999969939393939,
+      "mean": 0.9999970823529412,
       "min": 0.999504,
       "max": 1.0,
-      "n": 165,
+      "n": 170,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.343e-08,
-      "mean": 6.346125582368421e-05,
+      "median": 1.299e-08,
+      "mean": 6.159499914673523e-05,
       "min": 0.0,
       "max": 0.01041,
-      "n": 165,
-      "p25": 1.393e-14,
-      "p75": 3.079e-08
+      "n": 170,
+      "p25": 1.4242500000000002e-14,
+      "p75": 3.003e-08
     },
-    "trade_count_exact_match": 166,
+    "trade_count_exact_match": 171,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -269,6 +269,12 @@
       "worst_col": "Start"
     },
     {
+      "id": "PUB;nngZVuIMCzoyqWycjy4sMxA6sDueecSM",
+      "name": "BEST Supertrend CCI",
+      "plot_match_pct": 1.0,
+      "worst_col": "SuperTrend"
+    },
+    {
       "id": "PUB;b9kCyBM3xxE7I3Jaq1CdYzhz8BIw6dbI",
       "name": "Bjorgum SuperScript",
       "plot_match_pct": 1.0,
@@ -303,12 +309,6 @@
       "name": "CVD - Cumulative Volume Delta (Chart)",
       "plot_match_pct": 1.0,
       "worst_col": "Volume delta for the bar"
-    },
-    {
-      "id": "PUB;31190855aaa049d58746900abf6f0cea",
-      "name": "Change in State of Delivery CISD [AlgoAlpha]",
-      "plot_match_pct": 1.0,
-      "worst_col": "Bearish CISD with Liquidity Sweep"
     }
   ]
 }
