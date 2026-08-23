@@ -6,7 +6,7 @@
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 320
+      "scripts": 330
     },
     {
       "symbol": "BINANCE:BTCUSDT",
@@ -58,10 +58,10 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 272,
+      "exact": 280,
       "libm": 2,
       "band": 11,
-      "compared": 285
+      "compared": 293
     },
     "band_scripts": [
       {
@@ -109,41 +109,41 @@
         "max_rel": 0.0
       }
     ],
-    "bars_compared": 37952735,
-    "bars_exact": 37779947,
-    "bars_exact_rate": 0.9954472846291578,
+    "bars_compared": 39391724,
+    "bars_exact": 39218936,
+    "bars_exact_rate": 0.9956135963990812,
     "max_rel": 3.933e-11,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 330,
-    "indicators": 165,
-    "strategies": 165,
-    "compiled": 330,
+    "total": 340,
+    "indicators": 170,
+    "strategies": 170,
+    "compiled": 340,
     "compile_fail": 0,
-    "tv_ok": 323,
-    "pyne_ok": 330,
+    "tv_ok": 333,
+    "pyne_ok": 340,
     "trade_divergence": 1
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 144,
+    "n_with_plots_compared": 149,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 144,
+      "n": 149,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 2.168785815602837e-18,
+      "mean": 2.0945123287671236e-18,
       "min": 0.0,
       "max": 2.753e-16,
-      "n": 141,
+      "n": 146,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -152,26 +152,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 141,
+      "n": 146,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 144,
+    "fully_matching_scripts": 149,
     "match_pct_histogram": {
-      "1.0": 144,
+      "1.0": 149,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 165,
+    "n": 170,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 160,
+      "n": 165,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -180,7 +180,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 160,
+      "n": 165,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -189,30 +189,30 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 160,
+      "n": 165,
       "p25": 1.0,
       "p75": 1.0
     },
     "qty_match_pct": {
       "median": 1.0,
-      "mean": 0.9999969,
+      "mean": 0.9999969939393939,
       "min": 0.999504,
       "max": 1.0,
-      "n": 160,
+      "n": 165,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.38e-08,
-      "mean": 0.0002752491076806301,
+      "median": 1.343e-08,
+      "mean": 6.346125582368421e-05,
       "min": 0.0,
-      "max": 0.031053,
-      "n": 160,
-      "p25": 1.3827500000000002e-14,
-      "p75": 3.2812500000000003e-08
+      "max": 0.01041,
+      "n": 165,
+      "p25": 1.393e-14,
+      "p75": 3.079e-08
     },
-    "trade_count_exact_match": 161,
+    "trade_count_exact_match": 166,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -221,10 +221,22 @@
   "top_compile_errors": [],
   "worst_plot_scripts": [
     {
+      "id": "PUB;50b4566eddd04de3be2a3cb031dc4ebd",
+      "name": " Machine Learning RSI ║ BullVision",
+      "plot_match_pct": 1.0,
+      "worst_col": "RSI KNN"
+    },
+    {
       "id": "PUB;42af0c00136b444b918a15e6cb30e896",
       "name": "%R Trend Exhaustion [upslidedown]",
       "plot_match_pct": 1.0,
       "worst_col": "Fast Period %R"
+    },
+    {
+      "id": "PUB;mfpeBvtOH6Zcqe54ECLBthMZqWS2l21J",
+      "name": "72s: Adaptive Hull Moving Average+",
+      "plot_match_pct": 1.0,
+      "worst_col": "Dynamic HMA+"
     },
     {
       "id": "PUB;932",
@@ -297,18 +309,6 @@
       "name": "Change in State of Delivery CISD [AlgoAlpha]",
       "plot_match_pct": 1.0,
       "worst_col": "Bearish CISD with Liquidity Sweep"
-    },
-    {
-      "id": "PUB;7a639b049f0d493fbe5a5ca996e8fff5",
-      "name": "Comprehensive Trading Toolkit [BigBeluga]",
-      "plot_match_pct": 1.0,
-      "worst_col": "Plot"
-    },
-    {
-      "id": "PUB;07fdb6893496402da7ae8c21da9ac862",
-      "name": "Consolidation Range with Signals (Zeiierman)",
-      "plot_match_pct": 1.0,
-      "worst_col": "Trend"
     }
   ]
 }
