@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-23",
+  "generated_at": "2026-08-24",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 340
+      "scripts": 350
     },
     {
       "symbol": "BINANCE:BTCUSDT",
@@ -58,10 +58,10 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 290,
+      "exact": 300,
       "libm": 2,
       "band": 11,
-      "compared": 303
+      "compared": 313
     },
     "band_scripts": [
       {
@@ -109,41 +109,41 @@
         "max_rel": 0.0
       }
     ],
-    "bars_compared": 40511604,
-    "bars_exact": 40386877,
-    "bars_exact_rate": 0.9969212031199752,
+    "bars_compared": 42837382,
+    "bars_exact": 42712655,
+    "bars_exact_rate": 0.9970883608153271,
     "max_rel": 1.014e-11,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 350,
-    "indicators": 175,
-    "strategies": 175,
-    "compiled": 350,
+    "total": 360,
+    "indicators": 180,
+    "strategies": 180,
+    "compiled": 360,
     "compile_fail": 0,
-    "tv_ok": 343,
-    "pyne_ok": 350,
+    "tv_ok": 353,
+    "pyne_ok": 360,
     "trade_divergence": 1
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 154,
+    "n_with_plots_compared": 159,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 154,
+      "n": 159,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 2.02515761589404e-18,
+      "mean": 1.960248717948718e-18,
       "min": 0.0,
       "max": 2.753e-16,
-      "n": 151,
+      "n": 156,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -152,26 +152,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 151,
+      "n": 156,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 154,
+    "fully_matching_scripts": 159,
     "match_pct_histogram": {
-      "1.0": 154,
+      "1.0": 159,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 175,
+    "n": 180,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 170,
+      "n": 175,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -180,7 +180,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 170,
+      "n": 175,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -189,30 +189,30 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 170,
+      "n": 175,
       "p25": 1.0,
       "p75": 1.0
     },
     "qty_match_pct": {
       "median": 1.0,
-      "mean": 0.9999970823529412,
+      "mean": 0.9999971657142858,
       "min": 0.999504,
       "max": 1.0,
-      "n": 170,
+      "n": 175,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.299e-08,
-      "mean": 6.159499914673523e-05,
+      "median": 1.301e-08,
+      "mean": 5.98358073083201e-05,
       "min": 0.0,
       "max": 0.01041,
-      "n": 170,
-      "p25": 1.4242500000000002e-14,
-      "p75": 3.003e-08
+      "n": 175,
+      "p25": 1.4555e-14,
+      "p75": 2.993e-08
     },
-    "trade_count_exact_match": 171,
+    "trade_count_exact_match": 176,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -263,6 +263,12 @@
       "worst_col": "Plot"
     },
     {
+      "id": "PUB;31541b6c62434344b1c6b67359d0b346",
+      "name": "AlphaTrend - Screener",
+      "plot_match_pct": 1.0,
+      "worst_col": "AlphaTrend"
+    },
+    {
       "id": "PUB;dEplYFWGPqh3bRWyQKIEIzSQAfcm4HH5",
       "name": "Auto Fib Retracement Alerts",
       "plot_match_pct": 1.0,
@@ -303,12 +309,6 @@
       "name": "CM MACD Custom Indicator - Multiple Time Frame - V2",
       "plot_match_pct": 1.0,
       "worst_col": "Histogram"
-    },
-    {
-      "id": "PUB;84da7a14bfe64823a1246e4d5b0f7c80",
-      "name": "CVD - Cumulative Volume Delta (Chart)",
-      "plot_match_pct": 1.0,
-      "worst_col": "Volume delta for the bar"
     }
   ]
 }
