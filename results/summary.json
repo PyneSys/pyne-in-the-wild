@@ -6,12 +6,12 @@
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 350
+      "scripts": 359
     },
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "D",
-      "scripts": 2
+      "scripts": 3
     },
     {
       "symbol": "CAPITALCOM:EURUSD",
@@ -58,10 +58,10 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 300,
+      "exact": 306,
       "libm": 2,
-      "band": 11,
-      "compared": 313
+      "band": 13,
+      "compared": 321
     },
     "band_scripts": [
       {
@@ -71,6 +71,10 @@
       {
         "name": "EMA Slope - RSI Oscillator Strategy",
         "max_rel": 7.549e-12
+      },
+      {
+        "name": "TSI CCI Hull with profit$$$",
+        "max_rel": 2.806e-12
       },
       {
         "name": "HULLTSIBOT",
@@ -93,6 +97,10 @@
         "max_rel": 5.772e-15
       },
       {
+        "name": "Global (World) Monetary Supply M2 (measured in USD)",
+        "max_rel": 5.93e-16
+      },
+      {
         "name": "Volume Delta Candles [LuxAlgo]",
         "max_rel": 5.439e-16
       },
@@ -109,41 +117,41 @@
         "max_rel": 0.0
       }
     ],
-    "bars_compared": 42837382,
-    "bars_exact": 42712655,
-    "bars_exact_rate": 0.9970883608153271,
+    "bars_compared": 43400606,
+    "bars_exact": 43256046,
+    "bars_exact_rate": 0.9966691709327745,
     "max_rel": 1.014e-11,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 360,
-    "indicators": 180,
-    "strategies": 180,
-    "compiled": 360,
+    "total": 370,
+    "indicators": 185,
+    "strategies": 185,
+    "compiled": 370,
     "compile_fail": 0,
-    "tv_ok": 353,
-    "pyne_ok": 360,
+    "tv_ok": 363,
+    "pyne_ok": 370,
     "trade_divergence": 1
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 159,
+    "n_with_plots_compared": 164,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 159,
+      "n": 164,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 1.960248717948718e-18,
+      "mean": 3.2037192546583854e-18,
       "min": 0.0,
       "max": 2.753e-16,
-      "n": 156,
+      "n": 161,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -152,26 +160,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 156,
+      "n": 161,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 159,
+    "fully_matching_scripts": 164,
     "match_pct_histogram": {
-      "1.0": 159,
+      "1.0": 164,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 180,
+    "n": 185,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 175,
+      "n": 179,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -180,7 +188,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 175,
+      "n": 179,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -189,30 +197,30 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 175,
+      "n": 179,
       "p25": 1.0,
       "p75": 1.0
     },
     "qty_match_pct": {
       "median": 1.0,
-      "mean": 0.9999971657142858,
+      "mean": 0.9999972290502793,
       "min": 0.999504,
       "max": 1.0,
-      "n": 175,
+      "n": 179,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.301e-08,
-      "mean": 5.98358073083201e-05,
+      "median": 1.343e-08,
+      "mean": 5.849925659930737e-05,
       "min": 0.0,
       "max": 0.01041,
-      "n": 175,
-      "p25": 1.4555e-14,
+      "n": 179,
+      "p25": 1.5825e-14,
       "p75": 2.993e-08
     },
-    "trade_count_exact_match": 176,
+    "trade_count_exact_match": 180,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -281,6 +289,12 @@
       "worst_col": "SuperTrend"
     },
     {
+      "id": "PUB;76a69313816948eda8c48fd33b9e5ea6",
+      "name": "Bjorgum MTF MA",
+      "plot_match_pct": 1.0,
+      "worst_col": "Moving Average #1"
+    },
+    {
       "id": "PUB;b9kCyBM3xxE7I3Jaq1CdYzhz8BIw6dbI",
       "name": "Bjorgum SuperScript",
       "plot_match_pct": 1.0,
@@ -303,12 +317,6 @@
       "name": "Buy Sell Signal",
       "plot_match_pct": 1.0,
       "worst_col": "Fast EMA"
-    },
-    {
-      "id": "PUB;f9af35aecc5d410a8c5eced2aa5417df",
-      "name": "CM MACD Custom Indicator - Multiple Time Frame - V2",
-      "plot_match_pct": 1.0,
-      "worst_col": "Histogram"
     }
   ]
 }
