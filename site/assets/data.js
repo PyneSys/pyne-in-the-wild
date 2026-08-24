@@ -13,10 +13,10 @@ window.WILD_DATA = {
   },
   "fidelity": {
     "scripts": {
-      "exact": 315,
-      "libm": 2,
-      "band": 13,
-      "compared": 330
+      "exact": 322,
+      "libm": 3,
+      "band": 15,
+      "compared": 340
     },
     "band_scripts": [
       {
@@ -26,6 +26,10 @@ window.WILD_DATA = {
       {
         "name": "EMA Slope - RSI Oscillator Strategy",
         "max_rel": 7.549e-12
+      },
+      {
+        "name": "OBV MACD Indicator",
+        "max_rel": 5.198e-12
       },
       {
         "name": "TSI CCI Hull with profit$$$",
@@ -64,6 +68,10 @@ window.WILD_DATA = {
         "max_rel": 4.502e-16
       },
       {
+        "name": "Volume Suite - By Leviathan (CVD, Volume Delta, Relative Volume)",
+        "max_rel": 1.55e-16
+      },
+      {
         "name": "SuperTrend AI (Clustering) [LuxAlgo]",
         "max_rel": 1.144e-16
       },
@@ -72,37 +80,37 @@ window.WILD_DATA = {
         "max_rel": 0.0
       }
     ],
-    "bars_compared": 43933070,
-    "bars_exact": 43788510,
-    "bars_exact_rate": 0.9967095402165157,
+    "bars_compared": 44728935,
+    "bars_exact": 44577523,
+    "bars_exact_rate": 0.9966148981637949,
     "max_rel": 1.014e-11,
     "ulp_limit": 64
   },
   "totals": {
-    "total": 380,
-    "indicators": 190,
-    "strategies": 190,
-    "compiled": 380,
+    "total": 390,
+    "indicators": 195,
+    "strategies": 195,
+    "compiled": 390,
     "compile_fail": 0,
-    "tv_ok": 373,
-    "pyne_ok": 380,
+    "tv_ok": 383,
+    "pyne_ok": 390,
     "trade_divergence": 1,
     "compile_rate": 1.0,
     "run_rate": 1.0,
     "run_success_rate": 1.0,
-    "measurable_scripts": 360,
-    "tv_comparable": 514,
-    "tv_fidelity_verified": 514,
+    "measurable_scripts": 370,
+    "tv_comparable": 529,
+    "tv_fidelity_verified": 529,
     "tv_fidelity_rate": 1.0,
-    "plot_outputs": 330,
-    "trade_outputs": 184,
+    "plot_outputs": 340,
+    "trade_outputs": 189,
     "average_match_rate": 1.0,
-    "average_match_count": 514,
-    "trades_compared": 158797,
+    "average_match_count": 529,
+    "trades_compared": 164460,
     "sub_tick_excluded_trades": 0,
     "sub_tick_excluded_scripts": 0,
-    "bars_run": 10558170,
-    "verified": 354,
+    "bars_run": 10846481,
+    "verified": 364,
     "divergent": 0,
     "repaint": 5,
     "data_limited": 1,
@@ -110,25 +118,25 @@ window.WILD_DATA = {
     "failed": 0
   },
   "indicators": {
-    "total": 190,
-    "compared": 169,
-    "plot_verified": 169,
-    "plot_exact": 169,
+    "total": 195,
+    "compared": 174,
+    "plot_verified": 174,
+    "plot_exact": 174,
     "plot_match_median": 1.0,
     "plot_match_mean": 1.0,
     "plot_match_min": 1.0,
     "pearson_min": 1.0
   },
   "strategies": {
-    "n": 190,
-    "compared": 184,
-    "trade_timing_verified": 185,
-    "verified": 185,
+    "n": 195,
+    "compared": 189,
+    "trade_timing_verified": 190,
+    "verified": 190,
     "entry_match_median": 1.0,
     "entry_match_mean": 1.0,
     "exit_match_median": 1.0,
     "exit_match_mean": 1.0,
-    "trade_count_exact_match": 185,
+    "trade_count_exact_match": 190,
     "net_profit_match_rate": 1.0
   },
   "scripts": [
@@ -7556,6 +7564,43 @@ window.WILD_DATA = {
       "fidelity": "exact"
     },
     {
+      "id": "PUB;46a144799e314a62b0d926f03c64209f",
+      "kind": "indicator",
+      "name": "Optimized Trend Tracker Oscillator OTTO",
+      "author": "KivancOzbilgic",
+      "license": "MPL-2.0",
+      "version": "2",
+      "pine_version": 5,
+      "likes": 7971,
+      "tv_url": "https://www.tradingview.com/script/W3BqP7Nq/",
+      "sha256": "c769eab1c130a590e0d811d9848138930f1e574b75fc42d16553a92656b7c97f",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28831,
+      "run_sec": 1.67,
+      "ms_per_bar": 0.0579,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-24T15:00:00+00:00",
+        "bars": 28831
+      },
+      "plot": {
+        "cols": 4,
+        "match_pct": 1.0,
+        "worst_col": "HOTT",
+        "pearson_min": 1.0,
+        "bars_numeric": 58013,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
       "id": "PUB;f2a1a82b1a4741e0a217433d9cc9398f",
       "kind": "indicator",
       "name": "Smart Money Breakout Signals [AlgoAlpha]",
@@ -7591,6 +7636,43 @@ window.WILD_DATA = {
         "max_rel": 0.0
       },
       "fidelity": "exact"
+    },
+    {
+      "id": "PUB;5JF4Np02MaF8ht1sb5i07uerLkj58fSU",
+      "kind": "indicator",
+      "name": "OBV MACD Indicator",
+      "author": "RafaelZioni",
+      "license": "none",
+      "version": "1",
+      "pine_version": 4,
+      "likes": 7904,
+      "tv_url": "https://www.tradingview.com/script/jXvqrU4q/",
+      "sha256": "3a86f94bb2affef0751e958e3ede6a0805caf9b52fc030055458ac00bfcd5073",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28831,
+      "run_sec": 1.634,
+      "ms_per_bar": 0.0567,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-24T15:00:00+00:00",
+        "bars": 28831
+      },
+      "plot": {
+        "cols": 6,
+        "match_pct": 1.0,
+        "worst_col": "Plot",
+        "pearson_min": 1.0,
+        "bars_numeric": 57604,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 0.994723,
+        "max_abs": 2.91e-11,
+        "max_rel": 5.198e-12
+      },
+      "fidelity": "band"
     },
     {
       "id": "PUB;84da7a14bfe64823a1246e4d5b0f7c80",
@@ -7643,6 +7725,126 @@ window.WILD_DATA = {
         "log",
         "pow"
       ]
+    },
+    {
+      "id": "PUB;48da7933608a4a6fb564667f6208d11e",
+      "kind": "indicator",
+      "name": "Volume Suite - By Leviathan (CVD, Volume Delta, Relative Volume)",
+      "author": "LeviathanCapital",
+      "license": "MPL-2.0",
+      "version": "4",
+      "pine_version": 5,
+      "likes": 7830,
+      "tv_url": "https://www.tradingview.com/script/YNMTwt1n/",
+      "sha256": "b07876acacfa32f8ea3d5db7ea91cf44dbb1e9ff0cd408c163c5513e6844c958",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28831,
+      "run_sec": 14.666,
+      "ms_per_bar": 0.5087,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-24T15:00:00+00:00",
+        "bars": 28831,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "1",
+            "from": "2026-06-16T05:18:00+00:00",
+            "to": "2026-08-24T15:29:00+00:00",
+            "bars": 99972
+          }
+        ]
+      },
+      "plot": {
+        "cols": 14,
+        "match_pct": 1.0,
+        "worst_col": "RVOL",
+        "pearson_min": 1.0,
+        "bars_numeric": 28812,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 0.999965,
+        "max_abs": 2.22e-16,
+        "max_rel": 1.55e-16
+      },
+      "fidelity": "band"
+    },
+    {
+      "id": "PUB;0d094652c4594b468c1bf12f7a053ad0",
+      "kind": "indicator",
+      "name": "Radius Trend [ChartPrime]",
+      "author": "ChartPrime",
+      "license": "MPL-2.0",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 7808,
+      "tv_url": "https://www.tradingview.com/script/4KIHf36j/",
+      "sha256": "9ce3ee748513295f88fe5af941f08265dd3a17ca01974b0e5f1b96dd5272f148",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28831,
+      "run_sec": 0.963,
+      "ms_per_bar": 0.0334,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-24T15:00:00+00:00",
+        "bars": 28831
+      },
+      "plot": {
+        "cols": 3,
+        "match_pct": 1.0,
+        "worst_col": "Plot",
+        "pearson_min": 1.0,
+        "bars_numeric": 85516,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;wGlsQouKeuLLidPPoTrfEanBjK5o2sNo",
+      "kind": "indicator",
+      "name": "Candlestick Reversal System",
+      "author": "LonesomeTheBlue",
+      "license": "MPL-2.0",
+      "version": "4",
+      "pine_version": 4,
+      "likes": 7770,
+      "tv_url": "https://www.tradingview.com/script/H5290fLn/",
+      "sha256": "0560a548b5d550d49cd257a3b6afedb4eb3a552f70c8d8bb454c4a57a5c26d84",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28832,
+      "run_sec": 1.072,
+      "ms_per_bar": 0.0372,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-24T15:30:00+00:00",
+        "bars": 28832
+      },
+      "plot": {
+        "cols": 3,
+        "match_pct": 1.0,
+        "worst_col": "Shapes",
+        "pearson_min": 1.0,
+        "bars_numeric": 57664,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact"
     },
     {
       "id": "PUB;091bb46c2b8b45718c46b487a8fa46ac",
@@ -14368,6 +14570,249 @@ window.WILD_DATA = {
         "extra_entries": 0,
         "tv_net_profit": 29.941854,
         "pc_net_profit": 29.941855,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;yEjHKmgZeqSdv2cwzFb6SeuKTmI8NrhT",
+      "kind": "strategy",
+      "name": "Highest High and Lowest Low Channel Strategy",
+      "author": "ceyhun",
+      "license": "MPL-2.0",
+      "version": "2",
+      "pine_version": 5,
+      "likes": 1773,
+      "tv_url": "https://www.tradingview.com/script/1SMJivyk/",
+      "sha256": "992a7ceaaaa11d1ab3c3ed02c96e8522290c7a4fcb728edf2908b34927f476ee",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28831,
+      "run_sec": 1.081,
+      "ms_per_bar": 0.0375,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-24T15:00:00+00:00",
+        "bars": 28831
+      },
+      "plot": {
+        "cols": 2,
+        "match_pct": 1.0,
+        "worst_col": "HH",
+        "pearson_min": 1.0,
+        "bars_numeric": 57622,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 674,
+        "pc": 674,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -57.19,
+        "pc_net_profit": -57.19,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;2cbb5cb4c4c247428466d4ed5c987a4b",
+      "kind": "strategy",
+      "name": "Machine Learning: SuperTrend Strategy TP/SL [YinYangAlgorithms]",
+      "author": "YinYangAlgorithms",
+      "license": "MPL-2.0",
+      "version": "2",
+      "pine_version": 5,
+      "likes": 1768,
+      "tv_url": "https://www.tradingview.com/script/9Mm3qKME/",
+      "sha256": "ef3333c1db0c536b03bef26fbe257078cc3c286b3cac7242fd0edcf43fed3cee",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28831,
+      "run_sec": 6.306,
+      "ms_per_bar": 0.2187,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-24T15:00:00+00:00",
+        "bars": 28831
+      },
+      "plot": {
+        "cols": 7,
+        "match_pct": 1.0,
+        "worst_col": "Plot",
+        "pearson_min": 1.0,
+        "bars_numeric": 115170,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 0.943154,
+        "max_abs": 8.731e-11,
+        "max_rel": 1.258e-15
+      },
+      "fidelity": "libm",
+      "transcendentals": [
+        "pow"
+      ],
+      "trades": {
+        "tv": 1099,
+        "pc": 1099,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -43560.8,
+        "pc_net_profit": -43560.801744,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;WeUAvgeCvTp1WYV2wz47FqIVfZm3uzVs",
+      "kind": "strategy",
+      "name": "Parabolic SAR Strategy (on close) [QuantNomad]",
+      "author": "QuantNomad",
+      "license": "none",
+      "version": "2",
+      "pine_version": 4,
+      "likes": 1765,
+      "tv_url": "https://www.tradingview.com/script/gK7skk6m/",
+      "sha256": "b50abe551d840a8a4b421bb58c1a267cc9c58d1b83514105b7a799dad2317b03",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28831,
+      "run_sec": 0.958,
+      "ms_per_bar": 0.0332,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-24T15:00:00+00:00",
+        "bars": 28831
+      },
+      "plot": {
+        "cols": 1,
+        "match_pct": 1.0,
+        "worst_col": "Plot",
+        "pearson_min": 1.0,
+        "bars_numeric": 28830,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 1996,
+        "pc": 1996,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -17651.7,
+        "pc_net_profit": -17651.7,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;12f2a2e822164a06b1183f9224ebbe74",
+      "kind": "strategy",
+      "name": "Advanced Position Management [Mr_Rakun]",
+      "author": "Mr_Rakun",
+      "license": "MPL-2.0",
+      "version": "4",
+      "pine_version": 5,
+      "likes": 1761,
+      "tv_url": "https://www.tradingview.com/script/IsMKlnoJ/",
+      "sha256": "420cde284302fc8844070ad2a66d0bedfa6b1d62d33b6b8b87faf1abb6768165",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28831,
+      "run_sec": 1.962,
+      "ms_per_bar": 0.0681,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-24T15:00:00+00:00",
+        "bars": 28831
+      },
+      "plot": {
+        "cols": 7,
+        "match_pct": 1.0,
+        "worst_col": "Fast MA",
+        "pearson_min": 1.0,
+        "bars_numeric": 191089,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 1586,
+        "pc": 1586,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": 15943.161,
+        "pc_net_profit": 15943.161186,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;caba4810c87347ba9a5546a56dbfa664",
+      "kind": "strategy",
+      "name": "PMax on Rsi w/T3 *Strategy*",
+      "author": "lucidreamer15",
+      "license": "MPL-2.0",
+      "version": "1",
+      "pine_version": 4,
+      "likes": 1732,
+      "tv_url": "https://www.tradingview.com/script/ZLcmWQtj/",
+      "sha256": "02f36e02cdbe59edb9a25f2c20c99e8155447efff9a54cb50e709633947e2e8b",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28831,
+      "run_sec": 2.129,
+      "ms_per_bar": 0.0738,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-24T15:00:00+00:00",
+        "bars": 28831
+      },
+      "plot": {
+        "cols": 6,
+        "match_pct": 1.0,
+        "worst_col": "RSI",
+        "pearson_min": 1.0,
+        "bars_numeric": 115545,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 308,
+        "pc": 308,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -50628.22,
+        "pc_net_profit": -50628.22,
         "net_profit_match": true
       }
     },
