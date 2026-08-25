@@ -6,7 +6,7 @@
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 387
+      "scripts": 397
     },
     {
       "symbol": "BINANCE:BTCUSDT",
@@ -63,10 +63,10 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 332,
-      "libm": 3,
-      "band": 15,
-      "compared": 350
+      "exact": 339,
+      "libm": 5,
+      "band": 16,
+      "compared": 360
     },
     "band_scripts": [
       {
@@ -106,6 +106,10 @@
         "max_rel": 5.772e-15
       },
       {
+        "name": "Cumulative Volume Delta Divergence [TradingFinder] Periodic EMA",
+        "max_rel": 3.822e-15
+      },
+      {
         "name": "Global (World) Monetary Supply M2 (measured in USD)",
         "max_rel": 5.93e-16
       },
@@ -130,41 +134,41 @@
         "max_rel": 0.0
       }
     ],
-    "bars_compared": 46107438,
-    "bars_exact": 45956026,
-    "bars_exact_rate": 0.9967161046770805,
+    "bars_compared": 47085108,
+    "bars_exact": 46925781,
+    "bars_exact_rate": 0.996616191259453,
     "max_rel": 1.014e-11,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 400,
-    "indicators": 200,
-    "strategies": 200,
-    "compiled": 400,
+    "total": 410,
+    "indicators": 205,
+    "strategies": 205,
+    "compiled": 410,
     "compile_fail": 0,
-    "tv_ok": 393,
-    "pyne_ok": 400,
+    "tv_ok": 403,
+    "pyne_ok": 410,
     "trade_divergence": 1
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 179,
+    "n_with_plots_compared": 184,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 179,
+      "n": 184,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 3.4160772727272728e-18,
+      "mean": 4.775455966850829e-18,
       "min": 0.0,
       "max": 2.753e-16,
-      "n": 176,
+      "n": 181,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -173,26 +177,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 176,
+      "n": 181,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 179,
+    "fully_matching_scripts": 184,
     "match_pct_histogram": {
-      "1.0": 179,
+      "1.0": 184,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 200,
+    "n": 205,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 194,
+      "n": 199,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -201,7 +205,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 194,
+      "n": 199,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -210,30 +214,30 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 194,
+      "n": 199,
       "p25": 1.0,
       "p75": 1.0
     },
     "qty_match_pct": {
       "median": 1.0,
-      "mean": 0.9999974432989691,
-      "min": 0.999504,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
-      "n": 194,
+      "n": 199,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.299e-08,
-      "mean": 5.3977126054449e-05,
+      "median": 1.297e-08,
+      "mean": 5.233001843509018e-05,
       "min": 0.0,
       "max": 0.01041,
-      "n": 194,
-      "p25": 1.5455000000000002e-14,
-      "p75": 2.971e-08
+      "n": 199,
+      "p25": 1.538e-14,
+      "p75": 2.969e-08
     },
-    "trade_count_exact_match": 195,
+    "trade_count_exact_match": 200,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -266,6 +270,12 @@
       "worst_col": "DI+"
     },
     {
+      "id": "PUB;59699e73854c47c4863b11d55598449f",
+      "name": "AI Trend Navigator [K-Neighbor]",
+      "plot_match_pct": 1.0,
+      "worst_col": "Knn Classifier Line"
+    },
+    {
       "id": "PUB;d48234236f7345c09e3d9017f8c31070",
       "name": "ATR Stop Loss Finder",
       "plot_match_pct": 1.0,
@@ -288,6 +298,12 @@
       "name": "AlphaTrend - Screener",
       "plot_match_pct": 1.0,
       "worst_col": "AlphaTrend"
+    },
+    {
+      "id": "PUB;4MRTYS5MfEBM6NjXGqBWeqXNJPxQALX8",
+      "name": "Angle Attack Follow Line Indicator ",
+      "plot_match_pct": 1.0,
+      "worst_col": "Angle Follow Line"
     },
     {
       "id": "PUB;dEplYFWGPqh3bRWyQKIEIzSQAfcm4HH5",
@@ -318,18 +334,6 @@
       "name": "Bollinger Awesome Alert R1 by JustUncleL",
       "plot_match_pct": 1.0,
       "worst_col": "Basis Line"
-    },
-    {
-      "id": "PUB;22ea50dde6a349d0ace8c4640e8a5b9d",
-      "name": "Boom Hunter Pro",
-      "plot_match_pct": 1.0,
-      "worst_col": "Quotient 1"
-    },
-    {
-      "id": "PUB;92a018ea21ef4b9886e810a7fea6968d",
-      "name": "Buy Sell Signal",
-      "plot_match_pct": 1.0,
-      "worst_col": "Fast EMA"
     }
   ]
 }
