@@ -2,7 +2,7 @@ window.WILD_DATA = {
   "generated_at": "2026-08-25",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe_min": 30,
-  "own_market_scripts": 13,
+  "own_market_scripts": 14,
   "verification_threshold": 0.99,
   "tolerances": {
     "rel_tol": 1e-09,
@@ -13,10 +13,10 @@ window.WILD_DATA = {
   },
   "fidelity": {
     "scripts": {
-      "exact": 339,
+      "exact": 347,
       "libm": 5,
       "band": 16,
-      "compared": 360
+      "compared": 368
     },
     "band_scripts": [
       {
@@ -84,63 +84,63 @@ window.WILD_DATA = {
         "max_rel": 0.0
       }
     ],
-    "bars_compared": 47085108,
-    "bars_exact": 46925781,
-    "bars_exact_rate": 0.996616191259453,
+    "bars_compared": 47730443,
+    "bars_exact": 47571116,
+    "bars_exact_rate": 0.9966619417297258,
     "max_rel": 1.014e-11,
     "ulp_limit": 64
   },
   "totals": {
-    "total": 410,
-    "indicators": 205,
-    "strategies": 205,
-    "compiled": 410,
+    "total": 420,
+    "indicators": 210,
+    "strategies": 210,
+    "compiled": 420,
     "compile_fail": 0,
-    "tv_ok": 403,
-    "pyne_ok": 410,
+    "tv_ok": 413,
+    "pyne_ok": 420,
     "trade_divergence": 1,
     "compile_rate": 1.0,
     "run_rate": 1.0,
     "run_success_rate": 1.0,
-    "measurable_scripts": 390,
-    "tv_comparable": 559,
-    "tv_fidelity_verified": 559,
+    "measurable_scripts": 400,
+    "tv_comparable": 571,
+    "tv_fidelity_verified": 571,
     "tv_fidelity_rate": 1.0,
-    "plot_outputs": 360,
-    "trade_outputs": 199,
+    "plot_outputs": 368,
+    "trade_outputs": 203,
     "average_match_rate": 1.0,
-    "average_match_count": 559,
-    "trades_compared": 168509,
+    "average_match_count": 571,
+    "trades_compared": 173652,
     "sub_tick_excluded_trades": 0,
     "sub_tick_excluded_scripts": 0,
-    "bars_run": 11423708,
-    "verified": 384,
+    "bars_run": 11704036,
+    "verified": 393,
     "divergent": 0,
-    "repaint": 5,
+    "repaint": 6,
     "data_limited": 1,
     "runs": 20,
     "failed": 0
   },
   "indicators": {
-    "total": 205,
-    "compared": 184,
-    "plot_verified": 184,
-    "plot_exact": 184,
+    "total": 210,
+    "compared": 189,
+    "plot_verified": 189,
+    "plot_exact": 189,
     "plot_match_median": 1.0,
     "plot_match_mean": 1.0,
     "plot_match_min": 1.0,
     "pearson_min": 1.0
   },
   "strategies": {
-    "n": 205,
-    "compared": 199,
-    "trade_timing_verified": 200,
-    "verified": 200,
+    "n": 210,
+    "compared": 203,
+    "trade_timing_verified": 204,
+    "verified": 204,
     "entry_match_median": 1.0,
     "entry_match_mean": 1.0,
     "exit_match_median": 1.0,
     "exit_match_mean": 1.0,
-    "trade_count_exact_match": 200,
+    "trade_count_exact_match": 204,
     "net_profit_match_rate": 1.0
   },
   "scripts": [
@@ -8394,6 +8394,106 @@ window.WILD_DATA = {
       "fidelity": "band"
     },
     {
+      "id": "PUB;44b150b3df0f4781ac2a46a4ba38c8eb",
+      "kind": "indicator",
+      "name": "Open Interest Suite [Aggregated] - By Leviathan",
+      "author": "LeviathanCapital",
+      "license": "MPL-2.0",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 7411,
+      "tv_url": "https://www.tradingview.com/script/GKhS3dlt/",
+      "sha256": "dda89a6503f7d42a5a7bd7c07e617fa93739c97ad3c42f271de2c438fd7f46e4",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28874,
+      "run_sec": 146.873,
+      "ms_per_bar": 5.0867,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-25T12:30:00+00:00",
+        "bars": 28874,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT.P_OI",
+            "timeframe": "30",
+            "from": "2025-01-01T00:00:00+00:00",
+            "to": "2026-08-25T12:30:00+00:00",
+            "bars": 28872
+          },
+          {
+            "symbol": "BINANCE:BTCUSD.P_OI",
+            "timeframe": "30",
+            "from": "2025-01-01T00:00:00+00:00",
+            "to": "2026-08-25T12:30:00+00:00",
+            "bars": 28860
+          },
+          {
+            "symbol": "KRAKEN:BTCUSD.P_OI",
+            "timeframe": "30",
+            "from": "2025-01-01T00:00:00+00:00",
+            "to": "2026-08-25T12:30:00+00:00",
+            "bars": 28847
+          }
+        ]
+      },
+      "plot": {
+        "cols": 9,
+        "match_pct": 1.0,
+        "worst_col": "Open Interest Candles (open)",
+        "pearson_min": 1.0,
+        "bars_numeric": 115495,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;uc0IKiywaUjficIXjkiLN1z5XyLsBQS5",
+      "kind": "indicator",
+      "name": "Trend Regularity Adaptive Moving Average [LuxAlgo]",
+      "author": "LuxAlgo",
+      "license": "CC",
+      "version": "4",
+      "pine_version": 4,
+      "likes": 7386,
+      "tv_url": "https://www.tradingview.com/script/p8wGCPi6/",
+      "sha256": "c97078adc0a34dec65ae26c358db26686e34f25b0fbf2ceb4e7bd47cb9b286bf",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28872,
+      "run_sec": 0.794,
+      "ms_per_bar": 0.0275,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-25T11:30:00+00:00",
+        "bars": 28872
+      },
+      "plot": {
+        "cols": 1,
+        "match_pct": 1.0,
+        "worst_col": "Plot",
+        "pearson_min": 1.0,
+        "bars_numeric": 28872,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "transcendentals": [
+        "pow"
+      ]
+    },
+    {
       "id": "PUB;WvWdhArzmm2x97mJFkWyG9SMvGxDHMRR",
       "kind": "indicator",
       "name": "Linear Regression Channel / Curve / Slope by DGT",
@@ -8471,6 +8571,120 @@ window.WILD_DATA = {
         "tan"
       ],
       "lookahead_checked": true
+    },
+    {
+      "id": "PUB;viJbF7DeMAJE8FZHwRhflmjdZQEQ8hqW",
+      "kind": "indicator",
+      "name": "SuperTrend Oscillator [LuxAlgo]",
+      "author": "LuxAlgo",
+      "license": "CC",
+      "version": "2",
+      "pine_version": 4,
+      "likes": 7347,
+      "tv_url": "https://www.tradingview.com/script/dVau7zqn/",
+      "sha256": "f1e5a68d100d7930ed443a6fa0d4053a325e38be1836f4a8cc006bb959a21e5f",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28872,
+      "run_sec": 1.161,
+      "ms_per_bar": 0.0402,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-25T11:30:00+00:00",
+        "bars": 28872
+      },
+      "plot": {
+        "cols": 5,
+        "match_pct": 1.0,
+        "worst_col": "Main Transp",
+        "pearson_min": 1.0,
+        "bars_numeric": 87785,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "transcendentals": [
+        "pow"
+      ]
+    },
+    {
+      "id": "PUB;ec09e5c85b2b4ef59f0e54542349918d",
+      "kind": "indicator",
+      "name": "Protected Highs & Lows [TFO]",
+      "author": "tradeforopp",
+      "license": "MPL-2.0",
+      "version": "2",
+      "pine_version": 5,
+      "likes": 7318,
+      "tv_url": "https://www.tradingview.com/script/sydB6MPd/",
+      "sha256": "68b697e77b77a666ef8e5f762c2205c09db595b0763f89e316b1e3c43e35e633",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28872,
+      "run_sec": 1.097,
+      "ms_per_bar": 0.038,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-25T11:30:00+00:00",
+        "bars": 28872
+      },
+      "plot": {
+        "cols": 1,
+        "match_pct": 1.0,
+        "worst_col": "Plot",
+        "pearson_min": 1.0,
+        "bars_numeric": 28862,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;OiATJRgWbBGGI50ztzYICJfOo51DpagY",
+      "kind": "indicator",
+      "name": "Trend Meter",
+      "author": "Lij_MC",
+      "license": "none",
+      "version": "19",
+      "pine_version": 4,
+      "likes": 7318,
+      "tv_url": "https://www.tradingview.com/script/Ciurp4Qn/",
+      "sha256": "2e7fde9b32b644414c5129e3ce253c14567bc2ae0366a0e9fefb81035c32dcc4",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28872,
+      "run_sec": 2.527,
+      "ms_per_bar": 0.0875,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-25T11:30:00+00:00",
+        "bars": 28872
+      },
+      "plot": {
+        "cols": 11,
+        "match_pct": 1.0,
+        "worst_col": "Wave Trend - Positive Pressure",
+        "pearson_min": null,
+        "bars_numeric": 176876,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact"
     },
     {
       "id": "PUB;cf6dc608d8cd496caa1d4e2d90b26243",
@@ -15702,6 +15916,524 @@ window.WILD_DATA = {
         "extra_entries": 0,
         "tv_net_profit": 8.445407,
         "pc_net_profit": 8.445407,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;8i7iMvSUrCANHwAfQzM34Ni7Fb9B9ydd",
+      "kind": "strategy",
+      "name": "Maximized Scalping On Trend (by Coinrule)",
+      "author": "Coinrule",
+      "license": "MPL-2.0",
+      "version": "3",
+      "pine_version": 4,
+      "likes": 1617,
+      "tv_url": "https://www.tradingview.com/script/XAiEh7nb/",
+      "sha256": "f8c95a6069521e17158f6cfc704656de36a312b2da671c34f25ae5d08f03fe97",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28871,
+      "run_sec": 1.211,
+      "ms_per_bar": 0.0419,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-25T11:00:00+00:00",
+        "bars": 28871
+      },
+      "plot": {
+        "cols": 3,
+        "match_pct": 1.0,
+        "worst_col": "Plot",
+        "pearson_min": 1.0,
+        "bars_numeric": 86457,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 280,
+        "pc": 280,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -165.99332,
+        "pc_net_profit": -165.99331,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;hYgCXMRdMhpXKWp16uHsUDYsnBcGy3wi",
+      "kind": "strategy",
+      "name": "HIGHER HIGH LOWER LOW STRATEGY",
+      "author": "Craig_Claussen",
+      "license": "none",
+      "version": "4",
+      "pine_version": 4,
+      "likes": 1610,
+      "tv_url": "https://www.tradingview.com/script/JWsBrWBu/",
+      "sha256": "1cd8722e9cd71f0b9337f3e25d04a9f9e3a9ed288011d6bfd8027e23edfded60",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28872,
+      "run_sec": 0.758,
+      "ms_per_bar": null,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-25T11:30:00+00:00",
+        "bars": 28872
+      },
+      "lookahead_checked": true,
+      "trades": {
+        "tv": 192,
+        "pc": 192,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -6550.008,
+        "pc_net_profit": -6550.007967,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;CzfVekWtqudIFgkRT7vyPBRWmd0z4ktN",
+      "kind": "strategy",
+      "name": "Two Take Profit Strategy",
+      "author": "ahmad_naquib",
+      "license": "none",
+      "version": "1",
+      "pine_version": 4,
+      "likes": 1610,
+      "tv_url": "https://www.tradingview.com/script/OZnjwvZv/",
+      "sha256": "0eb69cf2b20c756545ea7299d339a3fe10af6b921750e45da825f3ada6204407",
+      "status": "ok",
+      "level": "verified",
+      "bars": 20480,
+      "run_sec": 1.309,
+      "ms_per_bar": 0.0639,
+      "data": {
+        "symbol": "CAPITALCOM:EURUSD",
+        "timeframe": "30",
+        "from": "2025-01-01T22:00:00+00:00",
+        "to": "2026-08-25T12:30:00+00:00",
+        "bars": 20480
+      },
+      "plot": {
+        "cols": 10,
+        "match_pct": 1.0,
+        "worst_col": "Plot",
+        "pearson_min": 1.0,
+        "bars_numeric": 92116,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 1229,
+        "pc": 1229,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -92.767136,
+        "pc_net_profit": -92.767135,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;e1dcb831bc0d4db1be619dd2ab75faa4",
+      "kind": "strategy",
+      "name": "SuperTrended Moving Averages Strategy",
+      "author": "uysgkgd",
+      "license": "none",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 1604,
+      "tv_url": "https://www.tradingview.com/script/2q8FhBYZ/",
+      "sha256": "2c046a7e9c86c9f52c460abf396e2a5987852743cae42dfad558a0b257dbdbab",
+      "status": "ok",
+      "level": "repaint",
+      "bars": 28871,
+      "run_sec": 4.788,
+      "ms_per_bar": 0.1658,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-25T11:00:00+00:00",
+        "bars": 28871
+      },
+      "plot": {
+        "cols": 5,
+        "match_pct": 1.0,
+        "worst_col": "Up Trend",
+        "pearson_min": 1.0,
+        "bars_numeric": 61162,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "repaint": {
+        "proven": true,
+        "channel": "trades",
+        "lookahead_plot_match_pct": 1.0,
+        "lookahead_plot_exact_pct": 1.0,
+        "lookahead_trade_match_pct": 0.986397,
+        "lookahead_net_profit_match": "1"
+      },
+      "trades": {
+        "tv": 3436,
+        "pc": 3470,
+        "trade_match_pct": 0.794007,
+        "entry_match_pct": 0.905732,
+        "exit_match_pct": 0.904831,
+        "extra_entries": 358,
+        "tv_net_profit": -9903.877,
+        "pc_net_profit": -9997.599635,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;uvZ1g3pYLV1kKXnlp0qkFgJ3gF5xkuQA",
+      "kind": "strategy",
+      "name": "Custom Screener with Alerts [QuantNomad]",
+      "author": "QuantNomad",
+      "license": "none",
+      "version": "2",
+      "pine_version": 4,
+      "likes": 1603,
+      "tv_url": "https://www.tradingview.com/script/QKgb0Fud/",
+      "sha256": "8c9935dd77f299ffacc125fd8a64b16f290097f3fc1b6bb3e7b4c6add21bc1e8",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28872,
+      "run_sec": 120.682,
+      "ms_per_bar": 4.1799,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-25T11:30:00+00:00",
+        "bars": 28872,
+        "security": [
+          {
+            "symbol": "AAPL",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21446
+          },
+          {
+            "symbol": "MSFT",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21613
+          },
+          {
+            "symbol": "AMZN",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21613
+          },
+          {
+            "symbol": "GOOGL",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21404
+          },
+          {
+            "symbol": "BABA",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21617
+          },
+          {
+            "symbol": "FB",
+            "timeframe": "30",
+            "from": "2025-06-27T13:30:00+00:00",
+            "to": "2026-08-24T16:30:00+00:00",
+            "bars": 628
+          },
+          {
+            "symbol": "BRK.A",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 15848
+          },
+          {
+            "symbol": "V",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21611
+          },
+          {
+            "symbol": "JNJ",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21611
+          },
+          {
+            "symbol": "WMT",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21611
+          },
+          {
+            "symbol": "TSM",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21611
+          },
+          {
+            "symbol": "PG",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21611
+          },
+          {
+            "symbol": "MA",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21611
+          },
+          {
+            "symbol": "JPM",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21613
+          },
+          {
+            "symbol": "TSLA",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21613
+          },
+          {
+            "symbol": "UNH",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 15085
+          },
+          {
+            "symbol": "HD",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21611
+          },
+          {
+            "symbol": "NVDA",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21614
+          },
+          {
+            "symbol": "INTC",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21613
+          },
+          {
+            "symbol": "NFLX",
+            "timeframe": "30",
+            "from": "2022-12-30T20:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 11821
+          },
+          {
+            "symbol": "VZ",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21611
+          },
+          {
+            "symbol": "ADBE",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21608
+          },
+          {
+            "symbol": "DIS",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21443
+          },
+          {
+            "symbol": "T",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21614
+          },
+          {
+            "symbol": "PYPL",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21611
+          },
+          {
+            "symbol": "BAC",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21601
+          },
+          {
+            "symbol": "NVS",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21577
+          },
+          {
+            "symbol": "CSCO",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21611
+          },
+          {
+            "symbol": "KO",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21611
+          },
+          {
+            "symbol": "MRK",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21612
+          },
+          {
+            "symbol": "PFE",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21613
+          },
+          {
+            "symbol": "PEP",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21611
+          },
+          {
+            "symbol": "CMCSA",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21611
+          },
+          {
+            "symbol": "SAP",
+            "timeframe": "30",
+            "from": "2022-01-03T08:00:00+00:00",
+            "to": "2026-08-25T11:30:00+00:00",
+            "bars": 19983
+          },
+          {
+            "symbol": "XOM",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21613
+          },
+          {
+            "symbol": "CRM",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21611
+          },
+          {
+            "symbol": "ORCL",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 15117
+          },
+          {
+            "symbol": "TM",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 19230
+          },
+          {
+            "symbol": "ABBV",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21611
+          },
+          {
+            "symbol": "ASML",
+            "timeframe": "30",
+            "from": "2020-01-02T14:30:00+00:00",
+            "to": "2026-08-24T19:30:00+00:00",
+            "bars": 21224
+          }
+        ]
+      },
+      "plot": {
+        "cols": 1,
+        "match_pct": 1.0,
+        "worst_col": "Plot",
+        "pearson_min": null,
+        "bars_numeric": 28872,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 6,
+        "pc": 6,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": 561.71,
+        "pc_net_profit": 561.71,
         "net_profit_match": true
       }
     },
