@@ -63,10 +63,10 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 347,
+      "exact": 349,
       "libm": 5,
       "band": 16,
-      "compared": 368
+      "compared": 370
     },
     "band_scripts": [
       {
@@ -134,9 +134,9 @@
         "max_rel": 0.0
       }
     ],
-    "bars_compared": 47730443,
-    "bars_exact": 47571116,
-    "bars_exact_rate": 0.9966619417297258,
+    "bars_compared": 50371476,
+    "bars_exact": 50212137,
+    "bars_exact_rate": 0.9968367216398424,
     "max_rel": 1.014e-11,
     "ulp_limit": 64
   },
@@ -153,22 +153,22 @@
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 189,
+    "n_with_plots_compared": 191,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 189,
+      "n": 191,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 4.672202864864865e-18,
+      "mean": 4.565280909090909e-18,
       "min": 0.0,
       "max": 2.753e-16,
-      "n": 185,
+      "n": 187,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -177,13 +177,13 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 185,
+      "n": 187,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 189,
+    "fully_matching_scripts": 191,
     "match_pct_histogram": {
-      "1.0": 189,
+      "1.0": 191,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
@@ -327,7 +327,7 @@
       "id": "PUB;b9kCyBM3xxE7I3Jaq1CdYzhz8BIw6dbI",
       "name": "Bjorgum SuperScript",
       "plot_match_pct": 1.0,
-      "worst_col": "T3 Fast"
+      "worst_col": "Hollow Candles (open)"
     },
     {
       "id": "PUB;Flm5lSTnMsbi5IGhuBw8x5QgD9nB5Tvi",
