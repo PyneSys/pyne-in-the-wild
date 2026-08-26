@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25",
+  "generated_at": "2026-08-26",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
@@ -63,16 +63,12 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 358,
+      "exact": 359,
       "libm": 5,
-      "band": 17,
+      "band": 16,
       "compared": 380
     },
     "band_scripts": [
-      {
-        "name": "Rocket Grid Algorithm - The Quant Science",
-        "max_rel": 0.035753
-      },
       {
         "name": "Easy System 420",
         "max_rel": 1.014e-11
@@ -139,9 +135,9 @@
       }
     ],
     "bars_compared": 53103611,
-    "bars_exact": 52940392,
-    "bars_exact_rate": 0.9969264048729191,
-    "max_rel": 0.035753,
+    "bars_exact": 52944272,
+    "bars_exact_rate": 0.9969994695840929,
+    "max_rel": 1.014e-11,
     "ulp_limit": 64
   },
   "counts": {
@@ -152,7 +148,7 @@
     "compile_fail": 0,
     "tv_ok": 423,
     "pyne_ok": 430,
-    "trade_divergence": 2
+    "trade_divergence": 1
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
@@ -197,8 +193,8 @@
     "n": 215,
     "entry_match_pct": {
       "median": 1.0,
-      "mean": 0.9996732644230769,
-      "min": 0.932039,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
       "n": 208,
       "p25": 1.0,
@@ -206,8 +202,8 @@
     },
     "exit_match_pct": {
       "median": 1.0,
-      "mean": 0.9996139807692308,
-      "min": 0.919708,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
       "n": 208,
       "p25": 1.0,
@@ -215,8 +211,8 @@
     },
     "trade_match_pct": {
       "median": 1.0,
-      "mean": 0.9996149182692308,
-      "min": 0.919903,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
       "n": 208,
       "p25": 1.0,
@@ -224,24 +220,24 @@
     },
     "qty_match_pct": {
       "median": 1.0,
-      "mean": 0.9995039663461539,
-      "min": 0.896825,
+      "mean": 1.0,
+      "min": 1.0,
       "max": 1.0,
       "n": 208,
       "p25": 1.0,
       "p75": 1.0
     },
-    "net_profit_match_rate": 0.9951923076923077,
+    "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.299e-08,
-      "mean": 0.00015861928317112634,
+      "median": 1.2309999999999999e-08,
+      "mean": 5.0085629803578246e-05,
       "min": 0.0,
-      "max": 0.022575,
+      "max": 0.01041,
       "n": 208,
       "p25": 1.6105e-14,
-      "p75": 3.0295e-08
+      "p75": 2.9829999999999996e-08
     },
-    "trade_count_exact_match": 208,
+    "trade_count_exact_match": 209,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -249,12 +245,6 @@
   },
   "top_compile_errors": [],
   "worst_plot_scripts": [
-    {
-      "id": "PUB;96fdc1e2095b49b6a64cd433d1eb1eed",
-      "name": "Rocket Grid Algorithm - The Quant Science",
-      "plot_match_pct": 0.993894,
-      "worst_col": "Plot"
-    },
     {
       "id": "PUB;50b4566eddd04de3be2a3cb031dc4ebd",
       "name": " Machine Learning RSI ║ BullVision",
@@ -338,6 +328,12 @@
       "name": "Bjorgum SuperScript",
       "plot_match_pct": 1.0,
       "worst_col": "Hollow Candles (open)"
+    },
+    {
+      "id": "PUB;Flm5lSTnMsbi5IGhuBw8x5QgD9nB5Tvi",
+      "name": "Bollinger Awesome Alert R1 by JustUncleL",
+      "plot_match_pct": 1.0,
+      "worst_col": "Basis Line"
     }
   ]
 }
