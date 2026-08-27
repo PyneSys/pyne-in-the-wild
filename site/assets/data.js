@@ -13,12 +13,16 @@ window.WILD_DATA = {
   },
   "fidelity": {
     "scripts": {
-      "exact": 392,
+      "exact": 400,
       "libm": 6,
-      "band": 17,
-      "compared": 415
+      "band": 19,
+      "compared": 425
     },
     "band_scripts": [
+      {
+        "name": "Machine Learning Moving Average [LuxAlgo]",
+        "max_rel": 1.238e-10
+      },
       {
         "name": "Easy System 420",
         "max_rel": 1.014e-11
@@ -86,39 +90,43 @@ window.WILD_DATA = {
       {
         "name": "CVD - Cumulative Volume Delta (Chart)",
         "max_rel": 0.0
+      },
+      {
+        "name": "CVD - Cumulative Volume Delta Candles",
+        "max_rel": 0.0
       }
     ],
-    "bars_compared": 57168689,
-    "bars_exact": 57004536,
-    "bars_exact_rate": 0.9971286205286254,
-    "max_rel": 1.014e-11,
+    "bars_compared": 58459456,
+    "bars_exact": 58185531,
+    "bars_exact_rate": 0.9953142738789769,
+    "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
   "totals": {
-    "total": 472,
-    "indicators": 235,
-    "strategies": 237,
-    "compiled": 472,
+    "total": 482,
+    "indicators": 240,
+    "strategies": 242,
+    "compiled": 482,
     "compile_fail": 0,
-    "tv_ok": 465,
-    "pyne_ok": 472,
+    "tv_ok": 475,
+    "pyne_ok": 482,
     "trade_divergence": 2,
     "compile_rate": 1.0,
     "run_rate": 1.0,
     "run_success_rate": 1.0,
-    "measurable_scripts": 453,
-    "tv_comparable": 641,
-    "tv_fidelity_verified": 641,
+    "measurable_scripts": 463,
+    "tv_comparable": 656,
+    "tv_fidelity_verified": 656,
     "tv_fidelity_rate": 1.0,
-    "plot_outputs": 415,
-    "trade_outputs": 226,
+    "plot_outputs": 425,
+    "trade_outputs": 231,
     "average_match_rate": 1.0,
-    "average_match_count": 641,
-    "trades_compared": 187665,
+    "average_match_count": 656,
+    "trades_compared": 192767,
     "sub_tick_excluded_trades": 0,
     "sub_tick_excluded_scripts": 0,
-    "bars_run": 13157045,
-    "verified": 443,
+    "bars_run": 13446713,
+    "verified": 453,
     "divergent": 0,
     "repaint": 9,
     "data_limited": 1,
@@ -126,25 +134,25 @@ window.WILD_DATA = {
     "failed": 0
   },
   "indicators": {
-    "total": 235,
-    "compared": 215,
-    "plot_verified": 215,
-    "plot_exact": 215,
+    "total": 240,
+    "compared": 220,
+    "plot_verified": 220,
+    "plot_exact": 220,
     "plot_match_median": 1.0,
     "plot_match_mean": 1.0,
     "plot_match_min": 1.0,
     "pearson_min": 1.0
   },
   "strategies": {
-    "n": 237,
-    "compared": 226,
-    "trade_timing_verified": 227,
-    "verified": 228,
+    "n": 242,
+    "compared": 231,
+    "trade_timing_verified": 232,
+    "verified": 233,
     "entry_match_median": 1.0,
     "entry_match_mean": 1.0,
     "exit_match_median": 1.0,
     "exit_match_mean": 1.0,
-    "trade_count_exact_match": 228,
+    "trade_count_exact_match": 233,
     "net_profit_match_rate": 1.0
   },
   "scripts": [
@@ -10204,6 +10212,104 @@ window.WILD_DATA = {
       "fidelity": "exact"
     },
     {
+      "id": "PUB;52993fe1a13c476ea73a934ad38935dc",
+      "kind": "indicator",
+      "name": "Session Streaks [LuxAlgo]",
+      "author": "LuxAlgo",
+      "license": "CC",
+      "version": "1",
+      "pine_version": 6,
+      "likes": 6780,
+      "tv_url": "https://www.tradingview.com/script/qJ7Gcudl/",
+      "sha256": "e25b6e5fb21628c83f3d8e35661278bee663a1c5970a1412125746cc2c5a5520",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28967,
+      "run_sec": 0.958,
+      "ms_per_bar": 0.0331,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-27T11:00:00+00:00",
+        "bars": 28967,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "D",
+            "from": "2017-08-17T00:00:00+00:00",
+            "to": "2026-08-27T00:00:00+00:00",
+            "bars": 3298
+          }
+        ]
+      },
+      "plot": {
+        "cols": 2,
+        "match_pct": 1.0,
+        "worst_col": "Top",
+        "pearson_min": 1.0,
+        "bars_numeric": 57934,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;fb6471a4d9d84f8ebaf879ba690d6b23",
+      "kind": "indicator",
+      "name": "CVD - Cumulative Volume Delta Candles",
+      "author": "TradingView",
+      "license": "MPL-2.0",
+      "version": "8",
+      "pine_version": 6,
+      "likes": 6775,
+      "tv_url": "https://www.tradingview.com/script/NlM312nK/",
+      "sha256": "f46b5309dfe8ba5e01ab11056769b64c527eb47a326447c3a3f9d8ffcd7c0798",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28967,
+      "run_sec": 26.392,
+      "ms_per_bar": 0.9111,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-27T11:00:00+00:00",
+        "bars": 28967,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "1",
+            "from": "2026-06-19T01:17:00+00:00",
+            "to": "2026-08-27T11:29:00+00:00",
+            "bars": 99973
+          }
+        ]
+      },
+      "plot": {
+        "cols": 26,
+        "match_pct": 1.0,
+        "worst_col": "CVD 0 (open)",
+        "pearson_min": 1.0,
+        "bars_numeric": 521406,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 0.956374,
+        "max_abs": 1.819e-12,
+        "max_rel": 0.0
+      },
+      "fidelity": "band",
+      "transcendentals": [
+        "asin",
+        "exp",
+        "log",
+        "pow"
+      ]
+    },
+    {
       "id": "PUB;1b869454c49044d0963fe829902e3f71",
       "kind": "strategy",
       "name": "Super Scalper - 5 Min 15 Min",
@@ -10372,6 +10478,47 @@ window.WILD_DATA = {
       }
     },
     {
+      "id": "PUB;1efa3ded4c184ab5a1aacd81478eb647",
+      "kind": "indicator",
+      "name": "Machine Learning Moving Average [LuxAlgo]",
+      "author": "LuxAlgo",
+      "license": "CC",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 6765,
+      "tv_url": "https://www.tradingview.com/script/JkwUPCwp/",
+      "sha256": "b8a85b8012422f18a9f10bba7042a48728ec28fab86afc250f653cba2d627340",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28967,
+      "run_sec": 1.374,
+      "ms_per_bar": 0.0474,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-27T11:00:00+00:00",
+        "bars": 28967
+      },
+      "plot": {
+        "cols": 4,
+        "match_pct": 1.0,
+        "worst_col": "End Point GPR",
+        "pearson_min": 1.0,
+        "bars_numeric": 87025,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 0.0,
+        "max_abs": 1e-05,
+        "max_rel": 1.238e-10
+      },
+      "fidelity": "band",
+      "transcendentals": [
+        "exp",
+        "pow"
+      ]
+    },
+    {
       "id": "PUB;7a639b049f0d493fbe5a5ca996e8fff5",
       "kind": "indicator",
       "name": "Comprehensive Trading Toolkit [BigBeluga]",
@@ -10400,6 +10547,80 @@ window.WILD_DATA = {
         "worst_col": "Plot",
         "pearson_min": 1.0,
         "bars_numeric": 86689,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;7e9cf40f672c4ab88ac70c580a327870",
+      "kind": "indicator",
+      "name": "TTM Squeeze Pro",
+      "author": "Beardy_Fred",
+      "license": "MPL-2.0",
+      "version": "4",
+      "pine_version": 5,
+      "likes": 6757,
+      "tv_url": "https://www.tradingview.com/script/0drMdHsO/",
+      "sha256": "fb3f7b4eea8091ecbba5980ef88cbd1409b79586f96888060919675d95b1ae6f",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28967,
+      "run_sec": 1.044,
+      "ms_per_bar": 0.0361,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-27T11:00:00+00:00",
+        "bars": 28967
+      },
+      "plot": {
+        "cols": 2,
+        "match_pct": 1.0,
+        "worst_col": "MOM",
+        "pearson_min": 1.0,
+        "bars_numeric": 57896,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;wQp1Q1Nvojs1mGEVwXfcPtgc0pdCwVRz",
+      "kind": "indicator",
+      "name": "Average Sentiment Oscillator",
+      "author": "KivancOzbilgic",
+      "license": "MPL-2.0",
+      "version": "2",
+      "pine_version": 4,
+      "likes": 6744,
+      "tv_url": "https://www.tradingview.com/script/hz1PKu3G/",
+      "sha256": "b909024ab9d0d8eaafb711b85a51df3367264681e9f067a5bd9fc471ea5b8d36",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28967,
+      "run_sec": 0.871,
+      "ms_per_bar": 0.0301,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-27T11:00:00+00:00",
+        "bars": 28967
+      },
+      "plot": {
+        "cols": 2,
+        "match_pct": 1.0,
+        "worst_col": "Plot",
+        "pearson_min": 1.0,
+        "bars_numeric": 57898,
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
@@ -19065,6 +19286,54 @@ window.WILD_DATA = {
       }
     },
     {
+      "id": "PUB;4elRAKaBGNhtfxivtUlIkMAOAchBRixW",
+      "kind": "strategy",
+      "name": "SuperTrend Backtester",
+      "author": "DevLucem",
+      "license": "none",
+      "version": "1",
+      "pine_version": 4,
+      "likes": 1423,
+      "tv_url": "https://www.tradingview.com/script/GMZLB374/",
+      "sha256": "97602ee0896333ffde2c3ce3313cdb0f1b511a781c2c417168b627a39633ad80",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28966,
+      "run_sec": 1.015,
+      "ms_per_bar": 0.035,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-27T10:30:00+00:00",
+        "bars": 28966
+      },
+      "plot": {
+        "cols": 1,
+        "match_pct": 1.0,
+        "worst_col": "SuperTrend",
+        "pearson_min": 1.0,
+        "bars_numeric": 28960,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 724,
+        "pc": 724,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -26.0,
+        "pc_net_profit": -26.0,
+        "net_profit_match": true
+      }
+    },
+    {
       "id": "PUB;87bbbf8970004e8eaa3e40ca35aa5042",
       "kind": "strategy",
       "name": "Divergence IQ [TradingIQ]",
@@ -19118,6 +19387,201 @@ window.WILD_DATA = {
         "extra_entries": 0,
         "tv_net_profit": -6.827791,
         "pc_net_profit": -6.827791,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;ITXYDY9HRMfqJAd10swnL3X1KBDhwww3",
+      "kind": "strategy",
+      "name": "Donchian Channel Strategy [for free bot]",
+      "author": "AlgoTrading_CC",
+      "license": "MPL-2.0",
+      "version": "3",
+      "pine_version": 4,
+      "likes": 1397,
+      "tv_url": "https://www.tradingview.com/script/KZuFvEYa/",
+      "sha256": "d2e0497c9b473ae54e793868458250ffa63f44c8cbaf63542d8f26506a7b3a04",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28966,
+      "run_sec": 2.06,
+      "ms_per_bar": 0.0711,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-27T10:30:00+00:00",
+        "bars": 28966
+      },
+      "plot": {
+        "cols": 4,
+        "match_pct": 1.0,
+        "worst_col": "Buy Enter",
+        "pearson_min": 1.0,
+        "bars_numeric": 115808,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 2369,
+        "pc": 2369,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -133.34415,
+        "pc_net_profit": -133.344153,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;0fedd8f96d8e439b89db1ce5268b801a",
+      "kind": "strategy",
+      "name": "Super 8 - 30M BTC",
+      "author": "AssassinsGrid",
+      "license": "MPL-2.0",
+      "version": "5",
+      "pine_version": 5,
+      "likes": 1397,
+      "tv_url": "https://www.tradingview.com/script/zFPZofwt/",
+      "sha256": "ca866cd8de768b069093eb85cf115ce662447bf4d68bcb28629a9bef4b866b92",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28967,
+      "run_sec": 5.049,
+      "ms_per_bar": 0.1743,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-27T11:00:00+00:00",
+        "bars": 28967
+      },
+      "plot": {
+        "cols": 8,
+        "match_pct": 1.0,
+        "worst_col": "Slow EMA",
+        "pearson_min": 1.0,
+        "bars_numeric": 188781,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "transcendentals": [
+        "pow"
+      ],
+      "trades": {
+        "tv": 371,
+        "pc": 371,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": 4411.1997,
+        "pc_net_profit": 4411.199919,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;beef61429088413cb48304f8b409f4b0",
+      "kind": "strategy",
+      "name": "Strategy: HMA 50 + Supertrend Sniper",
+      "author": "Gustav_Rex",
+      "license": "none",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 1396,
+      "tv_url": "https://www.tradingview.com/script/3SHJZytF/",
+      "sha256": "5a336941110db32dc6f7a85317bab19d54fd39b278102d65c300e7adbfb34e83",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28967,
+      "run_sec": 1.512,
+      "ms_per_bar": 0.0522,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-27T11:00:00+00:00",
+        "bars": 28967
+      },
+      "plot": {
+        "cols": 4,
+        "match_pct": 1.0,
+        "worst_col": "HMA 50 Main",
+        "pearson_min": 1.0,
+        "bars_numeric": 115805,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 1122,
+        "pc": 1122,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": 2098.9846,
+        "pc_net_profit": 2098.984633,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;ff5b63397db14941a0a357a0db214390",
+      "kind": "strategy",
+      "name": "Triple EMA + QQE Trend Following Strategy [TradeDots]",
+      "author": "tradedots",
+      "license": "MPL-2.0",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 1396,
+      "tv_url": "https://www.tradingview.com/script/M4y5HT3h/",
+      "sha256": "39863f896f75e1c109aba0f86a01561047e6a3c9511dee42b89791b67b2aae84",
+      "status": "ok",
+      "level": "verified",
+      "bars": 28967,
+      "run_sec": 1.196,
+      "ms_per_bar": 0.0413,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-08-27T11:00:00+00:00",
+        "bars": 28967
+      },
+      "plot": {
+        "cols": 3,
+        "match_pct": 1.0,
+        "worst_col": " TEMA #1",
+        "pearson_min": 1.0,
+        "bars_numeric": 59254,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 516,
+        "pc": 516,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -1676.1846,
+        "pc_net_profit": -1676.184531,
         "net_profit_match": true
       }
     },

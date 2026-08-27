@@ -6,7 +6,7 @@
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 456
+      "scripts": 466
     },
     {
       "symbol": "BINANCE:BTCUSDT",
@@ -63,12 +63,16 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 392,
+      "exact": 400,
       "libm": 6,
-      "band": 17,
-      "compared": 415
+      "band": 19,
+      "compared": 425
     },
     "band_scripts": [
+      {
+        "name": "Machine Learning Moving Average [LuxAlgo]",
+        "max_rel": 1.238e-10
+      },
       {
         "name": "Easy System 420",
         "max_rel": 1.014e-11
@@ -136,43 +140,47 @@
       {
         "name": "CVD - Cumulative Volume Delta (Chart)",
         "max_rel": 0.0
+      },
+      {
+        "name": "CVD - Cumulative Volume Delta Candles",
+        "max_rel": 0.0
       }
     ],
-    "bars_compared": 57168689,
-    "bars_exact": 57004536,
-    "bars_exact_rate": 0.9971286205286254,
-    "max_rel": 1.014e-11,
+    "bars_compared": 58459456,
+    "bars_exact": 58185531,
+    "bars_exact_rate": 0.9953142738789769,
+    "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 472,
-    "indicators": 235,
-    "strategies": 237,
-    "compiled": 472,
+    "total": 482,
+    "indicators": 240,
+    "strategies": 242,
+    "compiled": 482,
     "compile_fail": 0,
-    "tv_ok": 465,
-    "pyne_ok": 472,
+    "tv_ok": 475,
+    "pyne_ok": 482,
     "trade_divergence": 2
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 215,
+    "n_with_plots_compared": 220,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 215,
+      "n": 220,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 4.065273952380952e-18,
+      "mean": 8.64225887047907e-14,
       "min": 0.0,
-      "max": 2.753e-16,
-      "n": 210,
+      "max": 1.858e-11,
+      "n": 215,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -181,26 +189,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 210,
+      "n": 215,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 215,
+    "fully_matching_scripts": 220,
     "match_pct_histogram": {
-      "1.0": 215,
+      "1.0": 220,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 237,
+    "n": 242,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 226,
+      "n": 231,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -209,7 +217,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 226,
+      "n": 231,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -218,7 +226,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 226,
+      "n": 231,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -227,21 +235,21 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 226,
+      "n": 231,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.136e-08,
-      "mean": 4.609742421855362e-05,
+      "median": 1.156e-08,
+      "mean": 4.510021810992692e-05,
       "min": 0.0,
       "max": 0.01041,
-      "n": 226,
-      "p25": 1.5755e-14,
-      "p75": 2.965e-08
+      "n": 231,
+      "p25": 1.593e-14,
+      "p75": 2.969e-08
     },
-    "trade_count_exact_match": 228,
+    "trade_count_exact_match": 233,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -322,6 +330,12 @@
       "worst_col": "Start"
     },
     {
+      "id": "PUB;wQp1Q1Nvojs1mGEVwXfcPtgc0pdCwVRz",
+      "name": "Average Sentiment Oscillator",
+      "plot_match_pct": 1.0,
+      "worst_col": "Plot"
+    },
+    {
       "id": "PUB;nngZVuIMCzoyqWycjy4sMxA6sDueecSM",
       "name": "BEST Supertrend CCI",
       "plot_match_pct": 1.0,
@@ -332,12 +346,6 @@
       "name": "Bjorgum MTF MA",
       "plot_match_pct": 1.0,
       "worst_col": "Moving Average #1"
-    },
-    {
-      "id": "PUB;b9kCyBM3xxE7I3Jaq1CdYzhz8BIw6dbI",
-      "name": "Bjorgum SuperScript",
-      "plot_match_pct": 1.0,
-      "worst_col": "Hollow Candles (open)"
     }
   ]
 }
