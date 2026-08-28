@@ -6,7 +6,7 @@
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 511
+      "scripts": 521
     },
     {
       "symbol": "BINANCE:BTCUSDT",
@@ -73,10 +73,10 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 457,
+      "exact": 465,
       "libm": 3,
-      "band": 15,
-      "compared": 475
+      "band": 16,
+      "compared": 484
     },
     "band_scripts": [
       {
@@ -136,45 +136,49 @@
         "max_rel": 3.006e-16
       },
       {
+        "name": "Buying Selling Volume",
+        "max_rel": 1.834e-16
+      },
+      {
         "name": "Volume Suite - By Leviathan (CVD, Volume Delta, Relative Volume)",
         "max_rel": 1.55e-16
       }
     ],
-    "bars_compared": 66359973,
-    "bars_exact": 66136315,
-    "bars_exact_rate": 0.9966296249095822,
+    "bars_compared": 67701224,
+    "bars_exact": 67477563,
+    "bars_exact_rate": 0.9966963521959367,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 534,
-    "indicators": 267,
-    "strategies": 267,
-    "compiled": 534,
+    "total": 544,
+    "indicators": 272,
+    "strategies": 272,
+    "compiled": 544,
     "compile_fail": 0,
-    "tv_ok": 527,
-    "pyne_ok": 534,
+    "tv_ok": 537,
+    "pyne_ok": 544,
     "trade_divergence": 2
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 246,
+    "n_with_plots_compared": 251,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 246,
+      "n": 251,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 7.709848827605808e-14,
+      "mean": 7.553144585440243e-14,
       "min": 0.0,
       "max": 1.858e-11,
-      "n": 241,
+      "n": 246,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -183,26 +187,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 241,
+      "n": 246,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 246,
+    "fully_matching_scripts": 251,
     "match_pct_histogram": {
-      "1.0": 246,
+      "1.0": 251,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 267,
+    "n": 272,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 255,
+      "n": 259,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -211,7 +215,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 255,
+      "n": 259,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -220,7 +224,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 255,
+      "n": 259,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -229,21 +233,21 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 255,
+      "n": 259,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
       "median": 1.297e-08,
-      "mean": 4.536707145663408e-05,
+      "mean": 4.466668910983348e-05,
       "min": 0.0,
       "max": 0.01041,
-      "n": 255,
+      "n": 259,
       "p25": 1.593e-14,
       "p75": 2.969e-08
     },
-    "trade_count_exact_match": 257,
+    "trade_count_exact_match": 261,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
