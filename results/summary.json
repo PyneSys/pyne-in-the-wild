@@ -6,7 +6,7 @@
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 474
+      "scripts": 486
     },
     {
       "symbol": "BINANCE:BTCUSDT",
@@ -68,10 +68,10 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 410,
-      "libm": 6,
-      "band": 19,
-      "compared": 435
+      "exact": 428,
+      "libm": 3,
+      "band": 15,
+      "compared": 446
     },
     "band_scripts": [
       {
@@ -123,10 +123,6 @@
         "max_rel": 5.93e-16
       },
       {
-        "name": "Volume Delta Candles [LuxAlgo]",
-        "max_rel": 5.439e-16
-      },
-      {
         "name": "Volume SuperTrend AI (Expo)",
         "max_rel": 4.502e-16
       },
@@ -137,55 +133,43 @@
       {
         "name": "Volume Suite - By Leviathan (CVD, Volume Delta, Relative Volume)",
         "max_rel": 1.55e-16
-      },
-      {
-        "name": "SuperTrend AI (Clustering) [LuxAlgo]",
-        "max_rel": 1.144e-16
-      },
-      {
-        "name": "CVD - Cumulative Volume Delta (Chart)",
-        "max_rel": 0.0
-      },
-      {
-        "name": "CVD - Cumulative Volume Delta Candles",
-        "max_rel": 0.0
       }
     ],
-    "bars_compared": 60365206,
-    "bars_exact": 60091281,
-    "bars_exact_rate": 0.9954622038397417,
+    "bars_compared": 61756499,
+    "bars_exact": 61532841,
+    "bars_exact_rate": 0.9963783892606995,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 492,
-    "indicators": 245,
-    "strategies": 247,
-    "compiled": 492,
+    "total": 504,
+    "indicators": 252,
+    "strategies": 252,
+    "compiled": 504,
     "compile_fail": 0,
-    "tv_ok": 485,
-    "pyne_ok": 492,
+    "tv_ok": 497,
+    "pyne_ok": 504,
     "trade_divergence": 2
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 225,
+    "n_with_plots_compared": 231,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 225,
+      "n": 231,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 8.44584389615e-14,
+      "mean": 8.221564457756636e-14,
       "min": 0.0,
       "max": 1.858e-11,
-      "n": 220,
+      "n": 226,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -194,26 +178,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 220,
+      "n": 226,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 225,
+    "fully_matching_scripts": 231,
     "match_pct_histogram": {
-      "1.0": 225,
+      "1.0": 231,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 247,
+    "n": 252,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 236,
+      "n": 241,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -222,7 +206,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 236,
+      "n": 241,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -231,7 +215,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 236,
+      "n": 241,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -240,21 +224,21 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 236,
+      "n": 241,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.1605e-08,
-      "mean": 4.901780115004898e-05,
+      "median": 1.165e-08,
+      "mean": 4.8001355250679144e-05,
       "min": 0.0,
       "max": 0.01041,
-      "n": 236,
-      "p25": 1.64225e-14,
-      "p75": 2.967e-08
+      "n": 241,
+      "p25": 1.647e-14,
+      "p75": 3.013e-08
     },
-    "trade_count_exact_match": 238,
+    "trade_count_exact_match": 243,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
