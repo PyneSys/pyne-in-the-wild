@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-27",
+  "generated_at": "2026-08-28",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 486
+      "scripts": 495
     },
     {
       "symbol": "BINANCE:BTCUSDT",
@@ -22,6 +22,11 @@
       "symbol": "BINANCE:DOGEUSDT",
       "timeframe": "30",
       "scripts": 2
+    },
+    {
+      "symbol": "AMEX:SPY",
+      "timeframe": "1",
+      "scripts": 1
     },
     {
       "symbol": "AMEX:SPY",
@@ -68,10 +73,10 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 428,
+      "exact": 437,
       "libm": 3,
       "band": 15,
-      "compared": 446
+      "compared": 455
     },
     "band_scripts": [
       {
@@ -135,41 +140,41 @@
         "max_rel": 1.55e-16
       }
     ],
-    "bars_compared": 61756499,
-    "bars_exact": 61532841,
-    "bars_exact_rate": 0.9963783892606995,
+    "bars_compared": 63089504,
+    "bars_exact": 62865846,
+    "bars_exact_rate": 0.9964549095202904,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 504,
-    "indicators": 252,
-    "strategies": 252,
-    "compiled": 504,
+    "total": 514,
+    "indicators": 257,
+    "strategies": 257,
+    "compiled": 514,
     "compile_fail": 0,
-    "tv_ok": 497,
-    "pyne_ok": 504,
+    "tv_ok": 507,
+    "pyne_ok": 514,
     "trade_divergence": 2
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 231,
+    "n_with_plots_compared": 236,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 231,
+      "n": 236,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 8.221564457756636e-14,
+      "mean": 8.043608517112553e-14,
       "min": 0.0,
       "max": 1.858e-11,
-      "n": 226,
+      "n": 231,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -178,26 +183,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 226,
+      "n": 231,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 231,
+    "fully_matching_scripts": 236,
     "match_pct_histogram": {
-      "1.0": 231,
+      "1.0": 236,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 252,
+    "n": 257,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 241,
+      "n": 245,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -206,7 +211,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 241,
+      "n": 245,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -215,7 +220,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 241,
+      "n": 245,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -224,21 +229,21 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 241,
+      "n": 245,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.165e-08,
-      "mean": 4.8001355250679144e-05,
+      "median": 1.297e-08,
+      "mean": 4.721804394048109e-05,
       "min": 0.0,
       "max": 0.01041,
-      "n": 241,
+      "n": 245,
       "p25": 1.647e-14,
       "p75": 3.013e-08
     },
-    "trade_count_exact_match": 243,
+    "trade_count_exact_match": 247,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -289,6 +294,12 @@
       "worst_col": "ATR Short Stop Loss"
     },
     {
+      "id": "PUB;lyseCHx5S9AnX6Jev3IitTY7xxQ5gjWo",
+      "name": "Accurate Swing Trading System",
+      "plot_match_pct": 1.0,
+      "worst_col": "BUY"
+    },
+    {
       "id": "PUB;87158567b731451c8a1347f953921ab7",
       "name": "Adaptive Trend Flow [QuantAlgo]",
       "plot_match_pct": 1.0,
@@ -329,12 +340,6 @@
       "name": "BEST Supertrend CCI",
       "plot_match_pct": 1.0,
       "worst_col": "SuperTrend"
-    },
-    {
-      "id": "PUB;76a69313816948eda8c48fd33b9e5ea6",
-      "name": "Bjorgum MTF MA",
-      "plot_match_pct": 1.0,
-      "worst_col": "Moving Average #1"
     }
   ]
 }
