@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-28",
+  "generated_at": "2026-08-29",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 521
+      "scripts": 530
     },
     {
       "symbol": "BINANCE:BTCUSDT",
@@ -17,6 +17,11 @@
       "symbol": "CAPITALCOM:EURUSD",
       "timeframe": "30",
       "scripts": 3
+    },
+    {
+      "symbol": "AMEX:SPY",
+      "timeframe": "5",
+      "scripts": 2
     },
     {
       "symbol": "BINANCE:BTCUSDT",
@@ -36,11 +41,6 @@
     {
       "symbol": "AMEX:SPY",
       "timeframe": "1",
-      "scripts": 1
-    },
-    {
-      "symbol": "AMEX:SPY",
-      "timeframe": "5",
       "scripts": 1
     },
     {
@@ -73,10 +73,10 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 465,
+      "exact": 471,
       "libm": 3,
       "band": 16,
-      "compared": 484
+      "compared": 490
     },
     "band_scripts": [
       {
@@ -144,41 +144,41 @@
         "max_rel": 1.55e-16
       }
     ],
-    "bars_compared": 67701224,
-    "bars_exact": 67477563,
-    "bars_exact_rate": 0.9966963521959367,
+    "bars_compared": 68337728,
+    "bars_exact": 68114067,
+    "bars_exact_rate": 0.9967271226810467,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 544,
-    "indicators": 272,
-    "strategies": 272,
-    "compiled": 544,
+    "total": 554,
+    "indicators": 277,
+    "strategies": 277,
+    "compiled": 554,
     "compile_fail": 0,
-    "tv_ok": 537,
-    "pyne_ok": 544,
+    "tv_ok": 546,
+    "pyne_ok": 554,
     "trade_divergence": 2
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 251,
+    "n_with_plots_compared": 255,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 251,
+      "n": 255,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 7.553144585440243e-14,
+      "mean": 7.432294272073199e-14,
       "min": 0.0,
       "max": 1.858e-11,
-      "n": 246,
+      "n": 250,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -187,26 +187,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 246,
+      "n": 250,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 251,
+    "fully_matching_scripts": 255,
     "match_pct_histogram": {
-      "1.0": 251,
+      "1.0": 255,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 272,
+    "n": 277,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 259,
+      "n": 264,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -215,7 +215,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 259,
+      "n": 264,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -224,7 +224,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 259,
+      "n": 264,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -233,21 +233,21 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 259,
+      "n": 264,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.297e-08,
-      "mean": 4.466668910983348e-05,
+      "median": 1.1605e-08,
+      "mean": 4.382084171410292e-05,
       "min": 0.0,
       "max": 0.01041,
-      "n": 259,
-      "p25": 1.593e-14,
-      "p75": 2.969e-08
+      "n": 264,
+      "p25": 1.6105e-14,
+      "p75": 2.965e-08
     },
-    "trade_count_exact_match": 261,
+    "trade_count_exact_match": 266,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -266,6 +266,12 @@
       "name": " Machine Learning RSI ║ BullVision",
       "plot_match_pct": 1.0,
       "worst_col": "RSI KNN"
+    },
+    {
+      "id": "PUB;LTCnHeengZUEXPHPBLOeJhYHm8ayoO34",
+      "name": " Normalized Quantitative Qualitative Estimation nQQE",
+      "plot_match_pct": 1.0,
+      "worst_col": "FAST"
     },
     {
       "id": "PUB;42af0c00136b444b918a15e6cb30e896",
@@ -338,12 +344,6 @@
       "name": "Average Sentiment Oscillator",
       "plot_match_pct": 1.0,
       "worst_col": "Plot"
-    },
-    {
-      "id": "PUB;nngZVuIMCzoyqWycjy4sMxA6sDueecSM",
-      "name": "BEST Supertrend CCI",
-      "plot_match_pct": 1.0,
-      "worst_col": "SuperTrend"
     }
   ]
 }
