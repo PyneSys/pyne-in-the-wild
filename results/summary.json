@@ -6,7 +6,7 @@
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 530
+      "scripts": 539
     },
     {
       "symbol": "BINANCE:BTCUSDT",
@@ -62,6 +62,11 @@
       "symbol": "NASDAQ:AAPL",
       "timeframe": "5",
       "scripts": 1
+    },
+    {
+      "symbol": "NSE:NIFTY",
+      "timeframe": "15",
+      "scripts": 1
     }
   ],
   "tolerances": {
@@ -73,10 +78,10 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 471,
+      "exact": 481,
       "libm": 3,
       "band": 16,
-      "compared": 490
+      "compared": 500
     },
     "band_scripts": [
       {
@@ -144,41 +149,41 @@
         "max_rel": 1.55e-16
       }
     ],
-    "bars_compared": 68337728,
-    "bars_exact": 68114067,
-    "bars_exact_rate": 0.9967271226810467,
+    "bars_compared": 69240041,
+    "bars_exact": 69016380,
+    "bars_exact_rate": 0.9967697737209601,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 554,
-    "indicators": 277,
-    "strategies": 277,
-    "compiled": 554,
+    "total": 564,
+    "indicators": 282,
+    "strategies": 282,
+    "compiled": 564,
     "compile_fail": 0,
-    "tv_ok": 546,
-    "pyne_ok": 554,
+    "tv_ok": 556,
+    "pyne_ok": 564,
     "trade_divergence": 2
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 255,
+    "n_with_plots_compared": 260,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 255,
+      "n": 260,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 7.432294272073199e-14,
+      "mean": 7.28656301183647e-14,
       "min": 0.0,
       "max": 1.858e-11,
-      "n": 250,
+      "n": 255,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -187,26 +192,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 250,
+      "n": 255,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 255,
+    "fully_matching_scripts": 260,
     "match_pct_histogram": {
-      "1.0": 255,
+      "1.0": 260,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 277,
+    "n": 282,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 264,
+      "n": 269,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -215,7 +220,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 264,
+      "n": 269,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -224,7 +229,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 264,
+      "n": 269,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -233,21 +238,21 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 264,
+      "n": 269,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.1605e-08,
-      "mean": 4.382084171410292e-05,
+      "median": 1.156e-08,
+      "mean": 4.300678815813658e-05,
       "min": 0.0,
       "max": 0.01041,
-      "n": 264,
-      "p25": 1.6105e-14,
+      "n": 269,
+      "p25": 1.628e-14,
       "p75": 2.965e-08
     },
-    "trade_count_exact_match": 266,
+    "trade_count_exact_match": 271,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
@@ -298,6 +303,12 @@
       "worst_col": "Knn Classifier Line"
     },
     {
+      "id": "PUB;ad60b125e6b04e1f8b090a08bae151fd",
+      "name": "ATR Bands",
+      "plot_match_pct": 1.0,
+      "worst_col": "Upper ATR Band"
+    },
+    {
       "id": "PUB;d48234236f7345c09e3d9017f8c31070",
       "name": "ATR Stop Loss Finder",
       "plot_match_pct": 1.0,
@@ -338,12 +349,6 @@
       "name": "Auto Fib Retracement Alerts",
       "plot_match_pct": 1.0,
       "worst_col": "Start"
-    },
-    {
-      "id": "PUB;wQp1Q1Nvojs1mGEVwXfcPtgc0pdCwVRz",
-      "name": "Average Sentiment Oscillator",
-      "plot_match_pct": 1.0,
-      "worst_col": "Plot"
     }
   ]
 }
