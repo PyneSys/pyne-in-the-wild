@@ -1,5 +1,5 @@
 window.WILD_DATA = {
-  "generated_at": "2026-08-29",
+  "generated_at": "2026-08-31",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe_min": 30,
   "own_market_scripts": 25,
@@ -170,7 +170,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Up Trend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57363,
         "num_match_pct": 1.0,
@@ -207,7 +207,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Resistance",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 167958,
         "num_match_pct": 1.0,
@@ -244,7 +244,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Upper",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57072,
         "num_match_pct": 1.0,
@@ -281,7 +281,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "DI+",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 84035,
         "num_match_pct": 1.0,
@@ -318,7 +318,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Resistance Holds",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 111823,
         "num_match_pct": 1.0,
@@ -355,7 +355,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 27,
         "match_pct": 1.0,
-        "worst_col": "Session A Active",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 420435,
         "num_match_pct": 1.0,
@@ -392,7 +392,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 14,
         "match_pct": 1.0,
-        "worst_col": "Bullish OB",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 226344,
         "num_match_pct": 1.0,
@@ -429,7 +429,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Bull OB",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 2252,
         "num_match_pct": 1.0,
@@ -466,7 +466,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "21 SMMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 251893,
         "num_match_pct": 1.0,
@@ -527,7 +527,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56834,
         "num_match_pct": 1.0,
@@ -570,7 +570,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Shapes",
+        "worst_col": "",
         "pearson_min": null,
         "bars_numeric": 56248,
         "num_match_pct": 1.0,
@@ -607,7 +607,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Trailing Stop",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 20000,
         "num_match_pct": 1.0,
@@ -644,7 +644,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Shapes",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 84851,
         "num_match_pct": 1.0,
@@ -681,7 +681,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56867,
         "num_match_pct": 1.0,
@@ -718,7 +718,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 18,
         "match_pct": 1.0,
-        "worst_col": "MMA05",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 505737,
         "num_match_pct": 1.0,
@@ -755,7 +755,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Pivot Top",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 225138,
         "num_match_pct": 1.0,
@@ -792,7 +792,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Up Trend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56691,
         "num_match_pct": 1.0,
@@ -864,7 +864,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 34,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 383026,
         "num_match_pct": 1.0,
@@ -929,7 +929,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "MHULL",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56164,
         "num_match_pct": 1.0,
@@ -966,7 +966,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "Support Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 85270,
         "num_match_pct": 1.0,
@@ -1003,7 +1003,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 13,
         "match_pct": 1.0,
-        "worst_col": "High PAC EMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 197002,
         "num_match_pct": 1.0,
@@ -1040,7 +1040,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 59,
         "match_pct": 1.0,
-        "worst_col": "Volume 1",
+        "worst_col": "",
         "pearson_min": null,
         "bars_numeric": 1463436,
         "num_match_pct": 1.0,
@@ -1080,7 +1080,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 12,
         "match_pct": 1.0,
-        "worst_col": "Upper",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 117508,
         "num_match_pct": 1.0,
@@ -1117,7 +1117,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Moving Avg Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 84803,
         "num_match_pct": 1.0,
@@ -1178,7 +1178,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Histogram",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86599,
         "num_match_pct": 1.0,
@@ -1259,7 +1259,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "CHoCH Sell",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 112471,
         "num_match_pct": 1.0,
@@ -1305,7 +1305,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 15,
         "match_pct": 1.0,
-        "worst_col": "Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 195696,
         "num_match_pct": 1.0,
@@ -1484,7 +1484,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Moving Avg Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 84329,
         "num_match_pct": 1.0,
@@ -1532,7 +1532,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 12,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 223523,
         "num_match_pct": 1.0,
@@ -1606,7 +1606,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "STR",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 89686,
         "num_match_pct": 1.0,
@@ -1643,7 +1643,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "Baseline",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 169272,
         "num_match_pct": 1.0,
@@ -1686,7 +1686,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28138,
         "num_match_pct": 1.0,
@@ -1739,7 +1739,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "HR SMA Long",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 197204,
         "num_match_pct": 1.0,
@@ -1777,7 +1777,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 31,
         "match_pct": 1.0,
-        "worst_col": "Exhaustion Bar",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 55226,
         "num_match_pct": 1.0,
@@ -1837,7 +1837,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Zero Lag Basis",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57818,
         "num_match_pct": 1.0,
@@ -1898,7 +1898,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Filter",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 140979,
         "num_match_pct": 1.0,
@@ -1935,7 +1935,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 20,
         "match_pct": 1.0,
-        "worst_col": "Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 110444,
         "num_match_pct": 1.0,
@@ -1988,7 +1988,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 26016,
         "num_match_pct": 1.0,
@@ -2026,7 +2026,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "LowBand",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 84643,
         "num_match_pct": 1.0,
@@ -2087,7 +2087,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "SuperTrend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 27563,
         "num_match_pct": 1.0,
@@ -2127,7 +2127,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Stop Price",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 80657,
         "num_match_pct": 1.0,
@@ -2175,7 +2175,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Range Top",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 55368,
         "num_match_pct": 1.0,
@@ -2212,7 +2212,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "3-4 AM",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 84800,
         "num_match_pct": 1.0,
@@ -2249,7 +2249,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "MHULL",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 55910,
         "num_match_pct": 1.0,
@@ -2297,7 +2297,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 15,
         "match_pct": 1.0,
-        "worst_col": "Color Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 311087,
         "num_match_pct": 1.0,
@@ -2334,7 +2334,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "TP 1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 63,
         "num_match_pct": 1.0,
@@ -2371,7 +2371,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 111992,
         "num_match_pct": 1.0,
@@ -2419,7 +2419,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "Short Leading EMA1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 169382,
         "num_match_pct": 1.0,
@@ -2521,7 +2521,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 23,
         "match_pct": 1.0,
-        "worst_col": "Basis",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 197648,
         "num_match_pct": 1.0,
@@ -2558,7 +2558,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 55027,
         "num_match_pct": 1.0,
@@ -2595,7 +2595,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Range Filter",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 140351,
         "num_match_pct": 1.0,
@@ -2632,7 +2632,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "MAVW",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28171,
         "num_match_pct": 1.0,
@@ -2669,7 +2669,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Circles",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 221,
         "num_match_pct": 1.0,
@@ -2706,7 +2706,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Bullish Rejection",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28107,
         "num_match_pct": 1.0,
@@ -2767,7 +2767,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Trailing Stop",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 84720,
         "num_match_pct": 1.0,
@@ -2804,7 +2804,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Band_3",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 141216,
         "num_match_pct": 1.0,
@@ -2841,7 +2841,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Shapes",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 59347,
         "num_match_pct": 1.0,
@@ -2902,7 +2902,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "EMA Fast",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 82839,
         "num_match_pct": 1.0,
@@ -2940,7 +2940,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Secondary QQE Trend Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 73734,
         "num_match_pct": 1.0,
@@ -2977,7 +2977,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "FAST",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86471,
         "num_match_pct": 1.0,
@@ -3014,7 +3014,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Long Stop",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57021,
         "num_match_pct": 1.0,
@@ -3051,7 +3051,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Trailing Stop",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28263,
         "num_match_pct": 1.0,
@@ -3088,7 +3088,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Basis Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 226047,
         "num_match_pct": 1.0,
@@ -3125,7 +3125,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "HalfTrend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 85471,
         "num_match_pct": 1.0,
@@ -3162,7 +3162,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "%K",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56670,
         "num_match_pct": 1.0,
@@ -3199,7 +3199,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "LinReg Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 141615,
         "num_match_pct": 1.0,
@@ -3294,7 +3294,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "ZIGZAG",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 1980,
         "num_match_pct": 1.0,
@@ -3331,7 +3331,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57808,
         "num_match_pct": 1.0,
@@ -3368,7 +3368,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Regular Bullish",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 6992,
         "num_match_pct": 1.0,
@@ -3405,7 +3405,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 13,
         "match_pct": 1.0,
-        "worst_col": "Oscillator",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 148659,
         "num_match_pct": 1.0,
@@ -3448,7 +3448,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 14,
         "match_pct": 1.0,
-        "worst_col": "Hollow Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 255228,
         "num_match_pct": 1.0,
@@ -3494,7 +3494,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 31,
         "match_pct": 1.0,
-        "worst_col": "-100%",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 368758,
         "num_match_pct": 1.0,
@@ -3532,7 +3532,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Trend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 55205,
         "num_match_pct": 1.0,
@@ -3809,7 +3809,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "GLI Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 27621,
         "num_match_pct": 1.0,
@@ -3849,7 +3849,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28413,
         "num_match_pct": 1.0,
@@ -3886,7 +3886,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "ATR Short Stop Loss",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56706,
         "num_match_pct": 1.0,
@@ -3923,7 +3923,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 82768,
         "num_match_pct": 1.0,
@@ -3960,7 +3960,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "CDV Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 113556,
         "num_match_pct": 1.0,
@@ -4013,7 +4013,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Moving Average #1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 54980,
         "num_match_pct": 1.0,
@@ -4050,7 +4050,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "SELL",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 141881,
         "num_match_pct": 1.0,
@@ -4087,7 +4087,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Ultimate RSI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 141909,
         "num_match_pct": 1.0,
@@ -4124,7 +4124,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "Bar HeatMap (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 255063,
         "num_match_pct": 1.0,
@@ -4188,7 +4188,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 112046,
         "num_match_pct": 1.0,
@@ -4260,7 +4260,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Trend Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 29062,
         "num_match_pct": 1.0,
@@ -4297,7 +4297,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 39,
         "match_pct": 1.0,
-        "worst_col": "Filtered Top Fractals",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 747125,
         "num_match_pct": 1.0,
@@ -4370,7 +4370,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "HARSI (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 199409,
         "num_match_pct": 1.0,
@@ -4407,7 +4407,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "Title (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 172550,
         "num_match_pct": 1.0,
@@ -4444,7 +4444,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 113556,
         "num_match_pct": 1.0,
@@ -4481,7 +4481,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 114104,
         "num_match_pct": 1.0,
@@ -4518,7 +4518,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 21,
         "match_pct": 1.0,
-        "worst_col": "Quotient 1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 433891,
         "num_match_pct": 1.0,
@@ -4561,7 +4561,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 133686,
         "num_match_pct": 1.0,
@@ -4598,7 +4598,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "SuperBollingerTrend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28583,
         "num_match_pct": 1.0,
@@ -4659,7 +4659,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Up",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57333,
         "num_match_pct": 1.0,
@@ -4696,7 +4696,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Up direction",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 55880,
         "num_match_pct": 1.0,
@@ -4739,7 +4739,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 17,
         "match_pct": 1.0,
-        "worst_col": "EMA 1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 485640,
         "num_match_pct": 1.0,
@@ -4776,7 +4776,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 88261,
         "num_match_pct": 1.0,
@@ -4813,7 +4813,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 286546,
         "num_match_pct": 1.0,
@@ -4918,7 +4918,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "RSI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 114957,
         "num_match_pct": 1.0,
@@ -4955,7 +4955,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28684,
         "num_match_pct": 1.0,
@@ -4992,7 +4992,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Fast EMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 220896,
         "num_match_pct": 1.0,
@@ -5029,7 +5029,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "PR Upper 2",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 143420,
         "num_match_pct": 1.0,
@@ -5066,7 +5066,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28679,
         "num_match_pct": 1.0,
@@ -5103,7 +5103,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "RSI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 47130,
         "num_match_pct": 1.0,
@@ -5151,7 +5151,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "NMA Black Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 204655,
         "num_match_pct": 1.0,
@@ -5188,7 +5188,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Long Stop",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56086,
         "num_match_pct": 1.0,
@@ -5225,7 +5225,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Swing High",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 455,
         "num_match_pct": 1.0,
@@ -5316,7 +5316,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28715,
         "num_match_pct": 1.0,
@@ -5353,7 +5353,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Open line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 172326,
         "num_match_pct": 1.0,
@@ -5393,7 +5393,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57406,
         "num_match_pct": 1.0,
@@ -5453,7 +5453,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 14,
         "match_pct": 1.0,
-        "worst_col": "5 Ema",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 314842,
         "num_match_pct": 1.0,
@@ -5491,7 +5491,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "included",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 84,
         "num_match_pct": 1.0,
@@ -5531,7 +5531,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57466,
         "num_match_pct": 1.0,
@@ -5568,7 +5568,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57423,
         "num_match_pct": 1.0,
@@ -5608,7 +5608,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Start",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 143710,
         "num_match_pct": 1.0,
@@ -5645,7 +5645,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Upper Support",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57488,
         "num_match_pct": 1.0,
@@ -5682,7 +5682,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 13,
         "match_pct": 1.0,
-        "worst_col": "RSI Overbought Crossover Level",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 220028,
         "num_match_pct": 1.0,
@@ -5719,7 +5719,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 12,
         "match_pct": 1.0,
-        "worst_col": "Strong Long",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 110456,
         "num_match_pct": 1.0,
@@ -5756,7 +5756,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 12,
         "match_pct": 1.0,
-        "worst_col": "Title (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 330226,
         "num_match_pct": 1.0,
@@ -5793,7 +5793,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "HOTT",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57488,
         "num_match_pct": 1.0,
@@ -5830,7 +5830,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 201208,
         "num_match_pct": 1.0,
@@ -5867,7 +5867,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Price Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 112380,
         "num_match_pct": 1.0,
@@ -5904,7 +5904,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Filter",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86247,
         "num_match_pct": 1.0,
@@ -5970,7 +5970,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57414,
         "num_match_pct": 1.0,
@@ -6044,7 +6044,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 12,
         "match_pct": 1.0,
-        "worst_col": "Dynamic HMA+",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 59313,
         "num_match_pct": 1.0,
@@ -6085,7 +6085,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "RSI KNN",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 230144,
         "num_match_pct": 1.0,
@@ -6128,7 +6128,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 23,
         "match_pct": 1.0,
-        "worst_col": " Mean",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 661642,
         "num_match_pct": 1.0,
@@ -6172,7 +6172,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "HMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 27559,
         "num_match_pct": 1.0,
@@ -6209,7 +6209,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Candles Color (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 136799,
         "num_match_pct": 1.0,
@@ -6281,7 +6281,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "LaRSI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86310,
         "num_match_pct": 1.0,
@@ -6366,7 +6366,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "SuperTrend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28776,
         "num_match_pct": 1.0,
@@ -6403,7 +6403,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Support Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 112619,
         "num_match_pct": 1.0,
@@ -6451,7 +6451,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "T3",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28736,
         "num_match_pct": 1.0,
@@ -6488,7 +6488,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 24,
         "match_pct": 1.0,
-        "worst_col": "ParabolicSAR",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 516342,
         "num_match_pct": 1.0,
@@ -6525,7 +6525,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Major High Levels",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57546,
         "num_match_pct": 1.0,
@@ -6562,7 +6562,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "SLI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57554,
         "num_match_pct": 1.0,
@@ -6599,7 +6599,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 12,
         "match_pct": 1.0,
-        "worst_col": "Volume Super Trend AI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 193718,
         "num_match_pct": 1.0,
@@ -6636,7 +6636,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Buy",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56248,
         "num_match_pct": 1.0,
@@ -6819,7 +6819,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "AlphaTrend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 58229,
         "num_match_pct": 1.0,
@@ -6856,7 +6856,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Buyside Liq Grab Small",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 40,
         "num_match_pct": 1.0,
@@ -6893,7 +6893,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 238651,
         "num_match_pct": 1.0,
@@ -6930,7 +6930,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "PDH Raid",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 230360,
         "num_match_pct": 1.0,
@@ -6967,7 +6967,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "MA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 30028,
         "num_match_pct": 1.0,
@@ -7004,7 +7004,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "Basis",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 127148,
         "num_match_pct": 1.0,
@@ -7041,7 +7041,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Moving Average #1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28772,
         "num_match_pct": 1.0,
@@ -7081,7 +7081,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Trailing Maximum",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86951,
         "num_match_pct": 1.0,
@@ -7118,7 +7118,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 13,
         "match_pct": 1.0,
-        "worst_col": "Cycle Histogram (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 288150,
         "num_match_pct": 1.0,
@@ -7304,7 +7304,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Global (World) Money Supply M2",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 3294,
         "num_match_pct": 1.0,
@@ -7341,7 +7341,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Reference Price",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57642,
         "num_match_pct": 1.0,
@@ -7378,7 +7378,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 1490,
         "num_match_pct": 1.0,
@@ -7419,7 +7419,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "PSAR",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 59923,
         "num_match_pct": 1.0,
@@ -7456,7 +7456,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Trend Trader Strategy",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28830,
         "num_match_pct": 1.0,
@@ -7493,7 +7493,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "R",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57660,
         "num_match_pct": 1.0,
@@ -7536,7 +7536,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 16,
         "match_pct": 1.0,
-        "worst_col": "High Pivot *",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 64944,
         "num_match_pct": 1.0,
@@ -7577,7 +7577,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "TEMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86451,
         "num_match_pct": 1.0,
@@ -7617,7 +7617,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "OR High",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 69000,
         "num_match_pct": 1.0,
@@ -7654,7 +7654,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "HOTT",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 58013,
         "num_match_pct": 1.0,
@@ -7691,7 +7691,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Bullish Signal",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 55230,
         "num_match_pct": 1.0,
@@ -7728,7 +7728,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57604,
         "num_match_pct": 1.0,
@@ -7774,7 +7774,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 20,
         "match_pct": 1.0,
-        "worst_col": "Volume delta for the bar",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 389985,
         "num_match_pct": 1.0,
@@ -7826,7 +7826,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 22,
         "match_pct": 1.0,
-        "worst_col": "RVOL",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28812,
         "num_match_pct": 1.0,
@@ -7863,7 +7863,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 85516,
         "num_match_pct": 1.0,
@@ -7900,7 +7900,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Shapes",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57664,
         "num_match_pct": 1.0,
@@ -7937,7 +7937,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Top HEMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 113703,
         "num_match_pct": 1.0,
@@ -8011,7 +8011,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "ParabolicSAR",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 115240,
         "num_match_pct": 1.0,
@@ -8083,7 +8083,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "%K",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 64770,
         "num_match_pct": 1.0,
@@ -8131,7 +8131,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Follow Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 29532,
         "num_match_pct": 1.0,
@@ -8168,7 +8168,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 199989,
         "num_match_pct": 1.0,
@@ -8205,7 +8205,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Swing High",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 201916,
         "num_match_pct": 1.0,
@@ -8242,7 +8242,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 55127,
         "num_match_pct": 1.0,
@@ -8279,7 +8279,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 16,
         "match_pct": 1.0,
-        "worst_col": "Angle Follow Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 61189,
         "num_match_pct": 1.0,
@@ -8329,7 +8329,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "TSL",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28867,
         "num_match_pct": 1.0,
@@ -8366,7 +8366,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Knn Classifier Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57681,
         "num_match_pct": 1.0,
@@ -8406,7 +8406,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "STC",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86601,
         "num_match_pct": 1.0,
@@ -8443,7 +8443,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Show Cumulative Vol Delta",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28847,
         "num_match_pct": 1.0,
@@ -8503,7 +8503,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "Open Interest Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 115495,
         "num_match_pct": 1.0,
@@ -8540,7 +8540,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28872,
         "num_match_pct": 1.0,
@@ -8580,7 +8580,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "LRC",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 82802,
         "num_match_pct": 1.0,
@@ -8617,7 +8617,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "FVG Trend Filter",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 55223,
         "num_match_pct": 1.0,
@@ -8659,7 +8659,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Main Transp",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 87785,
         "num_match_pct": 1.0,
@@ -8699,7 +8699,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28862,
         "num_match_pct": 1.0,
@@ -8736,7 +8736,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "Wave Trend - Positive Pressure",
+        "worst_col": "",
         "pearson_min": null,
         "bars_numeric": 176876,
         "num_match_pct": 1.0,
@@ -8773,7 +8773,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 13,
         "match_pct": 1.0,
-        "worst_col": "OCC Difference Factor",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86521,
         "num_match_pct": 1.0,
@@ -8814,7 +8814,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 12,
         "match_pct": 1.0,
-        "worst_col": "RSI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 66972,
         "num_match_pct": 1.0,
@@ -8860,7 +8860,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 201490,
         "num_match_pct": 1.0,
@@ -8903,7 +8903,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Regression Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86562,
         "num_match_pct": 1.0,
@@ -8943,7 +8943,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "OTT",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 144435,
         "num_match_pct": 1.0,
@@ -8996,7 +8996,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 15,
         "match_pct": 1.0,
-        "worst_col": "Chars",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 433305,
         "num_match_pct": 1.0,
@@ -9034,7 +9034,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57611,
         "num_match_pct": 1.0,
@@ -9071,7 +9071,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Trend Stop",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 115061,
         "num_match_pct": 1.0,
@@ -9108,7 +9108,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 82788,
         "num_match_pct": 1.0,
@@ -9145,7 +9145,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Average Multi Length RSI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 202402,
         "num_match_pct": 1.0,
@@ -9182,7 +9182,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 12,
         "match_pct": 1.0,
-        "worst_col": "Trailingstop",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 176358,
         "num_match_pct": 1.0,
@@ -9243,7 +9243,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Buy",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 3795,
         "num_match_pct": 1.0,
@@ -9283,7 +9283,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 12,
         "match_pct": 1.0,
-        "worst_col": "Long Glow 1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 59908,
         "num_match_pct": 1.0,
@@ -9320,7 +9320,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Long SMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 144543,
         "num_match_pct": 1.0,
@@ -9357,7 +9357,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 34094,
         "num_match_pct": 1.0,
@@ -9394,7 +9394,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "BB Basis",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 144563,
         "num_match_pct": 1.0,
@@ -9431,7 +9431,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Fast EMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 115661,
         "num_match_pct": 1.0,
@@ -9468,7 +9468,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Supertrend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28887,
         "num_match_pct": 1.0,
@@ -9505,7 +9505,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Downtrend Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 32017,
         "num_match_pct": 1.0,
@@ -9545,7 +9545,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": null,
         "bars_numeric": 289240,
         "num_match_pct": 1.0,
@@ -9582,7 +9582,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "R",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57878,
         "num_match_pct": 1.0,
@@ -9625,7 +9625,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Stochastic",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 173617,
         "num_match_pct": 1.0,
@@ -9662,7 +9662,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Down Trendline",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 79155,
         "num_match_pct": 1.0,
@@ -9702,7 +9702,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "New Moon",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 39,
         "num_match_pct": 1.0,
@@ -9750,7 +9750,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 32,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 38432,
         "num_match_pct": 1.0,
@@ -9787,7 +9787,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56404,
         "num_match_pct": 1.0,
@@ -9835,7 +9835,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Title (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 173632,
         "num_match_pct": 1.0,
@@ -9872,7 +9872,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "RCI short",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 82754,
         "num_match_pct": 1.0,
@@ -9909,7 +9909,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28925,
         "num_match_pct": 1.0,
@@ -9946,7 +9946,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 17,
         "match_pct": 1.0,
-        "worst_col": "B Price",
+        "worst_col": "",
         "pearson_min": null,
         "bars_numeric": 220936,
         "num_match_pct": 1.0,
@@ -9987,7 +9987,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Rating",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 193299,
         "num_match_pct": 1.0,
@@ -10031,7 +10031,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "RSI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 55190,
         "num_match_pct": 1.0,
@@ -10068,7 +10068,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Fast MA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57870,
         "num_match_pct": 1.0,
@@ -10105,7 +10105,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Hull Butterfly",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 173991,
         "num_match_pct": 1.0,
@@ -10142,7 +10142,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "N-Pole GF",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86862,
         "num_match_pct": 1.0,
@@ -10183,7 +10183,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 318166,
         "num_match_pct": 1.0,
@@ -10223,7 +10223,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 24,
         "match_pct": 1.0,
-        "worst_col": "Supply Demand - 2 - High",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57776,
         "num_match_pct": 1.0,
@@ -10269,7 +10269,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Top",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57934,
         "num_match_pct": 1.0,
@@ -10315,7 +10315,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 26,
         "match_pct": 1.0,
-        "worst_col": "CVD 0 (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 521406,
         "num_match_pct": 1.0,
@@ -10358,7 +10358,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Sell Label",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 225626,
         "num_match_pct": 1.0,
@@ -10478,7 +10478,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "Support Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 85496,
         "num_match_pct": 1.0,
@@ -10526,7 +10526,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "End Point GPR",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 87025,
         "num_match_pct": 1.0,
@@ -10567,7 +10567,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86689,
         "num_match_pct": 1.0,
@@ -10604,7 +10604,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "MOM",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57896,
         "num_match_pct": 1.0,
@@ -10641,7 +10641,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57898,
         "num_match_pct": 1.0,
@@ -10678,7 +10678,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 28,
         "match_pct": 1.0,
-        "worst_col": "Exit Arrows",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 316148,
         "num_match_pct": 1.0,
@@ -10765,7 +10765,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 35,
         "match_pct": 1.0,
-        "worst_col": "LinReg Long (regime) (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 602966,
         "num_match_pct": 1.0,
@@ -10802,7 +10802,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Histogram",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86904,
         "num_match_pct": 1.0,
@@ -10839,7 +10839,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 24,
         "match_pct": 1.0,
-        "worst_col": "Smart Money Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 460494,
         "num_match_pct": 1.0,
@@ -10876,7 +10876,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Moving Average",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 32165,
         "num_match_pct": 1.0,
@@ -10913,7 +10913,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Pivot Highs",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57936,
         "num_match_pct": 1.0,
@@ -10950,7 +10950,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 18,
         "match_pct": 1.0,
-        "worst_col": "Fast Period %R",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 143464,
         "num_match_pct": 1.0,
@@ -11015,7 +11015,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Trend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 128265,
         "num_match_pct": 1.0,
@@ -11055,7 +11055,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "MACD",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 117888,
         "num_match_pct": 1.0,
@@ -11092,7 +11092,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "Resistance",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 164105,
         "num_match_pct": 1.0,
@@ -11129,7 +11129,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86593,
         "num_match_pct": 1.0,
@@ -11169,7 +11169,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Major High Levels",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57942,
         "num_match_pct": 1.0,
@@ -11206,7 +11206,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "RSI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 202816,
         "num_match_pct": 1.0,
@@ -11378,7 +11378,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "MOST",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 115932,
         "num_match_pct": 1.0,
@@ -11415,7 +11415,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Predicta Trend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 220927,
         "num_match_pct": 1.0,
@@ -11452,7 +11452,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 127202,
         "num_match_pct": 1.0,
@@ -11513,7 +11513,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Upper",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 87015,
         "num_match_pct": 1.0,
@@ -11550,7 +11550,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Bull MA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 90800,
         "num_match_pct": 1.0,
@@ -11587,7 +11587,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Curl Up",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 202967,
         "num_match_pct": 1.0,
@@ -11624,7 +11624,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Major Uptrend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57992,
         "num_match_pct": 1.0,
@@ -11715,7 +11715,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "BUY",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 87009,
         "num_match_pct": 1.0,
@@ -11752,7 +11752,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Wave Volume",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 29006,
         "num_match_pct": 1.0,
@@ -11789,7 +11789,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 12,
         "match_pct": 1.0,
-        "worst_col": "MOST",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 178386,
         "num_match_pct": 1.0,
@@ -11826,7 +11826,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 30,
         "match_pct": 1.0,
-        "worst_col": "Media WT",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 556053,
         "num_match_pct": 1.0,
@@ -11867,7 +11867,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "CCIv2",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 29007,
         "num_match_pct": 1.0,
@@ -11907,7 +11907,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Supertrend Stop",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 58020,
         "num_match_pct": 1.0,
@@ -11953,7 +11953,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "CVDS Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 119411,
         "num_match_pct": 1.0,
@@ -11996,7 +11996,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 28,
         "match_pct": 1.0,
-        "worst_col": "Last Iteration",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 783129,
         "num_match_pct": 1.0,
@@ -12033,7 +12033,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Gaussian Moving Average",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 115977,
         "num_match_pct": 1.0,
@@ -12083,7 +12083,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "RSI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 58046,
         "num_match_pct": 1.0,
@@ -12120,7 +12120,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 15,
         "match_pct": 1.0,
-        "worst_col": "Fast Source",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 435341,
         "num_match_pct": 1.0,
@@ -12160,7 +12160,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 33,
         "match_pct": 1.0,
-        "worst_col": "Squeeze Momentum",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 257352,
         "num_match_pct": 1.0,
@@ -12197,7 +12197,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "Trend Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 88032,
         "num_match_pct": 1.0,
@@ -12234,7 +12234,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Candles Color (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 116381,
         "num_match_pct": 1.0,
@@ -12271,7 +12271,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 4992,
         "num_match_pct": 1.0,
@@ -12328,7 +12328,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "K-line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 63544,
         "num_match_pct": 1.0,
@@ -12365,7 +12365,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "BuyVolume",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 145146,
         "num_match_pct": 1.0,
@@ -12402,7 +12402,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Upper Channel",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 87078,
         "num_match_pct": 1.0,
@@ -12439,7 +12439,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "EMA Fast 1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 87488,
         "num_match_pct": 1.0,
@@ -12477,7 +12477,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Filter",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 116198,
         "num_match_pct": 1.0,
@@ -12558,7 +12558,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "FAST",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 87114,
         "num_match_pct": 1.0,
@@ -12595,7 +12595,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Long",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 116300,
         "num_match_pct": 1.0,
@@ -12632,7 +12632,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Bull Pressure",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 87205,
         "num_match_pct": 1.0,
@@ -12669,7 +12669,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Signal: Bearish Reversal ▼",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 116356,
         "num_match_pct": 1.0,
@@ -12706,7 +12706,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "Swing Low Upper Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 107084,
         "num_match_pct": 1.0,
@@ -12743,7 +12743,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Upper ATR Band",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 58146,
         "num_match_pct": 1.0,
@@ -12780,7 +12780,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Buy",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56506,
         "num_match_pct": 1.0,
@@ -12828,7 +12828,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Close Series",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56366,
         "num_match_pct": 1.0,
@@ -12880,7 +12880,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Shapes",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 84753,
         "num_match_pct": 1.0,
@@ -12928,7 +12928,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 16,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 337132,
         "num_match_pct": 1.0,
@@ -12985,7 +12985,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 25,
         "match_pct": 1.0,
-        "worst_col": "Volume Super Trend AI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 197503,
         "num_match_pct": 1.0,
@@ -13033,7 +13033,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 141066,
         "num_match_pct": 1.0,
@@ -13081,7 +13081,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "VWAP",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 141495,
         "num_match_pct": 1.0,
@@ -13129,7 +13129,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 24,
         "match_pct": 1.0,
-        "worst_col": "Histo2",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 616383,
         "num_match_pct": 1.0,
@@ -13183,7 +13183,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28268,
         "num_match_pct": 1.0,
@@ -13231,7 +13231,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "RSI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 84779,
         "num_match_pct": 1.0,
@@ -13380,7 +13380,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Shapes",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 84813,
         "num_match_pct": 1.0,
@@ -13428,7 +13428,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 22,
         "match_pct": 1.0,
-        "worst_col": "slope is:",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 224101,
         "num_match_pct": 1.0,
@@ -13523,7 +13523,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "VWAP",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 170004,
         "num_match_pct": 1.0,
@@ -13572,7 +13572,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Upper Band",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 84840,
         "num_match_pct": 1.0,
@@ -13629,7 +13629,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "High Band",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 59068,
         "num_match_pct": 1.0,
@@ -13678,7 +13678,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 87480,
         "num_match_pct": 1.0,
@@ -13726,7 +13726,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 24,
         "match_pct": 1.0,
-        "worst_col": "Buy",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 142718,
         "num_match_pct": 1.0,
@@ -13774,7 +13774,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56509,
         "num_match_pct": 1.0,
@@ -13823,7 +13823,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "H F",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 9288,
         "num_match_pct": 1.0,
@@ -13909,7 +13909,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56722,
         "num_match_pct": 1.0,
@@ -13957,7 +13957,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Histogram",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 84966,
         "num_match_pct": 1.0,
@@ -14005,7 +14005,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 113358,
         "num_match_pct": 1.0,
@@ -14053,7 +14053,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "ST High",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57888,
         "num_match_pct": 1.0,
@@ -14101,7 +14101,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Volume Range",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 83782,
         "num_match_pct": 1.0,
@@ -14149,7 +14149,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 18,
         "match_pct": 1.0,
-        "worst_col": "Green Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 453463,
         "num_match_pct": 1.0,
@@ -14201,7 +14201,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 42,
         "match_pct": 1.0,
-        "worst_col": "Volume 2 / Volume 1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 706874,
         "num_match_pct": 1.0,
@@ -14249,7 +14249,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "[Fibonacci Level] Basis",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 84600,
         "num_match_pct": 1.0,
@@ -14367,7 +14367,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "HA (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 141999,
         "num_match_pct": 1.0,
@@ -14415,7 +14415,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 30,
         "match_pct": 1.0,
-        "worst_col": "🔌Signal",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 190368,
         "num_match_pct": 1.0,
@@ -14479,7 +14479,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 23,
         "match_pct": 1.0,
-        "worst_col": "Fibo Level Candle (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 452815,
         "num_match_pct": 1.0,
@@ -14527,7 +14527,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "TP",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 85009,
         "num_match_pct": 1.0,
@@ -14578,7 +14578,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "The M.A.",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 113585,
         "num_match_pct": 1.0,
@@ -14626,7 +14626,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Long Fixed SL",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56002,
         "num_match_pct": 1.0,
@@ -14709,7 +14709,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "Session New York",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 138060,
         "num_match_pct": 1.0,
@@ -14757,7 +14757,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Moving Avg Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 85422,
         "num_match_pct": 1.0,
@@ -14850,7 +14850,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Volume Super Trend AI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 85970,
         "num_match_pct": 1.0,
@@ -14898,7 +14898,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 52886,
         "num_match_pct": 1.0,
@@ -14946,7 +14946,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "SuperTrend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28496,
         "num_match_pct": 1.0,
@@ -14994,7 +14994,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56970,
         "num_match_pct": 1.0,
@@ -15042,7 +15042,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "EDMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57027,
         "num_match_pct": 1.0,
@@ -15090,7 +15090,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 85197,
         "num_match_pct": 1.0,
@@ -15145,7 +15145,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Average Supertrend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 165628,
         "num_match_pct": 1.0,
@@ -15228,7 +15228,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 284668,
         "num_match_pct": 1.0,
@@ -15276,7 +15276,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Upper",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 228618,
         "num_match_pct": 1.0,
@@ -15324,7 +15324,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "VB Channel High",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 171039,
         "num_match_pct": 1.0,
@@ -15372,7 +15372,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 85328,
         "num_match_pct": 1.0,
@@ -15429,7 +15429,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Session Open Price",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 45954,
         "num_match_pct": 1.0,
@@ -15477,7 +15477,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "MA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 114216,
         "num_match_pct": 1.0,
@@ -15525,7 +15525,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "EMA1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 169926,
         "num_match_pct": 1.0,
@@ -15573,7 +15573,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Middle",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 120739,
         "num_match_pct": 1.0,
@@ -15621,7 +15621,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Trend Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 29287,
         "num_match_pct": 1.0,
@@ -15673,7 +15673,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Fast Trail",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57353,
         "num_match_pct": 1.0,
@@ -15721,7 +15721,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "RSI/VWAP",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86033,
         "num_match_pct": 1.0,
@@ -15769,7 +15769,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "EMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 116007,
         "num_match_pct": 1.0,
@@ -15817,7 +15817,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Upper Band",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 79925,
         "num_match_pct": 1.0,
@@ -15868,7 +15868,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 19,
         "match_pct": 1.0,
-        "worst_col": "K",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 132407,
         "num_match_pct": 1.0,
@@ -15960,7 +15960,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "VHMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 143593,
         "num_match_pct": 1.0,
@@ -16016,7 +16016,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Scale high",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 201037,
         "num_match_pct": 1.0,
@@ -16064,7 +16064,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 15,
         "match_pct": 1.0,
-        "worst_col": "Volume Super Trend AI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 144543,
         "num_match_pct": 1.0,
@@ -16112,7 +16112,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "jaw",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86161,
         "num_match_pct": 1.0,
@@ -16169,7 +16169,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "ORB High",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 85904,
         "num_match_pct": 1.0,
@@ -16223,7 +16223,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 23,
         "match_pct": 1.0,
-        "worst_col": "ExMov",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 431530,
         "num_match_pct": 1.0,
@@ -16271,7 +16271,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28727,
         "num_match_pct": 1.0,
@@ -16328,7 +16328,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 115669,
         "num_match_pct": 1.0,
@@ -16380,7 +16380,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Highest High",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86310,
         "num_match_pct": 1.0,
@@ -16428,7 +16428,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Custom Envelope High",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57470,
         "num_match_pct": 1.0,
@@ -16525,7 +16525,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "SAR Filter",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 104493,
         "num_match_pct": 1.0,
@@ -16579,7 +16579,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 21,
         "match_pct": 1.0,
-        "worst_col": "DEMA 72",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 352938,
         "num_match_pct": 1.0,
@@ -16627,7 +16627,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "ATH Long MA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 18668,
         "num_match_pct": 1.0,
@@ -16675,7 +16675,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Fast SMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 132530,
         "num_match_pct": 1.0,
@@ -16723,7 +16723,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86221,
         "num_match_pct": 1.0,
@@ -16780,7 +16780,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 171570,
         "num_match_pct": 1.0,
@@ -16828,7 +16828,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86292,
         "num_match_pct": 1.0,
@@ -16876,7 +16876,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86304,
         "num_match_pct": 1.0,
@@ -16994,7 +16994,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Ema fast",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57306,
         "num_match_pct": 1.0,
@@ -17062,7 +17062,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Basis",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86289,
         "num_match_pct": 1.0,
@@ -17110,7 +17110,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57338,
         "num_match_pct": 1.0,
@@ -17158,7 +17158,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "% profitable",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 143719,
         "num_match_pct": 1.0,
@@ -17206,7 +17206,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "MA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86274,
         "num_match_pct": 1.0,
@@ -17254,7 +17254,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "Session New York",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 138060,
         "num_match_pct": 1.0,
@@ -17302,7 +17302,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 24,
         "match_pct": 1.0,
-        "worst_col": "═══════════ Cumulative Results",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 317260,
         "num_match_pct": 1.0,
@@ -17354,7 +17354,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 30,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 834289,
         "num_match_pct": 1.0,
@@ -17411,7 +17411,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 12,
         "match_pct": 1.0,
-        "worst_col": "SL Long",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 206258,
         "num_match_pct": 1.0,
@@ -17459,7 +17459,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 114916,
         "num_match_pct": 1.0,
@@ -17523,7 +17523,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "RSI 1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 168639,
         "num_match_pct": 1.0,
@@ -17571,7 +17571,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "TSI Value",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 126811,
         "num_match_pct": 1.0,
@@ -17654,7 +17654,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28819,
         "num_match_pct": 1.0,
@@ -17702,7 +17702,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Fast",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 58036,
         "num_match_pct": 1.0,
@@ -17750,7 +17750,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 20,
         "match_pct": 1.0,
-        "worst_col": "No offset: Lead Line 1 - Senkou Span A cloud",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 402755,
         "num_match_pct": 1.0,
@@ -17806,7 +17806,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Session New York",
+        "worst_col": "",
         "pearson_min": null,
         "bars_numeric": 110452,
         "num_match_pct": 1.0,
@@ -17854,7 +17854,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86438,
         "num_match_pct": 1.0,
@@ -17902,7 +17902,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Downtrend Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 32012,
         "num_match_pct": 1.0,
@@ -17976,7 +17976,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 15,
         "match_pct": 1.0,
-        "worst_col": "TICK",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 145768,
         "num_match_pct": 1.0,
@@ -18024,7 +18024,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57590,
         "num_match_pct": 1.0,
@@ -18072,7 +18072,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 15,
         "match_pct": 1.0,
-        "worst_col": "Upper Band",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 334676,
         "num_match_pct": 1.0,
@@ -18120,7 +18120,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 3293,
         "num_match_pct": 1.0,
@@ -18203,7 +18203,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "HH",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57622,
         "num_match_pct": 1.0,
@@ -18251,7 +18251,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 115170,
         "num_match_pct": 1.0,
@@ -18302,7 +18302,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28830,
         "num_match_pct": 1.0,
@@ -18350,7 +18350,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Fast MA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 191089,
         "num_match_pct": 1.0,
@@ -18398,7 +18398,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "RSI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 115545,
         "num_match_pct": 1.0,
@@ -18446,7 +18446,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 143957,
         "num_match_pct": 1.0,
@@ -18494,7 +18494,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Arrow Up",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 88064,
         "num_match_pct": 1.0,
@@ -18542,7 +18542,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "EMA 1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 316961,
         "num_match_pct": 1.0,
@@ -18599,7 +18599,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "EMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 106619,
         "num_match_pct": 1.0,
@@ -18647,7 +18647,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 174391,
         "num_match_pct": 1.0,
@@ -18704,7 +18704,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Trend Filter MA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28818,
         "num_match_pct": 1.0,
@@ -18753,7 +18753,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "BBTrend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 116543,
         "num_match_pct": 1.0,
@@ -18801,7 +18801,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 12963,
         "num_match_pct": 1.0,
@@ -18849,7 +18849,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 17,
         "match_pct": 1.0,
-        "worst_col": "l1 long",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 469687,
         "num_match_pct": 1.0,
@@ -18897,7 +18897,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "EMA A",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86474,
         "num_match_pct": 1.0,
@@ -18945,7 +18945,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86457,
         "num_match_pct": 1.0,
@@ -19029,7 +19029,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 92116,
         "num_match_pct": 1.0,
@@ -19077,7 +19077,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Up Trend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 61162,
         "num_match_pct": 1.0,
@@ -19415,7 +19415,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": null,
         "bars_numeric": 28962,
         "num_match_pct": 1.0,
@@ -19463,7 +19463,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 38,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 1097458,
         "num_match_pct": 1.0,
@@ -19511,7 +19511,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Trend Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 29459,
         "num_match_pct": 1.0,
@@ -19560,7 +19560,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 22,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 635465,
         "num_match_pct": 1.0,
@@ -19643,7 +19643,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Take Profit",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 18,
         "num_match_pct": 1.0,
@@ -19694,7 +19694,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 13,
         "match_pct": 1.0,
-        "worst_col": "Long Signal",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 161301,
         "num_match_pct": 1.0,
@@ -19743,7 +19743,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "JMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 224738,
         "num_match_pct": 1.0,
@@ -19803,7 +19803,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "TP1 Long",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 90276,
         "num_match_pct": 1.0,
@@ -19866,7 +19866,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Candidate Bull mitigation (%)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 718,
         "num_match_pct": 1.0,
@@ -19914,7 +19914,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "Smooth Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 174137,
         "num_match_pct": 1.0,
@@ -20045,7 +20045,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "RSI on VWAP",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86722,
         "num_match_pct": 1.0,
@@ -20093,7 +20093,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "SMA2",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 287304,
         "num_match_pct": 1.0,
@@ -20141,7 +20141,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57817,
         "num_match_pct": 1.0,
@@ -20189,7 +20189,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "10",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 6562,
         "num_match_pct": 1.0,
@@ -20237,7 +20237,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Dip Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28918,
         "num_match_pct": 1.0,
@@ -20285,7 +20285,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Long SL Level",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 47982,
         "num_match_pct": 1.0,
@@ -20333,7 +20333,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 201610,
         "num_match_pct": 1.0,
@@ -20381,7 +20381,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "%K",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57876,
         "num_match_pct": 1.0,
@@ -20466,7 +20466,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "SMA fastLength",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 144627,
         "num_match_pct": 1.0,
@@ -20615,7 +20615,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "ADX",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 176012,
         "num_match_pct": 1.0,
@@ -20663,7 +20663,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28939,
         "num_match_pct": 1.0,
@@ -20720,7 +20720,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86772,
         "num_match_pct": 1.0,
@@ -20771,7 +20771,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "ema1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 115512,
         "num_match_pct": 1.0,
@@ -20893,7 +20893,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Trail Stop",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 135159,
         "num_match_pct": 1.0,
@@ -20950,7 +20950,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Upper Channel Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57880,
         "num_match_pct": 1.0,
@@ -21006,7 +21006,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 29206,
         "num_match_pct": 1.0,
@@ -21057,7 +21057,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "ema",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57884,
         "num_match_pct": 1.0,
@@ -21105,7 +21105,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "SuperTrend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28960,
         "num_match_pct": 1.0,
@@ -21162,7 +21162,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 28,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 224367,
         "num_match_pct": 1.0,
@@ -21210,7 +21210,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Buy Enter",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 115808,
         "num_match_pct": 1.0,
@@ -21258,7 +21258,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Slow EMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 188781,
         "num_match_pct": 1.0,
@@ -21309,7 +21309,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "HMA 50 Main",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 115805,
         "num_match_pct": 1.0,
@@ -21357,7 +21357,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": " TEMA #1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 59254,
         "num_match_pct": 1.0,
@@ -21405,7 +21405,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86728,
         "num_match_pct": 1.0,
@@ -21453,7 +21453,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "Top Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 241636,
         "num_match_pct": 1.0,
@@ -21504,7 +21504,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "EMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 28869,
         "num_match_pct": 1.0,
@@ -21555,7 +21555,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 17,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 286410,
         "num_match_pct": 1.0,
@@ -21603,7 +21603,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Limit/Stop",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 21642,
         "num_match_pct": 1.0,
@@ -21651,7 +21651,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Fast SMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 109660,
         "num_match_pct": 1.0,
@@ -21699,7 +21699,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Equilibrium",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 231677,
         "num_match_pct": 1.0,
@@ -21756,7 +21756,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 16,
         "match_pct": 1.0,
-        "worst_col": "VWAP",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 130014,
         "num_match_pct": 1.0,
@@ -21805,7 +21805,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "EMA Fast",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 176421,
         "num_match_pct": 1.0,
@@ -21853,7 +21853,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "FastMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57914,
         "num_match_pct": 1.0,
@@ -21936,7 +21936,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 86894,
         "num_match_pct": 1.0,
@@ -21987,7 +21987,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "EMA 50",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 231859,
         "num_match_pct": 1.0,
@@ -22039,7 +22039,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Slow SMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 115942,
         "num_match_pct": 1.0,
@@ -22095,7 +22095,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 116000,
         "num_match_pct": 1.0,
@@ -22152,7 +22152,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 13,
         "match_pct": 1.0,
-        "worst_col": "VWAP",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 143089,
         "num_match_pct": 1.0,
@@ -22203,7 +22203,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 14,
         "match_pct": 1.0,
-        "worst_col": "[Price Median]",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 316274,
         "num_match_pct": 1.0,
@@ -22257,7 +22257,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "maA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 64748,
         "num_match_pct": 1.0,
@@ -22305,7 +22305,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Resistance",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 58012,
         "num_match_pct": 1.0,
@@ -22353,7 +22353,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "%K",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 58004,
         "num_match_pct": 1.0,
@@ -22401,7 +22401,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Price",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 40339,
         "num_match_pct": 1.0,
@@ -22449,7 +22449,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 28,
         "match_pct": 1.0,
-        "worst_col": "Deviation 1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 725579,
         "num_match_pct": 1.0,
@@ -22497,7 +22497,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "ATR Trailing Stop",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 29014,
         "num_match_pct": 1.0,
@@ -22545,7 +22545,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 7,
         "match_pct": 1.0,
-        "worst_col": "Long Stop",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 6665,
         "num_match_pct": 1.0,
@@ -22593,7 +22593,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Exit Arrows",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 16662,
         "num_match_pct": 1.0,
@@ -22647,7 +22647,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 58030,
         "num_match_pct": 1.0,
@@ -22695,7 +22695,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Bullish Engulfing Detection",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 29029,
         "num_match_pct": 1.0,
@@ -22743,7 +22743,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "EMA 200",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 260169,
         "num_match_pct": 1.0,
@@ -22856,7 +22856,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "cr",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 58489,
         "num_match_pct": 1.0,
@@ -22907,7 +22907,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "@ dg_factor",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 29032,
         "num_match_pct": 1.0,
@@ -22955,7 +22955,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "CMO Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 145117,
         "num_match_pct": 1.0,
@@ -23047,7 +23047,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 14,
         "match_pct": 1.0,
-        "worst_col": "Daily ATR",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 171626,
         "num_match_pct": 1.0,
@@ -23095,7 +23095,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 87000,
         "num_match_pct": 1.0,
@@ -23178,7 +23178,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Shapes",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 55226,
         "num_match_pct": 1.0,
@@ -23226,7 +23226,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 40112,
         "num_match_pct": 1.0,
@@ -23274,7 +23274,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 22,
         "match_pct": 1.0,
-        "worst_col": "VWMA High band",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 145162,
         "num_match_pct": 1.0,
@@ -23322,7 +23322,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Supertrend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 145311,
         "num_match_pct": 1.0,
@@ -23370,7 +23370,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Oscillator",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 4985,
         "num_match_pct": 1.0,
@@ -23418,7 +23418,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Dynamic RSI Momentum",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 29052,
         "num_match_pct": 1.0,
@@ -23466,7 +23466,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 57585,
         "num_match_pct": 1.0,
@@ -23549,7 +23549,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Up",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 2080,
         "num_match_pct": 1.0,
@@ -23597,7 +23597,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "MT Bull Signal",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 137326,
         "num_match_pct": 1.0,
@@ -23645,7 +23645,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Breakout Barrier",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 111411,
         "num_match_pct": 1.0,
@@ -23693,7 +23693,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "LinReg Candles Up (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 193246,
         "num_match_pct": 1.0,
@@ -23741,7 +23741,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "200 EMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 27415,
         "num_match_pct": 1.0,
@@ -23798,7 +23798,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "Prev High",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 110460,
         "num_match_pct": 1.0,
@@ -23882,7 +23882,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 27614,
         "num_match_pct": 1.0,
@@ -23930,7 +23930,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 13,
         "match_pct": 1.0,
-        "worst_col": "MA Line",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 355501,
         "num_match_pct": 1.0,
@@ -23984,7 +23984,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 13,
         "match_pct": 1.0,
-        "worst_col": "Long",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 80842,
         "num_match_pct": 1.0,
@@ -24032,7 +24032,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "VWAP",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 110324,
         "num_match_pct": 1.0,
@@ -24210,7 +24210,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 10,
         "match_pct": 1.0,
-        "worst_col": "EMA 9",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 177648,
         "num_match_pct": 1.0,
@@ -24293,7 +24293,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "EMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 82649,
         "num_match_pct": 1.0,
@@ -24413,7 +24413,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 25,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 702765,
         "num_match_pct": 1.0,
@@ -24461,7 +24461,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Up Trend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 27697,
         "num_match_pct": 1.0,
@@ -24509,7 +24509,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Price",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 39809,
         "num_match_pct": 1.0,
@@ -24557,7 +24557,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "Plot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 138063,
         "num_match_pct": 1.0,
@@ -24605,7 +24605,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Buy Signal",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 165696,
         "num_match_pct": 1.0,
@@ -24653,7 +24653,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Stop Loss",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 5284,
         "num_match_pct": 1.0,
@@ -24701,7 +24701,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 12,
         "match_pct": 1.0,
-        "worst_col": "NY Long",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 173516,
         "num_match_pct": 1.0,
@@ -24749,7 +24749,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 4,
         "match_pct": 1.0,
-        "worst_col": "Weekly Open",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 21381,
         "num_match_pct": 1.0,
@@ -24797,7 +24797,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 13,
         "match_pct": 1.0,
-        "worst_col": "VWAP",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 357091,
         "num_match_pct": 1.0,
@@ -24845,7 +24845,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 5,
         "match_pct": 1.0,
-        "worst_col": "RCI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 138047,
         "num_match_pct": 1.0,
@@ -24893,7 +24893,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Fast EMA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56198,
         "num_match_pct": 1.0,
@@ -24941,7 +24941,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Filter",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 82854,
         "num_match_pct": 1.0,
@@ -25003,7 +25003,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 17,
         "match_pct": 1.0,
-        "worst_col": "Average Supertrend",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 469455,
         "num_match_pct": 1.0,
@@ -25054,7 +25054,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Fast MA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 55096,
         "num_match_pct": 1.0,
@@ -25102,7 +25102,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 12,
         "match_pct": 1.0,
-        "worst_col": "Colored Candles (open)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 330740,
         "num_match_pct": 1.0,
@@ -25150,7 +25150,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 9,
         "match_pct": 1.0,
-        "worst_col": "Filter",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 193708,
         "num_match_pct": 1.0,
@@ -25198,7 +25198,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "Glow Outer",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 222153,
         "num_match_pct": 1.0,
@@ -25297,7 +25297,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Silver EMA slow",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 137862,
         "num_match_pct": 1.0,
@@ -25345,7 +25345,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 17,
         "match_pct": 1.0,
-        "worst_col": "Fast MA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 139775,
         "num_match_pct": 1.0,
@@ -25393,7 +25393,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Liquidity Base (Support)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 165568,
         "num_match_pct": 1.0,
@@ -25476,7 +25476,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 11,
         "match_pct": 1.0,
-        "worst_col": "BUY",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 248561,
         "num_match_pct": 1.0,
@@ -25524,7 +25524,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 8,
         "match_pct": 1.0,
-        "worst_col": "Diff MA",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 220320,
         "num_match_pct": 1.0,
@@ -25584,7 +25584,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 12,
         "match_pct": 1.0,
-        "worst_col": "R1",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 283390,
         "num_match_pct": 1.0,
@@ -25633,7 +25633,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 6,
         "match_pct": 1.0,
-        "worst_col": "Buy Signal",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 165702,
         "num_match_pct": 1.0,
@@ -25681,7 +25681,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "Middle BB",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 82794,
         "num_match_pct": 1.0,
@@ -25729,7 +25729,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Liquidity Floor",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 55179,
         "num_match_pct": 1.0,
@@ -25765,8 +25765,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27617,
-      "run_sec": 5.843,
-      "ms_per_bar": 0.2116,
+      "run_sec": 5.008,
+      "ms_per_bar": 0.1813,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -25793,7 +25793,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 1,
         "match_pct": 1.0,
-        "worst_col": "VWAP",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 27617,
         "num_match_pct": 1.0,
@@ -25850,7 +25850,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "RSI (1D)",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 27618,
         "num_match_pct": 1.0,
@@ -25898,7 +25898,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 3,
         "match_pct": 1.0,
-        "worst_col": "RSI",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 27977,
         "num_match_pct": 1.0,
@@ -25969,7 +25969,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 14,
         "match_pct": 1.0,
-        "worst_col": "Daily Pivot",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 330998,
         "num_match_pct": 1.0,
@@ -26048,7 +26048,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 2,
         "match_pct": 1.0,
-        "worst_col": "Buy Arrow",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 56614,
         "num_match_pct": 1.0,
@@ -26096,7 +26096,7 @@ window.WILD_DATA = {
       "plot": {
         "cols": 16,
         "match_pct": 1.0,
-        "worst_col": "VWAP",
+        "worst_col": "",
         "pearson_min": 1.0,
         "bars_numeric": 440543,
         "num_match_pct": 1.0,

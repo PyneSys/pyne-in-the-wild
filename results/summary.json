@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29",
+  "generated_at": "2026-08-31",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
@@ -259,96 +259,5 @@
     }
   },
   "top_compile_errors": [],
-  "worst_plot_scripts": [
-    {
-      "id": "PUB;9a6c96631d4e4a2b90a9bbe98bc9168e",
-      "name": " Hull Butterfly Oscillator [LuxAlgo]",
-      "plot_match_pct": 1.0,
-      "worst_col": "Hull Butterfly"
-    },
-    {
-      "id": "PUB;50b4566eddd04de3be2a3cb031dc4ebd",
-      "name": " Machine Learning RSI ║ BullVision",
-      "plot_match_pct": 1.0,
-      "worst_col": "RSI KNN"
-    },
-    {
-      "id": "PUB;LTCnHeengZUEXPHPBLOeJhYHm8ayoO34",
-      "name": " Normalized Quantitative Qualitative Estimation nQQE",
-      "plot_match_pct": 1.0,
-      "worst_col": "FAST"
-    },
-    {
-      "id": "PUB;42af0c00136b444b918a15e6cb30e896",
-      "name": "%R Trend Exhaustion [upslidedown]",
-      "plot_match_pct": 1.0,
-      "worst_col": "Fast Period %R"
-    },
-    {
-      "id": "PUB;mfpeBvtOH6Zcqe54ECLBthMZqWS2l21J",
-      "name": "72s: Adaptive Hull Moving Average+",
-      "plot_match_pct": 1.0,
-      "worst_col": "Dynamic HMA+"
-    },
-    {
-      "id": "PUB;932",
-      "name": "ADX and DI",
-      "plot_match_pct": 1.0,
-      "worst_col": "DI+"
-    },
-    {
-      "id": "PUB;59699e73854c47c4863b11d55598449f",
-      "name": "AI Trend Navigator [K-Neighbor]",
-      "plot_match_pct": 1.0,
-      "worst_col": "Knn Classifier Line"
-    },
-    {
-      "id": "PUB;ad60b125e6b04e1f8b090a08bae151fd",
-      "name": "ATR Bands",
-      "plot_match_pct": 1.0,
-      "worst_col": "Upper ATR Band"
-    },
-    {
-      "id": "PUB;d48234236f7345c09e3d9017f8c31070",
-      "name": "ATR Stop Loss Finder",
-      "plot_match_pct": 1.0,
-      "worst_col": "ATR Short Stop Loss"
-    },
-    {
-      "id": "PUB;lyseCHx5S9AnX6Jev3IitTY7xxQ5gjWo",
-      "name": "Accurate Swing Trading System",
-      "plot_match_pct": 1.0,
-      "worst_col": "BUY"
-    },
-    {
-      "id": "PUB;87158567b731451c8a1347f953921ab7",
-      "name": "Adaptive Trend Flow [QuantAlgo]",
-      "plot_match_pct": 1.0,
-      "worst_col": "Plot"
-    },
-    {
-      "id": "PUB;a6b9fdb570244e3db61b0e74ddbba94f",
-      "name": "AlphaTrend",
-      "plot_match_pct": 1.0,
-      "worst_col": "Plot"
-    },
-    {
-      "id": "PUB;31541b6c62434344b1c6b67359d0b346",
-      "name": "AlphaTrend - Screener",
-      "plot_match_pct": 1.0,
-      "worst_col": "AlphaTrend"
-    },
-    {
-      "id": "PUB;4MRTYS5MfEBM6NjXGqBWeqXNJPxQALX8",
-      "name": "Angle Attack Follow Line Indicator ",
-      "plot_match_pct": 1.0,
-      "worst_col": "Angle Follow Line"
-    },
-    {
-      "id": "PUB;dEplYFWGPqh3bRWyQKIEIzSQAfcm4HH5",
-      "name": "Auto Fib Retracement Alerts",
-      "plot_match_pct": 1.0,
-      "worst_col": "Start"
-    }
-  ]
+  "worst_plot_scripts": []
 }
