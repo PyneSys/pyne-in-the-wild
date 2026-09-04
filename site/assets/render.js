@@ -108,9 +108,22 @@
       return null;
     };
 
+    // A tier speaks about the values that were COMPARED, and a bar where one
+    // side plots a value while the other plots na never reaches the value
+    // comparison at all. So a script can be bit-exact on every compared bar and
+    // still not agree with TradingView. The tier is printed right under the match
+    // figure, so it is gated on THAT figure: "bit-exact" next to anything below
+    // 100 % is a contradiction the reader has no way to resolve. This holds for a
+    // repainting reference too — the realigned agreement is stated on the row's
+    // detail panel, under the badge that already explains the raw figure.
+    const fullyAgrees = (s) => {
+      const m = s.plot && s.plot.match_pct;
+      return m == null || m >= 1;
+    };
+
     const fidelitySub = (s) => {
       const f = fidelity[s.fidelity];
-      if (!f) return '';
+      if (!f || !fullyAgrees(s)) return '';
       const wg = worstGap(s);
       const gap = wg ? ` Worst gap: ${wg.text} (${wg.detail}).` : '';
       const via = s.transcendentals && s.transcendentals.length

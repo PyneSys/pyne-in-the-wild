@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31",
+  "generated_at": "2026-09-04",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
@@ -149,9 +149,9 @@
         "max_rel": 1.55e-16
       }
     ],
-    "bars_compared": 69240041,
-    "bars_exact": 69016380,
-    "bars_exact_rate": 0.9967697737209601,
+    "bars_compared": 69240086,
+    "bars_exact": 69016425,
+    "bars_exact_rate": 0.9967697758203247,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
