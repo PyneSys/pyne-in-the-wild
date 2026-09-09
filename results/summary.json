@@ -1,17 +1,22 @@
 {
-  "generated_at": "2026-09-08",
+  "generated_at": "2026-09-09",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 549
+      "scripts": 557
     },
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "D",
       "scripts": 8
+    },
+    {
+      "symbol": "BINANCE:BTCUSDT",
+      "timeframe": "240",
+      "scripts": 3
     },
     {
       "symbol": "CAPITALCOM:EURUSD",
@@ -21,11 +26,6 @@
     {
       "symbol": "AMEX:SPY",
       "timeframe": "5",
-      "scripts": 2
-    },
-    {
-      "symbol": "BINANCE:BTCUSDT",
-      "timeframe": "240",
       "scripts": 2
     },
     {
@@ -54,6 +54,11 @@
       "scripts": 1
     },
     {
+      "symbol": "CAPITALCOM:EURUSD",
+      "timeframe": "240",
+      "scripts": 1
+    },
+    {
       "symbol": "CRYPTO:BTCUSD",
       "timeframe": "30",
       "scripts": 1
@@ -78,10 +83,10 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 490,
+      "exact": 497,
       "libm": 3,
       "band": 16,
-      "compared": 509
+      "compared": 516
     },
     "band_scripts": [
       {
@@ -149,41 +154,41 @@
         "max_rel": 1.55e-16
       }
     ],
-    "bars_compared": 69945257,
-    "bars_exact": 69721596,
-    "bars_exact_rate": 0.996802342151663,
+    "bars_compared": 71187974,
+    "bars_exact": 70964313,
+    "bars_exact_rate": 0.9968581631498601,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 574,
-    "indicators": 287,
-    "strategies": 287,
-    "compiled": 574,
+    "total": 584,
+    "indicators": 292,
+    "strategies": 292,
+    "compiled": 584,
     "compile_fail": 0,
-    "tv_ok": 566,
-    "pyne_ok": 574,
+    "tv_ok": 576,
+    "pyne_ok": 584,
     "trade_divergence": 3
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 265,
+    "n_with_plots_compared": 270,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 265,
+      "n": 270,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 7.146436800070384e-14,
+      "mean": 7.011598369880377e-14,
       "min": 0.0,
       "max": 1.858e-11,
-      "n": 260,
+      "n": 265,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -192,26 +197,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 260,
+      "n": 265,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 265,
+    "fully_matching_scripts": 270,
     "match_pct_histogram": {
-      "1.0": 265,
+      "1.0": 270,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 287,
+    "n": 292,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 273,
+      "n": 278,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -220,7 +225,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 273,
+      "n": 278,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -229,7 +234,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 273,
+      "n": 278,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -238,21 +243,21 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 273,
+      "n": 278,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.156e-08,
-      "mean": 4.237692244153959e-05,
+      "median": 1.1535e-08,
+      "mean": 4.161506829806863e-05,
       "min": 0.0,
       "max": 0.01041,
-      "n": 273,
-      "p25": 1.628e-14,
-      "p75": 2.965e-08
+      "n": 278,
+      "p25": 1.5755e-14,
+      "p75": 2.971e-08
     },
-    "trade_count_exact_match": 275,
+    "trade_count_exact_match": 280,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
