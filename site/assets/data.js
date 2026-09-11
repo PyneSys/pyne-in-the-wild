@@ -134,13 +134,15 @@ window.WILD_DATA = {
   "strategies": {
     "n": 307,
     "compared": 292,
-    "trade_timing_verified": 294,
+    "trade_timing_verified": 292,
     "verified": 294,
+    "verified_no_trades": 2,
+    "trades_compared": 228404,
     "entry_match_median": 1.0,
     "entry_match_mean": 1.0,
     "exit_match_median": 1.0,
     "exit_match_mean": 1.0,
-    "trade_count_exact_match": 294,
+    "trade_count_exact_match": 292,
     "net_profit_match_rate": 1.0
   },
   "scripts": [
