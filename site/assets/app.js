@@ -140,10 +140,11 @@
   // Strategy metrics
   $('#metric-trades').textContent = `${D.strategies.trade_timing_verified} / ${D.strategies.compared}`;
   $('#metric-trades-list').innerHTML = [
-    ['Trade references available', `${D.strategies.compared} / ${D.strategies.n}`],
-    [`Entry+exit timing >=${thresholdLabel}`, `${D.strategies.trade_timing_verified} / ${D.strategies.compared}`],
-    ['Fully verified strategy outputs', `${D.strategies.verified} / ${D.strategies.n}`],
-    ['Trades compared in total', fmt(D.totals.trades_compared)],
+    ['Trade-producing strategies compared', `${D.strategies.compared} / ${D.strategies.n}`],
+    [`Whole-trade timing >=${thresholdLabel}`, `${D.strategies.trade_timing_verified} / ${D.strategies.compared}`],
+    ['Plot-verified, no trades produced', D.strategies.verified_no_trades],
+    ['Verified strategies (trades or plots)', `${D.strategies.verified} / ${D.strategies.n}`],
+    ['TradingView trades checked', fmt(D.strategies.trades_compared)],
     ['Exact trade-count matches', `${D.strategies.trade_count_exact_match} / ${D.strategies.compared}`],
     ...(D.totals.sub_tick_excluded_trades
       ? [['Trades excluded as sub-tick decisions', `${D.totals.sub_tick_excluded_trades} of ${fmt(D.totals.trades_compared)}`]]
