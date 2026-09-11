@@ -11665,7 +11665,7 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "runs",
       "bars": 27618,
-      "run_sec": 15.652,
+      "run_sec": 16.814,
       "ms_per_bar": null,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
@@ -22038,8 +22038,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "repaint",
       "bars": 28954,
-      "run_sec": 9.646,
-      "ms_per_bar": 0.3332,
+      "run_sec": 9.949,
+      "ms_per_bar": 0.3436,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -25917,8 +25917,8 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 29652,
-      "run_sec": 2.594,
-      "ms_per_bar": 0.0875,
+      "run_sec": 3.0,
+      "ms_per_bar": 0.1012,
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
