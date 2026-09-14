@@ -1,5 +1,5 @@
 window.WILD_DATA = {
-  "generated_at": "2026-09-13",
+  "generated_at": "2026-09-14",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe_min": 30,
   "own_market_scripts": 30,
@@ -13,10 +13,10 @@ window.WILD_DATA = {
   },
   "fidelity": {
     "scripts": {
-      "exact": 583,
+      "exact": 591,
       "libm": 4,
       "band": 18,
-      "compared": 605
+      "compared": 613
     },
     "band_scripts": [
       {
@@ -92,65 +92,65 @@ window.WILD_DATA = {
         "max_rel": 1.834e-16
       }
     ],
-    "bars_compared": 83934964,
-    "bars_exact": 83710315,
-    "bars_exact_rate": 0.997323534921633,
+    "bars_compared": 85039672,
+    "bars_exact": 84815023,
+    "bars_exact_rate": 0.9973583035456675,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
   "totals": {
-    "total": 691,
-    "indicators": 347,
-    "strategies": 344,
-    "compiled": 691,
+    "total": 701,
+    "indicators": 352,
+    "strategies": 349,
+    "compiled": 701,
     "compile_fail": 0,
-    "tv_ok": 683,
-    "pyne_ok": 691,
+    "tv_ok": 693,
+    "pyne_ok": 701,
     "trade_divergence": 3,
     "compile_rate": 1.0,
     "run_rate": 1.0,
     "run_success_rate": 1.0,
-    "measurable_scripts": 668,
-    "tv_comparable": 927,
-    "tv_fidelity_verified": 927,
+    "measurable_scripts": 677,
+    "tv_comparable": 939,
+    "tv_fidelity_verified": 939,
     "tv_fidelity_rate": 1.0,
-    "plot_outputs": 605,
-    "trade_outputs": 322,
+    "plot_outputs": 613,
+    "trade_outputs": 326,
     "average_match_rate": 1.0,
-    "average_match_count": 927,
-    "trades_compared": 266810,
+    "average_match_count": 939,
+    "trades_compared": 269481,
     "sub_tick_excluded_trades": 0,
     "sub_tick_excluded_scripts": 0,
-    "bars_run": 19582733,
-    "verified": 646,
+    "bars_run": 19881193,
+    "verified": 655,
     "divergent": 0,
     "repaint": 21,
     "data_limited": 1,
-    "runs": 23,
+    "runs": 24,
     "failed": 0
   },
   "indicators": {
-    "total": 347,
-    "compared": 322,
-    "plot_verified": 322,
-    "plot_exact": 322,
+    "total": 352,
+    "compared": 326,
+    "plot_verified": 326,
+    "plot_exact": 326,
     "plot_match_median": 1.0,
     "plot_match_mean": 1.0,
     "plot_match_min": 1.0,
     "pearson_min": 1.0
   },
   "strategies": {
-    "n": 344,
-    "compared": 322,
-    "trade_timing_verified": 322,
-    "verified": 324,
-    "verified_no_trades": 2,
-    "trades_compared": 252881,
+    "n": 349,
+    "compared": 326,
+    "trade_timing_verified": 326,
+    "verified": 329,
+    "verified_no_trades": 3,
+    "trades_compared": 255552,
     "entry_match_median": 1.0,
     "entry_match_mean": 1.0,
     "exit_match_median": 1.0,
     "exit_match_mean": 1.0,
-    "trade_count_exact_match": 322,
+    "trade_count_exact_match": 326,
     "net_profit_match_rate": 1.0
   },
   "scripts": [
@@ -15482,6 +15482,47 @@ window.WILD_DATA = {
       "fidelity": "exact"
     },
     {
+      "id": "PUB;dc9f4be0b1874a09ae5d701264630f82",
+      "kind": "indicator",
+      "name": " Pro Scalper AI [BullByte]",
+      "author": "BullByte",
+      "license": "MPL-2.0",
+      "version": "2",
+      "pine_version": 6,
+      "likes": 5392,
+      "tv_url": "https://www.tradingview.com/script/HmXeAuPG/",
+      "sha256": "468119e3e8d1ae5e22e9c0fb563eac28de95dfa46f61876386a29d2d3b89e1de",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29846,
+      "run_sec": 3.407,
+      "ms_per_bar": 0.1142,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T18:30:00+00:00",
+        "bars": 29846
+      },
+      "plot": {
+        "cols": 13,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 357907,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "transcendentals": [
+        "exp",
+        "log"
+      ]
+    },
+    {
       "id": "PUB;ntbLW2WSIdgmvjmowBnedwe5GLjSP3jv",
       "kind": "indicator",
       "name": "Easy Entry/Exit Trend Colors (With Alerts)",
@@ -15517,6 +15558,83 @@ window.WILD_DATA = {
         "max_rel": 0.0
       },
       "fidelity": "exact"
+    },
+    {
+      "id": "PUB;28sGm8JqI3nH3dG4gZIEgl9W0G3Vqo9z",
+      "kind": "indicator",
+      "name": "Position Size Calculator",
+      "author": "zzzcrypto123",
+      "license": "MPL-2.0",
+      "version": "5",
+      "pine_version": 4,
+      "likes": 5387,
+      "tv_url": "https://www.tradingview.com/script/rFxYFTrU/",
+      "sha256": "127ff8999966f7cdc012ff8b0bc8e19d732f8faf3e73aba50b986d9799df1163",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29846,
+      "run_sec": 2.164,
+      "ms_per_bar": 0.0725,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T18:30:00+00:00",
+        "bars": 29846
+      },
+      "plot": {
+        "cols": 3,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": null,
+        "bars_numeric": 89538,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;3194964d05914b15b921291fbf5564b2",
+      "kind": "indicator",
+      "name": "Adaptive MACD [LuxAlgo]",
+      "author": "LuxAlgo",
+      "license": "CC",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 5370,
+      "tv_url": "https://www.tradingview.com/script/kBHEpriQ/",
+      "sha256": "5dd787a9d3f160ba1c246148250729e7f3a19c166e90270711fe82e617787ce4",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29846,
+      "run_sec": 0.958,
+      "ms_per_bar": 0.0321,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T18:30:00+00:00",
+        "bars": 29846
+      },
+      "plot": {
+        "cols": 3,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 89465,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "transcendentals": [
+        "pow"
+      ]
     },
     {
       "id": "PUB;Yl6GXymMoORyI3fvTknuzaUVACwBwuYp",
@@ -15565,6 +15683,76 @@ window.WILD_DATA = {
         "pc_net_profit": -53114.37,
         "net_profit_match": true
       }
+    },
+    {
+      "id": "PUB;f799214ad7f14c1ba35f5ce04ab7c640",
+      "kind": "indicator",
+      "name": "Whale Liquidity and Absorption Profile [AlgoAlpha]",
+      "author": "AlgoAlpha",
+      "license": "MPL-2.0",
+      "version": "2",
+      "pine_version": 6,
+      "likes": 5352,
+      "tv_url": "https://www.tradingview.com/script/cWm8UcfQ/",
+      "sha256": "cd86a6e466315fda50ae9ee2cb850a049b33ce544f6052704e69d77dc9cc973f",
+      "status": "ok",
+      "level": "runs",
+      "bars": 29846,
+      "run_sec": 55.656,
+      "ms_per_bar": 1.8648,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T18:30:00+00:00",
+        "bars": 29846,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "3",
+            "from": "2026-02-18T11:15:00+00:00",
+            "to": "2026-09-14T18:57:00+00:00",
+            "bars": 99995
+          }
+        ]
+      }
+    },
+    {
+      "id": "PUB;4146b89756294864be69d8ea4f92876e",
+      "kind": "indicator",
+      "name": "Reversal",
+      "author": "HasanRifat",
+      "license": "MPL-2.0",
+      "version": "2",
+      "pine_version": 5,
+      "likes": 5351,
+      "tv_url": "https://www.tradingview.com/script/bxZXAUpf/",
+      "sha256": "6cd59fe1d3f4e037a067bf1e0177205c41f2161cc711e1d28e9cc81043bce999",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29846,
+      "run_sec": 0.876,
+      "ms_per_bar": 0.0294,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T18:30:00+00:00",
+        "bars": 29846
+      },
+      "plot": {
+        "cols": 2,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 59692,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact"
     },
     {
       "id": "PUB;CzUaiZAQyPov2OclU7rmTj7RbNbTtqYc",
@@ -30013,6 +30201,54 @@ window.WILD_DATA = {
       }
     },
     {
+      "id": "PUB;b1fa24b3f0784c7c8d239d8f95370e08",
+      "kind": "strategy",
+      "name": "2x take profit, move stop loss to entry",
+      "author": "fpsd4ve",
+      "license": "MPL-2.0",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 978,
+      "tv_url": "https://www.tradingview.com/script/0Blrq2NA/",
+      "sha256": "efe99b44821cc2dd407ebece95d8c24339eff5ba21fb9b06c072fe98db6fb30b",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29845,
+      "run_sec": 1.83,
+      "ms_per_bar": 0.0613,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T18:00:00+00:00",
+        "bars": 29845
+      },
+      "plot": {
+        "cols": 4,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 61998,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 1787,
+        "pc": 1787,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -60.342487,
+        "pc_net_profit": -60.342488,
+        "net_profit_match": true
+      }
+    },
+    {
       "id": "PUB;8b8f6f97c59744839ef75ce314d84fd9",
       "kind": "strategy",
       "name": "Trendline Breakout Strategy [KedArc Quant] ",
@@ -30058,6 +30294,63 @@ window.WILD_DATA = {
         "tv_net_profit": -1081.5554,
         "pc_net_profit": -1081.555473,
         "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;f73624e53b934f0abfd02381360d2666",
+      "kind": "strategy",
+      "name": "Advanced VWAP_Pullback Strategy_Trend-Template Qualifier",
+      "author": "JS_TechTrading",
+      "license": "none",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 976,
+      "tv_url": "https://www.tradingview.com/script/KafnxzJR/",
+      "sha256": "a6a74035ddc784609fcc88186b5358c0a0e158b23206a3331d3b64312ce8042c",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29845,
+      "run_sec": 4.143,
+      "ms_per_bar": 0.1388,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T18:00:00+00:00",
+        "bars": 29845,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT",
+            "timeframe": "D",
+            "from": "2017-08-17T00:00:00+00:00",
+            "to": "2026-09-14T00:00:00+00:00",
+            "bars": 3316
+          }
+        ]
+      },
+      "plot": {
+        "cols": 9,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 147970,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 0,
+        "pc": 0,
+        "trade_match_pct": null,
+        "entry_match_pct": null,
+        "exit_match_pct": null,
+        "extra_entries": 0,
+        "tv_net_profit": null,
+        "pc_net_profit": null,
+        "net_profit_match": false
       }
     },
     {
@@ -30177,6 +30470,140 @@ window.WILD_DATA = {
         "extra_entries": 0,
         "tv_net_profit": -37.56526,
         "pc_net_profit": -37.565263,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;bNYzbo6zYqcrJ7OlX9RVNzUrwk220pmD",
+      "kind": "strategy",
+      "name": "TRAILING STOP LOSS TO LONG AND SHORT",
+      "author": "exit490",
+      "license": "MIT",
+      "version": "1",
+      "pine_version": 4,
+      "likes": 972,
+      "tv_url": "https://www.tradingview.com/script/0KrB3hnV/",
+      "sha256": "2d5350ffa52f1dc4978083228f6a0fd56a236934c154d47efec2c3e857ecaaed",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29845,
+      "run_sec": 1.831,
+      "ms_per_bar": 0.0614,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T18:00:00+00:00",
+        "bars": 29845
+      },
+      "plot": {
+        "cols": 2,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 59362,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 164,
+        "pc": 164,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -12326.85,
+        "pc_net_profit": -12326.85,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;umJ3c96ka1vdgpFWl5XbgVY6Jtp1rXGd",
+      "kind": "strategy",
+      "name": "KAMA Strategy - Kaufman's Adaptive Moving Average",
+      "author": "cisl22klasjk",
+      "license": "MPL-2.0",
+      "version": "2",
+      "pine_version": 5,
+      "likes": 968,
+      "tv_url": "https://www.tradingview.com/script/h8cfMnVH/",
+      "sha256": "d59a59e5d6beed5f2b0c6a80517e153db1ae8cc0230031f2b679c0a1ba927e45",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29847,
+      "run_sec": 2.402,
+      "ms_per_bar": 0.0805,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T19:00:00+00:00",
+        "bars": 29847
+      },
+      "plot": {
+        "cols": 10,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 238776,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "transcendentals": [
+        "pow"
+      ],
+      "trades": {
+        "tv": 585,
+        "pc": 585,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": 1312.8499,
+        "pc_net_profit": 1312.849806,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;efEjn1YmejfPoak2mE1CDEA57Kp8BHlC",
+      "kind": "strategy",
+      "name": "Сalculation a position size based on risk",
+      "author": "adolgov",
+      "license": "MPL-2.0",
+      "version": "1",
+      "pine_version": 4,
+      "likes": 968,
+      "tv_url": "https://www.tradingview.com/script/hoCPm5UY/",
+      "sha256": "7f6185176b7f03ce55ce758cc9763f8eecf7024670e1fed0d2f0029453f3c38b",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29848,
+      "run_sec": 1.031,
+      "ms_per_bar": null,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T19:30:00+00:00",
+        "bars": 29848
+      },
+      "trades": {
+        "tv": 135,
+        "pc": 135,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": 30584.127,
+        "pc_net_profit": 30584.127424,
         "net_profit_match": true
       }
     },
