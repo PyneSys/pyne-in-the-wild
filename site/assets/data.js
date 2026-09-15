@@ -2,7 +2,7 @@ window.WILD_DATA = {
   "generated_at": "2026-09-14",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe_min": 30,
-  "own_market_scripts": 30,
+  "own_market_scripts": 31,
   "verification_threshold": 0.99,
   "tolerances": {
     "rel_tol": 1e-09,
@@ -13,10 +13,10 @@ window.WILD_DATA = {
   },
   "fidelity": {
     "scripts": {
-      "exact": 591,
+      "exact": 600,
       "libm": 4,
       "band": 18,
-      "compared": 613
+      "compared": 622
     },
     "band_scripts": [
       {
@@ -92,65 +92,65 @@ window.WILD_DATA = {
         "max_rel": 1.834e-16
       }
     ],
-    "bars_compared": 85039672,
-    "bars_exact": 84815023,
-    "bars_exact_rate": 0.9973583035456675,
+    "bars_compared": 86434510,
+    "bars_exact": 86209861,
+    "bars_exact_rate": 0.9974009339556619,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
   "totals": {
-    "total": 701,
-    "indicators": 352,
-    "strategies": 349,
-    "compiled": 701,
+    "total": 711,
+    "indicators": 357,
+    "strategies": 354,
+    "compiled": 711,
     "compile_fail": 0,
-    "tv_ok": 693,
-    "pyne_ok": 701,
+    "tv_ok": 703,
+    "pyne_ok": 711,
     "trade_divergence": 3,
     "compile_rate": 1.0,
     "run_rate": 1.0,
     "run_success_rate": 1.0,
-    "measurable_scripts": 677,
-    "tv_comparable": 939,
-    "tv_fidelity_verified": 939,
+    "measurable_scripts": 686,
+    "tv_comparable": 953,
+    "tv_fidelity_verified": 953,
     "tv_fidelity_rate": 1.0,
-    "plot_outputs": 613,
-    "trade_outputs": 326,
+    "plot_outputs": 622,
+    "trade_outputs": 331,
     "average_match_rate": 1.0,
-    "average_match_count": 939,
-    "trades_compared": 269481,
+    "average_match_count": 953,
+    "trades_compared": 271833,
     "sub_tick_excluded_trades": 0,
     "sub_tick_excluded_scripts": 0,
-    "bars_run": 19881193,
-    "verified": 655,
+    "bars_run": 20170040,
+    "verified": 664,
     "divergent": 0,
     "repaint": 21,
     "data_limited": 1,
-    "runs": 24,
+    "runs": 25,
     "failed": 0
   },
   "indicators": {
-    "total": 352,
-    "compared": 326,
-    "plot_verified": 326,
-    "plot_exact": 326,
+    "total": 357,
+    "compared": 330,
+    "plot_verified": 330,
+    "plot_exact": 330,
     "plot_match_median": 1.0,
     "plot_match_mean": 1.0,
     "plot_match_min": 1.0,
     "pearson_min": 1.0
   },
   "strategies": {
-    "n": 349,
-    "compared": 326,
-    "trade_timing_verified": 326,
-    "verified": 329,
+    "n": 354,
+    "compared": 331,
+    "trade_timing_verified": 331,
+    "verified": 334,
     "verified_no_trades": 3,
-    "trades_compared": 255552,
+    "trades_compared": 257904,
     "entry_match_median": 1.0,
     "entry_match_mean": 1.0,
     "exit_match_median": 1.0,
     "exit_match_mean": 1.0,
-    "trade_count_exact_match": 326,
+    "trade_count_exact_match": 331,
     "net_profit_match_rate": 1.0
   },
   "scripts": [
@@ -15755,6 +15755,188 @@ window.WILD_DATA = {
       "fidelity": "exact"
     },
     {
+      "id": "PUB;2f445b41cd734bffb6546cb27c228568",
+      "kind": "indicator",
+      "name": "RedK EVEREX - Effort Versus Results Explorer",
+      "author": "RedKTrader",
+      "license": "MPL-2.0",
+      "version": "4",
+      "pine_version": 6,
+      "likes": 5350,
+      "tv_url": "https://www.tradingview.com/script/I5qJDPxT/",
+      "sha256": "2b5258e7689885aa41f9fc666adf65db6c0e418f5fd70881f55dd98c6678f710",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29849,
+      "run_sec": 2.829,
+      "ms_per_bar": 0.0948,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T20:00:00+00:00",
+        "bars": 29849
+      },
+      "plot": {
+        "cols": 22,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 493955,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;8865cb3c4a0d4e0bba2e0bb26c9e0d5d",
+      "kind": "indicator",
+      "name": "Range Analysis - By Leviathan",
+      "author": "LeviathanCapital",
+      "license": "MPL-2.0",
+      "version": "3",
+      "pine_version": 5,
+      "likes": 5344,
+      "tv_url": "https://www.tradingview.com/script/nUos1SCj/",
+      "sha256": "007a6cf441c2a9123ce381a8eea9ce58a7a461c2571ebc2f7bb16131aad8d5c5",
+      "status": "ok",
+      "level": "runs",
+      "bars": 29849,
+      "run_sec": 132.598,
+      "ms_per_bar": 4.4423,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T20:00:00+00:00",
+        "bars": 29849,
+        "security": [
+          {
+            "symbol": "BINANCE:BTCUSDT.P_OI",
+            "timeframe": "30",
+            "from": "2025-01-01T00:00:00+00:00",
+            "to": "2026-09-14T20:00:00+00:00",
+            "bars": 29847
+          }
+        ]
+      }
+    },
+    {
+      "id": "PUB;547f3a5fce524cdbbe42f37825815f57",
+      "kind": "indicator",
+      "name": "Next Pivot Projection [Trendoscope]",
+      "author": "Trendoscope",
+      "license": "MPL-2.0",
+      "version": "5",
+      "pine_version": 5,
+      "likes": 5332,
+      "tv_url": "https://www.tradingview.com/script/dkSaWOLA/",
+      "sha256": "467a9661bdc692bca65c969b205058a0d0dfdbb2e743e49b15321d68fca6f82d",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29849,
+      "run_sec": 92.463,
+      "ms_per_bar": 3.0977,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T20:00:00+00:00",
+        "bars": 29849
+      },
+      "plot": {
+        "cols": 5,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 111710,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;9cb0d80a4d2e4e898ef0e5b9d5aab832",
+      "kind": "indicator",
+      "name": "Evasive SuperTrend [LuxAlgo]",
+      "author": "LuxAlgo",
+      "license": "CC",
+      "version": "1",
+      "pine_version": 6,
+      "likes": 5324,
+      "tv_url": "https://www.tradingview.com/script/tfC7w3jE/",
+      "sha256": "79a01aaaf8d625486cfe9b438e0b16e50fe3605ca7e516fcccdc9b5f65ff23bd",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29849,
+      "run_sec": 0.92,
+      "ms_per_bar": 0.0308,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T20:00:00+00:00",
+        "bars": 29849
+      },
+      "plot": {
+        "cols": 5,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 89761,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact"
+    },
+    {
+      "id": "PUB;db0686c4ff674fe2876dfbd48c5c3665",
+      "kind": "indicator",
+      "name": "Algo Market Structure (Nephew_Sam_)",
+      "author": "nephew_sam_",
+      "license": "none",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 5317,
+      "tv_url": "https://www.tradingview.com/script/o0pJo9hm/",
+      "sha256": "269d1013ed3c2d8b9162a98c04b0ed0610c92e69ce42a450ea5f6e967933cf9e",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29850,
+      "run_sec": 75.662,
+      "ms_per_bar": 2.5348,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T20:30:00+00:00",
+        "bars": 29850
+      },
+      "plot": {
+        "cols": 8,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 238800,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "lookahead_checked": true
+    },
+    {
       "id": "PUB;CzUaiZAQyPov2OclU7rmTj7RbNbTtqYc",
       "kind": "strategy",
       "name": "BEST Trend Direction Helper (Strategy Edition)",
@@ -30522,6 +30704,54 @@ window.WILD_DATA = {
       }
     },
     {
+      "id": "PUB;11d65a5fe0724173b72c230c576947fc",
+      "kind": "strategy",
+      "name": "Momentum Sequence Strategy+ [Herman]",
+      "author": "helmans13",
+      "license": "MPL-2.0",
+      "version": "1",
+      "pine_version": 6,
+      "likes": 971,
+      "tv_url": "https://www.tradingview.com/script/mmrInMTp/",
+      "sha256": "ffa06b058b012a6dc2396282b4808a53065285f3068284fd3d9af04558d00a63",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29849,
+      "run_sec": 1.493,
+      "ms_per_bar": 0.05,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T20:00:00+00:00",
+        "bars": 29849
+      },
+      "plot": {
+        "cols": 4,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 71492,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 161,
+        "pc": 161,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -15281.414,
+        "pc_net_profit": -15281.413916,
+        "net_profit_match": true
+      }
+    },
+    {
       "id": "PUB;umJ3c96ka1vdgpFWl5XbgVY6Jtp1rXGd",
       "kind": "strategy",
       "name": "KAMA Strategy - Kaufman's Adaptive Moving Average",
@@ -30604,6 +30834,480 @@ window.WILD_DATA = {
         "extra_entries": 0,
         "tv_net_profit": 30584.127,
         "pc_net_profit": 30584.127424,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;08hU9indYoRwveVMfmShjhd8CYB8xvwB",
+      "kind": "strategy",
+      "name": "EMA RSI ATR Hidden Div Strat - 1 Min",
+      "author": "TradingStrategyCheck",
+      "license": "none",
+      "version": "4",
+      "pine_version": 4,
+      "likes": 967,
+      "tv_url": "https://www.tradingview.com/script/itKnLY6I/",
+      "sha256": "55014cda22c2f0a629ecfe19a3421cdf7bfe900aee1ed3f35d4d794135bee024",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29848,
+      "run_sec": 2.859,
+      "ms_per_bar": 0.0958,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T19:30:00+00:00",
+        "bars": 29848
+      },
+      "plot": {
+        "cols": 4,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 63996,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 65,
+        "pc": 65,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": 498.32574,
+        "pc_net_profit": 498.325732,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;b7e4b2f94f8e448d81e3158612825e00",
+      "kind": "strategy",
+      "name": "RSI SMA Crossover Strategy",
+      "author": "reees",
+      "license": "MPL-2.0",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 967,
+      "tv_url": "https://www.tradingview.com/script/ZINSYeR8/",
+      "sha256": "2fa482a0536121b250f7f63a8ded4e020e620f5edb604d13896ca47f21a44fdb",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29849,
+      "run_sec": 1.219,
+      "ms_per_bar": 0.0408,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T20:00:00+00:00",
+        "bars": 29849
+      },
+      "plot": {
+        "cols": 2,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 59574,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 1784,
+        "pc": 1784,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": 68.39182,
+        "pc_net_profit": 68.391826,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;e790dc4579a14fb9878bc4360623f5e5",
+      "kind": "strategy",
+      "name": "Kitchen [ilovealgotrading]",
+      "author": "projeadam",
+      "license": "MPL-2.0",
+      "version": "2",
+      "pine_version": 5,
+      "likes": 966,
+      "tv_url": "https://www.tradingview.com/script/T2juFbHt/",
+      "sha256": "925aa0fab2c002b30fdb76912581dc14da59927cb00e300476e4badad93bf1c2",
+      "status": "ok",
+      "level": "verified",
+      "bars": 29848,
+      "run_sec": 21.508,
+      "ms_per_bar": 0.7206,
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-14T19:30:00+00:00",
+        "bars": 29848
+      },
+      "plot": {
+        "cols": 8,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 119398,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 95,
+        "pc": 95,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -40.937077,
+        "pc_net_profit": -40.937076,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;ebf33e4e47e746579acf2c4610d532f7",
+      "kind": "strategy",
+      "name": "Top 40 High Low Strategy for SPY, 5min",
+      "author": "PtGambler",
+      "license": "MPL-2.0",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 966,
+      "tv_url": "https://www.tradingview.com/script/3BFuBf4F/",
+      "sha256": "1e9c51cee5122aced921717f31709b5a8fbd0ad4b5cdb7b5c05c4be596f7d2f6",
+      "status": "ok",
+      "level": "verified",
+      "bars": 20207,
+      "run_sec": 622.472,
+      "ms_per_bar": 30.8047,
+      "data": {
+        "symbol": "AMEX:SPY",
+        "timeframe": "5",
+        "from": "2025-09-02T13:30:00+00:00",
+        "to": "2026-09-14T19:50:00+00:00",
+        "bars": 20207,
+        "security": [
+          {
+            "symbol": "AAPL",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "MSFT",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "AMZN",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "GOOG",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "FB",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T13:30:00+00:00",
+            "bars": 582
+          },
+          {
+            "symbol": "TSLA",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "NVDA",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "BRK.B",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "JPM",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "UNH",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "JNJ",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "HD",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "PG",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "V",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "PFE",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "BAC",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "MA",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "ADBE",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "DIS",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "NFLX",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "TMO",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20204
+          },
+          {
+            "symbol": "XOM",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "CRM",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "CSCO",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "COST",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "ABT",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "PEP",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "ABBV",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "KO",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "PYPL",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "CVX",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "CMCSA",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "LLY",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "QCOM",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "NKE",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "VZ",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "WMT",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "INTC",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          },
+          {
+            "symbol": "ACN",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20206
+          },
+          {
+            "symbol": "AVGO",
+            "timeframe": "5",
+            "from": "2025-09-02T13:30:00+00:00",
+            "to": "2026-09-14T19:50:00+00:00",
+            "bars": 20207
+          }
+        ]
+      },
+      "plot": {
+        "cols": 8,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 146152,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 247,
+        "pc": 247,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -28164.5,
+        "pc_net_profit": -28164.5,
         "net_profit_match": true
       }
     },
