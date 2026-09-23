@@ -83,8 +83,8 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 685,
-      "libm": 5,
+      "exact": 687,
+      "libm": 3,
       "band": 22,
       "compared": 712
     },
@@ -179,8 +179,8 @@
       }
     ],
     "bars_compared": 99018068,
-    "bars_exact": 98731431,
-    "bars_exact_rate": 0.9971052050823694,
+    "bars_exact": 98735864,
+    "bars_exact_rate": 0.9971499746894678,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
@@ -209,7 +209,7 @@
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 5.0353512819742544e-14,
+      "mean": 5.0353467833292683e-14,
       "min": 0.0,
       "max": 1.858e-11,
       "n": 369,
