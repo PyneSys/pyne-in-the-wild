@@ -6,7 +6,7 @@
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 766
+      "scripts": 776
     },
     {
       "symbol": "BINANCE:BTCUSDT",
@@ -83,10 +83,10 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 676,
-      "libm": 4,
+      "exact": 685,
+      "libm": 5,
       "band": 22,
-      "compared": 702
+      "compared": 712
     },
     "band_scripts": [
       {
@@ -178,41 +178,41 @@
         "max_rel": 1.258e-16
       }
     ],
-    "bars_compared": 97864310,
-    "bars_exact": 97578119,
-    "bars_exact_rate": 0.9970756346210381,
+    "bars_compared": 99018068,
+    "bars_exact": 98731431,
+    "bars_exact_rate": 0.9971052050823694,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 799,
-    "indicators": 402,
-    "strategies": 397,
-    "compiled": 799,
+    "total": 809,
+    "indicators": 407,
+    "strategies": 402,
+    "compiled": 809,
     "compile_fail": 0,
-    "tv_ok": 791,
-    "pyne_ok": 799,
+    "tv_ok": 801,
+    "pyne_ok": 809,
     "trade_divergence": 3
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 375,
+    "n_with_plots_compared": 380,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 375,
+      "n": 380,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 5.104513634748626e-14,
+      "mean": 5.0353512819742544e-14,
       "min": 0.0,
       "max": 1.858e-11,
-      "n": 364,
+      "n": 369,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -221,26 +221,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 364,
+      "n": 369,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 375,
+    "fully_matching_scripts": 380,
     "match_pct_histogram": {
-      "1.0": 375,
+      "1.0": 380,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 397,
+    "n": 402,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 373,
+      "n": 378,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -249,7 +249,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 373,
+      "n": 378,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -258,7 +258,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 373,
+      "n": 378,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -267,21 +267,21 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 373,
+      "n": 378,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.427e-08,
-      "mean": 3.293315616267449e-05,
+      "median": 1.407e-08,
+      "mean": 3.2497747366883675e-05,
       "min": 0.0,
       "max": 0.01041,
-      "n": 373,
-      "p25": 1.647e-14,
-      "p75": 3.079e-08
+      "n": 378,
+      "p25": 1.6962500000000002e-14,
+      "p75": 3.07675e-08
     },
-    "trade_count_exact_match": 376,
+    "trade_count_exact_match": 381,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
