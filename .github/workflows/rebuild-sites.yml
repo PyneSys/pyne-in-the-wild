@@ -1,0 +1,52 @@
+name: Rebuild dependent sites
+
+# pynesys.com, pynesys.io and pynecore.org read https://wild.pynesys.io/assets/data.js
+# at build time. Cloudflare Pages reports every build of this repository as a
+# "Cloudflare Pages" check run; once that check run completes successfully on the
+# default branch, the new data is live, so all three sites are rebuilt together
+# from the same snapshot.
+#
+# Each of the three Pages projects has a `wild-rebuild` deploy hook (branch `main`,
+# Workers & Pages -> <project> -> Settings -> Builds -> Deploy hooks); their URLs
+# are stored as repository secrets
+# DEPLOY_HOOK_PYNESYS_COM, DEPLOY_HOOK_PYNESYS_IO and DEPLOY_HOOK_PYNECORE_ORG.
+#
+# The check_run event only fires workflows whose file is on the default branch.
+
+on:
+  check_run:
+    types: [completed]
+  workflow_dispatch:
+
+jobs:
+  trigger:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.check_run.app.slug == 'cloudflare-workers-and-pages' &&
+       github.event.check_run.conclusion == 'success' &&
+       github.event.check_run.check_suite.head_branch == 'main')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Cloudflare Pages deploy hooks
+        env:
+          HOOK_PYNESYS_COM: ${{ secrets.DEPLOY_HOOK_PYNESYS_COM }}
+          HOOK_PYNESYS_IO: ${{ secrets.DEPLOY_HOOK_PYNESYS_IO }}
+          HOOK_PYNECORE_ORG: ${{ secrets.DEPLOY_HOOK_PYNECORE_ORG }}
+        run: |
+          failed=0
+          for name in PYNESYS_COM PYNESYS_IO PYNECORE_ORG; do
+            var="HOOK_$name"
+            url="${!var}"
+            if [ -z "$url" ]; then
+              echo "::error::DEPLOY_HOOK_$name secret is not set"
+              failed=1
+              continue
+            fi
+            if curl -fsS --retry 3 --retry-all-errors -X POST "$url" > /dev/null; then
+              echo "$name: build triggered"
+            else
+              echo "::error::$name: deploy hook failed"
+              failed=1
+            fi
+          done
+          exit $failed
