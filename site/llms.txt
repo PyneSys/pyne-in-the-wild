@@ -1,0 +1,27 @@
+# Pyne in the Wild
+
+> Pyne in the Wild is a public, reproducible comparison of PyneCore with TradingView on 809 published open-source TradingView Pine scripts (407 indicators, 402 strategies; Pine Script v4: 294, v5: 314, v6: 201). Each script is converted to Python (Pyne code) with PyneComp, run with PyneCore, and its plotted values and trades are compared with TradingView's own output of the original script. 1,090 of 1,090 comparable outputs match, 99.714% of 99,018,068 plotted values are bit-identical, and 289,074 TradingView strategy trades were checked. Last run: 2026-09-27.
+
+- Setup: default market BINANCE:BTCUSDT, 30-minute bars, 25,000+ bars per script; 33 scripts are measured on their own market. The TradingView reference is the export of the original script on the same symbol, timeframe and bar range.
+- Match rule: a relative tolerance of 1e-9, with a floor taken from the series' median magnitude near zero; net profit within 2.0% of the larger net. On top of the tolerance, each value is placed on the IEEE-754 scale: bit-exact (the identical double), libm (last-bit differences from transcendental functions, capped at 64 representable values), or within the band. The worst relative gap anywhere in the corpus is 1.2 × 10⁻¹⁰ (about 9 significant figures).
+- Corpus status: 761 verified, 0 divergent, 21 depend on lookahead, 1 data-limited, 26 run without a comparable TradingView reference, 0 failed. Scripts whose TradingView output depends on data a bar could not have had (lookahead) are held apart from the accuracy score: PyneCore does not reproduce lookahead.
+- Only open-source scripts whose header does not forbid reuse enter the corpus. The Pine sources are not redistributed; the manifest pins each one by SHA-256, so every result can be re-run.
+
+## Report
+
+- [Report](https://wild.pynesys.io/): the summary figures, the methodology and the table of all scripts
+- [Methodology](https://wild.pynesys.io/#methodology): run parameters, match tiers and the band script by script
+- [Sitemap](https://wild.pynesys.io/sitemap.xml): every script has its own page at https://wild.pynesys.io/scripts/<name>-<id>, with its measured result
+
+## Data
+
+- [results.csv](https://raw.githubusercontent.com/PyneSys/pyne-in-the-wild/main/results/results.csv): one row per script with every measured metric
+- [summary.json](https://raw.githubusercontent.com/PyneSys/pyne-in-the-wild/main/results/summary.json): the aggregate figures of the run
+- [manifest.csv](https://raw.githubusercontent.com/PyneSys/pyne-in-the-wild/main/corpus/manifest.csv): the corpus: name, author, TradingView link, license, Pine version, SHA-256
+- [headline.json](https://wild.pynesys.io/assets/headline.json): the headline figures as a flat key-value map
+- [GitHub repository](https://github.com/PyneSys/pyne-in-the-wild)
+
+## Related
+
+- [PyneCore](https://pynecore.org/llms.txt): the open-source runtime that runs the converted scripts
+- [PyneSys](https://pynesys.io/llms.txt): PyneComp, the Pine Script to Python compiler
