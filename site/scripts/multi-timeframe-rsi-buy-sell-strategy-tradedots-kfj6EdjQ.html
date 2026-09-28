@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi Timeframe RSI Buy Sell Strategy [TradeDots] by tradedots: PyneCore vs TradingView</title>
+  <meta name="description" content="Multi Timeframe RSI Buy Sell Strategy [TradeDots] by tradedots, a Pine Script v5 strategy, converted with PyneComp and run with PyneCore on BINANCE:BTCUSDT 30m: 168,639 plotted values compared with TradingView, every one bit-identical; all 96 trades match TradingView&#39;s entry and exit timing.">
+  <link rel="canonical" href="https://wild.pynesys.io/scripts/multi-timeframe-rsi-buy-sell-strategy-tradedots-kfj6EdjQ">
+  <link rel="icon" type="image/svg+xml" href="https://pynesys.io/images/logos/logo.svg">
+  <link rel="preconnect" href="https://pynesys.io" crossorigin>
+  <link rel="preload" href="https://pynesys.io/fonts/geist/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="https://pynesys.io/fonts/manrope/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../assets/style.css">
+  <meta property="og:title" content="Multi Timeframe RSI Buy Sell Strategy [TradeDots] by tradedots: PyneCore vs TradingView">
+  <meta property="og:description" content="Multi Timeframe RSI Buy Sell Strategy [TradeDots] by tradedots, a Pine Script v5 strategy, converted with PyneComp and run with PyneCore on BINANCE:BTCUSDT 30m: 168,639 plotted values compared with TradingView, every one bit-identical; all 96 trades match TradingView&#39;s entry and exit timing.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://wild.pynesys.io/scripts/multi-timeframe-rsi-buy-sell-strategy-tradedots-kfj6EdjQ">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Multi Timeframe RSI Buy Sell Strategy [TradeDots] by tradedots: PyneCore vs TradingView","description":"Multi Timeframe RSI Buy Sell Strategy [TradeDots] by tradedots, a Pine Script v5 strategy, converted with PyneComp and run with PyneCore on BINANCE:BTCUSDT 30m: 168,639 plotted values compared with TradingView, every one bit-identical; all 96 trades match TradingView's entry and exit timing.","url":"https://wild.pynesys.io/scripts/multi-timeframe-rsi-buy-sell-strategy-tradedots-kfj6EdjQ","dateModified":"2026-09-27","isPartOf":{"@type":"WebSite","name":"Pyne in the Wild","url":"https://wild.pynesys.io/"},"about":{"@type":"SoftwareSourceCode","name":"Multi Timeframe RSI Buy Sell Strategy [TradeDots]","author":{"@type":"Person","name":"tradedots"},"programmingLanguage":"Pine Script","url":"https://www.tradingview.com/script/kfj6EdjQ/"}}</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">
+      <a href="https://pynesys.io/">
+        <img src="https://pynesys.io/images/logos/logo.svg" alt="PyneSys" width="40" height="40">
+        <span>PyneSys</span>
+      </a>
+    </div>
+    <nav class="nav-links">
+      <a href="../#results">Results</a>
+      <a href="../#methodology">Methodology</a>
+      <a href="../#scripts">Scripts</a>
+      <a class="sign-in-button" href="https://pynesys.io/">pynesys.io</a>
+    </nav>
+  </div>
+</header>
+
+<main class="section script-page">
+<div class="container">
+<p class="script-crumb"><a href="../#scripts">&larr; All 809 scripts</a></p>
+<h1>Multi Timeframe RSI Buy Sell Strategy [TradeDots]</h1>
+<p class="script-meta">by tradedots &middot; Strategy &middot; Pine Script v5 &middot; 1,878 likes</p>
+<div class="script-status"><span class="status-stack"><span class="status-badge status-verified" title="Verified — output matched TradingView's own reference, bar by bar and trade by trade.">Verified</span><span class="fid-sub fid-exact" title="Bit-exact — on every compared bar PyneCore produced the identical IEEE-754 double TradingView did. Not “close enough”: the same 64 bits.">bit-exact</span></span></div>
+<p class="script-lead">Multi Timeframe RSI Buy Sell Strategy [TradeDots] by tradedots, a Pine Script v5 strategy, converted with PyneComp and run with PyneCore on BINANCE:BTCUSDT 30m: 168,639 plotted values compared with TradingView, every one bit-identical; all 96 trades match TradingView&#39;s entry and exit timing.</p>
+<div class="script-detail detail-inner"><div class="match-bar-row"><div class="match-bar-head"><span>Plot match vs TradingView</span><span class="pct">100%</span></div><div class="match-bar"><div class="match-bar-fill" data-width="100" style="width: 100%"></div></div></div><div class="detail-cols"><div class="detail-block"><h4>Accuracy</h4><ul class="sc-facts"><li><span>Trades compared</span><span class="v good">96 TV / 96 Pyne</span></li><li><span>Whole-trade match</span><span class="v good">100%</span></li><li><span>Entry timing match</span><span class="v good">100%</span></li><li><span>Exit timing match</span><span class="v good">100%</span></li><li><span>Net profit (TV / Pyne)</span><span class="v good">1,122 / 1,122</span></li><li><span>Plots compared</span><span class="v">7</span></li><li><span>Plotted values compared</span><span class="v">168,639</span></li><li><span>Identical to the bit</span><span class="v good">100%</span></li><li><span>Worst gap</span><span class="v good">same double</span></li><li><span>Pearson correlation (min)</span><span class="v good">1.000000</span></li></ul></div><div class="detail-block"><h4>Run</h4><ul class="sc-facts"><li><span>Bars executed</span><span class="v">28,807</span></li><li><span>Secondary-feed bars</span><span class="v">140,227</span></li><li><span>Total bars processed</span><span class="v">169,034</span></li><li><span>Run time</span><span class="v">7.01 s CPU</span></li><li><span>Per-bar time</span><span class="v">0.24 ms/bar CPU (per chart bar)</span></li></ul></div><div class="detail-block"><h4>Data window</h4><ul class="sc-facts"><li><span>Symbol</span><span class="v">BINANCE:BTCUSDT</span></li><li><span>Timeframe</span><span class="v">30 min</span></li><li><span>From</span><span class="v">2025-01-01 00:00</span></li><li><span>To</span><span class="v">2026-08-24 03:00</span></li><li><span>Bars</span><span class="v">28,807</span></li><li><span>Security @ 5 min</span><span class="v">99,989 bars</span></li><li><span>Security @ 15 min</span><span class="v">40,238 bars</span></li></ul></div><div class="detail-block"><h4>Source</h4><ul class="sc-facts"><li><span>Pine version</span><span class="v">v5, converted to v6 by PyneComp</span></li><li><span>Script revision</span><span class="v">v1</span></li><li><span>License</span><span class="v">MPL-2.0</span></li></ul><p class="detail-sha"><span class="sha-label">SHA-256</span><code>6fa86510c5ae9dbaf628370a90226acc01518f752fa0c553d3e566b7a75012cf</code></p><a class="detail-link" href="https://www.tradingview.com/script/kfj6EdjQ/" target="_blank" rel="noopener">View on TradingView <span aria-hidden="true">&#8599;</span></a><a class="detail-link detail-permalink" href="/scripts/multi-timeframe-rsi-buy-sell-strategy-tradedots-kfj6EdjQ">Permalink: Multi Timeframe RSI Buy Sell Strategy [TradeDots]</a></div></div></div>
+<p class="script-foot">Snapshot 2026-09-27 &middot; <a href="../#methodology">How this is measured</a> &middot; <a href="../#scripts">All scripts</a></p>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-main">
+    <div class="footer-logo">
+      <img src="https://pynesys.io/images/logos/logo.svg" alt="PyneSys" width="40" height="40">
+      <span>PyneSys</span>
+    </div>
+    <div class="footer-links">
+      <div class="footer-section">
+        <div class="footer-heading">Site</div>
+        <ul>
+          <li><a href="https://pynesys.io/">pynesys.io</a></li>
+          <li><a href="https://pynecore.org/">pynecore.org</a></li>
+          <li><a href="https://pynesys.io/about/">About</a></li>
+          <li><a href="https://pynesys.io/blog/">Blog</a></li>
+          <li><a href="https://pynesys.io/news/">News</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <div class="footer-heading">Report</div>
+        <ul>
+          <li><a href="../#results">Results</a></li>
+          <li><a href="../#methodology">Methodology</a></li>
+          <li><a href="../#scripts">Scripts</a></li>
+          <li><a href="https://github.com/PyneSys/pyne-in-the-wild" target="_blank" rel="noopener">Report data</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <div class="footer-heading">Community</div>
+        <ul>
+          <li><a href="https://discord.pynesys.io" target="_blank" rel="noopener">Discord</a></li>
+          <li><a href="https://github.com/PyneSys/pynecore" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://x.com/pynesys" target="_blank" rel="noopener">X</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <div class="container">
+      <p>&copy; 2026 PyneSys LLC &middot; <a href="https://pynesys.com">pynesys.com</a></p>
+      <p class="trademark-note">
+        Pine Script&trade; and TradingView&trade; are trademarks of TradingView, Inc.
+        This report is independent and not affiliated with TradingView.
+      </p>
+      <p class="report-provenance" id="report-provenance"><!--b:provenance-->Generated <strong>2026-09-27</strong> &middot; <a href="https://github.com/PyneSys/pyne-in-the-wild" target="_blank" rel="noopener">Report data <span aria-hidden="true">&#8599;</span></a><!--/b:provenance--></p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

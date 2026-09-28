@@ -1492,6 +1492,22 @@ a.page-btn { display: inline-flex; align-items: center; justify-content: center;
   color: var(--text);
 }
 .detail-link { font-size: 0.84rem; font-weight: 600; }
+.detail-permalink { display: block; margin-top: 0.45rem; }
+
+/* ---------- per-script page (/scripts/<slug>) ---------- */
+
+.script-page .container { max-width: 960px; }
+.script-crumb { margin: 0 0 1.2rem; font-size: 0.88rem; }
+.script-page h1 { margin: 0 0 0.35rem; font-size: 2rem; line-height: 1.2; }
+.script-meta { margin: 0 0 0.9rem; color: var(--text-light); }
+.script-status { margin-bottom: 1rem; }
+.script-lead { margin: 0 0 1.4rem; font-size: 1.05rem; line-height: 1.55; }
+.script-detail {
+  background: #fbfcfb;
+  border: 1px solid var(--medium);
+  border-radius: 10px;
+}
+.script-foot { margin-top: 1.4rem; font-size: 0.86rem; color: var(--text-light); }
 
 .match-bar-row { margin-bottom: 0.9rem; max-width: 520px; }
 .match-bar-head {

@@ -23,7 +23,41 @@
   // javascript: URL smuggled in through the feed — drops the link entirely
   // rather than rendering an href nobody vetted.
   const TV_SCRIPT_URL = /^https:\/\/(?:www\.)?tradingview\.com\/script\/[\w-]+\/?$/;
-  const tvScriptUrl = (u) => (TV_SCRIPT_URL.test(String(u == null ? '' : u)) ? esc(u) : '');
+  const isTvScriptUrl = (u) => TV_SCRIPT_URL.test(String(u == null ? '' : u));
+  const tvScriptUrl = (u) => (isTvScriptUrl(u) ? esc(u) : '');
+
+  // A TradingView timeframe string for display: minutes as "30 min", and the
+  // letter resolutions with their implicit multiplier spelled out ("D" -> "1D").
+  const tfText = (tf) => {
+    const t = String(tf == null ? '' : tf);
+    if (/^\d+$/.test(t)) return `${t} min`;
+    return /^[DWM]$/.test(t) ? `1${t}` : t;
+  };
+
+  // Every script has its own static page at /scripts/<slug> (tools/prerender.mjs).
+  // The slug is the name made URL-safe plus TradingView's short script id, which is
+  // stable across renames and unique where two scripts share a name. A script with
+  // no usable source link falls back to its source hash, which is unique too.
+  const ORIGIN = 'https://wild.pynesys.io';
+  const TV_SCRIPT_ID = /\/script\/([\w-]+)\/?$/;
+  function scriptSlug(s) {
+    const name = String(s.name == null ? '' : s.name)
+      .normalize('NFKD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .slice(0, 60)
+      .replace(/-+$/, '');
+    const m = isTvScriptUrl(s.tv_url) ? TV_SCRIPT_ID.exec(s.tv_url) : null;
+    const key = m ? m[1] : String(s.sha256 || '').slice(0, 12);
+    return name ? `${name}-${key}` : key;
+  }
+  // Root-relative for links, so the same href works from the root page, from
+  // /scripts/page-N and from a script page itself, and on a preview deploy too;
+  // absolute for canonical, og:url, JSON-LD and the sitemap.
+  const scriptPath = (s) => `/scripts/${scriptSlug(s)}`;
+  const scriptUrl = (s) => `${ORIGIN}${scriptPath(s)}`;
 
   function create(D) {
     const fmt = (n) => n.toLocaleString('en-US');
@@ -45,7 +79,7 @@
     const statusDesc = {
       verified: "Verified — output matched TradingView's own reference, bar by bar and trade by trade.",
       divergent: "Divergent — ran and was compared against TradingView's reference, but the output differs beyond tolerance. Shown as-is, never rounded up to verified.",
-      repaint: "Lookahead — TradingView's own output leads this run by a whole higher-timeframe period, and realigned to that lead the two agree. The shape is a request.security call reading a higher-timeframe bar that had not closed yet. Held apart from the accuracy score and treated as open: a lag on the PyneCore side leaves the identical trace, and the shift alone does not separate the two.",
+      repaint: "Lookahead — measured: the script's own output depends on data its bars could not have had. Running it with TradingView's future-leaks restored changes its output (or TradingView's output leads it by a whole higher-timeframe period), so its TradingView reference is itself a lookahead result. Held apart from the accuracy score; the entry publishes what was measured.",
       data_limited: "Data-limited — the script needs a data source this comparison does not have (tick-level order-flow via request.footprint). It runs, with the missing feed reported as na, but can never match TradingView here. Excluded from the accuracy score, by design.",
       runs: 'Runs — compiled and ran over real market data without errors, but no comparable TradingView reference was available to verify against.',
       failed: 'Failed — the script did not compile or run. Reported as-is, never hidden.',
@@ -305,7 +339,22 @@
           `<span>Plot match vs TradingView</span><span class="pct">${matchPct(s.plot.match_pct, 1)}</span></div>` +
           `<div class="match-bar"><div class="match-bar-fill" data-width="${s.plot.match_pct * 100}"></div></div></div>`;
       }
-      if (s.repaint) {
+      if (s.repaint && s.repaint.proven) {
+        const r = s.repaint;
+        const what = r.channel === 'trades' ? 'trades' : 'plots';
+        const la = r.channel === 'trades' ? r.lookahead_trade_match_pct : r.lookahead_plot_match_pct;
+        const restored = la != null
+          ? ` With the future-leaks restored on the PyneCore side too, its ${what} match TradingView ` +
+            `${matchPct(la, 2)}.`
+          : '';
+        html +=
+          `<p class="sc-repaint">Lookahead, measured — run once with PyneCore's own rules and once ` +
+          `with TradingView's future-leaks restored (an open higher-timeframe period read as if it ` +
+          `had closed, or a body re-running mid-bar handed the completed bar), the script's own ` +
+          `${what} differ. Its results depend on data its bars could not have had, so its ` +
+          `TradingView reference is itself a lookahead result.${restored} Held apart from the ` +
+          `accuracy score.</p>`;
+      } else if (s.repaint && s.repaint.shift != null) {
         const rm = s.repaint.match_pct != null ? pct(s.repaint.match_pct, 2) : dash;
         html +=
           `<p class="sc-repaint">Higher-timeframe lookahead — TradingView's own output leads this ` +
@@ -427,7 +476,7 @@
       const win = [];
       if (s.data) {
         win.push(['Symbol', esc(s.data.symbol), '']);
-        win.push(['Timeframe', `${esc(s.data.timeframe)} min`, '']);
+        win.push(['Timeframe', esc(tfText(s.data.timeframe)), '']);
         win.push(['From', fmtDate(s.data.from), '']);
         win.push(['To', fmtDate(s.data.to), '']);
         if (s.data.bars != null) win.push(['Bars', s.data.bars.toLocaleString(), '']);
@@ -435,8 +484,8 @@
         // to the TV reference) — shown by timeframe and bar count.
         (s.data.security || []).forEach(c => {
           const cross = c.symbol && c.symbol !== s.data.symbol;
-          const label = cross ? `Security ${esc(c.symbol)} @ ${esc(c.timeframe)} min`
-                              : `Security @ ${esc(c.timeframe)} min`;
+          const label = cross ? `Security ${esc(c.symbol)} @ ${esc(tfText(c.timeframe))}`
+                              : `Security @ ${esc(tfText(c.timeframe))}`;
           win.push([label, c.bars != null ? `${c.bars.toLocaleString()} bars` : '', '']);
         });
       }
@@ -464,6 +513,8 @@
           ? `<a class="detail-link" href="${tvUrl}" target="_blank" rel="noopener">` +
             `View on TradingView <span aria-hidden="true">&#8599;</span></a>`
           : '') +
+        `<a class="detail-link detail-permalink" href="${scriptPath(s)}">` +
+          `Permalink: ${esc(s.name)}</a>` +
         `</div>`
       );
 
@@ -511,7 +562,11 @@
       return out;
     }
 
-    return { PAGE_SIZE: 25, fmt, pct, plotMatch, tradeMatch, renderRow, pageNumbers };
+    return {
+      PAGE_SIZE: 25, fmt, pct, esc, plotMatch, tradeMatch, renderRow, pageNumbers,
+      statusCell, detailBody, pineVersionChip, kindDesc, statusDesc, scriptSlug, scriptUrl,
+      isTvScriptUrl, tfText,
+    };
   }
 
   const WildRender = { create };
