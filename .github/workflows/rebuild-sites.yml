@@ -1,6 +1,7 @@
 name: Rebuild dependent sites
 
-# pynesys.com, pynesys.io and pynecore.org read https://wild.pynesys.io/assets/data.js
+# pynesys.com, pynesys.io and pynecore.org read the headline figures from
+# https://wild.pynesys.io/assets/headline.json (written by tools/build_site_data.py)
 # at build time. Cloudflare Pages reports every build of this repository as a
 # "Cloudflare Pages" check run; once that check run completes successfully on the
 # default branch, the new data is live, so all three sites are rebuilt together
