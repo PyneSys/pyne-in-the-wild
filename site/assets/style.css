@@ -245,6 +245,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); color: var(--dark); }
   text-underline-offset: 0.18em;
 }
 .hero-sub a:hover { color: var(--primary-light); }
+.hero-proof { margin-top: 1rem; }
 
 .hero-flow {
   display: flex;

@@ -18,6 +18,7 @@
         content="Published Pine scripts converted to Python with PyneComp, run with PyneCore, and compared bar by bar against TradingView reference output.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://wild.pynesys.io/">
+  <!--b:dataset_jsonld--><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "Pyne in the Wild: PyneCore vs TradingView on published Pine scripts", "description": "809 published open-source TradingView Pine scripts (Pine Script v4: 294, v5: 314, v6: 201), converted to Python with PyneComp, run with PyneCore and compared bar by bar and trade by trade against TradingView's own output. 1,090 of 1,090 comparable outputs match, 99.714% of 99,018,068 plotted values are identical to the bit, and 289,074 TradingView strategy trades were checked. Default market BINANCE:BTCUSDT, 30-minute bars.", "url": "https://wild.pynesys.io/", "sameAs": "https://github.com/PyneSys/pyne-in-the-wild", "dateModified": "2026-09-27", "isAccessibleForFree": true, "creator": {"@type": "Organization", "name": "PyneSys", "url": "https://pynesys.com/"}, "keywords": ["Pine Script", "TradingView", "PyneCore", "PyneComp", "Python", "backtesting", "technical indicators", "trading strategies"], "measurementTechnique": "Plotted values and strategy trade lists exported from TradingView, compared with the PyneCore run on the same bars", "variableMeasured": ["plot match rate", "bit-identical plotted values", "relative gap from TradingView", "trade entry and exit timing match", "trade count", "net profit"], "distribution": [{"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://raw.githubusercontent.com/PyneSys/pyne-in-the-wild/main/results/results.csv"}, {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://raw.githubusercontent.com/PyneSys/pyne-in-the-wild/main/results/summary.json"}]}</script><!--/b:dataset_jsonld-->
 </head>
 <body>
 
@@ -48,6 +49,7 @@
       <a href="https://pynecore.org/">PyneCore</a> runs the converted scripts on real
       market data, and this report compares plots and trades against TradingView's own output.
     </p>
+    <p class="hero-sub hero-proof"><!--b:hero_proof-->PyneCore is validated against TradingView on <strong>809</strong> published Pine scripts; last run <time datetime="2026-09-27">2026-09-27</time>. <a href="#methodology">How it is measured</a><!--/b:hero_proof--></p>
     <ol class="hero-flow" aria-label="Verification flow">
       <li>Pine Script</li>
       <li>PyneComp</li>
