@@ -13,10 +13,10 @@ window.WILD_DATA = {
   },
   "fidelity": {
     "scripts": {
-      "exact": 704,
+      "exact": 713,
       "libm": 3,
       "band": 22,
-      "compared": 729
+      "compared": 738
     },
     "band_scripts": [
       {
@@ -108,37 +108,37 @@ window.WILD_DATA = {
         "max_rel": 1.258e-16
       }
     ],
-    "bars_compared": 102698308,
-    "bars_exact": 102416104,
-    "bars_exact_rate": 0.9972521066267226,
+    "bars_compared": 104220486,
+    "bars_exact": 103938282,
+    "bars_exact_rate": 0.9972922406061319,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
   "totals": {
-    "total": 830,
-    "indicators": 417,
-    "strategies": 413,
-    "compiled": 830,
+    "total": 840,
+    "indicators": 422,
+    "strategies": 418,
+    "compiled": 840,
     "compile_fail": 0,
-    "tv_ok": 822,
-    "pyne_ok": 830,
+    "tv_ok": 832,
+    "pyne_ok": 840,
     "trade_divergence": 4,
     "compile_rate": 1.0,
     "run_rate": 1.0,
     "run_success_rate": 1.0,
-    "measurable_scripts": 803,
-    "tv_comparable": 1115,
-    "tv_fidelity_verified": 1115,
+    "measurable_scripts": 813,
+    "tv_comparable": 1129,
+    "tv_fidelity_verified": 1129,
     "tv_fidelity_rate": 1.0,
-    "plot_outputs": 729,
-    "trade_outputs": 386,
+    "plot_outputs": 738,
+    "trade_outputs": 391,
     "average_match_rate": 1.0,
-    "average_match_count": 1115,
-    "trades_compared": 322094,
+    "average_match_count": 1129,
+    "trades_compared": 324379,
     "sub_tick_excluded_trades": 0,
     "sub_tick_excluded_scripts": 0,
-    "bars_run": 23739406,
-    "verified": 779,
+    "bars_run": 24046630,
+    "verified": 789,
     "divergent": 0,
     "repaint": 23,
     "data_limited": 1,
@@ -146,27 +146,27 @@ window.WILD_DATA = {
     "failed": 0
   },
   "indicators": {
-    "total": 417,
-    "compared": 390,
-    "plot_verified": 390,
-    "plot_exact": 390,
+    "total": 422,
+    "compared": 395,
+    "plot_verified": 395,
+    "plot_exact": 395,
     "plot_match_median": 1.0,
     "plot_match_mean": 1.0,
     "plot_match_min": 1.0,
     "pearson_min": 1.0
   },
   "strategies": {
-    "n": 413,
-    "compared": 386,
-    "trade_timing_verified": 386,
-    "verified": 389,
+    "n": 418,
+    "compared": 391,
+    "trade_timing_verified": 391,
+    "verified": 394,
     "verified_no_trades": 3,
-    "trades_compared": 298674,
+    "trades_compared": 300959,
     "entry_match_median": 1.0,
     "entry_match_mean": 1.0,
     "exit_match_median": 1.0,
     "exit_match_mean": 1.0,
-    "trade_count_exact_match": 386,
+    "trade_count_exact_match": 391,
     "net_profit_match_rate": 1.0
   },
   "scripts": [
@@ -20479,6 +20479,49 @@ window.WILD_DATA = {
       }
     },
     {
+      "id": "PUB;aea6e138cb7b4bd4b5d323368027db9c",
+      "kind": "indicator",
+      "name": "Structure-Anchored VWAP [WillyAlgoTrader]",
+      "author": "WillyAlgoTrader",
+      "license": "none",
+      "version": "1",
+      "pine_version": 6,
+      "likes": 3226,
+      "tv_url": "https://www.tradingview.com/script/E31jKiTS/",
+      "sha256": "3b8d8459f922d731e23b194e93937b40ec5a5c225a2353ce6ecaa1901c1ac31a",
+      "status": "ok",
+      "level": "verified",
+      "bars": 30539,
+      "run_sec": 4.513,
+      "ms_per_bar": 0.1478,
+      "compared_at": "2026-09-29",
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-29T05:00:00+00:00",
+        "bars": 30539
+      },
+      "plot": {
+        "cols": 8,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 182458,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "transcendentals": [
+        "exp",
+        "log",
+        "pow"
+      ]
+    },
+    {
       "id": "PUB;1j62blFnpJ3HIB50ez2GqeU8xGZkdprp",
       "kind": "strategy",
       "name": "Fixed Percent Stop Loss & Take Profit %",
@@ -20611,6 +20654,47 @@ window.WILD_DATA = {
         "pc_net_profit": 3991.09,
         "net_profit_match": true
       }
+    },
+    {
+      "id": "PUB;9ba1c817ad4f49a1870aaf877d6836de",
+      "kind": "indicator",
+      "name": "Trend Target Ribbon [BOSWaves]",
+      "author": "BOSWaves",
+      "license": "MPL-2.0",
+      "version": "1",
+      "pine_version": 6,
+      "likes": 3102,
+      "tv_url": "https://www.tradingview.com/script/tnQ7FvvW/",
+      "sha256": "458730551f624387c37666df1bfe4b4885756c1215df6a1e2daad87948326f97",
+      "status": "ok",
+      "level": "verified",
+      "bars": 30539,
+      "run_sec": 2.865,
+      "ms_per_bar": 0.0938,
+      "compared_at": "2026-09-29",
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-29T05:00:00+00:00",
+        "bars": 30539
+      },
+      "plot": {
+        "cols": 6,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 178542,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "transcendentals": [
+        "ta.alma (Gaussian weights via exp)"
+      ]
     },
     {
       "id": "PUB;bM5D88rLIVKcdgCctTF2j8zvT2m4wGRR",
@@ -20804,6 +20888,83 @@ window.WILD_DATA = {
         "pc_net_profit": -44004.19,
         "net_profit_match": true
       }
+    },
+    {
+      "id": "PUB;f4e4a590dac94960b7da607204275047",
+      "kind": "indicator",
+      "name": "Williams Variable A/D Pressure [MarkitTick]",
+      "author": "MarkitTick",
+      "license": "CC",
+      "version": "1",
+      "pine_version": 6,
+      "likes": 2899,
+      "tv_url": "https://www.tradingview.com/script/g3P0iG3j/",
+      "sha256": "27bc240d9aa15a63fe4f692d0944a62cde81370a42b77380af9c96c9bfa3de0b",
+      "status": "ok",
+      "level": "verified",
+      "bars": 30540,
+      "run_sec": 6.971,
+      "ms_per_bar": 0.2282,
+      "compared_at": "2026-09-29",
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-29T05:30:00+00:00",
+        "bars": 30540
+      },
+      "plot": {
+        "cols": 8,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 244215,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "lookahead_checked": true
+    },
+    {
+      "id": "PUB;a0d011f28a834808965de1012e2656b5",
+      "kind": "indicator",
+      "name": "Trinity Reversal Pattern [AlgoAlpha]",
+      "author": "AlgoAlpha",
+      "license": "MPL-2.0",
+      "version": "1",
+      "pine_version": 6,
+      "likes": 2834,
+      "tv_url": "https://www.tradingview.com/script/tpwLa60j/",
+      "sha256": "5b49817f0d7ee056b009f749bcdcc4f7c246a51d6d6ddc71a56d9b95fd97e87b",
+      "status": "ok",
+      "level": "verified",
+      "bars": 30539,
+      "run_sec": 1.283,
+      "ms_per_bar": 0.042,
+      "compared_at": "2026-09-29",
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-29T05:00:00+00:00",
+        "bars": 30539
+      },
+      "plot": {
+        "cols": 5,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 61078,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact"
     },
     {
       "id": "PUB;cZQbhKpAY1IlZf6iR9NvfL6z5k0gAXPQ",
@@ -22666,6 +22827,45 @@ window.WILD_DATA = {
         "pc_net_profit": -43365.743936,
         "net_profit_match": true
       }
+    },
+    {
+      "id": "PUB;ac14c8a194c54061991912f6a152a671",
+      "kind": "indicator",
+      "name": "Coppock Curve Multi-Filter [MarkitTick]",
+      "author": "MarkitTick",
+      "license": "CC",
+      "version": "3",
+      "pine_version": 6,
+      "likes": 2163,
+      "tv_url": "https://www.tradingview.com/script/Ua5pRxsd/",
+      "sha256": "95a6c1bf55e7a706884199ab917cb66dbc9bbd6a0da30f8db4f5bbce3c4576da",
+      "status": "ok",
+      "level": "verified",
+      "bars": 30540,
+      "run_sec": 3.146,
+      "ms_per_bar": 0.103,
+      "compared_at": "2026-09-29",
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-29T05:30:00+00:00",
+        "bars": 30540
+      },
+      "plot": {
+        "cols": 8,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 184774,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "lookahead_checked": true
     },
     {
       "id": "PUB;095ff132281b4937b3292fc59db9ccd0",
@@ -25823,23 +26023,23 @@ window.WILD_DATA = {
       "sha256": "22542aad5a3bbdf4bce243a440a989058f8ca52d8b75f4efa5e9be7ce315224b",
       "status": "ok",
       "level": "verified",
-      "bars": 28969,
-      "run_sec": 10.224,
-      "ms_per_bar": 0.3529,
-      "compared_at": "2026-09-27",
+      "bars": 30490,
+      "run_sec": 7.464,
+      "ms_per_bar": 0.2448,
+      "compared_at": "2026-09-29",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
         "from": "2025-01-01T00:00:00+00:00",
-        "to": "2026-08-27T12:00:00+00:00",
-        "bars": 28969,
+        "to": "2026-09-28T04:30:00+00:00",
+        "bars": 30490,
         "security": [
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "3",
-            "from": "2026-02-26T10:09:00+00:00",
-            "to": "2026-08-27T12:27:00+00:00",
-            "bars": 87407
+            "from": "2026-03-04T23:18:00+00:00",
+            "to": "2026-09-28T04:57:00+00:00",
+            "bars": 99474
           }
         ]
       },
@@ -25848,7 +26048,7 @@ window.WILD_DATA = {
         "match_pct": 1.0,
         "worst_col": "",
         "pearson_min": 1.0,
-        "bars_numeric": 720,
+        "bars_numeric": 795,
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
@@ -27144,23 +27344,23 @@ window.WILD_DATA = {
       "sha256": "29d0716623776e807da0cbe152e01549767e119ee662d1c87fc1c4d899ba69b5",
       "status": "ok",
       "level": "verified",
-      "bars": 30227,
-      "run_sec": 6.591,
-      "ms_per_bar": 0.218,
-      "compared_at": "2026-09-27",
+      "bars": 30541,
+      "run_sec": 5.857,
+      "ms_per_bar": 0.1918,
+      "compared_at": "2026-09-29",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
         "from": "2025-01-01T00:00:00+00:00",
-        "to": "2026-09-22T17:00:00+00:00",
-        "bars": 30227,
+        "to": "2026-09-29T06:00:00+00:00",
+        "bars": 30541,
         "security": [
           {
             "symbol": "BINANCE:BTCUSDT",
             "timeframe": "1",
-            "from": "2026-07-15T07:04:00+00:00",
-            "to": "2026-09-22T17:29:00+00:00",
-            "bars": 99986
+            "from": "2026-07-21T20:02:00+00:00",
+            "to": "2026-09-29T06:29:00+00:00",
+            "bars": 99988
           }
         ]
       },
@@ -27169,7 +27369,7 @@ window.WILD_DATA = {
         "match_pct": 1.0,
         "worst_col": "",
         "pearson_min": 1.0,
-        "bars_numeric": 246604,
+        "bars_numeric": 249223,
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
         "exact_pct": 1.0,
@@ -27178,14 +27378,14 @@ window.WILD_DATA = {
       },
       "fidelity": "exact",
       "trades": {
-        "tv": 183,
-        "pc": 183,
+        "tv": 187,
+        "pc": 187,
         "trade_match_pct": 1.0,
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -9.472398,
-        "pc_net_profit": -9.472397,
+        "tv_net_profit": -9.489858,
+        "pc_net_profit": -9.489858,
         "net_profit_match": true
       }
     },
@@ -28155,9 +28355,9 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 20279,
-      "run_sec": 7.51,
-      "ms_per_bar": 0.3703,
-      "compared_at": "2026-09-27",
+      "run_sec": 3.989,
+      "ms_per_bar": 0.1967,
+      "compared_at": "2026-09-29",
       "data": {
         "symbol": "AMEX:SPY",
         "timeframe": "1",
@@ -28171,13 +28371,6 @@ window.WILD_DATA = {
             "from": "2025-09-02T13:30:00+00:00",
             "to": "2026-08-27T19:55:00+00:00",
             "bars": 19350
-          },
-          {
-            "symbol": "AMEX:SPY",
-            "timeframe": "60",
-            "from": "2014-01-02T14:30:00+00:00",
-            "to": "2026-08-27T19:30:00+00:00",
-            "bars": 22217
           }
         ]
       },
@@ -31038,9 +31231,9 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 29652,
-      "run_sec": 14.109,
-      "ms_per_bar": 0.4758,
-      "compared_at": "2026-09-27",
+      "run_sec": 11.241,
+      "ms_per_bar": 0.3791,
+      "compared_at": "2026-09-29",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -31054,13 +31247,6 @@ window.WILD_DATA = {
             "from": "2017-08-01T00:00:00+00:00",
             "to": "2026-09-01T00:00:00+00:00",
             "bars": 110
-          },
-          {
-            "symbol": "BINANCE:BTCUSDT",
-            "timeframe": "480",
-            "from": "2017-08-17T00:00:00+00:00",
-            "to": "2026-09-10T16:00:00+00:00",
-            "bars": 9933
           }
         ]
       },
@@ -37696,6 +37882,238 @@ window.WILD_DATA = {
         "extra_entries": 0,
         "tv_net_profit": -23750.0,
         "pc_net_profit": -23750.0,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;2061d5d6fd7e4eed84ac7e157f450e85",
+      "kind": "strategy",
+      "name": "Bollinger Stop Strategy",
+      "author": "ROBO_Trading",
+      "license": "MPL-2.0",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 836,
+      "tv_url": "https://www.tradingview.com/script/jCFatPh6/",
+      "sha256": "ded97446225846636f37ae96ff6579cfbc02f9609882849f8dcb157cc53a25db",
+      "status": "ok",
+      "level": "verified",
+      "bars": 30538,
+      "run_sec": 1.667,
+      "ms_per_bar": 0.0546,
+      "compared_at": "2026-09-29",
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-29T04:30:00+00:00",
+        "bars": 30538
+      },
+      "plot": {
+        "cols": 3,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 91557,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 1185,
+        "pc": 1185,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -8522.154,
+        "pc_net_profit": -8522.154623,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;vYiBNReZma3BkokePq6A0GasSYeub4g8",
+      "kind": "strategy",
+      "name": "Price Action + Bollinger Strategy ",
+      "author": "Atma_Sakshatkar",
+      "license": "none",
+      "version": "2",
+      "pine_version": 4,
+      "likes": 833,
+      "tv_url": "https://www.tradingview.com/script/ExBZnqPc/",
+      "sha256": "0dcd24238349528db1be556f69bd15f8176902ceda217a0cfc70f7a11198138e",
+      "status": "ok",
+      "level": "verified",
+      "bars": 30539,
+      "run_sec": 0.851,
+      "ms_per_bar": null,
+      "compared_at": "2026-09-29",
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-29T05:00:00+00:00",
+        "bars": 30539
+      },
+      "trades": {
+        "tv": 176,
+        "pc": 176,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": 16797.62,
+        "pc_net_profit": 16797.62,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;86064e143e3c4ba589d47bfd0d4bf318",
+      "kind": "strategy",
+      "name": "Kahlman HullMA / WT Cross Strategy",
+      "author": "karakedix",
+      "license": "MPL-2.0",
+      "version": "12",
+      "pine_version": 5,
+      "likes": 829,
+      "tv_url": "https://www.tradingview.com/script/1Im3kKwi/",
+      "sha256": "1d0e85274a71027c1fb8018d6eb50ae29888b718ac03fcde873800f36028edcc",
+      "status": "ok",
+      "level": "verified",
+      "bars": 30538,
+      "run_sec": 3.937,
+      "ms_per_bar": 0.1289,
+      "compared_at": "2026-09-29",
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-29T04:30:00+00:00",
+        "bars": 30538
+      },
+      "plot": {
+        "cols": 9,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 163805,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 210,
+        "pc": 210,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -3.260633,
+        "pc_net_profit": -3.260633,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;ad824ff73daf4e41b2e9e741d9196dba",
+      "kind": "strategy",
+      "name": "Investments/swing trading strategy for different assets",
+      "author": "StrategiesForEveryone",
+      "license": "MPL-2.0",
+      "version": "1",
+      "pine_version": 5,
+      "likes": 828,
+      "tv_url": "https://www.tradingview.com/script/OePmdMFg/",
+      "sha256": "6f540552ba83bdc3e921ec1e441adf59049b08e9760cb4ca1732501fd196b33f",
+      "status": "ok",
+      "level": "verified",
+      "bars": 30539,
+      "run_sec": 3.796,
+      "ms_per_bar": 0.1243,
+      "compared_at": "2026-09-29",
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-29T05:00:00+00:00",
+        "bars": 30539
+      },
+      "plot": {
+        "cols": 15,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 168767,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 703,
+        "pc": 703,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": -56042.594,
+        "pc_net_profit": -56042.593167,
+        "net_profit_match": true
+      }
+    },
+    {
+      "id": "PUB;SmJK5ySfTysQTLlaUGIWM59LRyokB5XC",
+      "kind": "strategy",
+      "name": "Robot WhiteBox MultiMA",
+      "author": "ROBO_Trading",
+      "license": "none",
+      "version": "8",
+      "pine_version": 4,
+      "likes": 827,
+      "tv_url": "https://www.tradingview.com/script/p2y7o8RN/",
+      "sha256": "3bad6b07b8c8a30c7c141b25e8b4c058adeadc7fc9f9470c9dc62b6fc72bcfac",
+      "status": "ok",
+      "level": "verified",
+      "bars": 30538,
+      "run_sec": 2.236,
+      "ms_per_bar": 0.0732,
+      "compared_at": "2026-09-29",
+      "data": {
+        "symbol": "BINANCE:BTCUSDT",
+        "timeframe": "30",
+        "from": "2025-01-01T00:00:00+00:00",
+        "to": "2026-09-29T04:30:00+00:00",
+        "bars": 30538
+      },
+      "plot": {
+        "cols": 8,
+        "match_pct": 1.0,
+        "worst_col": "",
+        "pearson_min": 1.0,
+        "bars_numeric": 244288,
+        "num_match_pct": 1.0,
+        "na_struct_mismatch": 0,
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fidelity": "exact",
+      "trades": {
+        "tv": 7,
+        "pc": 7,
+        "trade_match_pct": 1.0,
+        "entry_match_pct": 1.0,
+        "exit_match_pct": 1.0,
+        "extra_entries": 0,
+        "tv_net_profit": 0.078357,
+        "pc_net_profit": 0.078357,
         "net_profit_match": true
       }
     },
