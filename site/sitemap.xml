@@ -575,8 +575,10 @@
   <url><loc>https://wild.pynesys.io/scripts/multi-timeframe-rsi-buy-sell-strategy-tradedots-kfj6EdjQ</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/tsi-cci-hull-with-profit-qwN8CGrU</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/forex-scalping-1min-bollinger-bands-rsi-and-adx-trading-syst-sR1hePBi</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/dynamic-grid-indicator-bigbeluga-WKSKrMsu</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/atr-parabolic-sar-strategy-quantnomad-LKfHdoNv</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/ema-crossover-strategy-sxJejjdy</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/supertrend-fibonacci-ote-grid-bands-bigbeluga-5MNAEWMW</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/ichimoku-kinko-hyo-cloud-no-offset-no-repaint-strategy-MGSCiuSP</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/double-triple-pattern-ts-indie-ykzrcWQf</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/turtle-trading-strategy-donchian-atr-gbxblhGl</loc><lastmod>2026-09-27</lastmod></url>
@@ -594,8 +596,10 @@
   <url><loc>https://wild.pynesys.io/scripts/best-trailing-take-profit-strategy-9YaLIh0i</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/strategy-myth-busting-20-halftrend-hullbutterfly-myn-lL04fUNr</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/instrument-z-3commas-bot-1OX9Wu8g</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/zeiierman-trend-pressure-zeiierman-SEdUWOIJ</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/tripple-super-trend-ema-rsi-strategy-aCbQTE0W</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/vxd-cloud-edition-OKKz3vDv</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/dinapoli-levels-confluence-targets-markittick-6JpJJe4C</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/breakout-trend-follower-strategy-9uvZIPnH</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/bbtrend-w-supertrend-decision-strategy-presenttrading-7C1kIEOn</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/twin-range-filter-algo-ZsiaNicR</loc><lastmod>2026-09-27</lastmod></url>
@@ -621,6 +625,7 @@
   <url><loc>https://wild.pynesys.io/scripts/rsi-on-vwap-upgraded-strategy-Q5TPHHLs</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/vegas-tunnel-strategy-Grfdbh8A</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/evwma-vwap-cross-strategy-quantnomad-QPIGo8hs</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/dual-phase-reversal-by-dgt-cmFOrVlp</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/ma-10-20-crossover-2cbpO8lO</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/buying-dip-strategy-with-take-profit-and-stop-loss-racer8-AHxkEMXm</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/js-techtrading-vwap-momentum-pullback-strategy-uhdaobby</loc><lastmod>2026-09-27</lastmod></url>
@@ -846,6 +851,11 @@
   <url><loc>https://wild.pynesys.io/scripts/kahlman-hullma-wt-cross-strategy-1Im3kKwi</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/investments-swing-trading-strategy-for-different-assets-OePmdMFg</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/robot-whitebox-multima-p2y7o8RN</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/profit-maximizer-pmax-strategy-long-short-v6Ws9H9j</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/heikin-ashi-price-action-crypto-long-strategy-FEJvYRkw</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/supertrend-cloud-strategy-sO5mkXTE</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/blackcat-l2-reversal-labels-strategy-FH1VyeNT</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/pt-premarket-breakout-strategy-0LJUxO7T</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/orb-sessions-ErwhAFlr</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/tasc-2026-03-one-percent-a-week-nVECqIQx</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/moving-average-crossover-swing-strategy-uNIA4siU</loc><lastmod>2026-09-27</lastmod></url>
