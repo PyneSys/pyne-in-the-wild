@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29",
+  "generated_at": "2026-09-30",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
@@ -88,23 +88,15 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 721,
-      "libm": 3,
-      "band": 22,
+      "exact": 729,
+      "libm": 4,
+      "band": 13,
       "compared": 746
     },
     "band_scripts": [
       {
         "name": "Machine Learning Moving Average [LuxAlgo]",
         "max_rel": 1.238e-10
-      },
-      {
-        "name": "Easy System 420",
-        "max_rel": 1.014e-11
-      },
-      {
-        "name": "OBV MACD Indicator",
-        "max_rel": 5.198e-12
       },
       {
         "name": "TSI CCI Hull with profit$$$",
@@ -123,28 +115,8 @@
         "max_rel": 4.181e-13
       },
       {
-        "name": "Volume Sentiment Breakout Channels [AlgoAlpha]",
-        "max_rel": 1.855e-13
-      },
-      {
-        "name": "MTF stochastic strategy",
-        "max_rel": 7.93e-14
-      },
-      {
         "name": "FREE INDICATOR: Laguerre RSI",
         "max_rel": 2.952e-14
-      },
-      {
-        "name": "TradingView Alerts to MT4 MT5 + dynamic variables NON-REPAINTING",
-        "max_rel": 5.772e-15
-      },
-      {
-        "name": "Cumulative Volume Delta Divergence [TradingFinder] Periodic EMA",
-        "max_rel": 3.822e-15
-      },
-      {
-        "name": "All in One Strategy",
-        "max_rel": 1.604e-15
       },
       {
         "name": "Global (World) Monetary Supply M2 (measured in USD)",
@@ -155,20 +127,12 @@
         "max_rel": 4.502e-16
       },
       {
-        "name": "Volume Suite - By Leviathan (CVD, Volume Delta, Relative Volume)",
-        "max_rel": 3.692e-16
-      },
-      {
         "name": "Buy/Sell Volume Totals for Period",
         "max_rel": 3.056e-16
       },
       {
-        "name": "Super trend V",
-        "max_rel": 3.006e-16
-      },
-      {
-        "name": "Super trend V Strategy version",
-        "max_rel": 3.006e-16
+        "name": "Volume Suite - By Leviathan (CVD, Volume Delta, Relative Volume)",
+        "max_rel": 2.095e-16
       },
       {
         "name": "Volume Delta [hapharmonic]",
@@ -183,9 +147,9 @@
         "max_rel": 1.258e-16
       }
     ],
-    "bars_compared": 106480878,
-    "bars_exact": 106198674,
-    "bars_exact_rate": 0.9973497213274293,
+    "bars_compared": 106497720,
+    "bars_exact": 106225154,
+    "bars_exact_rate": 0.9974406400437493,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
@@ -214,7 +178,7 @@
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 4.776460059250642e-14,
+      "mean": 4.776438314410025e-14,
       "min": 0.0,
       "max": 1.858e-11,
       "n": 389,
