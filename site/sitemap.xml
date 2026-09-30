@@ -34,6 +34,7 @@
   <url><loc>https://wild.pynesys.io/scripts/page-32</loc><lastmod>2026-09-30</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/page-33</loc><lastmod>2026-09-30</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/page-34</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/page-35</loc><lastmod>2026-09-30</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/supertrend-r6dAP7yi</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/support-and-resistance-levels-with-breaks-luxalgo-JDFoWQbL</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/trendlines-with-breaks-luxalgo-IYL88A1N</loc><lastmod>2026-09-27</lastmod></url>
@@ -617,6 +618,7 @@
   <url><loc>https://wild.pynesys.io/scripts/zendog-v2-backtest-dca-bot-3commas-9NXf1Bqb</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/ma-bollinger-bands-rsi-2MMNHl97</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/888-bot-backtest-futPZepe</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/ict-setup-05-tradingfinder-liquidity-sweep-ob-retest-5qXfyxql</loc><lastmod>2026-09-30</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/dema-atr-strategy-primeautomation-rqRd3f62</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/order-block-volumatic-fvg-strategy-PjH7wg3n</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/tradeiq-crazy-scalping-trading-strategy-kaspricci-R7OSA2ar</loc><lastmod>2026-09-27</lastmod></url>
@@ -630,6 +632,7 @@
   <url><loc>https://wild.pynesys.io/scripts/buying-dip-strategy-with-take-profit-and-stop-loss-racer8-AHxkEMXm</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/js-techtrading-vwap-momentum-pullback-strategy-uhdaobby</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/super-trend-v-strategy-version-7g8MF7f7</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/session-vwap-profile-candle-delta-bigbeluga-36ik5Jpc</loc><lastmod>2026-09-30</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/stochastic-optimized-trend-tracker-strategy-cJhpIJ2w</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/best-supertrend-strategy-6knHPR6c</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/qullamaggie-breakout-v2-5bTajWQM</loc><lastmod>2026-09-30</lastmod></url>
@@ -690,6 +693,7 @@
   <url><loc>https://wild.pynesys.io/scripts/crsi-waves-strategy-with-vwma-overlay-mcr9VUaB</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/master-supertrend-strategy-trendoscope-YexkkFy8</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/divergence-strategy-trendoscope-haCPJOF2</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/adaptive-ehlers-filtered-percentile-zdQ2A3zf</loc><lastmod>2026-09-30</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/drm-strategy-08eSyDlq</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/auto-intelligence-selective-moving-average-ai-ma-FgwP9BhA</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/ema-scalp-kUncyS8L</loc><lastmod>2026-09-27</lastmod></url>
@@ -726,6 +730,7 @@
   <url><loc>https://wild.pynesys.io/scripts/x48-strategy-ma-type-cross-tpsl-future-spot-v-2-DAD06s8m</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/mutanabby-ai-algo-pro-strategy-t3UuM5DI</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/trading-report-generator-from-csv-OTfw8b2a</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/z-score-range-boxes-breakout-bigbeluga-c038xEWP</loc><lastmod>2026-09-30</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/zendog-v3-backtest-dca-bot-3commas-Ejzw96lp</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/grover-llorens-activator-strategy-analysis-VuYM89Tw</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/vwma-with-knn-machine-learning-mfi-adx-73oLZ8IM</loc><lastmod>2026-09-30</lastmod></url>
@@ -856,6 +861,12 @@
   <url><loc>https://wild.pynesys.io/scripts/supertrend-cloud-strategy-sO5mkXTE</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/blackcat-l2-reversal-labels-strategy-FH1VyeNT</loc><lastmod>2026-09-29</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/pt-premarket-breakout-strategy-0LJUxO7T</loc><lastmod>2026-09-29</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/noro-s-riskturtle-strategy-cUBda2di</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/macd-ema-tradingrush-strategy-8WbIRZkS</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/zeiierman-bands-zeiierman-YtNcfY4g</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/hull-moving-average-vs-candle-lc6FSl0Z</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/golden-vector-trend-orchestrator-gvto-dxhgQwyI</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/vwap-and-bb-strategy-eemani-oZYSB6Ui</loc><lastmod>2026-09-30</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/orb-sessions-ErwhAFlr</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/tasc-2026-03-one-percent-a-week-nVECqIQx</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/moving-average-crossover-swing-strategy-uNIA4siU</loc><lastmod>2026-09-27</lastmod></url>
