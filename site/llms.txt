@@ -20,6 +20,7 @@
 - [manifest.csv](https://raw.githubusercontent.com/PyneSys/pyne-in-the-wild/main/corpus/manifest.csv): the corpus: name, author, TradingView link, license, Pine version, SHA-256
 - [headline.json](https://wild.pynesys.io/assets/headline.json): the headline figures as a flat key-value map
 - [GitHub repository](https://github.com/PyneSys/pyne-in-the-wild)
+- [License](https://github.com/PyneSys/pyne-in-the-wild/blob/main/LICENSE): CC BY 4.0, reuse with attribution
 
 ## Related
 

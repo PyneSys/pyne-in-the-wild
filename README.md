@@ -22,3 +22,10 @@ A script enters the corpus only if it is published **open source**, is written
 in **Pine v6**, and its header does **not** explicitly forbid reuse (e.g.
 "all rights reserved", "do not copy/redistribute"). The detected license is
 recorded in the manifest for transparency.
+
+## License
+
+The corpus manifests, the measurement results and the generated report site in this
+repository are licensed under [CC BY 4.0](LICENSE): they can be reused freely, with
+attribution to PyneSys and a link to this report. The Pine scripts themselves are not
+part of the repository; each stays under its author's own license.
