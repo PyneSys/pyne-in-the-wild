@@ -6,7 +6,7 @@
     {
       "symbol": "BINANCE:BTCUSDT",
       "timeframe": "30",
-      "scripts": 880
+      "scripts": 890
     },
     {
       "symbol": "BINANCE:BTCUSDT",
@@ -98,10 +98,10 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 794,
+      "exact": 802,
       "libm": 4,
-      "band": 13,
-      "compared": 811
+      "band": 15,
+      "compared": 821
     },
     "band_scripts": [
       {
@@ -111,6 +111,10 @@
       {
         "name": "TSI CCI Hull with profit$$$",
         "max_rel": 2.806e-12
+      },
+      {
+        "name": "Reaction Path [BullByte]",
+        "max_rel": 9.019e-13
       },
       {
         "name": "TSI CCI Hull",
@@ -127,6 +131,10 @@
       {
         "name": "FREE INDICATOR: Laguerre RSI",
         "max_rel": 2.952e-14
+      },
+      {
+        "name": "CC First Red / Green Day",
+        "max_rel": 4.066e-15
       },
       {
         "name": "Global (World) Monetary Supply M2 (measured in USD)",
@@ -157,41 +165,41 @@
         "max_rel": 1.258e-16
       }
     ],
-    "bars_compared": 117659091,
-    "bars_exact": 117386525,
-    "bars_exact_rate": 0.9976834259241387,
+    "bars_compared": 119870378,
+    "bars_exact": 119568981,
+    "bars_exact_rate": 0.9974856423661231,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
   "counts": {
-    "total": 920,
-    "indicators": 462,
-    "strategies": 458,
-    "compiled": 920,
+    "total": 930,
+    "indicators": 467,
+    "strategies": 463,
+    "compiled": 930,
     "compile_fail": 0,
-    "tv_ok": 912,
-    "pyne_ok": 920,
+    "tv_ok": 922,
+    "pyne_ok": 930,
     "trade_divergence": 4
   },
   "compile_rate": 1.0,
   "run_rate": 1.0,
   "indicators": {
-    "n_with_plots_compared": 434,
+    "n_with_plots_compared": 439,
     "plot_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 434,
+      "n": 439,
       "p25": 1.0,
       "p75": 1.0
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 4.4133836206781466e-14,
+      "mean": 4.371845892483529e-14,
       "min": 0.0,
       "max": 1.858e-11,
-      "n": 421,
+      "n": 425,
       "p25": 0.0,
       "p75": 0.0
     },
@@ -200,26 +208,26 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 421,
+      "n": 425,
       "p25": 1.0,
       "p75": 1.0
     },
-    "fully_matching_scripts": 434,
+    "fully_matching_scripts": 439,
     "match_pct_histogram": {
-      "1.0": 434,
+      "1.0": 439,
       "0.99-1.0": 0,
       "0.9-0.99": 0,
       "<0.9": 0
     }
   },
   "strategies": {
-    "n": 458,
+    "n": 463,
     "entry_match_pct": {
       "median": 1.0,
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 429,
+      "n": 434,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -228,7 +236,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 429,
+      "n": 434,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -237,7 +245,7 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 429,
+      "n": 434,
       "p25": 1.0,
       "p75": 1.0
     },
@@ -246,21 +254,21 @@
       "mean": 1.0,
       "min": 1.0,
       "max": 1.0,
-      "n": 429,
+      "n": 434,
       "p25": 1.0,
       "p75": 1.0
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 1.446e-08,
-      "mean": 2.8636739969635752e-05,
+      "median": 1.4474999999999999e-08,
+      "mean": 2.8307050942507806e-05,
       "min": 0.0,
       "max": 0.01041,
-      "n": 429,
-      "p25": 1.965e-14,
-      "p75": 3.067e-08
+      "n": 434,
+      "p25": 2.18e-14,
+      "p75": 3.0692499999999995e-08
     },
-    "trade_count_exact_match": 433,
+    "trade_count_exact_match": 438,
     "sub_tick_excluded": {
       "scripts": 0,
       "trades": 0
