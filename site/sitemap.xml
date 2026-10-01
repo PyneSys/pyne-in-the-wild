@@ -877,6 +877,7 @@
   <url><loc>https://wild.pynesys.io/scripts/zeiierman-bands-zeiierman-YtNcfY4g</loc><lastmod>2026-09-30</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/hull-moving-average-vs-candle-lc6FSl0Z</loc><lastmod>2026-09-30</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/golden-vector-trend-orchestrator-gvto-dxhgQwyI</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/wick-sequence-breakout-D6AvF0jw</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/bollinger-band-breakout-EBlgYNEe</loc><lastmod>2026-09-30</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/vwap-and-bb-strategy-eemani-oZYSB6Ui</loc><lastmod>2026-09-30</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/mtf-diagonally-layered-rsi-1-minute-bitcoin-bot-wbburgin-z1fsrtce</loc><lastmod>2026-10-01</lastmod></url>
@@ -893,13 +894,21 @@
   <url><loc>https://wild.pynesys.io/scripts/multi-step-flexima-strategy-presenttrading-627VbHkS</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/loft-strategy-v4-Laq4rDWw</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/so-trade-top-media-de-8-augusto-backes-cGX0aCYh</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/apex-algo-engine-algochief-hQ45xL33</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/buy-sell-strategy-with-z-score-tradedots-tb0HYAkd</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/yinyang-rsi-volume-trend-strategy-cO34DTxx</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/atr-trailing-stoploss-strategy-NsD6sRKu</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/ma-candles-supertrend-strategy-3o1JCZQL</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/three-moving-average-strategies-sPAROdDQ</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/vcp-pivot-buy-ZjWK7n8O</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/macandles-linearregression-strategy-7ZmLpnJY</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/high-low-channel-multi-averages-crypto-swing-strategy-UXKktYt6</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/strategy-myth-busting-12-osgfc-supertrend-myn-eg9wcYuj</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/moving-average-crossover-swing-strategy-uNIA4siU</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/rci-strategy-pineindicators-BsqKKqyq</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/real-fair-value-gaps-gbb-dDBuugVT</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/structure-break-volume-profile-IRVjfwl7</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/ewmac-trend-signals-quantalgo-WqSr8jFD</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/market-trend-levels-non-repainting-bigbeluga-x-pineindicator-v0XszvRG</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/gaussian-channel-strategy-erJi1tWf</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/adaptive-fibonacci-pullback-system-fibonacciflux-bOcHnaiQ</loc><lastmod>2026-10-01</lastmod></url>
@@ -919,6 +928,7 @@
   <url><loc>https://wild.pynesys.io/scripts/tristan-s-multi-indicator-reversal-strategy-1wc9v4rw</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/bollinger-bands-mean-reversion-using-rsi-krishna-peri-XRPeqEdA</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/kalki-tfxbot-gFMT7BUb</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/sattam-marketmind-nnjBkai0</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/two-bar-fib-retrace-strategy-futures-NP615SiK</loc><lastmod>2026-09-30</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/rsi-macd-multi-timeframe-strategy-Epqb0L8C</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/rsi-divergence-strategy-mU02nqSK</loc><lastmod>2026-09-27</lastmod></url>
