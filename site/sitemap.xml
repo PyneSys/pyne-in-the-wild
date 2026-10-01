@@ -484,7 +484,7 @@
   <url><loc>https://wild.pynesys.io/scripts/ema-9-21-with-target-price-ss-bH92P2FE</loc><lastmod>2026-09-28</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/bollinger-band-with-rsi-pKOaIHpb</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/supertrend-atr-with-trailing-stop-loss-L9GkARD2</loc><lastmod>2026-09-27</lastmod></url>
-  <url><loc>https://wild.pynesys.io/scripts/ict-master-suite-trading-iq-ABYnIcdl</loc><lastmod>2026-09-30</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/ict-master-suite-trading-iq-ABYnIcdl</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/captain-backtest-model-tfo-tOQ8gnxj</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/72s-strat-backtesting-adaptive-hma-pt-1-FrjeeWdl</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/support-resistance-breakout-hwHKYkE0</loc><lastmod>2026-09-27</lastmod></url>
@@ -685,6 +685,7 @@
   <url><loc>https://wild.pynesys.io/scripts/ema-crossover-strategy-with-take-profit-and-candle-highlight-B7umqU7W</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/orion-algo-strategy-v2-0-1QOQnMVn</loc><lastmod>2026-09-30</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/hull-ma-timeframe-crossover-KdC6xqb8</loc><lastmod>2026-09-27</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/strong-fibo-clusters-projectsyndicate-EiWlqwpV</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/backtesting-module-uLY2TQdm</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/chande-momentum-oscillator-cmo-buy-sell-strategy-tradedots-MNBZqC72</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/strategy-template-ImCFrBhi</loc><lastmod>2026-09-27</lastmod></url>
@@ -920,6 +921,7 @@
   <url><loc>https://wild.pynesys.io/scripts/crossing-moving-averages-with-adx-filter-gHYXDzo7</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/macd-liquidity-tracker-strategy-quant-trading-7ix2EvNm</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/horizontal-ray-from-specified-date-orqI6kAw</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/auto-trend-lines-signals-supertrend-YhFUqQNi</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/gradient-trend-filter-strategy-chartprime-pineindicators-Va06tXWV</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/ict-10am-first-fvg-daily-strategy-Za5HKgrL</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/supertrend-ai-adaptive-strategy-btc-kZVrTReu</loc><lastmod>2026-09-27</lastmod></url>
@@ -946,5 +948,13 @@
   <url><loc>https://wild.pynesys.io/scripts/elite-strategy-IyPlUmDS</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/fabio-valentini-pro-scalper-pickmytrade-ybr8iE0K</loc><lastmod>2026-09-27</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/sequence-snap-rsi-confirmed-reversal-scalper-49jNhJXM</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/candle-range-mmt-tA3EBCnG</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/probability-staircase-trend-engine-phenlabs-zhLCfyu1</loc><lastmod>2026-10-01</lastmod></url>
   <url><loc>https://wild.pynesys.io/scripts/sattam-volume-edge-T6WDK4l9</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/fibonacci-cloud-multi-timeframe-fibonacci-scanner-rKsnPJbJ</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/supertrend-regime-confluence-mpjNqADq</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/macd-impulse-macd-normalized-momentum-scale-qU6UVlA3</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/macd-pullback-sniper-trend-adx-filtered-strategy-V87nRt9v</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/patterns-strategy-v1-OqjKbuRp</loc><lastmod>2026-10-01</lastmod></url>
+  <url><loc>https://wild.pynesys.io/scripts/flytv-a-real-fruit-fly-connectome-trading-on-your-chart-nmnHkA02</loc><lastmod>2026-10-01</lastmod></url>
 </urlset>
