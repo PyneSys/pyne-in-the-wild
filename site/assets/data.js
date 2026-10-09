@@ -1,5 +1,5 @@
 window.WILD_DATA = {
-  "generated_at": "2026-10-02",
+  "generated_at": "2026-10-09",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe_min": 30,
   "own_market_scripts": 48,
@@ -797,7 +797,7 @@ window.WILD_DATA = {
       "bars": 28015,
       "run_sec": 2.266,
       "ms_per_bar": 0.0809,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -825,8 +825,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 6326.83,
-        "pc_net_profit": 6326.83,
+        "tv_net_profit": 6326.830078,
+        "pc_net_profit": 6326.830078,
         "net_profit_match": true
       }
     },
@@ -2185,7 +2185,7 @@ window.WILD_DATA = {
       "bars": 28016,
       "run_sec": 2.304,
       "ms_per_bar": 0.0822,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2213,8 +2213,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -2668.805,
-        "pc_net_profit": -2668.804952,
+        "tv_net_profit": -2668.804932,
+        "pc_net_profit": -2668.804932,
         "net_profit_match": true
       }
     },
@@ -2310,7 +2310,7 @@ window.WILD_DATA = {
       "bars": 28016,
       "run_sec": 2.128,
       "ms_per_bar": 0.0759,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2338,8 +2338,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 12043.488,
-        "pc_net_profit": 12043.488219,
+        "tv_net_profit": 12043.488281,
+        "pc_net_profit": 12043.488281,
         "net_profit_match": true
       }
     },
@@ -2435,7 +2435,7 @@ window.WILD_DATA = {
       "bars": 28016,
       "run_sec": 1.403,
       "ms_per_bar": 0.0501,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -2463,8 +2463,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 4510.83,
-        "pc_net_profit": 4510.83,
+        "tv_net_profit": 4510.830078,
+        "pc_net_profit": 4510.830078,
         "net_profit_match": true
       }
     },
@@ -4302,7 +4302,7 @@ window.WILD_DATA = {
       "bars": 28028,
       "run_sec": 1.921,
       "ms_per_bar": 0.0685,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4330,8 +4330,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 31295.37,
-        "pc_net_profit": 31295.37,
+        "tv_net_profit": 31295.369141,
+        "pc_net_profit": 31295.369141,
         "net_profit_match": true
       }
     },
@@ -4453,7 +4453,7 @@ window.WILD_DATA = {
       "bars": 28020,
       "run_sec": 1.782,
       "ms_per_bar": 0.0636,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -4468,8 +4468,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -19719.244,
-        "pc_net_profit": -19719.243946,
+        "tv_net_profit": -19719.244141,
+        "pc_net_profit": -19719.244141,
         "net_profit_match": true
       }
     },
@@ -5242,7 +5242,7 @@ window.WILD_DATA = {
       "bars": 28028,
       "run_sec": 2.473,
       "ms_per_bar": 0.0882,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -5270,8 +5270,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 86090.766,
-        "pc_net_profit": 86090.766273,
+        "tv_net_profit": 86090.765625,
+        "pc_net_profit": 86090.765625,
         "net_profit_match": true
       }
     },
@@ -6414,7 +6414,7 @@ window.WILD_DATA = {
       "bars": 28010,
       "run_sec": 2.826,
       "ms_per_bar": 0.1009,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6429,8 +6429,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 39.94652,
-        "pc_net_profit": 39.946523,
+        "tv_net_profit": 39.946522,
+        "pc_net_profit": 39.946522,
         "net_profit_match": true
       }
     },
@@ -6589,7 +6589,7 @@ window.WILD_DATA = {
       "bars": 28123,
       "run_sec": 3.004,
       "ms_per_bar": 0.1068,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -6617,8 +6617,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -22677.99,
-        "pc_net_profit": -22677.99,
+        "tv_net_profit": -22677.990234,
+        "pc_net_profit": -22677.990234,
         "net_profit_match": true
       }
     },
@@ -8269,7 +8269,7 @@ window.WILD_DATA = {
       "bars": 28123,
       "run_sec": 3.268,
       "ms_per_bar": 0.1164,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -8284,8 +8284,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -11713.42,
-        "pc_net_profit": -11713.42,
+        "tv_net_profit": -11713.419922,
+        "pc_net_profit": -11713.419922,
         "net_profit_match": true
       }
     },
@@ -9965,7 +9965,7 @@ window.WILD_DATA = {
       "bars": 28123,
       "run_sec": 1.043,
       "ms_per_bar": 0.0371,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -9993,8 +9993,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 30461.33,
-        "pc_net_profit": 30461.33,
+        "tv_net_profit": 30461.330078,
+        "pc_net_profit": 30461.330078,
         "net_profit_match": true
       }
     },
@@ -10052,7 +10052,7 @@ window.WILD_DATA = {
       "bars": 28217,
       "run_sec": 1.771,
       "ms_per_bar": 0.0628,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -10080,8 +10080,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 35153.26,
-        "pc_net_profit": 35153.26,
+        "tv_net_profit": 35153.261719,
+        "pc_net_profit": 35153.261719,
         "net_profit_match": true
       }
     },
@@ -10637,7 +10637,7 @@ window.WILD_DATA = {
       "bars": 28217,
       "run_sec": 1.501,
       "ms_per_bar": 0.0532,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -10665,8 +10665,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 6440.96,
-        "pc_net_profit": 6440.96,
+        "tv_net_profit": 6440.959961,
+        "pc_net_profit": 6440.959961,
         "net_profit_match": true
       }
     },
@@ -12600,7 +12600,7 @@ window.WILD_DATA = {
       "bars": 28212,
       "run_sec": 1.38,
       "ms_per_bar": 0.0489,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -12628,8 +12628,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -8273.01,
-        "pc_net_profit": -8273.01,
+        "tv_net_profit": -8273.009766,
+        "pc_net_profit": -8273.009766,
         "net_profit_match": true
       }
     },
@@ -13465,7 +13465,7 @@ window.WILD_DATA = {
       "bars": 28253,
       "run_sec": 4.772,
       "ms_per_bar": 0.1689,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -13497,8 +13497,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 2591.3347,
-        "pc_net_profit": 2591.334829,
+        "tv_net_profit": 2591.334717,
+        "pc_net_profit": 2591.334717,
         "net_profit_match": true
       }
     },
@@ -16793,7 +16793,7 @@ window.WILD_DATA = {
       "bars": 28254,
       "run_sec": 4.873,
       "ms_per_bar": 0.1725,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -16822,7 +16822,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -19829494.0,
-        "pc_net_profit": -19829493.665452,
+        "pc_net_profit": -19829494.0,
         "net_profit_match": true
       }
     },
@@ -17683,7 +17683,7 @@ window.WILD_DATA = {
       "bars": 28253,
       "run_sec": 1.757,
       "ms_per_bar": 0.0622,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -17711,8 +17711,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1585.6151,
-        "pc_net_profit": -1585.615056,
+        "tv_net_profit": -1585.615112,
+        "pc_net_profit": -1585.615112,
         "net_profit_match": true
       }
     },
@@ -18341,7 +18341,7 @@ window.WILD_DATA = {
       "bars": 28299,
       "run_sec": 1.684,
       "ms_per_bar": 0.0595,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -18369,8 +18369,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -75107.47,
-        "pc_net_profit": -75107.468968,
+        "tv_net_profit": -75107.46875,
+        "pc_net_profit": -75107.46875,
         "net_profit_match": true
       }
     },
@@ -18433,7 +18433,7 @@ window.WILD_DATA = {
       "bars": 28255,
       "run_sec": 4.707,
       "ms_per_bar": 0.1666,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -18467,8 +18467,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -288.40747,
-        "pc_net_profit": -288.407469,
+        "tv_net_profit": -288.407471,
+        "pc_net_profit": -288.407471,
         "net_profit_match": true
       }
     },
@@ -18926,7 +18926,7 @@ window.WILD_DATA = {
       "bars": 28268,
       "run_sec": 1.957,
       "ms_per_bar": 0.0692,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -18954,8 +18954,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -7661.4893,
-        "pc_net_profit": -7661.489295,
+        "tv_net_profit": -7661.489258,
+        "pc_net_profit": -7661.489258,
         "net_profit_match": true
       }
     },
@@ -19051,7 +19051,7 @@ window.WILD_DATA = {
       "bars": 28269,
       "run_sec": 2.581,
       "ms_per_bar": 0.0913,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -19079,8 +19079,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -7749.8237,
-        "pc_net_profit": -7749.823543,
+        "tv_net_profit": -7749.82373,
+        "pc_net_profit": -7749.82373,
         "net_profit_match": true
       }
     },
@@ -19100,7 +19100,7 @@ window.WILD_DATA = {
       "bars": 28269,
       "run_sec": 2.857,
       "ms_per_bar": 0.1011,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -19136,8 +19136,8 @@ window.WILD_DATA = {
         "entry_match_pct": 0.99839,
         "exit_match_pct": 0.99839,
         "extra_entries": 1,
-        "tv_net_profit": -274.50256,
-        "pc_net_profit": -286.249911,
+        "tv_net_profit": -274.502563,
+        "pc_net_profit": -286.249908,
         "net_profit_match": false
       }
     },
@@ -19203,7 +19203,7 @@ window.WILD_DATA = {
       "bars": 28271,
       "run_sec": 1.579,
       "ms_per_bar": 0.0559,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -19231,8 +19231,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -4767.2,
-        "pc_net_profit": -4767.2,
+        "tv_net_profit": -4767.200195,
+        "pc_net_profit": -4767.200195,
         "net_profit_match": true
       }
     },
@@ -19252,7 +19252,7 @@ window.WILD_DATA = {
       "bars": 28271,
       "run_sec": 4.423,
       "ms_per_bar": 0.1564,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -19284,8 +19284,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -4805.332,
-        "pc_net_profit": -4805.332,
+        "tv_net_profit": -4805.332031,
+        "pc_net_profit": -4805.332031,
         "net_profit_match": true
       }
     },
@@ -19305,7 +19305,7 @@ window.WILD_DATA = {
       "bars": 28334,
       "run_sec": 1.377,
       "ms_per_bar": 0.0486,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -19328,8 +19328,8 @@ window.WILD_DATA = {
         "entry_match_pct": 0.929395,
         "exit_match_pct": 0.997114,
         "extra_entries": 49,
-        "tv_net_profit": 41813.69,
-        "pc_net_profit": 18008.22,
+        "tv_net_profit": 41813.691406,
+        "pc_net_profit": 18008.220703,
         "net_profit_match": false
       }
     },
@@ -19349,7 +19349,7 @@ window.WILD_DATA = {
       "bars": 28334,
       "run_sec": 2.285,
       "ms_per_bar": 0.0806,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -19378,7 +19378,7 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -41.20397,
+        "tv_net_profit": -41.203972,
         "pc_net_profit": -41.203972,
         "net_profit_match": true
       }
@@ -19399,7 +19399,7 @@ window.WILD_DATA = {
       "bars": 28334,
       "run_sec": 2.071,
       "ms_per_bar": 0.0731,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -19427,8 +19427,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -20274.834,
-        "pc_net_profit": -20274.834227,
+        "tv_net_profit": -20274.833984,
+        "pc_net_profit": -20274.833984,
         "net_profit_match": true
       }
     },
@@ -19507,7 +19507,7 @@ window.WILD_DATA = {
       "bars": 28334,
       "run_sec": 3.805,
       "ms_per_bar": 0.1343,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -19535,8 +19535,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -8331.98,
-        "pc_net_profit": -8331.98,
+        "tv_net_profit": -8331.980469,
+        "pc_net_profit": -8331.980469,
         "net_profit_match": true
       }
     },
@@ -19605,7 +19605,7 @@ window.WILD_DATA = {
       "bars": 28366,
       "run_sec": 2.813,
       "ms_per_bar": 0.0992,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -19634,8 +19634,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 151.49597,
-        "pc_net_profit": 151.495968,
+        "tv_net_profit": 151.495972,
+        "pc_net_profit": 151.495972,
         "net_profit_match": true
       }
     },
@@ -19655,7 +19655,7 @@ window.WILD_DATA = {
       "bars": 28364,
       "run_sec": 2.366,
       "ms_per_bar": 0.0834,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -19686,7 +19686,7 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -35.6458,
+        "tv_net_profit": -35.645802,
         "pc_net_profit": -35.645802,
         "net_profit_match": true
       }
@@ -19707,7 +19707,7 @@ window.WILD_DATA = {
       "bars": 28366,
       "run_sec": 2.417,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -19722,8 +19722,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -401522900.0,
-        "pc_net_profit": -401522900.0,
+        "tv_net_profit": -401522912.0,
+        "pc_net_profit": -401522912.0,
         "net_profit_match": true
       }
     },
@@ -19743,7 +19743,7 @@ window.WILD_DATA = {
       "bars": 28366,
       "run_sec": 2.494,
       "ms_per_bar": 0.0879,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -19771,8 +19771,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -54231.145,
-        "pc_net_profit": -54231.14401,
+        "tv_net_profit": -54231.144531,
+        "pc_net_profit": -54231.144531,
         "net_profit_match": true
       }
     },
@@ -19792,7 +19792,7 @@ window.WILD_DATA = {
       "bars": 28365,
       "run_sec": 1.503,
       "ms_per_bar": 0.053,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -19820,8 +19820,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -78982.87,
-        "pc_net_profit": -78982.87,
+        "tv_net_profit": -78982.867188,
+        "pc_net_profit": -78982.867188,
         "net_profit_match": true
       }
     },
@@ -19841,7 +19841,7 @@ window.WILD_DATA = {
       "bars": 28389,
       "run_sec": 1.641,
       "ms_per_bar": 0.0578,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -19869,8 +19869,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 18025.56,
-        "pc_net_profit": 18025.56,
+        "tv_net_profit": 18025.560547,
+        "pc_net_profit": 18025.560547,
         "net_profit_match": true
       }
     },
@@ -19939,7 +19939,7 @@ window.WILD_DATA = {
       "bars": 28389,
       "run_sec": 2.494,
       "ms_per_bar": 0.0878,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -19968,7 +19968,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -27.702606,
-        "pc_net_profit": -27.702607,
+        "pc_net_profit": -27.702606,
         "net_profit_match": true
       }
     },
@@ -20090,7 +20090,7 @@ window.WILD_DATA = {
       "bars": 28399,
       "run_sec": 1.404,
       "ms_per_bar": 0.0494,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -20118,8 +20118,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 996.44586,
-        "pc_net_profit": 996.445889,
+        "tv_net_profit": 996.445862,
+        "pc_net_profit": 996.445862,
         "net_profit_match": true
       }
     },
@@ -20139,7 +20139,7 @@ window.WILD_DATA = {
       "bars": 28400,
       "run_sec": 1.106,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -20154,8 +20154,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -16682.24,
-        "pc_net_profit": -16682.24,
+        "tv_net_profit": -16682.240234,
+        "pc_net_profit": -16682.240234,
         "net_profit_match": true
       }
     },
@@ -20175,7 +20175,7 @@ window.WILD_DATA = {
       "bars": 28400,
       "run_sec": 1.161,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -20211,7 +20211,7 @@ window.WILD_DATA = {
       "bars": 28401,
       "run_sec": 1.918,
       "ms_per_bar": 0.0675,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -20239,8 +20239,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -3661.82,
-        "pc_net_profit": -3661.82,
+        "tv_net_profit": -3661.820068,
+        "pc_net_profit": -3661.820068,
         "net_profit_match": true
       }
     },
@@ -20374,7 +20374,7 @@ window.WILD_DATA = {
       "bars": 28399,
       "run_sec": 17.153,
       "ms_per_bar": 0.604,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -20405,8 +20405,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -49110.48,
-        "pc_net_profit": -49110.48,
+        "tv_net_profit": -49110.480469,
+        "pc_net_profit": -49110.480469,
         "net_profit_match": true
       }
     },
@@ -20518,7 +20518,7 @@ window.WILD_DATA = {
       "bars": 28399,
       "run_sec": 1.739,
       "ms_per_bar": 0.0613,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -20546,8 +20546,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 33826.36,
-        "pc_net_profit": 33826.36,
+        "tv_net_profit": 33826.359375,
+        "pc_net_profit": 33826.359375,
         "net_profit_match": true
       }
     },
@@ -20567,7 +20567,7 @@ window.WILD_DATA = {
       "bars": 28400,
       "run_sec": 1.402,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -20582,8 +20582,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -23927.54,
-        "pc_net_profit": -23927.54,
+        "tv_net_profit": -23927.539062,
+        "pc_net_profit": -23927.539062,
         "net_profit_match": true
       }
     },
@@ -20603,7 +20603,7 @@ window.WILD_DATA = {
       "bars": 30687,
       "run_sec": 8.296,
       "ms_per_bar": 0.2704,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -20631,8 +20631,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 3453.3848,
-        "pc_net_profit": 3453.384861,
+        "tv_net_profit": 3453.384766,
+        "pc_net_profit": 3453.384766,
         "net_profit_match": true
       }
     },
@@ -20693,7 +20693,7 @@ window.WILD_DATA = {
       "bars": 28399,
       "run_sec": 2.291,
       "ms_per_bar": 0.0807,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -20721,8 +20721,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -2867.3,
-        "pc_net_profit": -2867.3,
+        "tv_net_profit": -2867.300049,
+        "pc_net_profit": -2867.300049,
         "net_profit_match": true
       }
     },
@@ -20788,7 +20788,7 @@ window.WILD_DATA = {
       "bars": 28497,
       "run_sec": 2.752,
       "ms_per_bar": 0.0966,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -20816,8 +20816,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1199.7095,
-        "pc_net_profit": -1199.709484,
+        "tv_net_profit": -1199.709473,
+        "pc_net_profit": -1199.709473,
         "net_profit_match": true
       }
     },
@@ -20837,7 +20837,7 @@ window.WILD_DATA = {
       "bars": 28498,
       "run_sec": 2.052,
       "ms_per_bar": 0.072,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -20865,8 +20865,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -44004.19,
-        "pc_net_profit": -44004.19,
+        "tv_net_profit": -44004.191406,
+        "pc_net_profit": -44004.191406,
         "net_profit_match": true
       }
     },
@@ -20963,7 +20963,7 @@ window.WILD_DATA = {
       "bars": 28498,
       "run_sec": 2.891,
       "ms_per_bar": 0.1014,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -20992,7 +20992,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -104529384.0,
-        "pc_net_profit": -104529381.26776,
+        "pc_net_profit": -104529384.0,
         "net_profit_match": true
       }
     },
@@ -21012,7 +21012,7 @@ window.WILD_DATA = {
       "bars": 28499,
       "run_sec": 1.248,
       "ms_per_bar": 0.0438,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -21040,8 +21040,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 28456.543,
-        "pc_net_profit": 28456.542992,
+        "tv_net_profit": 28456.542969,
+        "pc_net_profit": 28456.542969,
         "net_profit_match": true
       }
     },
@@ -21061,7 +21061,7 @@ window.WILD_DATA = {
       "bars": 28535,
       "run_sec": 2.464,
       "ms_per_bar": 0.0863,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -21089,8 +21089,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -680.04663,
-        "pc_net_profit": -680.046611,
+        "tv_net_profit": -680.046631,
+        "pc_net_profit": -680.046631,
         "net_profit_match": true
       }
     },
@@ -21110,7 +21110,7 @@ window.WILD_DATA = {
       "bars": 28536,
       "run_sec": 4.906,
       "ms_per_bar": 0.1719,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -21145,8 +21145,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -2991458800.0,
-        "pc_net_profit": -2991458865.830019,
+        "tv_net_profit": -2991458816.0,
+        "pc_net_profit": -2991458816.0,
         "net_profit_match": true
       }
     },
@@ -21251,7 +21251,7 @@ window.WILD_DATA = {
       "bars": 28535,
       "run_sec": 2.775,
       "ms_per_bar": 0.0972,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -21279,8 +21279,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 18986.777,
-        "pc_net_profit": 18986.777255,
+        "tv_net_profit": 18986.777344,
+        "pc_net_profit": 18986.777344,
         "net_profit_match": true
       }
     },
@@ -21398,7 +21398,7 @@ window.WILD_DATA = {
       "bars": 28582,
       "run_sec": 1.585,
       "ms_per_bar": 0.0554,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -21426,8 +21426,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -2641.221,
-        "pc_net_profit": -2641.221061,
+        "tv_net_profit": -2641.220947,
+        "pc_net_profit": -2641.220947,
         "net_profit_match": true
       }
     },
@@ -21505,7 +21505,7 @@ window.WILD_DATA = {
       "bars": 28582,
       "run_sec": 1.457,
       "ms_per_bar": 0.051,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -21533,8 +21533,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 58296.2,
-        "pc_net_profit": 58296.2,
+        "tv_net_profit": 58296.199219,
+        "pc_net_profit": 58296.199219,
         "net_profit_match": true
       }
     },
@@ -21705,7 +21705,7 @@ window.WILD_DATA = {
       "bars": 28683,
       "run_sec": 1.419,
       "ms_per_bar": 0.0495,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -21733,8 +21733,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 34923.74,
-        "pc_net_profit": 34923.74,
+        "tv_net_profit": 34923.738281,
+        "pc_net_profit": 34923.738281,
         "net_profit_match": true
       }
     },
@@ -21852,7 +21852,7 @@ window.WILD_DATA = {
       "bars": 28683,
       "run_sec": 21.443,
       "ms_per_bar": 0.7476,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -21883,8 +21883,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -39710.63,
-        "pc_net_profit": -39710.63,
+        "tv_net_profit": -39710.629654,
+        "pc_net_profit": -39710.629654,
         "net_profit_match": true
       }
     },
@@ -21904,7 +21904,7 @@ window.WILD_DATA = {
       "bars": 28729,
       "run_sec": 3.371,
       "ms_per_bar": 0.1173,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -21953,7 +21953,7 @@ window.WILD_DATA = {
       "bars": 30687,
       "run_sec": 1.502,
       "ms_per_bar": null,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -21968,8 +21968,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -5720.131,
-        "pc_net_profit": -5720.130688,
+        "tv_net_profit": -5720.130859,
+        "pc_net_profit": -5720.130859,
         "net_profit_match": true
       }
     },
@@ -22055,7 +22055,7 @@ window.WILD_DATA = {
       "bars": 28728,
       "run_sec": 6.402,
       "ms_per_bar": 0.2228,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -22083,8 +22083,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 95.34252,
-        "pc_net_profit": 95.342518,
+        "tv_net_profit": 95.342522,
+        "pc_net_profit": 95.342522,
         "net_profit_match": true
       }
     },
@@ -22104,7 +22104,7 @@ window.WILD_DATA = {
       "bars": 28728,
       "run_sec": 4.902,
       "ms_per_bar": 0.1706,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -22132,8 +22132,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1157.9751,
-        "pc_net_profit": -1157.975124,
+        "tv_net_profit": -1157.975098,
+        "pc_net_profit": -1157.975098,
         "net_profit_match": true
       }
     },
@@ -22426,7 +22426,7 @@ window.WILD_DATA = {
       "bars": 28737,
       "run_sec": 2.258,
       "ms_per_bar": 0.0786,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -22454,8 +22454,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 73274.78,
-        "pc_net_profit": 73274.783958,
+        "tv_net_profit": 73274.78125,
+        "pc_net_profit": 73274.78125,
         "net_profit_match": true
       }
     },
@@ -22475,7 +22475,7 @@ window.WILD_DATA = {
       "bars": 28743,
       "run_sec": 1.609,
       "ms_per_bar": 0.056,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -22508,8 +22508,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -15968.218,
-        "pc_net_profit": -15968.217825,
+        "tv_net_profit": -15968.217773,
+        "pc_net_profit": -15968.217773,
         "net_profit_match": true
       }
     },
@@ -22629,7 +22629,7 @@ window.WILD_DATA = {
       "bars": 28743,
       "run_sec": 3.955,
       "ms_per_bar": 0.1376,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -22657,8 +22657,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -9516.93,
-        "pc_net_profit": -9516.93,
+        "tv_net_profit": -9516.929688,
+        "pc_net_profit": -9516.929688,
         "net_profit_match": true
       }
     },
@@ -22776,7 +22776,7 @@ window.WILD_DATA = {
       "bars": 28745,
       "run_sec": 1.144,
       "ms_per_bar": 0.0398,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -22804,8 +22804,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -43365.742,
-        "pc_net_profit": -43365.743936,
+        "tv_net_profit": -43365.742188,
+        "pc_net_profit": -43365.742188,
         "net_profit_match": true
       }
     },
@@ -23020,7 +23020,7 @@ window.WILD_DATA = {
       "bars": 28771,
       "run_sec": 0.874,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -23035,8 +23035,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -31.80593,
-        "pc_net_profit": -31.805928,
+        "tv_net_profit": -31.805929,
+        "pc_net_profit": -31.805929,
         "net_profit_match": true
       }
     },
@@ -23056,7 +23056,7 @@ window.WILD_DATA = {
       "bars": 28776,
       "run_sec": 1.586,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -23071,7 +23071,7 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 301.79764,
+        "tv_net_profit": 301.797638,
         "pc_net_profit": 301.797638,
         "net_profit_match": true
       }
@@ -23210,7 +23210,7 @@ window.WILD_DATA = {
       "bars": 30654,
       "run_sec": 1.962,
       "ms_per_bar": null,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -23225,8 +23225,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -213.23807,
-        "pc_net_profit": -213.238067,
+        "tv_net_profit": -213.238068,
+        "pc_net_profit": -213.238068,
         "net_profit_match": true
       }
     },
@@ -23246,7 +23246,7 @@ window.WILD_DATA = {
       "bars": 28777,
       "run_sec": 1.79,
       "ms_per_bar": 0.0622,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -23274,8 +23274,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 282.08813,
-        "pc_net_profit": 282.088123,
+        "tv_net_profit": 282.088135,
+        "pc_net_profit": 282.088135,
         "net_profit_match": true
       }
     },
@@ -23295,7 +23295,7 @@ window.WILD_DATA = {
       "bars": 28777,
       "run_sec": 1.355,
       "ms_per_bar": 0.0471,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -23344,7 +23344,7 @@ window.WILD_DATA = {
       "bars": 28777,
       "run_sec": 2.146,
       "ms_per_bar": 0.0746,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -23372,8 +23372,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -82691.055,
-        "pc_net_profit": -82691.055177,
+        "tv_net_profit": -82691.054688,
+        "pc_net_profit": -82691.054688,
         "net_profit_match": true
       }
     },
@@ -23393,7 +23393,7 @@ window.WILD_DATA = {
       "bars": 30687,
       "run_sec": 7.353,
       "ms_per_bar": 0.2396,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -23421,8 +23421,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1669.0974,
-        "pc_net_profit": -1669.097355,
+        "tv_net_profit": -1669.097412,
+        "pc_net_profit": -1669.097412,
         "net_profit_match": true
       }
     },
@@ -23495,7 +23495,7 @@ window.WILD_DATA = {
       "bars": 28794,
       "run_sec": 3.39,
       "ms_per_bar": 0.1177,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -23523,8 +23523,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 4094.2695,
-        "pc_net_profit": 4094.269621,
+        "tv_net_profit": 4094.269531,
+        "pc_net_profit": 4094.269531,
         "net_profit_match": true
       }
     },
@@ -23602,7 +23602,7 @@ window.WILD_DATA = {
       "bars": 28807,
       "run_sec": 4.764,
       "ms_per_bar": 0.1654,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -23630,8 +23630,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 151958.3,
-        "pc_net_profit": 151958.290529,
+        "tv_net_profit": 151958.296875,
+        "pc_net_profit": 151958.296875,
         "net_profit_match": true
       }
     },
@@ -23716,7 +23716,7 @@ window.WILD_DATA = {
       "bars": 28821,
       "run_sec": 2.951,
       "ms_per_bar": 0.1024,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -23744,8 +23744,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -43856.336,
-        "pc_net_profit": -43856.337088,
+        "tv_net_profit": -43856.335938,
+        "pc_net_profit": -43856.335938,
         "net_profit_match": true
       }
     },
@@ -23765,7 +23765,7 @@ window.WILD_DATA = {
       "bars": 28821,
       "run_sec": 0.949,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -23780,8 +23780,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -20.7,
-        "pc_net_profit": -20.7,
+        "tv_net_profit": -20.700001,
+        "pc_net_profit": -20.700001,
         "net_profit_match": true
       }
     },
@@ -23839,7 +23839,7 @@ window.WILD_DATA = {
       "bars": 28820,
       "run_sec": 1.229,
       "ms_per_bar": 0.0426,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -23867,8 +23867,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -36615.902,
-        "pc_net_profit": -36615.903086,
+        "tv_net_profit": -36615.902344,
+        "pc_net_profit": -36615.902344,
         "net_profit_match": true
       }
     },
@@ -23888,7 +23888,7 @@ window.WILD_DATA = {
       "bars": 28820,
       "run_sec": 1.294,
       "ms_per_bar": 0.0449,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -23916,8 +23916,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -12070.95,
-        "pc_net_profit": -12070.950558,
+        "tv_net_profit": -12070.950195,
+        "pc_net_profit": -12070.950195,
         "net_profit_match": true
       }
     },
@@ -23975,7 +23975,7 @@ window.WILD_DATA = {
       "bars": 28821,
       "run_sec": 2.862,
       "ms_per_bar": 0.0993,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -24011,8 +24011,8 @@ window.WILD_DATA = {
         "entry_match_pct": 0.997076,
         "exit_match_pct": 1.0,
         "extra_entries": 1,
-        "tv_net_profit": -5879.0044,
-        "pc_net_profit": -5880.640468,
+        "tv_net_profit": -5879.004395,
+        "pc_net_profit": -5880.640625,
         "net_profit_match": true
       }
     },
@@ -24032,7 +24032,7 @@ window.WILD_DATA = {
       "bars": 30686,
       "run_sec": 2.946,
       "ms_per_bar": 0.096,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -24060,8 +24060,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 25320.207,
-        "pc_net_profit": 25320.206429,
+        "tv_net_profit": 25320.207031,
+        "pc_net_profit": 25320.207031,
         "net_profit_match": true
       }
     },
@@ -24081,7 +24081,7 @@ window.WILD_DATA = {
       "bars": 28829,
       "run_sec": 1.541,
       "ms_per_bar": 0.0535,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -24109,8 +24109,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 785.01,
-        "pc_net_profit": 785.01,
+        "tv_net_profit": 785.01001,
+        "pc_net_profit": 785.01001,
         "net_profit_match": true
       }
     },
@@ -24130,7 +24130,7 @@ window.WILD_DATA = {
       "bars": 27613,
       "run_sec": 27.128,
       "ms_per_bar": 0.9824,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -24161,8 +24161,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -44552.64,
-        "pc_net_profit": -44552.641072,
+        "tv_net_profit": -44552.640625,
+        "pc_net_profit": -44552.640625,
         "net_profit_match": true
       }
     },
@@ -24254,7 +24254,7 @@ window.WILD_DATA = {
       "bars": 28829,
       "run_sec": 3.688,
       "ms_per_bar": 0.1279,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -24282,8 +24282,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -12436.11,
-        "pc_net_profit": -12436.11,
+        "tv_net_profit": -12436.110352,
+        "pc_net_profit": -12436.110352,
         "net_profit_match": true
       }
     },
@@ -24352,7 +24352,7 @@ window.WILD_DATA = {
       "bars": 3293,
       "run_sec": 0.609,
       "ms_per_bar": 0.185,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "D",
@@ -24380,8 +24380,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 20103.076,
-        "pc_net_profit": 20103.077042,
+        "tv_net_profit": 20103.076172,
+        "pc_net_profit": 20103.076172,
         "net_profit_match": true
       }
     },
@@ -24401,7 +24401,7 @@ window.WILD_DATA = {
       "bars": 28831,
       "run_sec": 1.131,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -24417,7 +24417,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": 29.941854,
-        "pc_net_profit": 29.941855,
+        "pc_net_profit": 29.941854,
         "net_profit_match": true
       }
     },
@@ -24437,7 +24437,7 @@ window.WILD_DATA = {
       "bars": 28831,
       "run_sec": 1.326,
       "ms_per_bar": 0.046,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -24465,8 +24465,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -57.19,
-        "pc_net_profit": -57.19,
+        "tv_net_profit": -57.189999,
+        "pc_net_profit": -57.189999,
         "net_profit_match": true
       }
     },
@@ -24486,7 +24486,7 @@ window.WILD_DATA = {
       "bars": 28831,
       "run_sec": 7.212,
       "ms_per_bar": 0.2501,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -24517,8 +24517,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -43560.8,
-        "pc_net_profit": -43560.801744,
+        "tv_net_profit": -43560.800781,
+        "pc_net_profit": -43560.800781,
         "net_profit_match": true
       }
     },
@@ -24538,7 +24538,7 @@ window.WILD_DATA = {
       "bars": 28831,
       "run_sec": 1.322,
       "ms_per_bar": 0.0459,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -24566,8 +24566,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -17651.7,
-        "pc_net_profit": -17651.7,
+        "tv_net_profit": -17651.699219,
+        "pc_net_profit": -17651.699219,
         "net_profit_match": true
       }
     },
@@ -24636,7 +24636,7 @@ window.WILD_DATA = {
       "bars": 28831,
       "run_sec": 2.825,
       "ms_per_bar": 0.098,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -24664,8 +24664,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -50628.22,
-        "pc_net_profit": -50628.22,
+        "tv_net_profit": -50628.21875,
+        "pc_net_profit": -50628.21875,
         "net_profit_match": true
       }
     },
@@ -24685,7 +24685,7 @@ window.WILD_DATA = {
       "bars": 28859,
       "run_sec": 1.865,
       "ms_per_bar": 0.0646,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -24714,7 +24714,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -23598522.0,
-        "pc_net_profit": -23598522.12561,
+        "pc_net_profit": -23598522.0,
         "net_profit_match": true
       }
     },
@@ -24783,7 +24783,7 @@ window.WILD_DATA = {
       "bars": 28859,
       "run_sec": 5.945,
       "ms_per_bar": 0.206,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -24812,7 +24812,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -104.134865,
-        "pc_net_profit": -104.134866,
+        "pc_net_profit": -104.134865,
         "net_profit_match": true
       }
     },
@@ -25122,7 +25122,7 @@ window.WILD_DATA = {
       "bars": 28866,
       "run_sec": 2.71,
       "ms_per_bar": 0.0939,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -25150,8 +25150,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1301.4756,
-        "pc_net_profit": -1301.475629,
+        "tv_net_profit": -1301.475586,
+        "pc_net_profit": -1301.475586,
         "net_profit_match": true
       }
     },
@@ -25171,7 +25171,7 @@ window.WILD_DATA = {
       "bars": 28827,
       "run_sec": 2.453,
       "ms_per_bar": 0.0851,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -25199,8 +25199,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -10626.42,
-        "pc_net_profit": -10626.42,
+        "tv_net_profit": -10626.420128,
+        "pc_net_profit": -10626.420128,
         "net_profit_match": true
       }
     },
@@ -25220,7 +25220,7 @@ window.WILD_DATA = {
       "bars": 28867,
       "run_sec": 4.034,
       "ms_per_bar": 0.1398,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -25248,8 +25248,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 58071.14,
-        "pc_net_profit": 58071.14,
+        "tv_net_profit": 58071.140625,
+        "pc_net_profit": 58071.140625,
         "net_profit_match": true
       }
     },
@@ -25269,7 +25269,7 @@ window.WILD_DATA = {
       "bars": 28867,
       "run_sec": 1.628,
       "ms_per_bar": 0.0564,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -25318,7 +25318,7 @@ window.WILD_DATA = {
       "bars": 28871,
       "run_sec": 1.707,
       "ms_per_bar": 0.0591,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -25346,8 +25346,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -165.99332,
-        "pc_net_profit": -165.99331,
+        "tv_net_profit": -165.993317,
+        "pc_net_profit": -165.993317,
         "net_profit_match": true
       }
     },
@@ -25367,7 +25367,7 @@ window.WILD_DATA = {
       "bars": 28872,
       "run_sec": 0.981,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -25383,8 +25383,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -6550.008,
-        "pc_net_profit": -6550.007967,
+        "tv_net_profit": -6550.007812,
+        "pc_net_profit": -6550.007812,
         "net_profit_match": true
       }
     },
@@ -25453,7 +25453,7 @@ window.WILD_DATA = {
       "bars": 28871,
       "run_sec": 4.489,
       "ms_per_bar": 0.1555,
-      "compared_at": "2026-09-28",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -25489,8 +25489,8 @@ window.WILD_DATA = {
         "entry_match_pct": 0.904859,
         "exit_match_pct": 0.903958,
         "extra_entries": 320,
-        "tv_net_profit": -9903.877,
-        "pc_net_profit": -9994.711318,
+        "tv_net_profit": -9903.876953,
+        "pc_net_profit": -9994.710938,
         "net_profit_match": true
       }
     },
@@ -25890,7 +25890,7 @@ window.WILD_DATA = {
       "bars": 28888,
       "run_sec": 2.326,
       "ms_per_bar": 0.0805,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -25919,8 +25919,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 30506.068,
-        "pc_net_profit": 30506.067562,
+        "tv_net_profit": 30506.068359,
+        "pc_net_profit": 30506.068359,
         "net_profit_match": true
       }
     },
@@ -25989,7 +25989,7 @@ window.WILD_DATA = {
       "bars": 27560,
       "run_sec": 1.406,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -26004,8 +26004,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -22371.037,
-        "pc_net_profit": -22371.037056,
+        "tv_net_profit": -22371.037109,
+        "pc_net_profit": -22371.037109,
         "net_profit_match": true
       }
     },
@@ -26077,7 +26077,7 @@ window.WILD_DATA = {
       "bars": 28887,
       "run_sec": 3.535,
       "ms_per_bar": 0.1224,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -26106,8 +26106,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1191.1552,
-        "pc_net_profit": -1191.155203,
+        "tv_net_profit": -1191.155151,
+        "pc_net_profit": -1191.155151,
         "net_profit_match": true
       }
     },
@@ -26127,7 +26127,7 @@ window.WILD_DATA = {
       "bars": 28963,
       "run_sec": 5.29,
       "ms_per_bar": 0.1827,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -26159,7 +26159,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -101.258354,
-        "pc_net_profit": -101.258352,
+        "pc_net_profit": -101.258354,
         "net_profit_match": true
       }
     },
@@ -26339,7 +26339,7 @@ window.WILD_DATA = {
       "bars": 28914,
       "run_sec": 3.04,
       "ms_per_bar": 0.1051,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -26371,8 +26371,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -10652.269,
-        "pc_net_profit": -10652.268765,
+        "tv_net_profit": -10652.268555,
+        "pc_net_profit": -10652.268555,
         "net_profit_match": true
       }
     },
@@ -26392,7 +26392,7 @@ window.WILD_DATA = {
       "bars": 28915,
       "run_sec": 0.819,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -26407,8 +26407,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -13597.77,
-        "pc_net_profit": -13597.77,
+        "tv_net_profit": -13597.769531,
+        "pc_net_profit": -13597.769531,
         "net_profit_match": true
       }
     },
@@ -26571,7 +26571,7 @@ window.WILD_DATA = {
       "bars": 28923,
       "run_sec": 1.285,
       "ms_per_bar": 0.0444,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -26599,8 +26599,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 7296.04,
-        "pc_net_profit": 7296.04,
+        "tv_net_profit": 7296.040039,
+        "pc_net_profit": 7296.040039,
         "net_profit_match": true
       }
     },
@@ -26658,7 +26658,7 @@ window.WILD_DATA = {
       "bars": 3295,
       "run_sec": 0.552,
       "ms_per_bar": 0.1674,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "D",
@@ -26686,8 +26686,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 4216.39,
-        "pc_net_profit": 4216.39,
+        "tv_net_profit": 4216.390137,
+        "pc_net_profit": 4216.390137,
         "net_profit_match": true
       }
     },
@@ -26756,7 +26756,7 @@ window.WILD_DATA = {
       "bars": 28924,
       "run_sec": 2.012,
       "ms_per_bar": 0.0696,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -26784,8 +26784,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 9620.394,
-        "pc_net_profit": 9620.393478,
+        "tv_net_profit": 9620.393555,
+        "pc_net_profit": 9620.393555,
         "net_profit_match": true
       }
     },
@@ -26805,7 +26805,7 @@ window.WILD_DATA = {
       "bars": 28938,
       "run_sec": 2.842,
       "ms_per_bar": 0.0982,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -26833,7 +26833,7 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -563.2083,
+        "tv_net_profit": -563.208313,
         "pc_net_profit": -563.208313,
         "net_profit_match": true
       }
@@ -26895,7 +26895,7 @@ window.WILD_DATA = {
       "bars": 28938,
       "run_sec": 3.066,
       "ms_per_bar": 0.106,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -26923,8 +26923,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -7946.89,
-        "pc_net_profit": -7946.89,
+        "tv_net_profit": -7946.890137,
+        "pc_net_profit": -7946.890137,
         "net_profit_match": true
       }
     },
@@ -27133,7 +27133,7 @@ window.WILD_DATA = {
       "bars": 30687,
       "run_sec": 1.115,
       "ms_per_bar": 0.0363,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -27161,8 +27161,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -105.65309,
-        "pc_net_profit": -105.653092,
+        "tv_net_profit": -105.653091,
+        "pc_net_profit": -105.653091,
         "net_profit_match": true
       }
     },
@@ -27182,7 +27182,7 @@ window.WILD_DATA = {
       "bars": 28954,
       "run_sec": 4.527,
       "ms_per_bar": 0.1564,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -27211,7 +27211,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": 2340219.5,
-        "pc_net_profit": 2340219.49,
+        "pc_net_profit": 2340219.5,
         "net_profit_match": true
       }
     },
@@ -27292,7 +27292,7 @@ window.WILD_DATA = {
       "bars": 28953,
       "run_sec": 1.987,
       "ms_per_bar": 0.0686,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -27320,8 +27320,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -915276.4,
-        "pc_net_profit": -915276.4,
+        "tv_net_profit": -915276.375,
+        "pc_net_profit": -915276.375,
         "net_profit_match": true
       }
     },
@@ -27531,7 +27531,7 @@ window.WILD_DATA = {
       "bars": 28956,
       "run_sec": 2.139,
       "ms_per_bar": 0.0739,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -27562,8 +27562,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -17589.1,
-        "pc_net_profit": -17589.1,
+        "tv_net_profit": -17589.099609,
+        "pc_net_profit": -17589.099609,
         "net_profit_match": true
       }
     },
@@ -27739,7 +27739,7 @@ window.WILD_DATA = {
       "bars": 28966,
       "run_sec": 2.906,
       "ms_per_bar": 0.1003,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -27767,8 +27767,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -133.34415,
-        "pc_net_profit": -133.344153,
+        "tv_net_profit": -133.344147,
+        "pc_net_profit": -133.344147,
         "net_profit_match": true
       }
     },
@@ -27840,7 +27840,7 @@ window.WILD_DATA = {
       "bars": 28967,
       "run_sec": 1.876,
       "ms_per_bar": 0.0648,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -27868,8 +27868,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 2098.9846,
-        "pc_net_profit": 2098.984633,
+        "tv_net_profit": 2098.984619,
+        "pc_net_profit": 2098.984619,
         "net_profit_match": true
       }
     },
@@ -27889,7 +27889,7 @@ window.WILD_DATA = {
       "bars": 28967,
       "run_sec": 1.75,
       "ms_per_bar": 0.0604,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -27917,8 +27917,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1676.1846,
-        "pc_net_profit": -1676.184531,
+        "tv_net_profit": -1676.18457,
+        "pc_net_profit": -1676.18457,
         "net_profit_match": true
       }
     },
@@ -27938,7 +27938,7 @@ window.WILD_DATA = {
       "bars": 28968,
       "run_sec": 1.495,
       "ms_per_bar": 0.0516,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -27966,8 +27966,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -83307.83,
-        "pc_net_profit": -83307.830589,
+        "tv_net_profit": -83307.828125,
+        "pc_net_profit": -83307.828125,
         "net_profit_match": true
       }
     },
@@ -27987,7 +27987,7 @@ window.WILD_DATA = {
       "bars": 28968,
       "run_sec": 2.988,
       "ms_per_bar": 0.1032,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -28018,8 +28018,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -99999.29,
-        "pc_net_profit": -99999.291698,
+        "tv_net_profit": -99999.289062,
+        "pc_net_profit": -99999.289062,
         "net_profit_match": true
       }
     },
@@ -28091,7 +28091,7 @@ window.WILD_DATA = {
       "bars": 28968,
       "run_sec": 2.792,
       "ms_per_bar": 0.0964,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:DOGEUSDT",
         "timeframe": "30",
@@ -28120,7 +28120,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": 49.64365,
-        "pc_net_profit": 49.700815,
+        "pc_net_profit": 49.700813,
         "net_profit_match": true
       }
     },
@@ -28140,7 +28140,7 @@ window.WILD_DATA = {
       "bars": 21655,
       "run_sec": 1.518,
       "ms_per_bar": 0.0701,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "NASDAQ:AAPL",
         "timeframe": "30",
@@ -28168,8 +28168,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -77.06,
-        "pc_net_profit": -77.06,
+        "tv_net_profit": -77.059998,
+        "pc_net_profit": -77.059998,
         "net_profit_match": true
       }
     },
@@ -28189,7 +28189,7 @@ window.WILD_DATA = {
       "bars": 27613,
       "run_sec": 5.511,
       "ms_per_bar": 0.1996,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -28217,8 +28217,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 20615.635,
-        "pc_net_profit": 20615.634365,
+        "tv_net_profit": 20615.634766,
+        "pc_net_profit": 20615.634766,
         "net_profit_match": true
       }
     },
@@ -28238,7 +28238,7 @@ window.WILD_DATA = {
       "bars": 28977,
       "run_sec": 1.792,
       "ms_per_bar": 0.0619,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -28266,8 +28266,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 15561.816,
-        "pc_net_profit": 15561.816127,
+        "tv_net_profit": 15561.816406,
+        "pc_net_profit": 15561.816406,
         "net_profit_match": true
       }
     },
@@ -28346,7 +28346,7 @@ window.WILD_DATA = {
       "bars": 30687,
       "run_sec": 1.215,
       "ms_per_bar": 0.0396,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -28374,8 +28374,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 1226.8921,
-        "pc_net_profit": 1226.892041,
+        "tv_net_profit": 1226.89209,
+        "pc_net_profit": 1226.89209,
         "net_profit_match": true
       }
     },
@@ -28395,7 +28395,7 @@ window.WILD_DATA = {
       "bars": 28977,
       "run_sec": 2.843,
       "ms_per_bar": 0.0981,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -28423,8 +28423,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -328993.88,
-        "pc_net_profit": -328993.867684,
+        "tv_net_profit": -328993.875,
+        "pc_net_profit": -328993.875,
         "net_profit_match": true
       }
     },
@@ -28444,7 +28444,7 @@ window.WILD_DATA = {
       "bars": 29049,
       "run_sec": 1.311,
       "ms_per_bar": 0.0451,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -28459,8 +28459,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -29253.97,
-        "pc_net_profit": -29253.97,
+        "tv_net_profit": -29253.970703,
+        "pc_net_profit": -29253.970703,
         "net_profit_match": true
       }
     },
@@ -28532,7 +28532,7 @@ window.WILD_DATA = {
       "bars": 29004,
       "run_sec": 3.791,
       "ms_per_bar": 0.1307,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -28564,8 +28564,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1918.3323,
-        "pc_net_profit": -1918.332328,
+        "tv_net_profit": -1918.332275,
+        "pc_net_profit": -1918.332275,
         "net_profit_match": true
       }
     },
@@ -28585,7 +28585,7 @@ window.WILD_DATA = {
       "bars": 29004,
       "run_sec": 2.423,
       "ms_per_bar": 0.0835,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -28621,8 +28621,8 @@ window.WILD_DATA = {
         "entry_match_pct": 0.998739,
         "exit_match_pct": 0.99527,
         "extra_entries": 19,
-        "tv_net_profit": -967815.1,
-        "pc_net_profit": -339703.250318,
+        "tv_net_profit": -967815.125,
+        "pc_net_profit": -339703.25,
         "net_profit_match": false
       }
     },
@@ -28642,7 +28642,7 @@ window.WILD_DATA = {
       "bars": 29004,
       "run_sec": 1.463,
       "ms_per_bar": 0.0504,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -28670,8 +28670,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -6463.598,
-        "pc_net_profit": -6463.598103,
+        "tv_net_profit": -6463.598145,
+        "pc_net_profit": -6463.598145,
         "net_profit_match": true
       }
     },
@@ -28807,7 +28807,7 @@ window.WILD_DATA = {
       "bars": 21668,
       "run_sec": 2.598,
       "ms_per_bar": 0.1199,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "NASDAQ:AAPL",
         "timeframe": "30",
@@ -28835,8 +28835,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1039.0282,
-        "pc_net_profit": -1039.0282,
+        "tv_net_profit": -1039.028198,
+        "pc_net_profit": -1039.028198,
         "net_profit_match": true
       }
     },
@@ -28856,7 +28856,7 @@ window.WILD_DATA = {
       "bars": 29018,
       "run_sec": 1.782,
       "ms_per_bar": 0.0614,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -28884,8 +28884,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -26270.45,
-        "pc_net_profit": -26270.45,
+        "tv_net_profit": -26270.449219,
+        "pc_net_profit": -26270.449219,
         "net_profit_match": true
       }
     },
@@ -29003,7 +29003,7 @@ window.WILD_DATA = {
       "bars": 29018,
       "run_sec": 4.115,
       "ms_per_bar": 0.1418,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -29031,8 +29031,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1021.8289,
-        "pc_net_profit": -1021.828923,
+        "tv_net_profit": -1021.828918,
+        "pc_net_profit": -1021.828918,
         "net_profit_match": true
       }
     },
@@ -29052,7 +29052,7 @@ window.WILD_DATA = {
       "bars": 29029,
       "run_sec": 1.756,
       "ms_per_bar": 0.0605,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -29080,8 +29080,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 33148.46,
-        "pc_net_profit": 33148.46,
+        "tv_net_profit": 33148.460938,
+        "pc_net_profit": 33148.460938,
         "net_profit_match": true
       }
     },
@@ -29101,7 +29101,7 @@ window.WILD_DATA = {
       "bars": 3297,
       "run_sec": 0.741,
       "ms_per_bar": 0.2246,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "D",
@@ -29129,8 +29129,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 11224.357,
-        "pc_net_profit": 11224.357836,
+        "tv_net_profit": 11224.357422,
+        "pc_net_profit": 11224.357422,
         "net_profit_match": true
       }
     },
@@ -29150,7 +29150,7 @@ window.WILD_DATA = {
       "bars": 3298,
       "run_sec": 1.418,
       "ms_per_bar": 0.43,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "D",
@@ -29184,8 +29184,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1522.6366,
-        "pc_net_profit": -1522.636634,
+        "tv_net_profit": -1522.636597,
+        "pc_net_profit": -1522.636597,
         "net_profit_match": true
       }
     },
@@ -29205,7 +29205,7 @@ window.WILD_DATA = {
       "bars": 29030,
       "run_sec": 1.825,
       "ms_per_bar": 0.0629,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -29233,8 +29233,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 46199.22,
-        "pc_net_profit": 46199.22,
+        "tv_net_profit": 46199.21875,
+        "pc_net_profit": 46199.21875,
         "net_profit_match": true
       }
     },
@@ -29303,7 +29303,7 @@ window.WILD_DATA = {
       "bars": 29032,
       "run_sec": 1.646,
       "ms_per_bar": 0.0567,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -29331,8 +29331,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -4214.07,
-        "pc_net_profit": -4214.07,
+        "tv_net_profit": -4214.069824,
+        "pc_net_profit": -4214.069824,
         "net_profit_match": true
       }
     },
@@ -29508,7 +29508,7 @@ window.WILD_DATA = {
       "bars": 29032,
       "run_sec": 1.849,
       "ms_per_bar": 0.0637,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -29536,8 +29536,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -643.3376,
-        "pc_net_profit": -643.337577,
+        "tv_net_profit": -643.337585,
+        "pc_net_profit": -643.337585,
         "net_profit_match": true
       }
     },
@@ -29606,7 +29606,7 @@ window.WILD_DATA = {
       "bars": 29050,
       "run_sec": 2.012,
       "ms_per_bar": 0.0693,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -29621,8 +29621,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -11691.498,
-        "pc_net_profit": -11691.497959,
+        "tv_net_profit": -11691.498047,
+        "pc_net_profit": -11691.498047,
         "net_profit_match": true
       }
     },
@@ -29700,7 +29700,7 @@ window.WILD_DATA = {
       "bars": 29049,
       "run_sec": 2.333,
       "ms_per_bar": 0.0803,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -29728,8 +29728,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 3803.55,
-        "pc_net_profit": 3803.55,
+        "tv_net_profit": 3803.550049,
+        "pc_net_profit": 3803.550049,
         "net_profit_match": true
       }
     },
@@ -29749,7 +29749,7 @@ window.WILD_DATA = {
       "bars": 29050,
       "run_sec": 2.149,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -29764,8 +29764,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -486.07303,
-        "pc_net_profit": -486.073017,
+        "tv_net_profit": -486.073029,
+        "pc_net_profit": -486.073029,
         "net_profit_match": true
       }
     },
@@ -29785,7 +29785,7 @@ window.WILD_DATA = {
       "bars": 30686,
       "run_sec": 3.093,
       "ms_per_bar": 0.1008,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -29813,8 +29813,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 5044.4204,
-        "pc_net_profit": 5044.420595,
+        "tv_net_profit": 5044.42041,
+        "pc_net_profit": 5044.42041,
         "net_profit_match": true
       }
     },
@@ -29834,7 +29834,7 @@ window.WILD_DATA = {
       "bars": 20056,
       "run_sec": 0.987,
       "ms_per_bar": 0.0492,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "NSE:NIFTY",
         "timeframe": "15",
@@ -29862,8 +29862,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -951.95,
-        "pc_net_profit": -951.95,
+        "tv_net_profit": -951.950012,
+        "pc_net_profit": -951.950012,
         "net_profit_match": true
       }
     },
@@ -29883,7 +29883,7 @@ window.WILD_DATA = {
       "bars": 29074,
       "run_sec": 16.296,
       "ms_per_bar": 0.5605,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -29912,7 +29912,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -11077982.0,
-        "pc_net_profit": -11077981.51,
+        "pc_net_profit": -11077982.0,
         "net_profit_match": true
       }
     },
@@ -29981,7 +29981,7 @@ window.WILD_DATA = {
       "bars": 27616,
       "run_sec": 1.323,
       "ms_per_bar": 0.2646,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -30009,8 +30009,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -9773.481,
-        "pc_net_profit": -9773.481686,
+        "tv_net_profit": -9773.481445,
+        "pc_net_profit": -9773.481445,
         "net_profit_match": true
       }
     },
@@ -30068,7 +30068,7 @@ window.WILD_DATA = {
       "bars": 29074,
       "run_sec": 1.955,
       "ms_per_bar": 0.0672,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -30096,8 +30096,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -80210.87,
-        "pc_net_profit": -80210.86423,
+        "tv_net_profit": -80210.867188,
+        "pc_net_profit": -80210.867188,
         "net_profit_match": true
       }
     },
@@ -30117,7 +30117,7 @@ window.WILD_DATA = {
       "bars": 29552,
       "run_sec": 1.77,
       "ms_per_bar": 0.0599,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -30145,8 +30145,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -284182.140298,
-        "pc_net_profit": -284182.141867,
+        "tv_net_profit": -284182.136292,
+        "pc_net_profit": -284182.136292,
         "net_profit_match": true
       }
     },
@@ -30166,7 +30166,7 @@ window.WILD_DATA = {
       "bars": 29074,
       "run_sec": 1.692,
       "ms_per_bar": 0.0582,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -30194,8 +30194,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -393.28,
-        "pc_net_profit": -393.28,
+        "tv_net_profit": -393.279999,
+        "pc_net_profit": -393.279999,
         "net_profit_match": true
       }
     },
@@ -30339,7 +30339,7 @@ window.WILD_DATA = {
       "bars": 29552,
       "run_sec": 2.226,
       "ms_per_bar": 0.0753,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -30368,8 +30368,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -68032.22,
-        "pc_net_profit": -68032.216283,
+        "tv_net_profit": -68032.21875,
+        "pc_net_profit": -68032.21875,
         "net_profit_match": true
       }
     },
@@ -30425,7 +30425,7 @@ window.WILD_DATA = {
       "bars": 29551,
       "run_sec": 2.649,
       "ms_per_bar": 0.0896,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -30453,8 +30453,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -55700.94,
-        "pc_net_profit": -55700.94,
+        "tv_net_profit": -55700.941406,
+        "pc_net_profit": -55700.941406,
         "net_profit_match": true
       }
     },
@@ -30523,7 +30523,7 @@ window.WILD_DATA = {
       "bars": 30687,
       "run_sec": 1.964,
       "ms_per_bar": 0.064,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -30621,7 +30621,7 @@ window.WILD_DATA = {
       "bars": 19845,
       "run_sec": 0.809,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "240",
@@ -30636,7 +30636,7 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 91.14993,
+        "tv_net_profit": 91.149933,
         "pc_net_profit": 91.149933,
         "net_profit_match": true
       }
@@ -30791,7 +30791,7 @@ window.WILD_DATA = {
       "bars": 29597,
       "run_sec": 1.33,
       "ms_per_bar": 0.045,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -30806,8 +30806,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -34327.07,
-        "pc_net_profit": -34327.07,
+        "tv_net_profit": -34327.070312,
+        "pc_net_profit": -34327.070312,
         "net_profit_match": true
       }
     },
@@ -30925,7 +30925,7 @@ window.WILD_DATA = {
       "bars": 29604,
       "run_sec": 1.523,
       "ms_per_bar": 0.0515,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -30940,8 +30940,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -17339.8,
-        "pc_net_profit": -17339.800952,
+        "tv_net_profit": -17339.800781,
+        "pc_net_profit": -17339.800781,
         "net_profit_match": true
       }
     },
@@ -31020,7 +31020,7 @@ window.WILD_DATA = {
       "bars": 29603,
       "run_sec": 3.109,
       "ms_per_bar": 0.105,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -31051,8 +31051,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -116.60753,
-        "pc_net_profit": -116.607527,
+        "tv_net_profit": -116.607529,
+        "pc_net_profit": -116.607529,
         "net_profit_match": true
       }
     },
@@ -31072,7 +31072,7 @@ window.WILD_DATA = {
       "bars": 29603,
       "run_sec": 1.477,
       "ms_per_bar": 0.0499,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -31100,8 +31100,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 1497.894,
-        "pc_net_profit": 1497.894056,
+        "tv_net_profit": 1497.894043,
+        "pc_net_profit": 1497.894043,
         "net_profit_match": true
       }
     },
@@ -31121,7 +31121,7 @@ window.WILD_DATA = {
       "bars": 29604,
       "run_sec": 1.271,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -31136,8 +31136,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -37868.18,
-        "pc_net_profit": -37868.18,
+        "tv_net_profit": -37868.179688,
+        "pc_net_profit": -37868.179688,
         "net_profit_match": true
       }
     },
@@ -31157,7 +31157,7 @@ window.WILD_DATA = {
       "bars": 29603,
       "run_sec": 3.603,
       "ms_per_bar": 0.1217,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -31185,8 +31185,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -2908.38,
-        "pc_net_profit": -2908.379958,
+        "tv_net_profit": -2908.379883,
+        "pc_net_profit": -2908.379883,
         "net_profit_match": true
       }
     },
@@ -31255,7 +31255,7 @@ window.WILD_DATA = {
       "bars": 29650,
       "run_sec": 2.141,
       "ms_per_bar": 0.0722,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -31283,8 +31283,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 26180.59,
-        "pc_net_profit": 26180.59,
+        "tv_net_profit": 26180.589844,
+        "pc_net_profit": 26180.589844,
         "net_profit_match": true
       }
     },
@@ -31304,7 +31304,7 @@ window.WILD_DATA = {
       "bars": 29651,
       "run_sec": 2.093,
       "ms_per_bar": 0.0706,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -31341,7 +31341,7 @@ window.WILD_DATA = {
         "exit_match_pct": 0.985258,
         "extra_entries": 12,
         "tv_net_profit": -5777327.0,
-        "pc_net_profit": -6638280.697,
+        "pc_net_profit": -6638280.5,
         "net_profit_match": false
       }
     },
@@ -31451,7 +31451,7 @@ window.WILD_DATA = {
       "bars": 29652,
       "run_sec": 1.748,
       "ms_per_bar": 0.0589,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -31480,7 +31480,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -48.176075,
-        "pc_net_profit": -48.176074,
+        "pc_net_profit": -48.176075,
         "net_profit_match": true
       }
     },
@@ -31558,7 +31558,7 @@ window.WILD_DATA = {
       "bars": 29653,
       "run_sec": 0.96,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -31573,8 +31573,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -36577.99,
-        "pc_net_profit": -36577.99,
+        "tv_net_profit": -36577.988281,
+        "pc_net_profit": -36577.988281,
         "net_profit_match": true
       }
     },
@@ -31594,7 +31594,7 @@ window.WILD_DATA = {
       "bars": 29652,
       "run_sec": 1.534,
       "ms_per_bar": 0.0517,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -31623,7 +31623,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -148.16272,
-        "pc_net_profit": -148.162714,
+        "pc_net_profit": -148.16272,
         "net_profit_match": true
       }
     },
@@ -31702,7 +31702,7 @@ window.WILD_DATA = {
       "bars": 29704,
       "run_sec": 1.384,
       "ms_per_bar": 0.0466,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -31730,8 +31730,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -2103.7637,
-        "pc_net_profit": -2103.763746,
+        "tv_net_profit": -2103.763672,
+        "pc_net_profit": -2103.763672,
         "net_profit_match": true
       }
     },
@@ -31916,7 +31916,7 @@ window.WILD_DATA = {
       "bars": 29704,
       "run_sec": 1.558,
       "ms_per_bar": 0.0525,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -31944,8 +31944,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 23991.86,
-        "pc_net_profit": 23991.86,
+        "tv_net_profit": 23991.859375,
+        "pc_net_profit": 23991.859375,
         "net_profit_match": true
       }
     },
@@ -31965,7 +31965,7 @@ window.WILD_DATA = {
       "bars": 29704,
       "run_sec": 11.452,
       "ms_per_bar": 0.3855,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -31996,8 +31996,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -40230.883,
-        "pc_net_profit": -40230.883647,
+        "tv_net_profit": -40230.882812,
+        "pc_net_profit": -40230.882812,
         "net_profit_match": true
       }
     },
@@ -32017,7 +32017,7 @@ window.WILD_DATA = {
       "bars": 29704,
       "run_sec": 1.917,
       "ms_per_bar": 0.0645,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -32046,7 +32046,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -72.933426,
-        "pc_net_profit": -72.933428,
+        "pc_net_profit": -72.933426,
         "net_profit_match": true
       }
     },
@@ -32066,7 +32066,7 @@ window.WILD_DATA = {
       "bars": 29724,
       "run_sec": 4.138,
       "ms_per_bar": 0.1392,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -32094,8 +32094,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 30623.7,
-        "pc_net_profit": 30623.699431,
+        "tv_net_profit": 30623.699219,
+        "pc_net_profit": 30623.699219,
         "net_profit_match": true
       }
     },
@@ -32115,7 +32115,7 @@ window.WILD_DATA = {
       "bars": 29724,
       "run_sec": 1.506,
       "ms_per_bar": 0.0507,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -32146,8 +32146,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -56151.88,
-        "pc_net_profit": -56151.88,
+        "tv_net_profit": -56151.878906,
+        "pc_net_profit": -56151.878906,
         "net_profit_match": true
       }
     },
@@ -32167,7 +32167,7 @@ window.WILD_DATA = {
       "bars": 30686,
       "run_sec": 1.062,
       "ms_per_bar": 0.0346,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -32195,8 +32195,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -46394.816,
-        "pc_net_profit": -46394.815934,
+        "tv_net_profit": -46394.816406,
+        "pc_net_profit": -46394.816406,
         "net_profit_match": true
       }
     },
@@ -32321,7 +32321,7 @@ window.WILD_DATA = {
       "bars": 29735,
       "run_sec": 2.019,
       "ms_per_bar": 0.0679,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -32349,8 +32349,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -668.78296,
-        "pc_net_profit": -668.782935,
+        "tv_net_profit": -668.782959,
+        "pc_net_profit": -668.782959,
         "net_profit_match": true
       }
     },
@@ -32468,7 +32468,7 @@ window.WILD_DATA = {
       "bars": 29735,
       "run_sec": 1.711,
       "ms_per_bar": 0.0575,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -32496,8 +32496,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1001.1562,
-        "pc_net_profit": -1001.156159,
+        "tv_net_profit": -1001.156189,
+        "pc_net_profit": -1001.156189,
         "net_profit_match": true
       }
     },
@@ -32566,7 +32566,7 @@ window.WILD_DATA = {
       "bars": 29739,
       "run_sec": 1.518,
       "ms_per_bar": 0.051,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -32594,8 +32594,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -644.63,
-        "pc_net_profit": -644.63,
+        "tv_net_profit": -644.630005,
+        "pc_net_profit": -644.630005,
         "net_profit_match": true
       }
     },
@@ -32615,7 +32615,7 @@ window.WILD_DATA = {
       "bars": 29739,
       "run_sec": 1.638,
       "ms_per_bar": 0.0551,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -32643,8 +32643,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 35848.85,
-        "pc_net_profit": 35848.85,
+        "tv_net_profit": 35848.851562,
+        "pc_net_profit": 35848.851562,
         "net_profit_match": true
       }
     },
@@ -32713,7 +32713,7 @@ window.WILD_DATA = {
       "bars": 29740,
       "run_sec": 1.045,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -32728,8 +32728,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -4182.0396,
-        "pc_net_profit": -4182.039395,
+        "tv_net_profit": -4182.039551,
+        "pc_net_profit": -4182.039551,
         "net_profit_match": true
       }
     },
@@ -32989,7 +32989,7 @@ window.WILD_DATA = {
       "bars": 29745,
       "run_sec": 2.381,
       "ms_per_bar": 0.0801,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -33026,7 +33026,7 @@ window.WILD_DATA = {
         "exit_match_pct": 0.976744,
         "extra_entries": 19,
         "tv_net_profit": -4784601.5,
-        "pc_net_profit": -6445858.693,
+        "pc_net_profit": -6445858.5,
         "net_profit_match": false
       }
     },
@@ -33046,7 +33046,7 @@ window.WILD_DATA = {
       "bars": 29744,
       "run_sec": 2.584,
       "ms_per_bar": 0.0869,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -33082,8 +33082,8 @@ window.WILD_DATA = {
         "entry_match_pct": 0.983402,
         "exit_match_pct": 0.983333,
         "extra_entries": 0,
-        "tv_net_profit": 36458.117,
-        "pc_net_profit": 48148.814392,
+        "tv_net_profit": 36458.117188,
+        "pc_net_profit": 48148.8125,
         "net_profit_match": false
       }
     },
@@ -33103,7 +33103,7 @@ window.WILD_DATA = {
       "bars": 29744,
       "run_sec": 1.306,
       "ms_per_bar": 0.0439,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -33152,7 +33152,7 @@ window.WILD_DATA = {
       "bars": 29782,
       "run_sec": 3.102,
       "ms_per_bar": 0.1041,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -33180,8 +33180,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 4091.31386,
-        "pc_net_profit": 4091.314319,
+        "tv_net_profit": 4091.314133,
+        "pc_net_profit": 4091.314133,
         "net_profit_match": true
       }
     },
@@ -33201,7 +33201,7 @@ window.WILD_DATA = {
       "bars": 29783,
       "run_sec": 2.176,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -33216,8 +33216,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 147625.39,
-        "pc_net_profit": 147625.39,
+        "tv_net_profit": 147625.390625,
+        "pc_net_profit": 147625.390625,
         "net_profit_match": true
       }
     },
@@ -33543,7 +33543,7 @@ window.WILD_DATA = {
       "bars": 29783,
       "run_sec": 55.92,
       "ms_per_bar": 1.8776,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -33571,8 +33571,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 1889.9983,
-        "pc_net_profit": 1889.998274,
+        "tv_net_profit": 1889.998291,
+        "pc_net_profit": 1889.998291,
         "net_profit_match": true
       }
     },
@@ -33658,7 +33658,7 @@ window.WILD_DATA = {
       "bars": 29786,
       "run_sec": 1.842,
       "ms_per_bar": 0.0618,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -33686,8 +33686,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -11030.302,
-        "pc_net_profit": -11030.301972,
+        "tv_net_profit": -11030.301758,
+        "pc_net_profit": -11030.301758,
         "net_profit_match": true
       }
     },
@@ -33772,7 +33772,7 @@ window.WILD_DATA = {
       "bars": 29786,
       "run_sec": 2.113,
       "ms_per_bar": 0.0709,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -33800,8 +33800,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -36111.08,
-        "pc_net_profit": -36111.08,
+        "tv_net_profit": -36111.078125,
+        "pc_net_profit": -36111.078125,
         "net_profit_match": true
       }
     },
@@ -33821,7 +33821,7 @@ window.WILD_DATA = {
       "bars": 27615,
       "run_sec": 2.18,
       "ms_per_bar": 0.0789,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -34009,7 +34009,7 @@ window.WILD_DATA = {
       "bars": 29790,
       "run_sec": 3.219,
       "ms_per_bar": 0.1081,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -34037,8 +34037,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 24092.81,
-        "pc_net_profit": 24092.81,
+        "tv_net_profit": 24092.810547,
+        "pc_net_profit": 24092.810547,
         "net_profit_match": true
       }
     },
@@ -34058,7 +34058,7 @@ window.WILD_DATA = {
       "bars": 27619,
       "run_sec": 1.389,
       "ms_per_bar": 0.0503,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:DOGEUSDT",
         "timeframe": "30",
@@ -34107,7 +34107,7 @@ window.WILD_DATA = {
       "bars": 27535,
       "run_sec": 1.296,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -34122,8 +34122,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -389.6872,
-        "pc_net_profit": -389.687193,
+        "tv_net_profit": -389.687195,
+        "pc_net_profit": -389.687195,
         "net_profit_match": true
       }
     },
@@ -34236,7 +34236,7 @@ window.WILD_DATA = {
       "bars": 29790,
       "run_sec": 2.217,
       "ms_per_bar": 0.0744,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -34264,8 +34264,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -152.53505,
-        "pc_net_profit": -152.535047,
+        "tv_net_profit": -152.535049,
+        "pc_net_profit": -152.535049,
         "net_profit_match": true
       }
     },
@@ -34285,7 +34285,7 @@ window.WILD_DATA = {
       "bars": 19869,
       "run_sec": 2.268,
       "ms_per_bar": 0.1142,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "240",
@@ -34313,8 +34313,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 68.42754,
-        "pc_net_profit": 68.427543,
+        "tv_net_profit": 68.427544,
+        "pc_net_profit": 68.427544,
         "net_profit_match": true
       }
     },
@@ -34334,7 +34334,7 @@ window.WILD_DATA = {
       "bars": 29790,
       "run_sec": 2.009,
       "ms_per_bar": 0.0674,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -34367,7 +34367,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -9180000.0,
-        "pc_net_profit": -9179999.999997,
+        "pc_net_profit": -9180000.0,
         "net_profit_match": true
       }
     },
@@ -34436,7 +34436,7 @@ window.WILD_DATA = {
       "bars": 27616,
       "run_sec": 2.009,
       "ms_per_bar": 0.0728,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -34464,8 +34464,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1081.5554,
-        "pc_net_profit": -1081.555473,
+        "tv_net_profit": -1081.55542,
+        "pc_net_profit": -1081.55542,
         "net_profit_match": true
       }
     },
@@ -34703,7 +34703,7 @@ window.WILD_DATA = {
       "bars": 29845,
       "run_sec": 1.902,
       "ms_per_bar": 0.0637,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -34731,8 +34731,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -12326.85,
-        "pc_net_profit": -12326.85,
+        "tv_net_profit": -12326.849609,
+        "pc_net_profit": -12326.849609,
         "net_profit_match": true
       }
     },
@@ -34752,7 +34752,7 @@ window.WILD_DATA = {
       "bars": 29849,
       "run_sec": 1.702,
       "ms_per_bar": 0.057,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -34780,8 +34780,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -15281.414,
-        "pc_net_profit": -15281.413916,
+        "tv_net_profit": -15281.414062,
+        "pc_net_profit": -15281.414062,
         "net_profit_match": true
       }
     },
@@ -34801,7 +34801,7 @@ window.WILD_DATA = {
       "bars": 29847,
       "run_sec": 2.826,
       "ms_per_bar": 0.0947,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -34832,8 +34832,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 1312.8499,
-        "pc_net_profit": 1312.849806,
+        "tv_net_profit": 1312.849854,
+        "pc_net_profit": 1312.849854,
         "net_profit_match": true
       }
     },
@@ -34853,7 +34853,7 @@ window.WILD_DATA = {
       "bars": 29848,
       "run_sec": 1.179,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -34868,8 +34868,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 30584.127,
-        "pc_net_profit": 30584.127424,
+        "tv_net_profit": 30584.126953,
+        "pc_net_profit": 30584.126953,
         "net_profit_match": true
       }
     },
@@ -34889,7 +34889,7 @@ window.WILD_DATA = {
       "bars": 29848,
       "run_sec": 3.224,
       "ms_per_bar": 0.108,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -34917,8 +34917,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 498.32574,
-        "pc_net_profit": 498.325732,
+        "tv_net_profit": 498.325745,
+        "pc_net_profit": 498.325745,
         "net_profit_match": true
       }
     },
@@ -34938,7 +34938,7 @@ window.WILD_DATA = {
       "bars": 29849,
       "run_sec": 1.503,
       "ms_per_bar": 0.0504,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -34966,8 +34966,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 68.39182,
-        "pc_net_profit": 68.391826,
+        "tv_net_profit": 68.391823,
+        "pc_net_profit": 68.391823,
         "net_profit_match": true
       }
     },
@@ -35367,7 +35367,7 @@ window.WILD_DATA = {
       "bars": 29867,
       "run_sec": 2.927,
       "ms_per_bar": 0.098,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -35395,8 +35395,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 2809.36,
-        "pc_net_profit": 2809.36,
+        "tv_net_profit": 2809.360107,
+        "pc_net_profit": 2809.360107,
         "net_profit_match": true
       }
     },
@@ -35416,7 +35416,7 @@ window.WILD_DATA = {
       "bars": 29867,
       "run_sec": 3.099,
       "ms_per_bar": 0.1038,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -35444,8 +35444,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 14938.634,
-        "pc_net_profit": 14938.633691,
+        "tv_net_profit": 14938.633789,
+        "pc_net_profit": 14938.633789,
         "net_profit_match": true
       }
     },
@@ -35576,7 +35576,7 @@ window.WILD_DATA = {
       "bars": 27616,
       "run_sec": 1.677,
       "ms_per_bar": 0.0607,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -35605,7 +35605,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -3420570.5,
-        "pc_net_profit": -3420570.475284,
+        "pc_net_profit": -3420570.5,
         "net_profit_match": true
       }
     },
@@ -35667,7 +35667,7 @@ window.WILD_DATA = {
       "bars": 29868,
       "run_sec": 0.811,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -35682,8 +35682,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 14596.693,
-        "pc_net_profit": 14596.693482,
+        "tv_net_profit": 14596.693359,
+        "pc_net_profit": 14596.693359,
         "net_profit_match": true
       }
     },
@@ -35703,7 +35703,7 @@ window.WILD_DATA = {
       "bars": 29870,
       "run_sec": 1.332,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -35719,7 +35719,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": 65324572.0,
-        "pc_net_profit": 65324570.0,
+        "pc_net_profit": 65324568.0,
         "net_profit_match": true
       }
     },
@@ -35846,7 +35846,7 @@ window.WILD_DATA = {
       "bars": 29869,
       "run_sec": 1.562,
       "ms_per_bar": 0.0523,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -35877,8 +35877,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 22061.16,
-        "pc_net_profit": 22061.16,
+        "tv_net_profit": 22061.160156,
+        "pc_net_profit": 22061.160156,
         "net_profit_match": true
       }
     },
@@ -35947,7 +35947,7 @@ window.WILD_DATA = {
       "bars": 29874,
       "run_sec": 1.615,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -35962,8 +35962,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 104662.38,
-        "pc_net_profit": 104662.38,
+        "tv_net_profit": 104662.382812,
+        "pc_net_profit": 104662.382812,
         "net_profit_match": true
       }
     },
@@ -35983,7 +35983,7 @@ window.WILD_DATA = {
       "bars": 29874,
       "run_sec": 2.298,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -36019,7 +36019,7 @@ window.WILD_DATA = {
       "bars": 29873,
       "run_sec": 1.73,
       "ms_per_bar": 0.0579,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -36047,8 +36047,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -846.4502,
-        "pc_net_profit": -846.450175,
+        "tv_net_profit": -846.450195,
+        "pc_net_profit": -846.450195,
         "net_profit_match": true
       }
     },
@@ -36196,7 +36196,7 @@ window.WILD_DATA = {
       "bars": 29879,
       "run_sec": 0.756,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -36211,8 +36211,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 2509906000.0,
-        "pc_net_profit": 2509905999.999996,
+        "tv_net_profit": 2509905920.0,
+        "pc_net_profit": 2509905920.0,
         "net_profit_match": true
       }
     },
@@ -36338,7 +36338,7 @@ window.WILD_DATA = {
       "bars": 19880,
       "run_sec": 2.228,
       "ms_per_bar": 0.1121,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "240",
@@ -36372,8 +36372,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 18471.1,
-        "pc_net_profit": 18471.1,
+        "tv_net_profit": 18471.099609,
+        "pc_net_profit": 18471.099609,
         "net_profit_match": true
       }
     },
@@ -36393,7 +36393,7 @@ window.WILD_DATA = {
       "bars": 29880,
       "run_sec": 1.927,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -36408,8 +36408,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1155.6371,
-        "pc_net_profit": -1155.637123,
+        "tv_net_profit": -1155.637085,
+        "pc_net_profit": -1155.637085,
         "net_profit_match": true
       }
     },
@@ -36429,7 +36429,7 @@ window.WILD_DATA = {
       "bars": 29879,
       "run_sec": 1.336,
       "ms_per_bar": 0.0447,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -36457,8 +36457,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -32089.486,
-        "pc_net_profit": -32089.486953,
+        "tv_net_profit": -32089.486328,
+        "pc_net_profit": -32089.486328,
         "net_profit_match": true
       }
     },
@@ -36478,7 +36478,7 @@ window.WILD_DATA = {
       "bars": 29879,
       "run_sec": 13.632,
       "ms_per_bar": 0.4562,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -36511,7 +36511,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -36.202393,
-        "pc_net_profit": -36.202391,
+        "pc_net_profit": -36.202393,
         "net_profit_match": true
       }
     },
@@ -36531,7 +36531,7 @@ window.WILD_DATA = {
       "bars": 29879,
       "run_sec": 1.428,
       "ms_per_bar": 0.0478,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -36559,8 +36559,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -71.02376,
-        "pc_net_profit": -71.023754,
+        "tv_net_profit": -71.023758,
+        "pc_net_profit": -71.023758,
         "net_profit_match": true
       }
     },
@@ -36580,7 +36580,7 @@ window.WILD_DATA = {
       "bars": 29880,
       "run_sec": 2.484,
       "ms_per_bar": 0.0831,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -36608,8 +36608,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 5172.4785,
-        "pc_net_profit": 5172.478524,
+        "tv_net_profit": 5172.478516,
+        "pc_net_profit": 5172.478516,
         "net_profit_match": true
       }
     },
@@ -36804,7 +36804,7 @@ window.WILD_DATA = {
       "bars": 30134,
       "run_sec": 1.875,
       "ms_per_bar": null,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -36819,8 +36819,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -17932.844,
-        "pc_net_profit": -17932.843548,
+        "tv_net_profit": -17932.84375,
+        "pc_net_profit": -17932.84375,
         "net_profit_match": true
       }
     },
@@ -37094,7 +37094,7 @@ window.WILD_DATA = {
       "bars": 30209,
       "run_sec": 3.903,
       "ms_per_bar": 0.1292,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -37130,8 +37130,8 @@ window.WILD_DATA = {
         "entry_match_pct": 0.996198,
         "exit_match_pct": 1.0,
         "extra_entries": 1,
-        "tv_net_profit": -1203.3776,
-        "pc_net_profit": -1200.152524,
+        "tv_net_profit": -1203.377563,
+        "pc_net_profit": -1200.152466,
         "net_profit_match": true
       }
     },
@@ -37151,7 +37151,7 @@ window.WILD_DATA = {
       "bars": 30208,
       "run_sec": 1.43,
       "ms_per_bar": 0.0474,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -37179,8 +37179,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 7096.577,
-        "pc_net_profit": 7096.577177,
+        "tv_net_profit": 7096.577148,
+        "pc_net_profit": 7096.577148,
         "net_profit_match": true
       }
     },
@@ -37258,7 +37258,7 @@ window.WILD_DATA = {
       "bars": 30208,
       "run_sec": 5.124,
       "ms_per_bar": 0.1696,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -37286,8 +37286,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -33064.73,
-        "pc_net_profit": -33064.73,
+        "tv_net_profit": -33064.730469,
+        "pc_net_profit": -33064.730469,
         "net_profit_match": true
       }
     },
@@ -37394,7 +37394,7 @@ window.WILD_DATA = {
       "bars": 30224,
       "run_sec": 3.459,
       "ms_per_bar": 0.1144,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -37422,8 +37422,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 3179.245,
-        "pc_net_profit": 3179.245075,
+        "tv_net_profit": 3179.245117,
+        "pc_net_profit": 3179.245117,
         "net_profit_match": true
       }
     },
@@ -37443,7 +37443,7 @@ window.WILD_DATA = {
       "bars": 30224,
       "run_sec": 1.392,
       "ms_per_bar": 0.0461,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -37471,8 +37471,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 26657.605,
-        "pc_net_profit": 26657.604549,
+        "tv_net_profit": 26657.605469,
+        "pc_net_profit": 26657.605469,
         "net_profit_match": true
       }
     },
@@ -37492,7 +37492,7 @@ window.WILD_DATA = {
       "bars": 30224,
       "run_sec": 1.13,
       "ms_per_bar": 0.0374,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -37520,8 +37520,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -3317.01,
-        "pc_net_profit": -3317.01,
+        "tv_net_profit": -3317.01001,
+        "pc_net_profit": -3317.01001,
         "net_profit_match": true
       }
     },
@@ -37541,7 +37541,7 @@ window.WILD_DATA = {
       "bars": 30224,
       "run_sec": 1.92,
       "ms_per_bar": 0.0635,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -37569,8 +37569,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1074.753,
-        "pc_net_profit": -1074.753078,
+        "tv_net_profit": -1074.753052,
+        "pc_net_profit": -1074.753052,
         "net_profit_match": true
       }
     },
@@ -37639,7 +37639,7 @@ window.WILD_DATA = {
       "bars": 30225,
       "run_sec": 3.216,
       "ms_per_bar": 0.1064,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -37667,8 +37667,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -24030.52,
-        "pc_net_profit": -24030.52,
+        "tv_net_profit": -24030.519531,
+        "pc_net_profit": -24030.519531,
         "net_profit_match": true
       }
     },
@@ -37688,7 +37688,7 @@ window.WILD_DATA = {
       "bars": 30226,
       "run_sec": 3.087,
       "ms_per_bar": 0.1021,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -37716,8 +37716,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -324.29504,
-        "pc_net_profit": -324.29503,
+        "tv_net_profit": -324.295044,
+        "pc_net_profit": -324.295044,
         "net_profit_match": true
       }
     },
@@ -37737,7 +37737,7 @@ window.WILD_DATA = {
       "bars": 30225,
       "run_sec": 1.921,
       "ms_per_bar": 0.0636,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -37766,7 +37766,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": 59.519135,
-        "pc_net_profit": 59.519134,
+        "pc_net_profit": 59.519135,
         "net_profit_match": true
       }
     },
@@ -37786,7 +37786,7 @@ window.WILD_DATA = {
       "bars": 30275,
       "run_sec": 2.555,
       "ms_per_bar": 0.0844,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -37814,8 +37814,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -59717.652,
-        "pc_net_profit": -59717.650449,
+        "tv_net_profit": -59717.652344,
+        "pc_net_profit": -59717.652344,
         "net_profit_match": true
       }
     },
@@ -38113,7 +38113,7 @@ window.WILD_DATA = {
       "bars": 30519,
       "run_sec": 1.498,
       "ms_per_bar": 0.0491,
-      "compared_at": "2026-09-28",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -38141,8 +38141,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -1122986800.0,
-        "pc_net_profit": -1122986700.0,
+        "tv_net_profit": -1122986752.0,
+        "pc_net_profit": -1122986752.0,
         "net_profit_match": true
       }
     },
@@ -38162,7 +38162,7 @@ window.WILD_DATA = {
       "bars": 30519,
       "run_sec": 2.159,
       "ms_per_bar": 0.0708,
-      "compared_at": "2026-09-28",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -38193,8 +38193,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 45166.832,
-        "pc_net_profit": 45166.831853,
+        "tv_net_profit": 45166.832031,
+        "pc_net_profit": 45166.832031,
         "net_profit_match": true
       }
     },
@@ -38256,7 +38256,7 @@ window.WILD_DATA = {
       "bars": 30519,
       "run_sec": 1.177,
       "ms_per_bar": 0.0386,
-      "compared_at": "2026-09-28",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -38284,8 +38284,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -25113.47,
-        "pc_net_profit": -25113.47,
+        "tv_net_profit": -25113.467412,
+        "pc_net_profit": -25113.467412,
         "net_profit_match": true
       }
     },
@@ -38305,7 +38305,7 @@ window.WILD_DATA = {
       "bars": 30520,
       "run_sec": 1.365,
       "ms_per_bar": 0.0447,
-      "compared_at": "2026-09-28",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -38320,8 +38320,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -12693.23,
-        "pc_net_profit": -12693.23,
+        "tv_net_profit": -12693.230469,
+        "pc_net_profit": -12693.230469,
         "net_profit_match": true
       }
     },
@@ -38341,7 +38341,7 @@ window.WILD_DATA = {
       "bars": 30519,
       "run_sec": 2.709,
       "ms_per_bar": 0.0888,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -38377,8 +38377,8 @@ window.WILD_DATA = {
         "entry_match_pct": 0.902817,
         "exit_match_pct": 0.694718,
         "extra_entries": 280,
-        "tv_net_profit": 2177803300.0,
-        "pc_net_profit": 703280877.890987,
+        "tv_net_profit": 2177803264.0,
+        "pc_net_profit": 703280896.0,
         "net_profit_match": false
       }
     },
@@ -38485,7 +38485,7 @@ window.WILD_DATA = {
       "bars": 30522,
       "run_sec": 1.281,
       "ms_per_bar": 0.042,
-      "compared_at": "2026-09-28",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -38513,8 +38513,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 29565.54,
-        "pc_net_profit": 29565.54,
+        "tv_net_profit": 29565.539062,
+        "pc_net_profit": 29565.539062,
         "net_profit_match": true
       }
     },
@@ -38705,7 +38705,7 @@ window.WILD_DATA = {
       "bars": 30522,
       "run_sec": 2.782,
       "ms_per_bar": 0.0911,
-      "compared_at": "2026-09-28",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -38739,7 +38739,7 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 5.222527,
+        "tv_net_profit": 5.222528,
         "pc_net_profit": 5.222528,
         "net_profit_match": true
       }
@@ -38845,7 +38845,7 @@ window.WILD_DATA = {
       "bars": 30538,
       "run_sec": 1.577,
       "ms_per_bar": 0.0517,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -38873,8 +38873,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -8522.154,
-        "pc_net_profit": -8522.154623,
+        "tv_net_profit": -8522.154297,
+        "pc_net_profit": -8522.154297,
         "net_profit_match": true
       }
     },
@@ -38894,7 +38894,7 @@ window.WILD_DATA = {
       "bars": 30539,
       "run_sec": 0.851,
       "ms_per_bar": null,
-      "compared_at": "2026-09-29",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -38909,8 +38909,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 16797.62,
-        "pc_net_profit": 16797.62,
+        "tv_net_profit": 16797.619141,
+        "pc_net_profit": 16797.619141,
         "net_profit_match": true
       }
     },
@@ -39017,7 +39017,7 @@ window.WILD_DATA = {
       "bars": 30539,
       "run_sec": 3.602,
       "ms_per_bar": 0.118,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -39045,8 +39045,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -56042.594,
-        "pc_net_profit": -56042.593167,
+        "tv_net_profit": -56042.59375,
+        "pc_net_profit": -56042.59375,
         "net_profit_match": true
       }
     },
@@ -39066,7 +39066,7 @@ window.WILD_DATA = {
       "bars": 30538,
       "run_sec": 2.236,
       "ms_per_bar": 0.0732,
-      "compared_at": "2026-09-29",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -39115,7 +39115,7 @@ window.WILD_DATA = {
       "bars": 30562,
       "run_sec": 1.71,
       "ms_per_bar": 0.056,
-      "compared_at": "2026-09-29",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -39143,8 +39143,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -695.7908,
-        "pc_net_profit": -695.790779,
+        "tv_net_profit": -695.790771,
+        "pc_net_profit": -695.790771,
         "net_profit_match": true
       }
     },
@@ -39200,7 +39200,7 @@ window.WILD_DATA = {
       "bars": 3329,
       "run_sec": 0.5,
       "ms_per_bar": 0.1502,
-      "compared_at": "2026-09-29",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "D",
@@ -39228,8 +39228,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 507.83356,
-        "pc_net_profit": 507.833554,
+        "tv_net_profit": 507.833557,
+        "pc_net_profit": 507.833557,
         "net_profit_match": true
       }
     },
@@ -39249,7 +39249,7 @@ window.WILD_DATA = {
       "bars": 30563,
       "run_sec": 0.65,
       "ms_per_bar": null,
-      "compared_at": "2026-09-29",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -39264,8 +39264,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 10014.28,
-        "pc_net_profit": 10014.28,
+        "tv_net_profit": 10014.280273,
+        "pc_net_profit": 10014.280273,
         "net_profit_match": true
       }
     },
@@ -39343,7 +39343,7 @@ window.WILD_DATA = {
       "bars": 30613,
       "run_sec": 3.171,
       "ms_per_bar": 0.1036,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -39551,7 +39551,7 @@ window.WILD_DATA = {
       "bars": 30613,
       "run_sec": 1.658,
       "ms_per_bar": 0.0542,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -39580,7 +39580,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -44.786446,
-        "pc_net_profit": -44.786447,
+        "pc_net_profit": -44.786446,
         "net_profit_match": true
       }
     },
@@ -39704,7 +39704,7 @@ window.WILD_DATA = {
       "bars": 30613,
       "run_sec": 1.556,
       "ms_per_bar": 0.0508,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -39732,8 +39732,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -5008.313,
-        "pc_net_profit": -5008.312905,
+        "tv_net_profit": -5008.312988,
+        "pc_net_profit": -5008.312988,
         "net_profit_match": true
       }
     },
@@ -39802,7 +39802,7 @@ window.WILD_DATA = {
       "bars": 30614,
       "run_sec": 3.423,
       "ms_per_bar": 0.1118,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -39851,7 +39851,7 @@ window.WILD_DATA = {
       "bars": 3330,
       "run_sec": 0.445,
       "ms_per_bar": 0.1336,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "D",
@@ -39879,8 +39879,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 56463.043,
-        "pc_net_profit": 56463.042133,
+        "tv_net_profit": 56463.042969,
+        "pc_net_profit": 56463.042969,
         "net_profit_match": true
       }
     },
@@ -39987,7 +39987,7 @@ window.WILD_DATA = {
       "bars": 30641,
       "run_sec": 2.31,
       "ms_per_bar": 0.0754,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -40015,8 +40015,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 8100.4883,
-        "pc_net_profit": 8100.488374,
+        "tv_net_profit": 8100.488281,
+        "pc_net_profit": 8100.488281,
         "net_profit_match": true
       }
     },
@@ -40085,7 +40085,7 @@ window.WILD_DATA = {
       "bars": 27489,
       "run_sec": 1.219,
       "ms_per_bar": 0.0444,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -40114,7 +40114,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": -20.848583,
-        "pc_net_profit": -20.848584,
+        "pc_net_profit": -20.848583,
         "net_profit_match": true
       }
     },
@@ -40528,7 +40528,7 @@ window.WILD_DATA = {
       "bars": 30645,
       "run_sec": 1.573,
       "ms_per_bar": 0.0513,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -40556,8 +40556,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 99761.46,
-        "pc_net_profit": 99761.461057,
+        "tv_net_profit": 99761.460938,
+        "pc_net_profit": 99761.460938,
         "net_profit_match": true
       }
     },
@@ -40577,7 +40577,7 @@ window.WILD_DATA = {
       "bars": 30651,
       "run_sec": 1.316,
       "ms_per_bar": 0.0429,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -40605,8 +40605,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 31162.46,
-        "pc_net_profit": 31162.46,
+        "tv_net_profit": 31162.460938,
+        "pc_net_profit": 31162.460938,
         "net_profit_match": true
       }
     },
@@ -40685,7 +40685,7 @@ window.WILD_DATA = {
       "bars": 30651,
       "run_sec": 1.551,
       "ms_per_bar": 0.0506,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -40721,8 +40721,8 @@ window.WILD_DATA = {
         "entry_match_pct": 0.977405,
         "exit_match_pct": 0.97739,
         "extra_entries": 35,
-        "tv_net_profit": -5557.485,
-        "pc_net_profit": -6500.085409,
+        "tv_net_profit": -5557.484863,
+        "pc_net_profit": -6500.085449,
         "net_profit_match": false
       }
     },
@@ -40829,7 +40829,7 @@ window.WILD_DATA = {
       "bars": 30651,
       "run_sec": 2.697,
       "ms_per_bar": 0.088,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -40857,8 +40857,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 4737.216,
-        "pc_net_profit": 4737.215916,
+        "tv_net_profit": 4737.21582,
+        "pc_net_profit": 4737.21582,
         "net_profit_match": true
       }
     },
@@ -40927,7 +40927,7 @@ window.WILD_DATA = {
       "bars": 19976,
       "run_sec": 1.57,
       "ms_per_bar": 0.0786,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "240",
@@ -40958,8 +40958,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 33429.49,
-        "pc_net_profit": 33429.49,
+        "tv_net_profit": 33429.488281,
+        "pc_net_profit": 33429.488281,
         "net_profit_match": true
       }
     },
@@ -41082,7 +41082,7 @@ window.WILD_DATA = {
       "bars": 30685,
       "run_sec": 1.54,
       "ms_per_bar": 0.0502,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -41110,8 +41110,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 12668.52,
-        "pc_net_profit": 12668.52,
+        "tv_net_profit": 12668.519531,
+        "pc_net_profit": 12668.519531,
         "net_profit_match": true
       }
     },
@@ -41180,7 +41180,7 @@ window.WILD_DATA = {
       "bars": 30685,
       "run_sec": 2.295,
       "ms_per_bar": 0.0748,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -41211,8 +41211,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -94.24391,
-        "pc_net_profit": -94.24391,
+        "tv_net_profit": -94.243912,
+        "pc_net_profit": -94.243912,
         "net_profit_match": true
       }
     },
@@ -41232,7 +41232,7 @@ window.WILD_DATA = {
       "bars": 30697,
       "run_sec": 1.176,
       "ms_per_bar": 0.0383,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -41260,8 +41260,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 1596.5269,
-        "pc_net_profit": 1596.526798,
+        "tv_net_profit": 1596.526855,
+        "pc_net_profit": 1596.526855,
         "net_profit_match": true
       }
     },
@@ -41369,7 +41369,7 @@ window.WILD_DATA = {
       "bars": 30685,
       "run_sec": 1.594,
       "ms_per_bar": 0.052,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -41418,7 +41418,7 @@ window.WILD_DATA = {
       "bars": 22342,
       "run_sec": 0.837,
       "ms_per_bar": null,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "3",
@@ -41454,7 +41454,7 @@ window.WILD_DATA = {
       "bars": 30697,
       "run_sec": 6.684,
       "ms_per_bar": 0.2177,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -41482,8 +41482,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 104774.67,
-        "pc_net_profit": 104774.67,
+        "tv_net_profit": 104774.671875,
+        "pc_net_profit": 104774.671875,
         "net_profit_match": true
       }
     },
@@ -41503,7 +41503,7 @@ window.WILD_DATA = {
       "bars": 30697,
       "run_sec": 1.709,
       "ms_per_bar": 0.0557,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -41531,8 +41531,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -4055.618162,
-        "pc_net_profit": -4055.618148,
+        "tv_net_profit": -4055.618168,
+        "pc_net_profit": -4055.618168,
         "net_profit_match": true
       }
     },
@@ -41736,7 +41736,7 @@ window.WILD_DATA = {
       "bars": 30653,
       "run_sec": 2.035,
       "ms_per_bar": 0.0664,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -41764,8 +41764,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -2192.3599,
-        "pc_net_profit": -2192.359781,
+        "tv_net_profit": -2192.359863,
+        "pc_net_profit": -2192.359863,
         "net_profit_match": true
       }
     },
@@ -42121,7 +42121,7 @@ window.WILD_DATA = {
       "bars": 27617,
       "run_sec": 2.486,
       "ms_per_bar": 0.09,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -42149,8 +42149,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -45003.754,
-        "pc_net_profit": -45003.753538,
+        "tv_net_profit": -45003.753906,
+        "pc_net_profit": -45003.753906,
         "net_profit_match": true
       }
     },
@@ -43135,7 +43135,7 @@ window.WILD_DATA = {
       "bars": 27617,
       "run_sec": 1.546,
       "ms_per_bar": 0.056,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -43163,8 +43163,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -561.2264,
-        "pc_net_profit": -561.226383,
+        "tv_net_profit": -561.226379,
+        "pc_net_profit": -561.226379,
         "net_profit_match": true
       }
     },
@@ -43264,7 +43264,7 @@ window.WILD_DATA = {
       "bars": 27617,
       "run_sec": 4.775,
       "ms_per_bar": 0.1729,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -43292,8 +43292,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -3165.0889,
-        "pc_net_profit": -3165.088896,
+        "tv_net_profit": -3165.088867,
+        "pc_net_profit": -3165.088867,
         "net_profit_match": true
       }
     },
@@ -43313,7 +43313,7 @@ window.WILD_DATA = {
       "bars": 30654,
       "run_sec": 1.448,
       "ms_per_bar": null,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -43329,8 +43329,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 4304.04,
-        "pc_net_profit": 4304.04,
+        "tv_net_profit": 4304.040039,
+        "pc_net_profit": 4304.040039,
         "net_profit_match": true
       }
     },
@@ -43350,7 +43350,7 @@ window.WILD_DATA = {
       "bars": 27617,
       "run_sec": 2.316,
       "ms_per_bar": 0.0839,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -43378,8 +43378,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -5158.7935,
-        "pc_net_profit": -5158.79329,
+        "tv_net_profit": -5158.793457,
+        "pc_net_profit": -5158.793457,
         "net_profit_match": true
       }
     },
@@ -43399,7 +43399,7 @@ window.WILD_DATA = {
       "bars": 21814,
       "run_sec": 0.845,
       "ms_per_bar": null,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "CAPITALCOM:EURUSD",
         "timeframe": "30",
@@ -43414,8 +43414,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 140.75333,
-        "pc_net_profit": 140.75332,
+        "tv_net_profit": 140.753326,
+        "pc_net_profit": 140.753326,
         "net_profit_match": true
       }
     },
@@ -43500,7 +43500,7 @@ window.WILD_DATA = {
       "bars": 27617,
       "run_sec": 2.882,
       "ms_per_bar": 0.1044,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -43528,8 +43528,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 7566.04,
-        "pc_net_profit": 7566.04,
+        "tv_net_profit": 7566.040039,
+        "pc_net_profit": 7566.040039,
         "net_profit_match": true
       }
     },
@@ -43598,7 +43598,7 @@ window.WILD_DATA = {
       "bars": 30687,
       "run_sec": 0.714,
       "ms_per_bar": null,
-      "compared_at": "2026-10-02",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -43614,7 +43614,7 @@ window.WILD_DATA = {
         "exit_match_pct": 1.0,
         "extra_entries": 0,
         "tv_net_profit": 140.07254,
-        "pc_net_profit": 140.072547,
+        "pc_net_profit": 140.07254,
         "net_profit_match": true
       }
     },
@@ -43683,7 +43683,7 @@ window.WILD_DATA = {
       "bars": 27617,
       "run_sec": 3.789,
       "ms_per_bar": 0.1372,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -43714,8 +43714,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -3761.214,
-        "pc_net_profit": -3761.214017,
+        "tv_net_profit": -3761.214111,
+        "pc_net_profit": -3761.214111,
         "net_profit_match": true
       }
     },
@@ -43968,7 +43968,7 @@ window.WILD_DATA = {
       "bars": 30653,
       "run_sec": 1.834,
       "ms_per_bar": 0.0598,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -43996,8 +43996,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -339.39752,
-        "pc_net_profit": -339.397536,
+        "tv_net_profit": -339.397522,
+        "pc_net_profit": -339.397522,
         "net_profit_match": true
       }
     },
@@ -44017,7 +44017,7 @@ window.WILD_DATA = {
       "bars": 27617,
       "run_sec": 1.454,
       "ms_per_bar": 0.0526,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -44045,8 +44045,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 15313.26,
-        "pc_net_profit": 15313.26,
+        "tv_net_profit": 15313.259766,
+        "pc_net_profit": 15313.259766,
         "net_profit_match": true
       }
     },
@@ -44377,7 +44377,7 @@ window.WILD_DATA = {
       "bars": 27618,
       "run_sec": 2.22,
       "ms_per_bar": 0.0804,
-      "compared_at": "2026-09-27",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -44405,8 +44405,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 1054.8276,
-        "pc_net_profit": 1054.827673,
+        "tv_net_profit": 1054.827637,
+        "pc_net_profit": 1054.827637,
         "net_profit_match": true
       }
     },
@@ -44707,7 +44707,7 @@ window.WILD_DATA = {
       "bars": 30653,
       "run_sec": 1.322,
       "ms_per_bar": 0.0431,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -44735,8 +44735,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -2375.0476,
-        "pc_net_profit": -2375.047608,
+        "tv_net_profit": -2375.047607,
+        "pc_net_profit": -2375.047607,
         "net_profit_match": true
       }
     },
@@ -45978,7 +45978,7 @@ window.WILD_DATA = {
       "bars": 30654,
       "run_sec": 2.043,
       "ms_per_bar": 0.0667,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -46006,8 +46006,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -5622.518,
-        "pc_net_profit": -5622.518124,
+        "tv_net_profit": -5622.518066,
+        "pc_net_profit": -5622.518066,
         "net_profit_match": true
       }
     },
@@ -46937,7 +46937,7 @@ window.WILD_DATA = {
       "bars": 30656,
       "run_sec": 2.721,
       "ms_per_bar": 0.0887,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -46968,8 +46968,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -2028.3062,
-        "pc_net_profit": -2028.306122,
+        "tv_net_profit": -2028.306152,
+        "pc_net_profit": -2028.306152,
         "net_profit_match": true
       }
     },
@@ -46989,7 +46989,7 @@ window.WILD_DATA = {
       "bars": 30657,
       "run_sec": 1.517,
       "ms_per_bar": 0.0495,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -47017,8 +47017,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": 3642.87,
-        "pc_net_profit": 3642.87,
+        "tv_net_profit": 3642.870117,
+        "pc_net_profit": 3642.870117,
         "net_profit_match": true
       }
     },
@@ -47038,7 +47038,7 @@ window.WILD_DATA = {
       "bars": 30656,
       "run_sec": 1.143,
       "ms_per_bar": 0.0373,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -47066,8 +47066,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -549.5133,
-        "pc_net_profit": -549.51328,
+        "tv_net_profit": -549.513306,
+        "pc_net_profit": -549.513306,
         "net_profit_match": true
       }
     },
@@ -47087,7 +47087,7 @@ window.WILD_DATA = {
       "bars": 30656,
       "run_sec": 20.337,
       "ms_per_bar": 16.9476,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -47123,8 +47123,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -813.5939,
-        "pc_net_profit": -813.593874,
+        "tv_net_profit": -813.593872,
+        "pc_net_profit": -813.593872,
         "net_profit_match": true
       }
     },
@@ -47144,7 +47144,7 @@ window.WILD_DATA = {
       "bars": 30656,
       "run_sec": 1.924,
       "ms_per_bar": 0.0628,
-      "compared_at": "2026-10-01",
+      "compared_at": "2026-10-09",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -47172,8 +47172,8 @@ window.WILD_DATA = {
         "entry_match_pct": 1.0,
         "exit_match_pct": 1.0,
         "extra_entries": 0,
-        "tv_net_profit": -531.85547,
-        "pc_net_profit": -531.855482,
+        "tv_net_profit": -531.855469,
+        "pc_net_profit": -531.855469,
         "net_profit_match": true
       }
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02",
+  "generated_at": "2026-10-09",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
@@ -280,13 +280,13 @@
     },
     "net_profit_match_rate": 1.0,
     "net_profit_rel_err": {
-      "median": 4.2520000000000005e-15,
-      "mean": 2.6224003073217026e-05,
+      "median": 0.0,
+      "mean": 2.6213806047008546e-05,
       "min": 0.0,
       "max": 0.01041,
       "n": 468,
       "p25": 0.0,
-      "p75": 1.6885000000000002e-08
+      "p75": 0.0
     },
     "trade_count_exact_match": 472,
     "sub_tick_excluded": {
