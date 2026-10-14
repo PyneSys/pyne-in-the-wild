@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09",
+  "generated_at": "2026-10-13",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
@@ -118,8 +118,8 @@
   },
   "fidelity": {
     "scripts": {
-      "exact": 865,
-      "libm": 4,
+      "exact": 866,
+      "libm": 3,
       "band": 15,
       "compared": 884
     },
@@ -186,8 +186,8 @@
       }
     ],
     "bars_compared": 131744274,
-    "bars_exact": 131442877,
-    "bars_exact_rate": 0.9977122573084277,
+    "bars_exact": 131442883,
+    "bars_exact_rate": 0.997712302851204,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
@@ -216,7 +216,7 @@
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 4.0568438958635366e-14,
+      "mean": 4.056834031234716e-14,
       "min": 0.0,
       "max": 1.858e-11,
       "n": 458,

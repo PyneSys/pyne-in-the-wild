@@ -1,5 +1,5 @@
 window.WILD_DATA = {
-  "generated_at": "2026-10-09",
+  "generated_at": "2026-10-13",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe_min": 30,
   "own_market_scripts": 48,
@@ -13,8 +13,8 @@ window.WILD_DATA = {
   },
   "fidelity": {
     "scripts": {
-      "exact": 865,
-      "libm": 4,
+      "exact": 866,
+      "libm": 3,
       "band": 15,
       "compared": 884
     },
@@ -81,8 +81,8 @@ window.WILD_DATA = {
       }
     ],
     "bars_compared": 131744274,
-    "bars_exact": 131442877,
-    "bars_exact_rate": 0.9977122573084277,
+    "bars_exact": 131442883,
+    "bars_exact_rate": 0.997712302851204,
     "max_rel": 1.238e-10,
     "ulp_limit": 64
   },
@@ -14313,7 +14313,7 @@ window.WILD_DATA = {
       "bars": 29653,
       "run_sec": 4.28,
       "ms_per_bar": 0.1444,
-      "compared_at": "2026-09-30",
+      "compared_at": "2026-10-13",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
@@ -14329,11 +14329,11 @@ window.WILD_DATA = {
         "bars_numeric": 152,
         "num_match_pct": 1.0,
         "na_struct_mismatch": 0,
-        "exact_pct": 0.960526,
-        "max_abs": 2.183e-11,
-        "max_rel": 3.954e-16
+        "exact_pct": 1.0,
+        "max_abs": 0.0,
+        "max_rel": 0.0
       },
-      "fidelity": "libm",
+      "fidelity": "exact",
       "transcendentals": [
         "exp",
         "log10",
