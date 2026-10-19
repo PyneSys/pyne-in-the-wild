@@ -28187,9 +28187,9 @@ window.WILD_DATA = {
       "status": "ok",
       "level": "verified",
       "bars": 27613,
-      "run_sec": 5.511,
-      "ms_per_bar": 0.1996,
-      "compared_at": "2026-10-09",
+      "run_sec": 7.807,
+      "ms_per_bar": 0.2827,
+      "compared_at": "2026-10-19",
       "data": {
         "symbol": "BINANCE:BTCUSDT",
         "timeframe": "30",
