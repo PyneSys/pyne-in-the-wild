@@ -119,9 +119,9 @@ window.WILD_DATA = {
   },
   "indicators": {
     "total": 502,
-    "compared": 473,
+    "compared": 474,
     "plot_verified": 474,
-    "plot_exact": 473,
+    "plot_exact": 474,
     "plot_match_median": 1.0,
     "plot_match_mean": 1.0,
     "plot_match_min": 1.0,
