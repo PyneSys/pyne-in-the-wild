@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13",
+  "generated_at": "2026-10-24",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe": "30",
   "instruments": [
@@ -126,7 +126,7 @@
     "band_scripts": [
       {
         "name": "Machine Learning Moving Average [LuxAlgo]",
-        "max_rel": 1.238e-10
+        "max_rel": 6.273e-12
       },
       {
         "name": "TSI CCI Hull with profit$$$",
@@ -185,10 +185,10 @@
         "max_rel": 1.258e-16
       }
     ],
-    "bars_compared": 131744274,
-    "bars_exact": 131442883,
-    "bars_exact_rate": 0.997712302851204,
-    "max_rel": 1.238e-10,
+    "bars_compared": 131744275,
+    "bars_exact": 131442893,
+    "bars_exact_rate": 0.9977123711827326,
+    "max_rel": 6.273e-12,
     "ulp_limit": 64
   },
   "counts": {
@@ -216,9 +216,9 @@
     },
     "nrmse_range_med": {
       "median": 0.0,
-      "mean": 4.056834031234716e-14,
+      "mean": 1.7141918407314411e-15,
       "min": 0.0,
-      "max": 1.858e-11,
+      "max": 7.848e-13,
       "n": 458,
       "p25": 0.0,
       "p75": 0.0

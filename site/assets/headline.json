@@ -1,6 +1,6 @@
 {
   "url": "https://wild.pynesys.io/",
-  "generated_at": "2026-10-13",
+  "generated_at": "2026-10-24",
   "symbol": "BINANCE:BTCUSDT",
   "timeframe_min": "30",
   "scripts_total": "1,000",
@@ -19,13 +19,13 @@
   "divergent": "0",
   "strategies_compared": "468",
   "strategy_trades": "353,577",
-  "bars_compared": "131,744,274",
+  "bars_compared": "131,744,275",
   "bars_compared_millions": "132",
   "bars_exact_pct": "99.771",
   "bars_rest_pct": "0.229",
   "scripts_bit_exact": "866",
   "scripts_fidelity_compared": "884",
-  "max_rel": "1.2 × 10⁻¹⁰",
-  "max_rel_sig_figures": "9",
+  "max_rel": "6.3 × 10⁻¹²",
+  "max_rel_sig_figures": "11",
   "rel_tol": "1e-9"
 }
