@@ -387,6 +387,40 @@
   </div>
 </footer>
 
+<!-- Analytics notice -->
+<div class="analytics-notice" role="region" aria-label="Cookie notice" hidden>
+    <p>This website uses cookies and similar technologies. By continuing to use the site, you accept this.
+        Details in our <a href="https://pynesys.io/privacy/">Privacy Policy</a>.</p>
+    <button type="button" class="analytics-notice-ok">OK</button>
+</div>
+<style>
+    .analytics-notice { position: fixed; left: 0; right: 0; bottom: 0; z-index: 10000; display: flex; flex-wrap: wrap;
+        align-items: center; justify-content: center; gap: 0.75rem 1.5rem; padding: 1rem 1.25rem;
+        background: rgba(255, 255, 255, 0.96); color: #1f2328; border-top: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.08); font-size: 0.95rem; line-height: 1.5; }
+    .analytics-notice[hidden] { display: none; }
+    .analytics-notice p { margin: 0; max-width: 60rem; }
+    .analytics-notice a { color: inherit; text-decoration: underline; }
+    .analytics-notice button { padding: 0.45rem 1.6rem; border: 0; border-radius: 6px; background: #1f2328; color: #fff;
+        font: inherit; font-weight: 600; cursor: pointer; }
+    @media (prefers-color-scheme: dark) {
+        .analytics-notice { background: rgba(22, 27, 34, 0.96); color: #e6edf3; border-top-color: rgba(255, 255, 255, 0.12); }
+        .analytics-notice button { background: #e6edf3; color: #161b22; }
+    }
+</style>
+<script>
+    (function () {
+        var notice = document.querySelector('.analytics-notice');
+        if (!notice) return;
+        try { if (localStorage.getItem('analyticsNoticeSeen')) return; } catch (e) {}
+        notice.hidden = false;
+        notice.querySelector('.analytics-notice-ok').addEventListener('click', function () {
+            try { localStorage.setItem('analyticsNoticeSeen', '1'); } catch (e) {}
+            notice.hidden = true;
+        });
+    })();
+</script>
+
 <script src="assets/data.js"></script>
 <script src="assets/render.js"></script>
 <script src="assets/app.js"></script>
