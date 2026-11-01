@@ -422,7 +422,7 @@
     if (list.length > PAGE_SIZE) {
       const from = (page - 1) * PAGE_SIZE + 1;
       const to = Math.min(page * PAGE_SIZE, list.length);
-      gridCount.textContent += ` — showing ${from}–${to}`;
+      gridCount.textContent += `, showing ${from} to ${to}`;
     }
 
     renderPagination(list.length);

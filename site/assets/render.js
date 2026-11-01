@@ -77,12 +77,12 @@
     };
 
     const statusDesc = {
-      verified: "Verified — output matched TradingView's own reference, bar by bar and trade by trade.",
-      divergent: "Divergent — ran and was compared against TradingView's reference, but the output differs beyond tolerance. Shown as-is, never rounded up to verified.",
-      repaint: "Lookahead — measured: the script's own output depends on data its bars could not have had. Running it with TradingView's future-leaks restored changes its output (or TradingView's output leads it by a whole higher-timeframe period), so its TradingView reference is itself a lookahead result. Held apart from the accuracy score; the entry publishes what was measured.",
-      data_limited: "Data-limited — the script needs a data source this comparison does not have (tick-level order-flow via request.footprint). It runs, with the missing feed reported as na, but can never match TradingView here. Excluded from the accuracy score, by design.",
-      runs: 'Runs — compiled and ran over real market data without errors, but no comparable TradingView reference was available to verify against.',
-      failed: 'Failed — the script did not compile or run. Reported as-is, never hidden.',
+      verified: "Verified: the output matched TradingView's reference bar by bar and trade by trade.",
+      divergent: "Divergent: compared with TradingView's reference, but the output differs beyond tolerance. Shown as measured, not rounded up to verified.",
+      repaint: "Lookahead (measured): the script's output depends on data its bars could not have had. With TradingView's future leaks restored its output changes (or TradingView's output leads it by a whole higher-timeframe period), so its TradingView reference is a lookahead result too. Kept out of the accuracy score; the entry shows what was measured.",
+      data_limited: "Data-limited: the script needs a data source this comparison does not have (tick-level order flow via request.footprint). It runs with the missing feed as na, so it cannot match TradingView here. Excluded from the accuracy score.",
+      runs: 'Runs: compiled and ran on real market data without errors, but there was no comparable TradingView reference to check it against.',
+      failed: 'Failed: the script did not compile or run.',
     };
 
     // Numerical fidelity: not WHETHER the outputs agree but HOW CLOSELY, on the
@@ -103,17 +103,14 @@
 
     const fidelityDesc = {
       exact:
-        // Typographic quotes on purpose: this string is emitted inside a title="..."
-        // attribute, where a straight quote would close the attribute early and
-        // truncate the tooltip.
-        'Bit-exact — on every compared bar PyneCore produced the identical IEEE-754 ' +
-        'double TradingView did. Not “close enough”: the same 64 bits.',
+        'Bit-exact: on every compared bar PyneCore produced the same IEEE-754 double ' +
+        'as TradingView, all 64 bits of it.',
       libm:
-        'libm — the values differ only in the last bits of the mantissa, and the ' +
-        'script reaches a transcendental function (log, exp, pow, the trig family). ' +
-        'IEEE-754 requires + - * / and sqrt to be correctly rounded and requires ' +
-        'nothing of those, so CPython\'s C library and TradingView\'s JVM may both be ' +
-        'right and still land a few representable values apart. Named, not hidden.',
+        'libm: the values differ only in the last bits of the mantissa, and the ' +
+        'script calls a transcendental function (log, exp, pow or a trig function). ' +
+        'IEEE-754 requires + - * / and sqrt to be correctly rounded but says nothing ' +
+        'about these, so CPython\'s C library and TradingView\'s JVM can both be ' +
+        'correct and still end up a few representable values apart.',
     };
 
     // The worst gap between a PyneCore and a TradingView plotted value, in the form
@@ -194,8 +191,8 @@
 
     const kindShort = { indicator: 'IND', strategy: 'STR' };
     const kindDesc = {
-      indicator: 'Indicator — a plotting script, verified plot by plot.',
-      strategy: 'Strategy — a backtest, verified trade by trade.',
+      indicator: 'Indicator: a plotting script, verified plot by plot.',
+      strategy: 'Strategy: a backtest, verified trade by trade.',
     };
 
     // The Pine language version the author wrote the script in. It rides beside the
@@ -205,10 +202,10 @@
     // as well as the runtime.
     const pineVersionDesc = (v) =>
       v >= 6
-        ? 'Written in Pine v6 — compiled as-is.'
-        : `Written in Pine v${v} — PyneComp converted it to v6 before compiling, ` +
-          `while TradingView ran the original v${v} source. The agreement on this ` +
-          'row therefore verifies the conversion too, not just the runtime.';
+        ? 'Written in Pine v6 and compiled as is.'
+        : `Written in Pine v${v}. PyneComp converted it to v6 before compiling, ` +
+          `while TradingView ran the original v${v} source, so this row also ` +
+          'verifies the conversion.';
 
     const pineVersionChip = (s) =>
       s.pine_version == null
@@ -344,44 +341,44 @@
         const what = r.channel === 'trades' ? 'trades' : 'plots';
         const la = r.channel === 'trades' ? r.lookahead_trade_match_pct : r.lookahead_plot_match_pct;
         const restored = la != null
-          ? ` With the future-leaks restored on the PyneCore side too, its ${what} match TradingView ` +
+          ? ` With the future leaks restored on the PyneCore side as well, its ${what} match TradingView ` +
             `${matchPct(la, 2)}.`
           : '';
         html +=
-          `<p class="sc-repaint">Lookahead, measured — run once with PyneCore's own rules and once ` +
-          `with TradingView's future-leaks restored (an open higher-timeframe period read as if it ` +
-          `had closed, or a body re-running mid-bar handed the completed bar), the script's own ` +
-          `${what} differ. Its results depend on data its bars could not have had, so its ` +
-          `TradingView reference is itself a lookahead result.${restored} Held apart from the ` +
-          `accuracy score.</p>`;
+          `<p class="sc-repaint">Lookahead, measured. The script was run once with PyneCore's own ` +
+          `rules and once with TradingView's future leaks restored (an open higher-timeframe period ` +
+          `read as if it had closed, or a body re-running mid-bar that is handed the completed bar). ` +
+          `Its ${what} differ between the two runs, so its results depend on data its bars could ` +
+          `not have had, and its TradingView reference is a lookahead result too.${restored} Kept ` +
+          `out of the accuracy score.</p>`;
       } else if (s.repaint && s.repaint.shift != null) {
         const rm = s.repaint.match_pct != null ? pct(s.repaint.match_pct, 2) : dash;
         html +=
-          `<p class="sc-repaint">Higher-timeframe lookahead — TradingView's own output leads this ` +
-          `run by ${s.repaint.shift} bars, about one full period of the timeframe its ` +
-          `<code>request.security</code> call asks for; realigned to that lead the two match ${rm}. ` +
-          `The shape is TradingView reading a bar that had not closed yet — but a lag on the ` +
-          `PyneCore side leaves the identical trace, and the shift alone does not separate the two, ` +
-          `so this entry is held apart from the accuracy score and treated as open.</p>`;
+          `<p class="sc-repaint">Higher-timeframe lookahead. TradingView's output leads this run ` +
+          `by ${s.repaint.shift} bars, about one full period of the timeframe its ` +
+          `<code>request.security</code> call asks for. Realigned by that lead, the two match ${rm}. ` +
+          `This looks like TradingView reading a bar that had not closed yet, but a lag on the ` +
+          `PyneCore side would leave the same trace, and the shift alone cannot tell the two apart. ` +
+          `So this entry is kept out of the accuracy score and treated as open.</p>`;
       }
       if (s.data_limited) {
         html +=
-          `<p class="sc-data_limited">Data-limited — this script calls ` +
-          `<code>request.footprint()</code>, whose tick-level order-flow (buy/sell aggressor) ` +
-          `data TradingView derives from bid/ask ticks. This comparison runs on frozen OHLCV bars ` +
-          `and no such feed is part of it, so the footprint is reported as <code>na</code> and the ` +
-          `script falls back to price action. It runs, but can never match TradingView here — ` +
-          `excluded from the accuracy score, by design.</p>`;
+          `<p class="sc-data_limited">Data-limited. This script calls ` +
+          `<code>request.footprint()</code>, which needs tick-level order-flow data (buy/sell ` +
+          `aggressor) that TradingView derives from bid/ask ticks. This comparison runs on frozen ` +
+          `OHLCV bars without such a feed, so the footprint is <code>na</code> and the script falls ` +
+          `back to price action. It runs, but it cannot match TradingView here, so it is excluded ` +
+          `from the accuracy score.</p>`;
       }
       if (s.sub_tick) {
         html +=
-          `<p class="sc-sub_tick">Sub-tick decisions excluded — the direction here turns on ` +
+          `<p class="sc-sub_tick">Sub-tick decisions excluded. The direction here depends on ` +
           `<code>ta.crossover</code> / <code>ta.crossunder</code>, a raw <code>&gt;</code> ` +
-          `between two floats. ${esc(s.sub_tick.reason)}. There is nothing to reconcile: the ` +
-          `comparison carries no tolerance, and what it turned on is smaller than the instrument ` +
-          `can quote. Those trades are dropped from both sides' trade count and net profit; every ` +
-          `measured figure is kept below, unchanged. The adjusted profit is deliberately neither ` +
-          `engine's own result — it is the net over the trades still compared.</p>`;
+          `between two floats. ${esc(s.sub_tick.reason)}. The comparison has no tolerance, and the ` +
+          `difference it turned on is smaller than the instrument can quote, so there is nothing to ` +
+          `reconcile. Those trades are removed from both sides' trade count and net profit. Every ` +
+          `measured figure is still listed below, unchanged. The adjusted profit is not either ` +
+          `engine's own result; it is the net over the trades still compared.</p>`;
       }
 
       const acc = [];
